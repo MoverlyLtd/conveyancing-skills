@@ -7,6 +7,7 @@
 | `sdlt-calculator` | Standalone | ✅ Live — 20/20 tests, rates from 1 Apr 2025 |
 | `moverly-connect` | Moverly | ✅ Live — MCP connection, transaction listing |
 | `moverly-diligence` | Moverly | ✅ Live — risk flags, evidence filtering |
+| `moverly-upload` | Moverly | ✅ Skill ready — awaiting Phase 2 MCP tools (`upload_document`, `get_queue`) |
 
 ## Next Up 🔨
 

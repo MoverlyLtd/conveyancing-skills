@@ -22,6 +22,7 @@ Skills work with [OpenClaw](https://github.com/openclaw/openclaw), [Claude Code]
 |-------|-------------|
 | [`moverly-connect`](skills/moverly-connect/) | Connect to Moverly's property intelligence API. List transactions, check status, validate your connection. |
 | [`moverly-diligence`](skills/moverly-diligence/) | Property risk intelligence — flags, evidence-based insights, action recommendations across 37 risk categories and 323 checks. |
+| [`moverly-upload`](skills/moverly-upload/) | Upload case documents for automated diligence analysis. "PDF in, intelligence out" — title registers, searches, TA forms, leases. |
 
 ## Quick Start
 
@@ -71,7 +72,6 @@ An agent without the SDLT skill might hallucinate old tax rates or forget the fi
 - `search-pack-guide` — What each property search covers and when to order extras
 - `completion-checklist` — Exchange-to-completion tasks with deadlines
 - `moverly-enquiries` — Raise and respond to pre-contract enquiries
-- `moverly-documents` — Upload documents, monitor processing, retrieve structured data
 
 ## Moverly Connection Setup
 
