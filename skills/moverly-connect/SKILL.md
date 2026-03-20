@@ -1,6 +1,6 @@
 ---
 name: moverly-connect
-description: "Connect to Moverly's property intelligence MCP server. Use when: listing property transactions, checking transaction status, viewing PDTF state or claims, querying Moverly data, looking up a property address, or any interaction with the Moverly platform. Triggers on: 'transactions', 'property status', 'PDTF state', 'Moverly', 'what transactions do I have', 'show me the property', 'claims', address lookups. NOT for: interpreting risk flags, explaining diligence findings, or drafting enquiries (use moverly-diligence)."
+description: "Connect to Moverly's property intelligence MCP server. Use when: listing property transactions, checking transaction status, viewing PDTF state or claims, querying Moverly data, looking up a property address, uploading documents for analysis, checking processing queue status, or any interaction with the Moverly platform. Triggers on: 'transactions', 'property status', 'PDTF state', 'Moverly', 'what transactions do I have', 'show me the property', 'claims', 'upload document', 'processing status', 'queue', address lookups. NOT for: interpreting risk flags, explaining diligence findings, or drafting enquiries (use moverly-diligence). NOT for: guided multi-document upload workflows (use moverly-upload)."
 ---
 
 # Moverly Connect
@@ -58,6 +58,34 @@ scripts/mcp-call.sh tools/call '{"name":"moverly_get_insights","arguments":{"tra
 - `evidenceBasis`: data-driven | evidence-incomplete | no-data | clear (filter to evidenced flags)
 - `minRisk`: 1-10 (minimum risk score)
 - Returns: `{insights: [{category, check, title, riskScore, evidenceBasis, description, actions}], summary: {totalFlags, byRisk, byEvidence}}`
+
+## Phase 2 Tools (live)
+
+### moverly_upload_document
+Upload a document for AI-powered analysis. Pipeline: classify → summarise → extract claims → DE re-evaluation.
+```bash
+# Base64-encode a PDF and upload
+FILE_B64=$(base64 -w0 document.pdf)
+scripts/mcp-call.sh tools/call "{\"name\":\"moverly_upload_document\",\"arguments\":{\"transactionId\":\"<id>\",\"fileContent\":\"${FILE_B64}\",\"fileName\":\"title-register.pdf\"}}"
+```
+- `fileContent`: base64-encoded file (required, max 30MB)
+- `fileName`: original filename with extension (required)
+- `mimeType`: optional, inferred from extension if omitted
+- `description`: optional, human-readable note
+- Returns: `{fileId, fileName, mimeType, sizeBytes, status: "processing"}`
+
+### moverly_get_queue
+Check processing status after upload. Poll until pending reaches 0.
+```bash
+scripts/mcp-call.sh tools/call '{"name":"moverly_get_queue","arguments":{"transactionId":"<id>"}}'
+```
+- Returns: `{summary: {totalItems, pending, completed, classifying, summarising}, pending: [...], recentlyCompleted: [...]}`
+
+### Upload → Insights workflow
+1. Upload document → get fileId
+2. Poll get_queue until `summary.pending === 0`
+3. Call get_insights to see updated risk picture
+4. Check `evidenceBasis: "data-driven"` flags for new findings
 
 ## Error Codes
 
