@@ -83,19 +83,50 @@ Ask the user what documents they have available. Guide them on priority order:
 For each document the user provides:
 
 ```bash
-# Upload a document
+# Upload a document (no documentType needed — the file classifier auto-categorises)
 bash {{SKILL_DIR}}/scripts/mcp-call.sh tools/call \
   '{"name": "moverly_upload_document", "arguments": {
     "transactionId": "<TRANSACTION_ID>",
-    "file": "<BASE64_ENCODED_FILE>",
-    "filename": "<FILENAME>",
-    "documentType": "<TYPE>"
+    "fileContent": "<BASE64_ENCODED_FILE>",
+    "fileName": "<FILENAME>",
+    "mimeType": "application/pdf"
   }}'
 ```
 
-Document type values: `title-register`, `title-plan`, `local-search`, `environmental-search`, `water-drainage-search`, `ta6`, `ta7`, `ta10`, `lease`, `epc`, `management-pack`, `mortgage-offer`, `property-pack`, `other`
+**Linking documents to schema locations (pdtfPath):**
 
-After each upload, the engine processes the document asynchronously.
+When uploading a document to resolve a specific risk flag, include the `pdtfPath` from the flag action's `targetPath`. This links the document to the correct schema location so the diligence engine can verify the requirement is fulfilled:
+
+```bash
+# Upload with pdtfPath to resolve a specific flag
+bash {{SKILL_DIR}}/scripts/mcp-call.sh tools/call \
+  '{"name": "moverly_upload_document", "arguments": {
+    "transactionId": "<TRANSACTION_ID>",
+    "fileContent": "<BASE64_ENCODED_FILE>",
+    "fileName": "electrical-cert.pdf",
+    "mimeType": "application/pdf",
+    "pdtfPath": "/propertyPack/electricalWorks/certificate/attachments"
+  }}'
+```
+
+After upload, vouch the attachment field to confirm the document is in place:
+
+```bash
+# Mark the attachment as "Attached" with document reference
+bash {{SKILL_DIR}}/scripts/mcp-call.sh tools/call \
+  '{"name": "moverly_vouch", "arguments": {
+    "transactionId": "<TRANSACTION_ID>",
+    "path": "/propertyPack/electricalWorks/certificate/attachments",
+    "value": "Attached",
+    "evidence": {
+      "type": "document_reference",
+      "documentId": "<fileId from upload response>",
+      "description": "Electrical installation certificate"
+    }
+  }}'
+```
+
+After each upload, the engine processes the document asynchronously: classifies → extracts structured data → maps to PDTF claims → re-evaluates risk.
 
 ### Step 4: Monitor Processing
 
@@ -165,9 +196,25 @@ Agent flow:
 4. Get insights (data-driven) → present key findings
 5. Get insights (evidence-incomplete) → "To resolve the flood risk flag, upload the environmental search. To resolve building regulations flags, the local authority search would confirm approval status."
 
+## Document Resolution Loop
+
+Risk flags often specify document requirements in their actions — a `targetPath` (PDTF schema location) and `documentTypes` (acceptable file types). The full resolution loop:
+
+1. `get_insights` → identify flag with document requirement (check action's `targetPath` and `documentTypes`)
+2. `describe_path(targetPath)` → understand what's needed at that schema location
+3. `upload_document(pdtfPath=targetPath)` → upload the file, linked to the schema path
+4. `get_queue` → wait for classification and summarisation to complete
+5. `vouch(path=targetPath, value="Attached")` → confirm the attachment, referencing the uploaded document
+6. `get_insights` → verify the flag resolved or dropped in severity
+
+**If the document type doesn't match** (e.g. uploaded a survey when a building regs certificate was needed), the flag won't resolve. Check `get_insights` again and upload the correct document.
+
+**Linking unlinked documents:** If documents were uploaded without a `pdtfPath` (e.g. bulk upload), check their classified `documentType` via `get_state` at `/propertyPack/documents`. Match them to outstanding flag actions that need documents of that type, then vouch the `pdtfPath` on the existing document to link it.
+
 ## Notes
 
 - The `upload_document` and `get_queue` MCP tools require Phase 2 deployment. If these tools return "not yet implemented", inform the user and suggest checking back or using the Moverly web interface.
-- Large documents (>10MB) may take longer to process.
+- Large documents (>30MB) are rejected. Most conveyancing documents are well under this.
 - The engine re-evaluates all 37 categories after each new document — intelligence is cumulative.
+- For documents that support structured extraction (title registers, EPCs, searches), the summariser pushes extracted data as verified claims automatically. This enriches the PDTF state and may resolve additional flags beyond the one that prompted the upload.
 - For sandbox transactions, collectors (HMLR, EPC auto-fetch) are suppressed. Only uploaded documents and manually added claims feed the engine.

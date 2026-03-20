@@ -85,6 +85,23 @@ When a flag has actions with `targetPath`, the agent can collect data and resolv
 
 This is the core agentic diligence loop — the agent sees a gap, knows the exact data shape needed, collects it conversationally from the user, validates, submits, and confirms resolution.
 
+## Resolving Flags — the document resolution loop
+
+When a flag action specifies `documentTypes` (acceptable document types) alongside `targetPath`:
+
+1. `get_insights` → identify the flag action with `documentTypes` and `targetPath`
+2. `describe_path(targetPath)` → understand what the attachments field expects
+3. `upload_document(pdtfPath=targetPath)` → upload the file, linked to the schema location
+4. `get_queue` → wait for classification + summarisation to complete
+5. `vouch(path=targetPath, value="Attached", evidence={type:"document_reference", documentId:"<fileId>"})` → confirm the attachment
+6. `get_insights` → verify the flag resolved
+
+**If the uploaded document type doesn't match** what the flag requires (e.g. uploaded a survey when a building regs certificate was needed), the scenario won't change — the flag persists. Upload the correct document type.
+
+**Linking unlinked documents:** Documents uploaded without `pdtfPath` sit in `/propertyPack/documents[]` unlinked. Check their classified `documentType` via `get_state` at `/propertyPack/documents`, match against outstanding flag actions needing that type, and vouch the `pdtfPath` on the document to link it. An agent can do this proactively to tidy up bulk uploads.
+
+**Structured extraction bonus:** For documents like title registers, EPCs, and search reports, the summariser automatically extracts structured data and pushes it as verified claims. This happens in the background — it may resolve additional flags beyond the one that prompted the upload.
+
 ## Drafting Enquiries
 
 When a flag suggests raising an enquiry (rather than collecting data directly):
