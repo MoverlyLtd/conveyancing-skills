@@ -1,6 +1,6 @@
 ---
 name: moverly-connect
-description: "Connect to Moverly's property intelligence MCP server. Use when: listing property transactions, checking transaction status, viewing PDTF state or claims, querying Moverly data, looking up a property address, uploading documents for analysis, checking processing queue status, or any interaction with the Moverly platform. Triggers on: 'transactions', 'property status', 'PDTF state', 'Moverly', 'what transactions do I have', 'show me the property', 'claims', 'upload document', 'processing status', 'queue', address lookups. NOT for: interpreting risk flags, explaining diligence findings, or drafting enquiries (use moverly-diligence). NOT for: guided multi-document upload workflows (use moverly-upload)."
+description: "Connect to Moverly's property intelligence MCP server. Use when: listing property transactions, checking transaction status, viewing PDTF state or claims, tracing data provenance, querying Moverly data, looking up a property address, uploading documents for analysis, checking processing queue status, checking form completion progress, or any interaction with the Moverly platform. Triggers on: 'transactions', 'property status', 'PDTF state', 'Moverly', 'what transactions do I have', 'show me the property', 'claims', 'provenance', 'where did this data come from', 'upload document', 'processing status', 'queue', 'form progress', 'TA6 completion', address lookups. NOT for: interpreting risk flags, explaining diligence findings, or managing enquiries (use moverly-diligence). NOT for: guided multi-document upload workflows (use moverly-upload)."
 ---
 
 # Moverly Connect
@@ -28,15 +28,40 @@ scripts/mcp-call.sh tools/call '{"name":"moverly_list_transactions","arguments":
 scripts/mcp-call.sh tools/call '...' | jq -r '.result.content[0].text' | jq .
 ```
 
-## Phase 1 Tools (live)
+## Tool Inventory (16 live, 3 pending)
+
+| Tool | Status | Purpose |
+|------|--------|---------|
+| `list_transactions` | ✅ | Browse portfolio |
+| `get_status` | ✅ | Transaction overview |
+| `get_state` | ✅ | Full PDTF state |
+| `get_insights` | ✅ | DE risk flags |
+| `get_claims` | ✅ | Verified claims with provenance |
+| `get_provenance` | ✅ | Trace data lineage at a path |
+| `upload_document` | ✅ | Upload for AI analysis |
+| `get_queue` | ✅ | Check processing status |
+| `describe_path` | ✅ | Get strict schema for a path |
+| `vouch` | ✅ | Submit verified data |
+| `get_form_progress` | ✅ | Seller form completion status |
+| `describe_form_path` | ✅ | Form-specific schema with question refs |
+| `raise_enquiry` | ✅ | Raise pre-contract enquiry |
+| `list_enquiries` | ✅ | List enquiries on transaction |
+| `respond_enquiry` | ✅ | Reply to an enquiry |
+| `handle_flag` | ❌ | Mark flag as accepted/mitigated |
+| `get_risk_history` | ❌ | Historical risk timeline |
+| `list_overlays` | ❌ | Available schema overlays |
+| `download_document` | ❌ | Download file content |
+
+## Core Tools
 
 ### moverly_list_transactions
 ```bash
 scripts/mcp-call.sh tools/call '{"name":"moverly_list_transactions","arguments":{"status":"all","limit":20}}'
 ```
-- `status`: active | completed | all (default: active — note: staging transactions are "For sale" not "active", use "all")
-- `limit`: default 20
-- Returns: `{transactions: [{id, address, status, callerRole, participants, riskSummary, updatedAt}]}`
+- `status`: For sale | Under offer | Sold subject to contract | active | all (default: all)
+- `limit`: default 20, max 100
+- Returns: `{transactions: [{id, address, status, callerRole, participants, riskSummary, readiness, updatedAt}], showing, totalAvailable}`
+- `readiness` object: ntsCompletion, ta6Completion, ta7Completion, ta10Completion, participantVerification, searchesCollector, idvReports, contractSignature
 
 ### moverly_get_status
 Transaction overview: address, participants, risk summary counts.
@@ -55,82 +80,155 @@ Diligence engine flags: 37 categories, 323 checks, 2,215 scenarios.
 ```bash
 scripts/mcp-call.sh tools/call '{"name":"moverly_get_insights","arguments":{"transactionId":"<id>","evidenceBasis":"data-driven","minRisk":5}}'
 ```
-- `evidenceBasis`: data-driven | evidence-incomplete | no-data | clear (filter to evidenced flags)
+- `evidenceBasis`: data-driven | evidence-incomplete | no-data | clear
 - `minRisk`: 1-10 (minimum risk score)
-- Returns: `{insights: [{category, check, title, riskScore, evidenceBasis, description, actions}], summary: {totalFlags, byRisk, byEvidence}}`
+- Returns: `{insights: [{category, check, title, riskScore, evidenceBasis, evidencePaths, legalContext, legalDetail, description, actions}], summary: {totalFlags, byRisk, byEvidence}}`
 
-## Phase 2 Tools (live)
+### moverly_get_claims
+Get all verified claims with full provenance (who vouched, when, how verified).
+```bash
+scripts/mcp-call.sh tools/call '{"name":"moverly_get_claims","arguments":{"transactionId":"<id>","path":"/propertyPack/ownership"}}'
+```
+- `path`: optional PDTF path prefix filter
+- `source`: collector | participant | document | all (default: all)
+- `since`: ISO timestamp, only claims after this time
+- Returns: `{claims: [{timestamp, paths, source, verification: {evidence, trust_framework}}]}`
+
+### moverly_get_provenance
+Trace the evidence chain for data at a specific path.
+```bash
+scripts/mcp-call.sh tools/call '{"name":"moverly_get_provenance","arguments":{"transactionId":"<id>","path":"/propertyPack/ownership"}}'
+```
+- `path`: PDTF path to trace (required)
+- Returns chronological list of claims that wrote to this path or child paths, with full verification evidence
+
+## Document Tools
 
 ### moverly_upload_document
 Upload a document for AI-powered analysis. Pipeline: classify → summarise → extract claims → DE re-evaluation.
 ```bash
-# Base64-encode a PDF and upload
 FILE_B64=$(base64 -w0 document.pdf)
 scripts/mcp-call.sh tools/call "{\"name\":\"moverly_upload_document\",\"arguments\":{\"transactionId\":\"<id>\",\"fileContent\":\"${FILE_B64}\",\"fileName\":\"title-register.pdf\"}}"
 ```
 - `fileContent`: base64-encoded file (required, max 30MB)
 - `fileName`: original filename with extension (required)
-- `mimeType`: optional, inferred from extension if omitted
-- `description`: optional, human-readable note
+- `pdtfPath`: optional, links document to a schema location (creates vouch-attributed claim)
 - Returns: `{fileId, fileName, mimeType, sizeBytes, status: "processing"}`
 
 ### moverly_get_queue
-Check processing status after upload. Poll until pending reaches 0.
+Check processing status after upload.
 ```bash
 scripts/mcp-call.sh tools/call '{"name":"moverly_get_queue","arguments":{"transactionId":"<id>"}}'
 ```
-- Returns: `{summary: {totalItems, pending, completed, classifying, summarising}, pending: [...], recentlyCompleted: [...]}`
+- Returns: `{summary: {totalItems, pending, completed}, pending: [...], recentlyCompleted: [...]}`
 
-### Upload → Insights workflow
-1. Upload document → get fileId
-2. Poll get_queue until `summary.pending === 0`
-3. Call get_insights to see updated risk picture
-4. Check `evidenceBasis: "data-driven"` flags for new findings
+## Schema & Vouch Tools
 
 ### moverly_describe_path
-Get the strict JSON subschema at any PDTF path. Essential before calling `vouch` — tells the agent exactly what shape of data to submit.
+Get the strict JSON subschema at any PDTF path.
 ```bash
 scripts/mcp-call.sh tools/call '{"name":"moverly_describe_path","arguments":{"path":"/propertyPack/alterationsAndChanges","overlay":"ta6ed6"}}'
 ```
 - `path`: PDTF schema path starting with / (required)
-- `overlay`: optional form overlay (e.g. `ta6ed6`, `baspiV5`) — adds `required` constraints
-- Returns: `{path, title, hierarchy, schema, overlay, note}`
+- `overlay`: optional form overlay (e.g. `ta6ed6`) — adds `required` constraints
+- Returns: `{path, title, hierarchy, schema, overlay}`
 
-**Schema behaviour notes:**
-- Returned schema has `additionalProperties: false` at every object level — only declared properties accepted
-- Uses `discriminator` and `oneOf` clauses for conditional dependencies — the valid shape changes based on higher-level property values (e.g. answering "Yes" to a knotweed question means a details object becomes required)
-- `required` arrays are only populated when an overlay is specified (e.g. `ta6ed6` makes TA6 form fields mandatory). Without an overlay, the shape is permissive on which fields are present
-- Properties with `enum: ["Attached", "To follow", "Not applicable"]` indicate document attachment points. If setting `"Attached"`, also upload the document via `moverly_upload_document` with the `pdtfPath` parameter pointing to the attachment location
+**Schema notes:**
+- `additionalProperties: false` at every object level
+- `discriminator` and `oneOf` for conditional dependencies (Yes → more fields required)
+- `required` arrays populated only when overlay specified
+- `enum: ["Attached", "To follow", "Not applicable"]` = attachment point
 
 ### moverly_vouch
-Submit verified data at a PDTF path. Validates strictly against the schema — no additional properties allowed.
+Submit verified data at a PDTF path.
 ```bash
-scripts/mcp-call.sh tools/call '{"name":"moverly_vouch","arguments":{"transactionId":"<id>","path":"/propertyPack/specialistIssues/japaneseKnotweed","value":{"hasKnotweed":"Yes","knotweedDetails":"..."},"overlay":"ta6ed6"}}'
+scripts/mcp-call.sh tools/call '{"name":"moverly_vouch","arguments":{"transactionId":"<id>","path":"/propertyPack/specialistIssues/japaneseKnotweed","value":{"hasKnotweed":"Yes","knotweedDetails":"..."}}}'
 ```
-- `transactionId`: required
-- `path`: PDTF schema path (required)
-- `value`: data matching the schema at that path (required) — call `describe_path` first to know the shape
-- `overlay`: optional, applies overlay-specific required field validation
+- `transactionId`, `path`, `value`: required
+- `overlay`: optional, applies overlay validation
 - `confidentialityLevel`: public | restricted (default) | confidential
-- ✅ Returns: `{status: "accepted", callerRole, message}` — triggers DE re-evaluation
-- ❌ Returns: `{isError: true}` with up to 10 human-readable validation errors and paths
+- ✅ Returns: `{status: "accepted"}` — triggers DE re-evaluation
+- ❌ Returns validation errors with paths
 
-### Describe → Vouch workflow
-The core data collection loop for agents:
-1. Get insights → find a flag with `evidenceBasis: "evidence-incomplete"` and an action with `targetPath`
-2. Call `describe_path` with that `targetPath` (and overlay if applicable) → understand required shape
-3. Collect data from the user following the schema's discriminator/oneOf structure — ask follow-up questions when conditional fields apply
-4. If the schema includes attachment properties being set to `"Attached"`, upload the document first via `upload_document` with `pdtfPath`
-5. Call `vouch` with the collected data → validates and submits
-6. Call `get_insights` again → check if the flag resolved or moved to a different evidenceBasis
+## Form Progress Tools (Seller Interview Mode)
 
-### moverly_upload_document (with pdtfPath)
-When uploading a document that relates to a specific PDTF path (e.g. a knotweed survey for `/propertyPack/specialistIssues/japaneseKnotweed/attachments`), include the `pdtfPath` parameter. This creates a vouch-attributed document claim linking the file to the schema location:
+### moverly_get_form_progress
+Check completion status across all applicable forms.
 ```bash
-FILE_B64=$(base64 -w0 knotweed-survey.pdf)
-scripts/mcp-call.sh tools/call "{\"name\":\"moverly_upload_document\",\"arguments\":{\"transactionId\":\"<id>\",\"fileContent\":\"${FILE_B64}\",\"fileName\":\"knotweed-survey.pdf\",\"pdtfPath\":\"/propertyPack/specialistIssues/japaneseKnotweed/attachments\"}}"
+scripts/mcp-call.sh tools/call '{"name":"moverly_get_form_progress","arguments":{"transactionId":"<id>"}}'
 ```
-The document claim will include full vouch provenance (attestation by the uploading user) rather than generic upload provenance.
+Returns per-form completion percentages and per-section status (complete/incomplete/not-started):
+- `forms`: [{name, category, percentComplete, overlay, sections: [{name, path, status, validationErrors}]}]
+- Categories: listing (NTS), property-questions (TA6), leasehold-questions (TA7), fittings-and-contents (TA10), sale-ready
+
+### moverly_describe_form_path
+Get form-specific schema with question reference numbers (e.g. "5.1b").
+```bash
+scripts/mcp-call.sh tools/call '{"name":"moverly_describe_form_path","arguments":{"transactionId":"<id>","path":"/propertyPack/alterationsAndChanges"}}'
+```
+- Returns schema filtered to overlay-referenced properties only
+- Each property annotated with `formRef` (question number like "5.1b")
+- Overlay resolved from transaction settings, not agent-chosen
+
+**Seller interview workflow:**
+1. `get_form_progress` → find incomplete sections
+2. `describe_form_path(transactionId, sectionPath)` → get schema with question refs
+3. Walk discriminator/oneOf conversationally ("Did you make any structural alterations?")
+4. `vouch` collected data → confirms section
+5. `get_form_progress` → verify completion moved
+
+## Enquiry Tools
+
+### moverly_raise_enquiry
+Raise a pre-contract enquiry.
+```bash
+scripts/mcp-call.sh tools/call '{"name":"moverly_raise_enquiry","arguments":{"transactionId":"<id>","subject":"Loft conversion building regs","messageText":"Please provide...","destinationRole":"Seller'\''s Conveyancer"}}'
+```
+- `subject`: topic of enquiry (required)
+- `messageText`: enquiry text (required)
+- `destinationRole`: Seller | Seller's Conveyancer | Buyer | Buyer's Conveyancer | Estate Agent (required)
+- `relatedFlagId`: optional, links to a risk flag
+- `pdtfPath`: optional, hints where response data should be stored
+
+### moverly_list_enquiries
+List enquiries on a transaction.
+```bash
+scripts/mcp-call.sh tools/call '{"name":"moverly_list_enquiries","arguments":{"transactionId":"<id>","status":"pending","direction":"inbound"}}'
+```
+- `status`: pending | open | resolved | resolvedWithCondition | withdrawn | all
+- `direction`: inbound | outbound | all
+- Returns: `{enquiries: [{id, subject, status, originatorRole, destinationRole, messages, createdAt}]}`
+
+### moverly_respond_enquiry
+Reply to an enquiry.
+```bash
+scripts/mcp-call.sh tools/call '{"name":"moverly_respond_enquiry","arguments":{"transactionId":"<id>","enquiryId":"<eid>","messageText":"The building regulations certificate...","updateStatus":"resolved"}}'
+```
+- `enquiryId`: which enquiry to reply to (required)
+- `messageText`: response text (required)
+- `updateStatus`: open | resolved | resolvedWithCondition (optional)
+- `pdtfPath`: optional, hints where structured data should be stored
+
+## Key Workflows
+
+**Describe → Vouch loop:**
+1. `get_insights` → find flag with `evidenceBasis: "evidence-incomplete"` and `targetPath`
+2. `describe_path(targetPath)` → get strict schema
+3. Collect data following discriminator/oneOf branching
+4. `vouch` → validates and submits
+5. `get_insights` → verify flag resolved
+
+**Document resolution:**
+1. `get_insights` → find flag with `documentTypes` in actions
+2. `upload_document(pdtfPath=targetPath)` → upload linked to schema location
+3. `get_queue` → wait for processing
+4. `vouch(path=targetPath, value="Attached")` → confirm attachment
+5. `get_insights` → verify flag resolved
+
+**Provenance check:**
+1. `get_insights` → see a data-driven flag
+2. Read `evidencePaths` array from the flag
+3. `get_provenance(path=evidencePaths[0])` → trace who provided the data, when, how verified
 
 ## Error Codes
 

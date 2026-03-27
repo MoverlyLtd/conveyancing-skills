@@ -213,7 +213,6 @@ Risk flags often specify document requirements in their actions — a `targetPat
 
 ## Notes
 
-- The `upload_document` and `get_queue` MCP tools require Phase 2 deployment. If these tools return "not yet implemented", inform the user and suggest checking back or using the Moverly web interface.
 - Large documents (>30MB) are rejected. Most conveyancing documents are well under this.
 - The engine re-evaluates all 37 categories after each new document — intelligence is cumulative.
 - For documents that support structured extraction (title registers, EPCs, searches), the summariser pushes extracted data as verified claims automatically. This enriches the PDTF state and may resolve additional flags beyond the one that prompted the upload.

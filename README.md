@@ -18,12 +18,12 @@ Skills work with [OpenClaw](https://github.com/openclaw/openclaw), [Claude Code]
 
 ### Moverly-Connected (requires [Moverly](https://moverly.com) account)
 
-| Skill | Description |
-|-------|-------------|
-| [`moverly-connect`](skills/moverly-connect/) | Connect to Moverly's property intelligence API. List transactions, check status, validate your connection. |
-| [`moverly-diligence`](skills/moverly-diligence/) | Property risk intelligence — flags, evidence-based insights, action recommendations across 37 risk categories and 323 checks. |
-| [`moverly-upload`](skills/moverly-upload/) | Upload case documents for automated diligence analysis. "PDF in, intelligence out" — title registers, searches, TA forms, leases. |
-| [`report-on-title`](skills/report-on-title/) | Generate a comprehensive Report on Title from PDTF state and diligence engine flags. Maps verified claims into professional buyer's conveyancer report sections. Customisable to firm house style. |
+| Skill | Description | MCP Tools Used |
+|-------|-------------|----------------|
+| [`moverly-connect`](skills/moverly-connect/) | Connect to Moverly's MCP server. Transaction listing, status, state, claims, provenance, form progress, schema validation, vouching. Foundation for other Moverly skills. | 16 tools |
+| [`moverly-diligence`](skills/moverly-diligence/) | Property risk intelligence + enquiry management. 37 categories, 323 checks. Evidence tracing, legal citations, flag explanation, enquiry workflows. | get_insights, get_provenance, raise/list/respond_enquiry |
+| [`moverly-upload`](skills/moverly-upload/) | Document-driven diligence. Upload case files → AI classification → structured extraction → DE re-evaluation → resolve flags. | upload_document, get_queue, vouch |
+| [`report-on-title`](skills/report-on-title/) | Generate Report on Title from PDTF state + flags. 17 sections per Law Society precedent. Customisable to firm style. | get_state, get_insights |
 
 ## Quick Start
 
@@ -68,11 +68,10 @@ An agent without the SDLT skill might hallucinate old tax rates or forget the fi
 
 ## Coming Soon
 
-- `hmlr-explainer` — Decode HM Land Registry title registers in plain English
-- `leasehold-toolkit` — Lease extension calculator, service charge analysis, Section 42 guidance
-- `search-pack-guide` — What each property search covers and when to order extras
-- `completion-checklist` — Exchange-to-completion tasks with deadlines
-- `moverly-enquiries` — Raise and respond to pre-contract enquiries
+- `leasehold-calculator` — Lease extension costs (marriage value, deferment rates), statutory vs voluntary routes
+- `pre-exchange-checklist` — Everything before exchange: searches, enquiries, mortgage offer, deposit, insurance
+- `post-completion-checklist` — SDLT return, LR application, notice to landlord, utility transfers
+- `lender-prescreen` — Flag common Part 1 handbook issues from property data alone
 
 ## Moverly Connection Setup
 

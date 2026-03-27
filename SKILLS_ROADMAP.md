@@ -5,10 +5,10 @@
 | Skill | Type | Status |
 |-------|------|--------|
 | `sdlt-calculator` | Standalone | ✅ Live — 20/20 tests, rates from 1 Apr 2025 |
-| `moverly-connect` | Moverly | ✅ Live — MCP connection, transaction listing |
-| `moverly-diligence` | Moverly | ✅ Live — risk flags, evidence filtering |
-| `moverly-upload` | Moverly | ✅ Skill ready — awaiting Phase 2 MCP tools (`upload_document`, `get_queue`) |
-| `report-on-title` | Moverly | ✅ Skill ready — maps PDTF state + DE flags into full buyer's report (17 sections, practitioner precedent) |
+| `moverly-connect` | Moverly | ✅ Live — 16 MCP tools (claims, provenance, forms, enquiries, vouch) |
+| `moverly-diligence` | Moverly | ✅ Live — risk intelligence + enquiry management |
+| `moverly-upload` | Moverly | ✅ Live — document upload, queue monitoring, flag resolution |
+| `report-on-title` | Moverly | ✅ Live — Report on Title from PDTF state + DE flags (17 sections) |
 
 ## Next Up 🔨
 
@@ -36,8 +36,6 @@
 ### Moverly-Connected (Phase 2+)
 | Skill | Description | Complexity |
 |-------|-------------|------------|
-| `moverly-enquiries` | Raise and respond to pre-contract enquiries via MCP | Medium |
-| `moverly-documents` | Upload docs, monitor processing, retrieve structured data | Medium |
 | `moverly-lender-check` | Full lender-specific evaluation — property + borrower + Part 2 rules via DE | Medium |
 | `moverly-portfolio` | Caseload dashboard — risk overview across all active transactions | Low |
 
@@ -76,4 +74,4 @@
 5. **Self-contained** — no external dependencies beyond standard shell tools
 
 ---
-*Last updated: 2026-03-19*
+*Last updated: 2026-03-27*

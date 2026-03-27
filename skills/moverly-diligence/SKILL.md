@@ -1,11 +1,11 @@
 ---
 name: moverly-diligence
-description: "Property risk intelligence and diligence analysis via Moverly's deterministic engine. Use when: analysing property risks, explaining risk flags, interpreting diligence findings, summarising what needs attention on a transaction, drafting enquiries from flags, explaining issues in plain English to buyers or sellers, comparing risk across a caseload, identifying what blocks exchange, or monitoring transaction progress. Triggers on: 'risk flags', 'what are the issues', 'any problems', 'diligence', 'risk analysis', 'what needs attention', 'explain this flag', 'draft an enquiry', 'what's blocking', 'portfolio risk', 'caseload'. Requires moverly-connect skill for MCP access."
+description: "Property risk intelligence, diligence analysis, and enquiry management via Moverly's deterministic engine. Use when: analysing property risks, explaining risk flags, interpreting diligence findings, summarising what needs attention on a transaction, drafting enquiries from flags, raising or responding to pre-contract enquiries, explaining issues in plain English to buyers or sellers, comparing risk across a caseload, identifying what blocks exchange, or monitoring transaction progress. Triggers on: 'risk flags', 'what are the issues', 'any problems', 'diligence', 'risk analysis', 'what needs attention', 'explain this flag', 'draft an enquiry', 'raise an enquiry', 'respond to enquiry', 'check enquiries', 'what's blocking', 'portfolio risk', 'caseload', 'provenance', 'where did this come from'. Requires moverly-connect skill for MCP access."
 ---
 
 # Moverly Diligence
 
-Interpret risk intelligence from the deterministic diligence engine (37 categories, 323 checks, 2,215 scenarios). Depends on `moverly-connect` for MCP calls.
+Interpret risk intelligence from the deterministic diligence engine (37 categories, 323 checks, 2,215 scenarios). Manage pre-contract enquiries. Depends on `moverly-connect` for MCP calls.
 
 ## Evidence Basis — the key concept
 
@@ -33,12 +33,19 @@ Each flag includes provenance fields:
 
 | Field | Purpose |
 |-------|---------|
-| `evidencePaths` | PDTF claim paths that contributed to this finding — use with `get_provenance` to trace data lineage |
+| `evidencePaths` | Array of `{path, label, section}` — PDTF claim paths that contributed to this finding |
 | `legalContext` | Check-level legal framework (legislation names, section numbers, thresholds) |
 | `legalDetail` | Scenario-specific legal application |
 | `rationale` | Step-by-step reasoning chain with `step` and `basis` fields |
 
 When explaining a flag to a user, cite `legalContext` for authoritative legal references. Use `evidencePaths` to show exactly which data drove the finding. Never fabricate legislation or section numbers — only cite what appears in `legalContext`/`legalDetail`.
+
+**Tracing provenance:**
+```bash
+# Get the evidence paths from a flag, then trace who provided the data
+$MCP tools/call '{"name":"moverly_get_provenance","arguments":{"transactionId":"<id>","path":"/propertyPack/ownership/ownershipsToBeTransferred/0/leaseholdInformation"}}'
+```
+Returns chronological list of claims that wrote to this path: voucher name/organisation, timestamp, verification method (vouch or electronic_record), linked documents.
 
 ## Fetching Insights
 
@@ -61,12 +68,78 @@ Or use the helper: `scripts/get-insights.sh <transactionId> [evidenceBasis] [min
 
 ## Presenting Flags
 
-Lead with plain English, not category codes. Pattern:
+Lead with plain English, not category codes. Use severity tags:
 
-> 🔴 **Short lease — 68 years remaining** (risk: 10/10)
+> [critical] **Short lease — 68 years remaining** (risk: 10/10)
 > Most lenders won't lend below 70-80 years and the value drops significantly. The seller should start a Section 42 lease extension or assign the benefit to the buyer. Must resolve before exchange.
+> Source: HMLR title register, DE analysis
 
-For each flag: risk colour + plain description → why it matters → what happens next → who acts (from `canExecute`).
+For each flag: severity tag + plain description → why it matters → what happens next → who acts (from `canExecute`). Always cite the data source from `evidencePaths`.
+
+## Enquiry Management
+
+Three tools for PDTF-native pre-contract enquiries:
+
+### Raising Enquiries
+
+When a flag suggests raising an enquiry (rather than collecting data directly):
+
+```bash
+$MCP tools/call '{"name":"moverly_raise_enquiry","arguments":{
+  "transactionId":"<id>",
+  "subject":"Loft conversion building regulations",
+  "messageText":"Please confirm whether building regulations approval was obtained for the loft conversion. If so, please provide the completion certificate.",
+  "destinationRole":"Seller'\''s Conveyancer",
+  "relatedFlagId":"flag_abc123",
+  "pdtfPath":"/propertyPack/alterationsAndChanges/hasStructuralAlterations"
+}}'
+```
+
+- `subject`: clear topic (required)
+- `messageText`: professional enquiry text (required)
+- `destinationRole`: Seller | Seller's Conveyancer | Buyer | Buyer's Conveyancer | Estate Agent (required)
+- `relatedFlagId`: links enquiry to the flag that prompted it (optional)
+- `pdtfPath`: hints where response data should be stored (optional)
+
+### Checking Enquiries
+
+```bash
+# All enquiries on a transaction
+$MCP tools/call '{"name":"moverly_list_enquiries","arguments":{"transactionId":"<id>"}}'
+
+# Just pending inbound (need your response)
+$MCP tools/call '{"name":"moverly_list_enquiries","arguments":{"transactionId":"<id>","status":"pending","direction":"inbound"}}'
+
+# Just outbound you raised
+$MCP tools/call '{"name":"moverly_list_enquiries","arguments":{"transactionId":"<id>","direction":"outbound"}}'
+```
+
+Returns: `{enquiries: [{id, subject, status, originatorRole, destinationRole, messages, pdtfPath, createdAt}]}`
+
+Statuses: `pending` (awaiting first response), `open` (in discussion), `resolved`, `resolvedWithCondition`, `withdrawn`
+
+### Responding to Enquiries
+
+```bash
+$MCP tools/call '{"name":"moverly_respond_enquiry","arguments":{
+  "transactionId":"<id>",
+  "enquiryId":"enq_xyz789",
+  "messageText":"Building regulations approval was not obtained. The seller is obtaining an indemnity insurance quote.",
+  "updateStatus":"open",
+  "pdtfPath":"/propertyPack/alterationsAndChanges/hasStructuralAlterations"
+}}'
+```
+
+- `enquiryId`: which enquiry to respond to (required)
+- `messageText`: your response (required)
+- `updateStatus`: `open` (still discussing), `resolved` (done), `resolvedWithCondition` (done with caveats)
+- `pdtfPath`: where structured data should be stored alongside this reply
+
+**Response + Vouch pattern:**
+When responding with structured data, both reply to the enquiry AND vouch the data:
+1. `respond_enquiry` with the narrative response
+2. `vouch` at the `pdtfPath` with the structured PDTF data
+3. This creates a complete audit trail: enquiry → response → verified claim
 
 ## Workflow Recipes
 
@@ -77,13 +150,19 @@ For each flag: risk colour + plain description → why it matters → what happe
 4. Combine, sort by risk descending, group by theme
 
 **"Explain to a buyer"**
-Same as above but translate each flag: what it means for them, what happens next, who handles it.
+Same as above but translate each flag: what it means for them, what happens next, who handles it. Use `legalContext` for authoritative citations. Never recommend legal action — always "your conveyancer should consider".
 
 **"What's blocking exchange?"**
 `get_insights` with `minRisk: 7` → list unresolved actions as a checklist with owners.
 
 **"Compare my caseload"**
 `list_transactions` → for each, `get_status` gives `riskSummary` → sort by total risk score.
+
+**"Check for inbound enquiries"**
+`list_enquiries(status: "pending", direction: "inbound")` → prioritise by age and risk.
+
+**"Chase outstanding enquiries"**
+`list_enquiries(status: "pending", direction: "outbound")` → identify what's waiting for response.
 
 ## Resolving Flags — the describe → vouch loop
 
@@ -106,7 +185,7 @@ When a flag action specifies `documentTypes` (acceptable document types) alongsi
 2. `describe_path(targetPath)` → understand what the attachments field expects
 3. `upload_document(pdtfPath=targetPath)` → upload the file, linked to the schema location
 4. `get_queue` → wait for classification + summarisation to complete
-5. `vouch(path=targetPath, value="Attached", evidence={type:"document_reference", documentId:"<fileId>"})` → confirm the attachment
+5. `vouch(path=targetPath, value="Attached")` → confirm the attachment
 6. `get_insights` → verify the flag resolved
 
 **If the uploaded document type doesn't match** what the flag requires (e.g. uploaded a survey when a building regs certificate was needed), the scenario won't change — the flag persists. Upload the correct document type.
@@ -115,10 +194,13 @@ When a flag action specifies `documentTypes` (acceptable document types) alongsi
 
 **Structured extraction bonus:** For documents like title registers, EPCs, and search reports, the summariser automatically extracts structured data and pushes it as verified claims. This happens in the background — it may resolve additional flags beyond the one that prompted the upload.
 
-## Drafting Enquiries
+## When to Raise Enquiries vs Vouch Directly
 
-When a flag suggests raising an enquiry (rather than collecting data directly):
-1. Read the flag's `actions` array for specific data needed
-2. Use `targetPath` (PDTF schema path) for precision — call `describe_path` to understand what data would resolve it
-3. Draft in professional conveyancing language
-4. State what evidence would resolve the flag
+| Situation | Action |
+|-----------|--------|
+| You have the data/document | `vouch` directly (faster, immediate resolution) |
+| You need data from another party | `raise_enquiry` (formal request, audit trail) |
+| Seller needs to provide info | `raise_enquiry` to Seller's Conveyancer |
+| Response will include structured data | `respond_enquiry` + `vouch` at `pdtfPath` |
+| Flag action says "raise enquiry" | Use `raise_enquiry` with `relatedFlagId` |
+| Flag action says "collect data" | Use describe → vouch loop |
