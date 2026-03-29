@@ -8,6 +8,10 @@ No. These tools provide information, analysis, and automation — not legal advi
 
 No. The work splits roughly 70/30: about 70% of conveyancing is intelligence work (gathering data, checking requirements, chasing documents, compiling reports) and about 30% is genuine professional judgment (interpreting edge cases, advising clients, negotiating terms, managing risk). These tools handle the 70% so conveyancers can focus on the 30% that actually requires their expertise.
 
+## Does this just flag risks, or does it tell me what they mean?
+
+Both. The toolkit goes beyond risk scores to provide commercial impact — what an issue costs, how it affects saleability, and which lenders will and won't accept it. For example, the Lease Impact Advisor doesn't just say "short lease, high risk." It tells you that a 68-year lease restricts the buyer pool to 6 out of 13 major lenders, carries a 15-30% price discount, and will cost £45,000-£88,000 to extend. This commercial intelligence layer is being built into every scenario across the Diligence Engine.
+
 ## How accurate is the risk analysis?
 
 The Moverly Diligence Engine is deterministic — it applies the same 2,215 rule-based scenarios consistently every time, across 37 risk categories and 323 individual checks. It doesn't guess or hallucinate. Every flag includes an evidence basis (data-driven, evidence-incomplete, or no-data) and full provenance showing exactly what data led to each conclusion.
@@ -18,10 +22,11 @@ All intelligence comes from verified, provenanced sources: title registers, prop
 
 ## Can I use this without a Moverly account?
 
-Yes. Several skills work standalone with no account or API key:
+Yes. Most tools work standalone with no account or API key:
 
 - **SDLT Calculator** — accurate calculations for all buyer types
 - **Lender Pre-Screen** — UK Finance Handbook Part 1 + Part 2 for 60+ lenders
+- **Lease Impact Advisor** — saleability assessment, lender eligibility, extension costs
 - **Protocol Compliance** — Law Society, CA, CQS, and CLC checklists
 - **Property Law Reference** — authoritative citations from GOV.UK, HMLR, LEASE Advisory
 

@@ -26,7 +26,33 @@ Claude connects to Moverly, pulls your transaction list, filters to data-driven 
 
 ---
 
-## 2. Lender pre-screen before recommending a mortgage
+## 2. Lease impact assessment at instruction
+
+**You say:**
+> I'm valuing a flat with 68 years on the lease. It's worth about £425,000. What's the saleability picture?
+
+**What happens:**
+Claude runs the Lease Impact Advisor:
+
+> **LEASE IMPACT ASSESSMENT — 68 years, £425,000**
+>
+> **Risk band: [CRITICAL]** — Most mainstream lenders decline. Cash buyers or specialist lenders only.
+>
+> **Lender eligibility:** 6 of 13 major lenders accept (Nationwide, NatWest, Santander, Yorkshire BS, Skipton BS, Leeds BS). 7 decline (Barclays, Halifax, Lloyds, HSBC, TSB, Coventry BS, Virgin Money).
+>
+> **Price impact:** Estimated 15-30% discount vs equivalent freehold — roughly £63,750-£127,500 off achievable price.
+>
+> **Extension cost:** £42,500-£88,000 including professional fees. Marriage value applies (lease is under 80 years) — the leaseholder pays the freeholder 50% of the value uplift from extension.
+>
+> **Recommendation:** Extension essential before marketing. Three routes available: statutory (Section 42, requires 2 years ownership, adds 90 years), informal negotiation (faster, no ownership requirement), or assign benefit (seller starts, buyer completes on purchase).
+
+**What you tell the vendor:** "We can list this, but the short lease significantly limits who can buy it. Only about half of mainstream lenders will accept it, which means fewer mortgage buyers and lower offers. I'd strongly recommend starting a lease extension before we go to market — it'll cost around £50,000-£85,000 but you'll more than recover that in the sale price."
+
+**Time saved:** Research that would take an hour of handbook checking and lease extension googling → 15 seconds with a clear recommendation.
+
+---
+
+## 3. Lender pre-screen
 
 **You say:**
 > My client wants to buy a leasehold flat, 72 years on the lease, ex-council, £280k. They're first-time buyers looking at 90% LTV. Which of the main lenders will have a problem with this?
@@ -50,7 +76,7 @@ Claude spawns parallel subagents to check Part 2 requirements for the top 10 len
 
 ---
 
-## 3. SDLT calculation with scenarios
+## 4. SDLT calculation with scenarios
 
 **You say:**
 > Calculate SDLT on £425,000. My client is a first-time buyer. Also show me what it would be if they weren't, and if they already owned another property.
@@ -67,7 +93,7 @@ Claude spawns parallel subagents to check Part 2 requirements for the top 10 len
 
 ---
 
-## 4. Pre-exchange protocol compliance check
+## 5. Pre-exchange protocol compliance check
 
 **You say:**
 > I'm about to exchange on 15 Birch Avenue. Run through the CA Protocol checklist — what have I missed?
@@ -90,7 +116,7 @@ Claude pulls the transaction state from Moverly and audits against the CA Protoc
 
 ---
 
-## 5. Overnight document processing
+## 6. Overnight document processing
 
 **You say (Friday evening):**
 > I've received the environmental search, local authority search, and drainage search for 22 Oak Street. Upload and analyse them.
@@ -118,7 +144,7 @@ Claude uploads all three documents via Moverly MCP. The classification and extra
 
 ---
 
-## 6. Drafting enquiry responses
+## 7. Drafting enquiry responses
 
 **You say:**
 > The buyer's solicitor has raised an enquiry about the loft conversion building regs. My client says it was done in 2018 and they don't have the certificate. Draft a response.
@@ -139,7 +165,7 @@ Claude uploads all three documents via Moverly MCP. The classification and extra
 
 ---
 
-## 7. Report on Title generation
+## 8. Report on Title generation
 
 **You say:**
 > Generate a Report on Title for 14 Oakwood Terrace for my client Sarah Chen.
