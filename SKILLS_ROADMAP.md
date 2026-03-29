@@ -9,6 +9,12 @@
 | `moverly-diligence` | Moverly | ✅ Live — risk intelligence + enquiry management |
 | `moverly-upload` | Moverly | ✅ Live — document upload, queue monitoring, flag resolution |
 | `report-on-title` | Moverly | ✅ Live — Report on Title from PDTF state + DE flags (17 sections) |
+| `conveyancing-protocol-checklist` | Standalone | ✅ Live — Law Society Protocol compliance |
+| `ca-protocol-compliance` | Standalone | ✅ Live — CA Protocol 5th Edition compliance |
+| `cqs-practice-standards` | Standalone | ✅ Live — CQS practice management standards |
+| `clc-compliance-tracker` | Standalone | ✅ Live — CLC regulatory compliance |
+| `lenders-handbook-prescreen` | Standalone | ✅ Live — Part 1 (90+ checks) + Part 2 (60+ lenders) |
+| `lender-comparison` | Standalone | ✅ Live — Parallel subagent lender checking |
 
 ## Next Up 🔨
 
@@ -38,6 +44,11 @@
 |-------|-------------|------------|
 | `moverly-lender-check` | Full lender-specific evaluation — property + borrower + Part 2 rules via DE | Medium |
 | `moverly-portfolio` | Caseload dashboard — risk overview across all active transactions | Low |
+
+### Public Property Lookup (MCP)
+| Skill | Description | Complexity |
+|-------|-------------|------------|
+| `title-lookup` | Resolve address/UPRN to HMLR title number(s) — public MCP tool, no Moverly account needed. Returns title numbers with tenure type when ambiguous (e.g. flat in a block). **Depends on HMLR meeting — Ed to raise free access to UPRN-to-titles database.** | Medium — needs HMLR API access |
 
 ### CMS Integration Skills
 | Skill | Description | Complexity |
