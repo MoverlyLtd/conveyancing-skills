@@ -27,6 +27,7 @@ We believe the conveyancing profession deserves better tools. We're building the
 | **CA Protocol** | Conveyancing Association Protocol (5th Edition) — the most transaction-specific compliance tool. |
 | **CQS Standards** | CQS Core Practice Management Standards for SRA-regulated firms. |
 | **CLC Compliance** | Council of Licensed Conveyancers regulatory framework tracker. |
+| **Lease Impact Advisor** | Saleability assessment for leasehold properties — risk banding, lender eligibility matrix (13 lenders), extension cost estimates, marriage value analysis. The estate agent's "should we list this?" tool. |
 | **Property Law Reference** | Curated directory of 100+ authoritative sources — GOV.UK, HMLR Practice Guides, LEASE Advisory Service, Law Commission reports. Fetch-and-cite, not hallucinate. |
 
 ### Moverly-connected — live transaction intelligence
