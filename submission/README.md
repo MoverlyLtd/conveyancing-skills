@@ -15,6 +15,12 @@ Property intelligence and compliance skills for UK residential conveyancing.
 | `/uk-conveyancing:cqs-practice-standards` | CQS practice management standards for SRA-regulated firms |
 | `/uk-conveyancing:clc-compliance-tracker` | CLC regulatory compliance for Council of Licensed Conveyancers firms |
 
+### Parallel intelligence (subagent-powered)
+
+| Skill | What it does |
+|-------|-------------|
+| `/uk-conveyancing:lender-comparison` | Compare lender requirements across multiple lenders simultaneously — spawns parallel subagents to check each lender's Part 2, returns a suitability matrix |
+
 ### Moverly-connected intelligence (requires Moverly API access)
 
 | Skill | What it does |

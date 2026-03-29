@@ -9,6 +9,10 @@
   "homepage": "https://github.com/MoverlyLtd/conveyancing-skills",
   "repository": "https://github.com/MoverlyLtd/conveyancing-skills",
   "license": "MIT",
+  "components": {
+    "skills": 11,
+    "agents": 1
+  },
   "keywords": [
     "conveyancing",
     "property",
