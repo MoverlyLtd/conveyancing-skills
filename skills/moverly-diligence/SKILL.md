@@ -17,6 +17,8 @@ Depends on `pdtf-connector` for MCP transport.
 | `get_queue` | Document processing pipeline status (classification, summarisation) |
 | `get_risk_history` | Historical risk timeline for a transaction |
 | `handle_flag` | Mark a flag as accepted, mitigated, or escalated |
+| `get_form_progress` | Seller form completion status across all categories (flag-based) |
+| `describe_form_path` | Form-specific schema with question refs, filtered by transaction overlay |
 | Report on Title | Generated from DE flags + PDTF state (see report-on-title skill) |
 
 ## Evidence Basis — the key concept
@@ -94,6 +96,24 @@ Mark a flag as accepted, mitigated, or escalated.
 $MCP tools/call '{"name":"moverly_handle_flag","arguments":{"transactionId":"<id>","flagId":"<fid>","action":"accept","reason":"Client accepts flood risk"}}'
 ```
 
+### get_form_progress
+Seller form completion status — built on Moverly's propertyPackTasks validation flags.
+```bash
+$MCP tools/call '{"name":"moverly_get_form_progress","arguments":{"transactionId":"<id>"}}'
+```
+- Returns: `{forms: [{name, category, percentComplete, overlay, sections: [{name, path, status, validationErrors}]}]}`
+- Categories: listing (NTS), property-questions (TA6), leasehold-questions (TA7), fittings-and-contents (TA10), sale-ready
+
+### describe_form_path
+Form-specific schema filtered by the transaction's overlay, with question reference numbers.
+```bash
+$MCP tools/call '{"name":"moverly_describe_form_path","arguments":{"transactionId":"<id>","path":"/propertyPack/alterationsAndChanges"}}'
+```
+- Returns schema filtered to overlay-referenced properties only
+- Each property annotated with `formRef` (question number like "5.1b")
+- Overlay resolved server-side from transaction settings, not agent-chosen
+- discriminator/oneOf preserved for conditional branching (Yes → more fields)
+
 ## Presenting Flags
 
 Lead with plain English, not category codes. Use severity tags:
@@ -125,6 +145,13 @@ Same as above but translate each flag: what it means for them, what happens next
 1. `upload_document` (pdtf-connector) → upload the file
 2. `get_queue` → wait for classification + summarisation to complete
 3. `get_insights` → see what the engine found
+
+**Seller interview (form completion):**
+1. `get_form_progress` → find incomplete sections
+2. `describe_form_path(transactionId, sectionPath)` → get schema with question refs
+3. Walk discriminator/oneOf conversationally
+4. `vouch` (pdtf-connector) collected data → confirms section
+5. `get_form_progress` → verify completion moved
 
 ## Resolving Flags
 

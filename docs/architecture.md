@@ -56,14 +56,13 @@ These run entirely within the AI agent — no external API, no account needed. T
 
 The PDTF MCP specification defines a standard protocol for property transaction data. Any system that implements it — Moverly, NPTN, or others — can be connected using this skill. This is the industry standard layer.
 
-**14 standard tools:**
+**12 standard tools:**
 
 | Category | Tools | Purpose |
 |----------|-------|---------|
 | Transaction data | `list_transactions`, `get_state`, `get_status`, `get_claims`, `get_provenance` | Read transaction data |
 | Data submission | `vouch`, `upload_document` | Write verified data |
-| Schema | `describe_path`, `describe_form_path`, `list_overlays` | PDTF schema introspection |
-| Forms | `get_form_progress` | Seller form completion tracking |
+| Schema | `describe_path`, `list_overlays` | PDTF schema introspection |
 | Enquiries | `raise_enquiry`, `list_enquiries`, `respond_enquiry` | Pre-contract enquiry management |
 
 **Connection:** Single endpoint using Streamable HTTP transport. Authentication via Personal Access Token (PAT) in the Authorization header.
@@ -80,7 +79,7 @@ The PDTF Connector is server-agnostic. Set the endpoint URL and PAT for whicheve
 
 Moverly's proprietary layer on top of the PDTF standard. These tools only work with Moverly's MCP server and require a Moverly API token.
 
-**5 proprietary tools:**
+**7 proprietary tools:**
 
 | Tool | Purpose |
 |------|---------|
@@ -88,6 +87,8 @@ Moverly's proprietary layer on top of the PDTF standard. These tools only work w
 | `get_queue` | Document processing pipeline status (classification, AI summarisation, claims extraction) |
 | `get_risk_history` | Historical risk timeline for a transaction |
 | `handle_flag` | Mark a flag as accepted, mitigated, or escalated |
+| `get_form_progress` | Seller form completion status (flag-based validation system) |
+| `describe_form_path` | Form-specific schema filtered by transaction overlay, with question reference numbers |
 | Report on Title | Generated from DE flags + PDTF state (uses report-on-title skill) |
 
 ### Diligence Engine

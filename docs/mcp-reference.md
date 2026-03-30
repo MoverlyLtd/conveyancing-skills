@@ -111,34 +111,9 @@ Get the PDTF subschema at any path.
 
 Returns: strict schema with `additionalProperties: false` at every level. Includes discriminator/oneOf for conditional dependencies.
 
-#### `moverly_describe_form_path`
-
-Get form-specific schema with question reference numbers.
-
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| transactionId | string | Yes | Transaction ID |
-| path | string | Yes | PDTF path for the form section |
-
-Returns: schema filtered to overlay-referenced properties with formRef annotations (e.g. "5.1b").
-
 #### `moverly_list_overlays`
 
 List available PDTF schema overlays.
-
----
-
-### Forms
-
-#### `moverly_get_form_progress`
-
-Get completion status for all applicable property information forms.
-
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| transactionId | string | Yes | Transaction ID |
-
-Returns: per-form completion percentage, overlay, per-section status (complete/incomplete/not-started).
 
 ---
 
@@ -221,6 +196,27 @@ Historical risk timeline for a transaction.
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | transactionId | string | Yes | Transaction ID |
+
+### `moverly_get_form_progress`
+
+Get completion status for all applicable property information forms. Built on Moverly's propertyPackTasks validation flag system.
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| transactionId | string | Yes | Transaction ID |
+
+Returns: per-form completion percentage, overlay, per-section status (complete/incomplete/not-started) with validation error counts.
+
+### `moverly_describe_form_path`
+
+Get form-specific schema with question reference numbers, filtered by the transaction's overlay.
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| transactionId | string | Yes | Transaction ID |
+| path | string | Yes | PDTF path for the form section |
+
+Returns: schema filtered to overlay-referenced properties with formRef annotations (e.g. "5.1b"). Overlay resolved server-side from transaction settings.
 
 ### `moverly_handle_flag`
 

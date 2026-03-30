@@ -52,13 +52,11 @@ These tools are part of the PDTF MCP specification. Any compliant server impleme
 | `vouch` | Submit verified data at a PDTF path (strict schema validation) |
 | `upload_document` | Upload a document linked to a PDTF schema location |
 
-### Schema & Forms
+### Schema
 
 | Tool | Purpose |
 |------|---------|
 | `describe_path` | Get strict JSON subschema for any PDTF path |
-| `describe_form_path` | Form-specific schema with question reference numbers |
-| `get_form_progress` | Seller form completion status across all categories |
 | `list_overlays` | Available schema overlays |
 
 ### Enquiries
@@ -147,23 +145,6 @@ scripts/mcp-call.sh tools/call '{"name":"moverly_describe_path","arguments":{"pa
 - `overlay`: optional form overlay (e.g. `ta6ed6`) — adds `required` constraints
 - Returns: `{path, title, hierarchy, schema, overlay}`
 
-### describe_form_path
-Get form-specific schema with question reference numbers.
-```bash
-scripts/mcp-call.sh tools/call '{"name":"moverly_describe_form_path","arguments":{"transactionId":"<id>","path":"/propertyPack/alterationsAndChanges"}}'
-```
-- Returns schema filtered to overlay-referenced properties only
-- Each property annotated with `formRef` (question number like "5.1b")
-- Overlay resolved from transaction settings, not agent-chosen
-
-### get_form_progress
-Check completion status across all applicable forms.
-```bash
-scripts/mcp-call.sh tools/call '{"name":"moverly_get_form_progress","arguments":{"transactionId":"<id>"}}'
-```
-- Returns: `{forms: [{name, category, percentComplete, overlay, sections: [{name, path, status, validationErrors}]}]}`
-- Categories: listing (NTS), property-questions (TA6), leasehold-questions (TA7), fittings-and-contents (TA10), sale-ready
-
 ### raise_enquiry
 Raise a pre-contract enquiry.
 ```bash
@@ -194,13 +175,6 @@ scripts/mcp-call.sh tools/call '{"name":"moverly_respond_enquiry","arguments":{"
 2. Collect data following discriminator/oneOf branching
 3. `vouch` → validates and submits
 4. Verify via `get_state` or `get_claims`
-
-**Seller interview (form completion):**
-1. `get_form_progress` → find incomplete sections
-2. `describe_form_path(transactionId, sectionPath)` → get schema with question refs
-3. Walk discriminator/oneOf conversationally
-4. `vouch` collected data → confirms section
-5. `get_form_progress` → verify completion moved
 
 **Document upload with linking:**
 1. `upload_document(pdtfPath=targetPath)` → upload linked to schema location
