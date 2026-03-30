@@ -1,5 +1,0 @@
-{
-  "name": "moverly-connect",
-  "description": "Connect to Moverly's property intelligence MCP server for transaction data, PDTF state, claims, provenance, and document uploads",
-  "version": "1.0.0"
-}

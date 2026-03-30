@@ -9,27 +9,26 @@
 │                                                      │
 │  Reads SKILL.md → understands capabilities →         │
 │  calls tools → presents results                      │
-└───────────┬──────────────────┬───────────────────────┘
-            │                  │
-    ┌───────▼───────┐  ┌───────▼────────┐
-    │  Standalone   │  │  Moverly MCP   │
-    │   Skills      │  │   Server       │
-    │               │  │                │
-    │ • SDLT calc   │  │ • 19 tools     │
-    │ • Lender HB   │  │ • PAT auth     │
-    │ • Protocols   │  │ • Streamable   │
-    │ • Citations   │  │   HTTP         │
-    └───────────────┘  └───────┬────────┘
-                               │
-                    ┌──────────▼──────────┐
-                    │  Diligence Engine   │
-                    │                     │
-                    │ • 37 categories     │
-                    │ • 323 checks        │
-                    │ • 2,215 scenarios   │
-                    │ • Deterministic     │
-                    │ • <1ms evaluation   │
-                    └──────────┬──────────┘
+└───────────┬──────────────┬──────────────┬───────────┘
+            │              │              │
+    ┌───────▼───────┐ ┌────▼────────┐ ┌───▼──────────┐
+    │  Standalone   │ │   PDTF      │ │   Moverly    │
+    │   Tools       │ │  Connector  │ │ Intelligence │
+    │               │ │             │ │              │
+    │ • SDLT calc   │ │ • Standard  │ │ • get_insights│
+    │ • Lender HB   │ │   protocol  │ │ • get_queue  │
+    │ • Protocols   │ │ • Any MCP   │ │ • handle_flag│
+    │ • Lease impact│ │   server    │ │ • risk_history│
+    │ • Citations   │ │ • Claims,   │ │ • Report on  │
+    │               │ │   vouch,    │ │   Title      │
+    │               │ │   enquiries │ │              │
+    └───────────────┘ └──────┬──────┘ └──────┬───────┘
+                             │               │
+                    ┌────────▼───────────────▼────────┐
+                    │   PDTF-compliant MCP Server     │
+                    │                                  │
+                    │  Moverly · NPTN · others          │
+                    └──────────┬───────────────────────┘
                                │
                     ┌──────────▼──────────┐
                     │   PDTF State        │
@@ -41,7 +40,7 @@
                     └─────────────────────┘
 ```
 
-## Standalone skills
+## Standalone tools
 
 These run entirely within the AI agent — no external API, no account needed. They're self-contained instructions and scripts that the agent reads and executes.
 
@@ -51,43 +50,56 @@ These run entirely within the AI agent — no external API, no account needed. T
 3. Some skills include helper scripts (e.g. `sdlt-calc.sh` for deterministic calculations)
 4. Some include reference data (e.g. `references/lenders/*.md` for Part 2 requirements)
 
-**Examples:** SDLT calculator, lender pre-screen, protocol checklists, property law reference.
+**Examples:** SDLT calculator, lender pre-screen, lease impact advisor, protocol checklists, property law reference.
 
-## Moverly MCP Server
+## PDTF Connector
 
-The MCP (Model Context Protocol) server exposes Moverly's transaction intelligence as 19 tools that any AI agent can call over HTTP.
+The PDTF MCP specification defines a standard protocol for property transaction data. Any system that implements it — Moverly, NPTN, or others — can be connected using this skill. This is the industry standard layer.
 
-**Connection:** Single endpoint at `https://api-staging.moverly.com/mcpService/mcp` (staging) using Streamable HTTP transport. Authentication via Personal Access Token (PAT) in the Authorization header.
+**14 standard tools:**
+
+| Category | Tools | Purpose |
+|----------|-------|---------|
+| Transaction data | `list_transactions`, `get_state`, `get_status`, `get_claims`, `get_provenance` | Read transaction data |
+| Data submission | `vouch`, `upload_document` | Write verified data |
+| Schema | `describe_path`, `describe_form_path`, `list_overlays` | PDTF schema introspection |
+| Forms | `get_form_progress` | Seller form completion tracking |
+| Enquiries | `raise_enquiry`, `list_enquiries`, `respond_enquiry` | Pre-contract enquiry management |
+
+**Connection:** Single endpoint using Streamable HTTP transport. Authentication via Personal Access Token (PAT) in the Authorization header.
 
 **How it works:**
 1. Agent initialises MCP connection (JSON-RPC handshake)
 2. Agent discovers available tools via `tools/list`
 3. Agent calls tools with structured arguments
-4. Server validates input, checks role-based access, queries Firestore, runs the Diligence Engine
-5. Results returned as structured JSON with full provenance
+4. Server validates input, checks role-based access, returns structured JSON with full provenance
 
-### Tool categories
+The PDTF Connector is server-agnostic. Set the endpoint URL and PAT for whichever PDTF-compliant system you're connecting to.
 
-| Category | Tools | Purpose |
-|----------|-------|---------|
-| Discovery | `list_transactions` | Find and filter transactions |
-| State | `get_state`, `get_status`, `get_claims`, `get_provenance` | Read transaction data |
-| Intelligence | `get_insights`, `get_risk_history` | Risk analysis and flags |
-| Actions | `vouch`, `upload_document`, `handle_flag` | Write verified data |
-| Enquiries | `raise_enquiry`, `list_enquiries`, `respond_enquiry` | Manage enquiries |
-| Forms | `get_form_progress`, `describe_form_path` | PDTF form completion |
-| Schema | `describe_path`, `list_overlays` | PDTF schema introspection |
-| Monitoring | `get_queue` | Processing status |
+## Moverly Intelligence
 
-## Diligence Engine
+Moverly's proprietary layer on top of the PDTF standard. These tools only work with Moverly's MCP server and require a Moverly API token.
 
-The core intelligence — a deterministic rule engine that evaluates property risk across 37 categories. Not an LLM. Not probabilistic. Every scenario has a defined set of inputs, conditions, and outputs.
+**5 proprietary tools:**
+
+| Tool | Purpose |
+|------|---------|
+| `get_insights` | Diligence Engine risk flags — 37 categories, 323 checks, 2,215 deterministic scenarios |
+| `get_queue` | Document processing pipeline status (classification, AI summarisation, claims extraction) |
+| `get_risk_history` | Historical risk timeline for a transaction |
+| `handle_flag` | Mark a flag as accepted, mitigated, or escalated |
+| Report on Title | Generated from DE flags + PDTF state (uses report-on-title skill) |
+
+### Diligence Engine
+
+The core intelligence — a deterministic rule engine. Not an LLM. Not probabilistic. Every scenario has a defined set of inputs, conditions, and outputs.
 
 **Key properties:**
 - **Deterministic:** Same data → same flags, every time
 - **Provenance:** Every flag includes `evidencePaths` (which PDTF claims were evaluated) and `legalContext` (the legal basis)
-- **Evidence basis:** Each flag is classified as `data-driven` (definitive finding), `evidence-incomplete` (partial data), `no-data` (nothing to evaluate), or `clear` (ruled out)
-- **Actions:** Each flag includes recommended actions with `targetPath` (the PDTF schema location where resolution data should be provided) and `canExecute` hints
+- **Evidence basis:** Each flag is classified as `data-driven`, `evidence-incomplete`, `no-data`, or `clear`
+- **Actions:** Each flag includes recommended actions with `targetPath` and `canExecute` hints
+- **<1ms evaluation** across all 37 categories
 
 ## PDTF (Property Data Trust Framework)
 
@@ -96,25 +108,27 @@ The data standard underpinning everything. PDTF defines the schema for structure
 **Key concepts:**
 - **Claims:** Verified data points with provenance (who provided it, when, how it was verified)
 - **State:** The composed view of all claims for a transaction (latest value per path)
-- **Overlays:** Schema extensions that define which fields are required for specific contexts (e.g. TA6 Edition 6 requires certain seller disclosure fields)
+- **Overlays:** Schema extensions that define which fields are required for specific contexts (e.g. TA6 Edition 6)
 - **Terms of use:** Per-claim access control (public, restricted, confidential)
+
+We're adding the MCP server specification to the PDTF standard — any platform that implements it will be compatible with this toolkit out of the box.
 
 ## Data flow: upload to resolution
 
 ```
-Document uploaded via MCP
+Document uploaded via PDTF Connector
         │
         ▼
-File classifier (AI) → determines document type
-        │
-        ▼
-Document summariser (AI) → extracts structured data
-        │
-        ▼
-Claims mapper → writes PDTF claims with provenance
-        │
-        ▼
-Diligence Engine re-evaluates all 37 categories
+File classifier (AI) → determines document type         ┐
+        │                                                │
+        ▼                                                │
+Document summariser (AI) → extracts structured data      │ Moverly
+        │                                                │ Intelligence
+        ▼                                                │
+Claims mapper → writes PDTF claims with provenance       │
+        │                                                │
+        ▼                                                │
+Diligence Engine re-evaluates all 37 categories          ┘
         │
         ▼
 Flags updated (some resolved, some new)
@@ -123,4 +137,4 @@ Flags updated (some resolved, some new)
 Agent calls get_insights → sees updated risk picture
 ```
 
-The whole pipeline is automatic. Upload a search result and the flags are updated with the new intelligence within minutes.
+Upload is a PDTF standard operation. Everything that happens after — classification, summarisation, risk analysis — is Moverly's proprietary intelligence layer. The whole pipeline runs automatically within minutes.

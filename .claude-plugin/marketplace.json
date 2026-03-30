@@ -5,8 +5,8 @@
     "email": "ed@moverly.com"
   },
   "metadata": {
-    "description": "Property intelligence and conveyancing workflow skills for AI agents. Standalone tools plus Moverly-connected intelligence.",
-    "version": "1.0.0",
+    "description": "Property intelligence and conveyancing workflow tools for AI agents. Standalone tools, PDTF standard data connector, and Moverly proprietary intelligence.",
+    "version": "1.1.0",
     "pluginRoot": "./skills"
   },
   "plugins": [
@@ -25,6 +25,14 @@
       "version": "1.0.0",
       "category": "compliance",
       "tags": ["conveyancing", "lender", "mortgage", "handbook", "compliance", "uk-property"]
+    },
+    {
+      "name": "lease-impact-advisor",
+      "source": "./lease-impact-advisor",
+      "description": "Leasehold saleability assessment — risk banding, lender eligibility matrix for 13 major lenders, extension cost estimates, marriage value analysis, buyer pool impact.",
+      "version": "1.0.0",
+      "category": "calculators",
+      "tags": ["conveyancing", "leasehold", "lease-extension", "saleability", "uk-property"]
     },
     {
       "name": "conveyancing-protocol-checklist",
@@ -59,28 +67,28 @@
       "tags": ["conveyancing", "clc", "licensed-conveyancer", "compliance", "uk-property"]
     },
     {
-      "name": "moverly-connect",
-      "source": "./moverly-connect",
-      "description": "Connect to Moverly's property intelligence MCP server. Transaction data, PDTF state, claims, provenance, document uploads, and form progress.",
+      "name": "property-law-reference",
+      "source": "./property-law-reference",
+      "description": "Curated directory of 100+ authoritative property law sources — GOV.UK, HMLR Practice Guides, LEASE Advisory Service, Law Commission reports. Fetch-and-cite instructions.",
+      "version": "1.0.0",
+      "category": "reference",
+      "tags": ["conveyancing", "property-law", "legal-reference", "govuk", "uk-property"]
+    },
+    {
+      "name": "pdtf-connector",
+      "source": "./pdtf-connector",
+      "description": "Connect to any PDTF-compliant MCP server for property transaction data. Standard tools: claims, provenance, vouch, upload, enquiries, schema, forms. Works with Moverly, NPTN, or any compliant server.",
       "version": "1.0.0",
       "category": "integrations",
-      "tags": ["moverly", "mcp", "property-intelligence", "pdtf", "uk-property"]
+      "tags": ["pdtf", "mcp", "property-data", "standard", "uk-property"]
     },
     {
       "name": "moverly-diligence",
       "source": "./moverly-diligence",
-      "description": "Property risk intelligence and enquiry management via Moverly's deterministic diligence engine. Risk flags, evidence provenance, and pre-contract enquiries.",
-      "version": "1.0.0",
+      "description": "Moverly's proprietary risk intelligence — deterministic diligence engine analysis (37 categories, 2,215 scenarios), document processing status, and risk management.",
+      "version": "1.1.0",
       "category": "integrations",
-      "tags": ["moverly", "risk-analysis", "diligence", "enquiries", "uk-property"]
-    },
-    {
-      "name": "moverly-upload",
-      "source": "./moverly-upload",
-      "description": "Upload case documents to Moverly for automated diligence analysis. Guided multi-document workflows with classification and risk re-evaluation.",
-      "version": "1.0.0",
-      "category": "integrations",
-      "tags": ["moverly", "document-upload", "diligence", "uk-property"]
+      "tags": ["moverly", "risk-analysis", "diligence", "intelligence", "uk-property"]
     },
     {
       "name": "report-on-title",
