@@ -1,36 +1,47 @@
-I'll assess the lease impact for your buyer using the lease impact advisor.
+**Good news - this is a GREEN band lease with minimal concerns.**
 
-Let me run the analysis for a 95-year lease:
+Let me run the assessment:
 
 ```bash
 bash scripts/lease-calc.sh 95
 ```
 
-**Assessment: GREEN BAND - No concerns**
+## Saleability Assessment
 
-## Saleability Impact
-- **Risk Level**: None
-- **Buyer Pool**: Unrestricted - all mortgage lenders will accept
-- **Price Impact**: No discount expected
-- **Marketing**: No lease-related complications
+**Risk Level: GREEN** ✅
+- **95 years remaining** puts this in the safe zone
+- **No marriage value applies** (only kicks in below 80 years)
+- **Full buyer pool available** - no restrictions
+- **All mainstream lenders will accept** this lease length
 
 ## Lender Eligibility
-With 95 years remaining, this lease is **well above all mainstream lender thresholds**:
 
-✅ **All major lenders ELIGIBLE** including:
-- Nationwide (requires 55+ years)
-- Barclays, Halifax, Lloyds (require 70+ years) 
-- Virgin Money (requires 85+ years - the strictest mainstream lender)
-- Santander, HSBC, NatWest (all comfortably satisfied)
+Your buyer will have **full choice of mortgage lenders**:
 
-Even with a 30-year mortgage, there would be 65 years remaining at redemption - exceeding all end-of-term requirements.
+- ✅ **Nationwide**: Accepts (55yr minimum)
+- ✅ **Halifax**: Accepts (70yr minimum) 
+- ✅ **Barclays**: Accepts (70yr minimum)
+- ✅ **Santander**: Accepts (varies but well above threshold)
+- ✅ **HSBC**: Accepts (50yr + mortgage term minimum)
+- ✅ **All other mainstream lenders**: Accept
 
-## Extension Considerations
-- **No immediate need** - lease is in the optimal range
-- **Marriage value**: Won't apply (only kicks in under 80 years)
-- **Future planning**: Consider extension when it drops to around 85-90 years to maintain maximum value
+Even with a 25-year mortgage, the lease would have 70 years remaining at redemption - comfortably above all lender requirements.
 
-## Recommendation
-**Proceed with confidence.** This is an excellent lease length that won't restrict your buyer's financing options or affect the property value. No action needed before completion.
+## Should You Still Consider Extension?
 
-The only thing to verify through conveyancing is the ground rent provisions - ensure there are no unusual escalation clauses that might affect future saleability, but the lease length itself is perfect.
+**While not urgent, extension is still worth considering for future value protection:**
+
+- The lease continues to depreciate year-on-year
+- **No marriage value applies** at 95 years, making extension cheaper now than later
+- Extending now adds 90 years (to ~185 years total) and reduces ground rent to peppercorn
+- **Future-proofs the investment** - when you come to sell in 10-15 years, you'll still have a premium-length lease
+
+## Bottom Line
+
+**No concerns for your buyer's purchase.** This lease length won't affect:
+- Mortgage availability
+- Property value
+- Speed of sale
+- Buyer pool
+
+The transaction can proceed without any lease-related complications. If they want extension advice for long-term value protection, suggest they discuss with a specialist lease extension solicitor after completion.

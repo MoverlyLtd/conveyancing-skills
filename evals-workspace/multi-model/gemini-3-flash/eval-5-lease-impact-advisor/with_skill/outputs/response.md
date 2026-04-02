@@ -1,36 +1,37 @@
-Based on a lease length of **95 years**, here is an assessment of the impact on saleability and mortgage availability.
+Based on a current unexpired term of **95 years**, here is the assessment of the property's saleability and mortgage impact.
 
-### **The Verdict: Green Light (No Concern)**
+### **1. Risk Assessment: GREEN**
+A 95-year lease is considered a "safe" length for all parties. It will not restrict the buyer pool and will not negatively impact the current market value of the property.
 
-A 95-year lease is considered a "clean" length in the current market. You should have no issues with saleability, and the property will be attractive to the widest possible pool of buyers.
+### **2. Mortgage Availability & Lender Thresholds**
+There are no immediate concerns regarding mortgageability. The property comfortably exceeds the minimum requirements for all major UK lenders. Specific thresholds include:
 
-| Risk Band | Years remaining | Saleability Impact |
-| :--- | :--- | :--- |
-| **GREEN** | **95 years** | **No impact.** All mainstream lenders accept. Full buyer pool available. |
+*   **Halifax:** Requires 70 years.
+*   **Barclays:** Requires 70 years.
+*   **Nationwide:** Requires 55 years (though 90 years for >85% LTV on second-hand flats).
+*   **Santander:** Minimum 55 years at the end of the mortgage term (referral usually required if under 82 years).
 
----
+With a standard 25-year mortgage, the lease would still have 70 years remaining at redemption, which is well within the safety margins for almost all lenders.
 
-### **1. Mortgage Eligibility**
-Virtually all UK lenders will accept a 95-year lease without issue. Most major lenders have minimum requirements far below this:
-*   **Barclays, Halifax, Lloyds, TSB:** Minimum 70 years.
-*   **Santander:** Generally requires 55–82 years depending on the mortgage term.
-*   **Nationwide:** Minimum 55 years (though they prefer more for high LTV).
-*   **Virgin Money:** One of the strictest, requiring 85 years—which this lease comfortably exceeds.
+### **3. Marriage Value & Extension Costs**
+Because the lease is **above 80 years**, **no marriage value applies**. 
 
-Even with a standard 25nd-year mortgage term, the lease would still have **70 years remaining at the end of the mortgage**, which satisfies almost every lender's "end-of-term" requirement (which usually ranges from 30 to 50 years).
+Marriage value is the 50% share of the "profit" from the extension that must be paid to the freeholder under the Leasehold Reform Act 1993, but this only kicks in once the lease drops below 80 years. This makes extending now significantly cheaper than waiting until the term hits the 79-year mark.
 
-### **2. Saleability and Value**
-*   **Buyer Pool:** You have access to 100% of the market, including first-time buyers and those using high-LTV (90-95%) mortgages.
-*   **Pricing:** There is no "short lease discount" applicable here. The property should achieve its full market value.
+### **4. Future Value Protection**
+While there is no immediate "problem," a lease is a depreciating asset. It is still worth considering a lease extension for future value protection:
 
-### **3. Future Planning (The 80-Year Rule)**
-While 95 years is safe now, the "point of concern" for leasehold properties is **80 years**. Once a lease drops below 80 years:
-*   **Marriage Value** kicks in, significantly increasing the cost of a lease extension (you must pay the landlord 50% of the "profit" gained by extending the lease).
-*   The **Leasehold and Freehold Reform Act 2024** is set to abolish marriage value, but this part of the law is **not yet in force**.
+*   **Cost Efficiency:** It is cheaper to extend a 95-year lease than an 81-year lease.
+*   **Ground Rent:** A statutory extension will reduce the ground rent to a "peppercorn" (zero), which is increasingly important as lenders become stricter about ground rent escalation clauses.
 
-**Recommendation:** If the buyer intends to keep the property for a long time (10+ years), they should be aware that the cost to extend will rise sharply once the lease hits that 80-year mark. It is often cheaper and easier to extend while the lease is still in the 90s.
+### **5. Extension Options**
+If the buyer wishes to proceed with an extension, they have three primary routes to discuss with their specialist lease extension solicitor:
 
-### **Next Steps**
-To give you a more detailed breakdown, including an **estimated cost for a lease extension** (should the buyer want to top it back up to 125 or 999 years), please provide the **estimated property value**.
+1.  **Statutory Section 42 Claim:** After owning the property for two years, the buyer has a legal right to add 90 years to the current term and reduce ground rent to zero.
+2.  **Informal/Voluntary Negotiation:** The buyer can approach the freeholder at any time (no two-year wait) to negotiate new terms. However, the freeholder is not obliged to offer the same "peppercorn" ground rent or 90-year term.
+3.  **Assigning the Benefit:** If the current owner has lived there for two years, they can start the formal Section 42 process and "assign the benefit" to the buyer, allowing the buyer to bypass the two-year waiting period.
 
-*Note: This assessment focuses on lease length. You should also ensure your conveyancer checks for "onerous ground rent" (e.g., ground rent that doubles every 10-15 years), as this can occasionally affect lender appetite even on long leases.*
+### **Summary for the Buyer**
+There is no reason to be concerned about a 95-year lease today. However, the buyer should be aware that the cost of extension will rise significantly once the lease drops below 80 years. They should plan to look at extending within the next 10–15 years to keep the asset "prime."
+
+*If you can provide the **estimated property value**, I can provide a rough estimate of what the lease extension might cost at this stage.*

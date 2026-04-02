@@ -1,31 +1,26 @@
-Based on the **UK Finance Lender’s Handbook (Part 1, Section 5.14.1)** and the specific **Part 2** requirements for these lenders, here is the assessment for a property with **72 years** remaining on the lease:
+Based on the **UK Finance Lender's Handbook**, here is the eligibility assessment for a leasehold property with **72 years** remaining for the requested lenders.
 
-### 1. Halifax
-*   **Requirement:** Halifax requires a minimum of **70 years** remaining on the lease at the start of the mortgage.
-*   **Verdict:** **Acceptable.** Since there are 72 years remaining, the property meets their minimum threshold.
+### **Eligibility Assessment**
 
-### 2. Nationwide Building Society
-*   **Requirement:** Nationwide requires that the unexpired lease term must be at least **30 years at the end of the mortgage term**.
-*   **Verdict:** **Acceptable (depending on mortgage term).**
-    *   If the borrower takes a 25-year mortgage: 72 - 25 = 47 years remaining (Passes).
-    *   If the borrower takes a 40-year mortgage: 72 - 40 = 32 years remaining (Passes).
-    *   *Note:* The property would only fail if the mortgage term exceeded 42 years (which is uncommon).
-
-### 3. Barclays Bank UK PLC
-*   **Requirement:** Barclays requires a minimum unexpired lease term of **70 years** at the start of the mortgage.
-*   **Verdict:** **Acceptable.** Since there are 72 years remaining, the property meets their minimum threshold.
+*   **Halifax: YES**
+    The remaining term of 72 years exceeds Halifax’s minimum requirement of **70 years**.
+*   **Nationwide: YES**
+    The remaining term of 72 years significantly exceeds Nationwide’s minimum requirement of **55 years**. Nationwide is currently one of the most permissive major lenders regarding lease length.
+*   **Barclays: YES**
+    The remaining term of 72 years exceeds Barclays’ minimum requirement of **70 years**.
+*   **Santander: YES** (for comparison)
+    The remaining term of 72 years exceeds Santander’s minimum requirement of **55 years**.
 
 ---
 
-### Summary Table
+### **Handbook Covenants & Requirements**
 
-| Lender | Requirement (HB 5.14.1) | 72 Years Remaining? |
-| :--- | :--- | :--- |
-| **Halifax** | Min. 70 years at start | **Yes** |
-| **Nationwide** | Min. 30 years at end of mortgage term | **Yes** (for most terms) |
-| **Barclays** | Min. 70 years at start | **Yes** |
+*   **General Requirement (Part 1, Section 5.14.1):** This section states that the conveyancer must ensure the unexpired lease term meets the lender's specific minimum requirements. If the term is shorter than the lender's threshold, it must be reported to the lender before completion.
+*   **Lender-Specific Requirements (Part 2, Section 5.14.1):** This is where each individual lender sets their specific year-count threshold.
+*   **Reporting Obligations (Part 1, Section 2.3):** If a lease falls below these specific Part 2 thresholds, you **must** report this to the lender before exchange of contracts and cannot proceed until written instructions are received.
 
-### Important Conveyancing Reminders:
-*   **Short Lease Warning:** While these lenders will technically lend at 72 years, the property may become difficult to remortgage or sell once the lease drops below 70 or 80 years (due to marriage value kicking in for lease extensions). You should advise the borrower regarding the potential future cost of a lease extension.
-*   **Valuation:** Even if the lender's *legal* requirement is met, the **Valuer** may still flag the lease length as a matter affecting value or marketability (HB 4.2). If the valuer notes the lease is too short, the lender may decline despite the Part 2 rules.
-*   **Reporting:** If the mortgage term requested by the borrower would result in a breach of the "term remaining at expiry" rule (specifically for Nationwide), you must report this to the lender immediately.
+### **Additional Leasehold Checks (Part 1)**
+While the term length is acceptable for these lenders, you must also ensure the lease complies with other Section 5.14 requirements, including:
+*   **Section 5.14.9:** Ensure any ground rent increases are periodic, fixed, or readily established and do not materially affect the value of the property.
+*   **Section 5.14.2:** Confirm there is no forfeiture provision on the insolvency of the tenant or any superior tenant.
+*   **Section 9.14 (BSA 2022):** If the property is in a building over 11 metres or 5 storeys, you must obtain the necessary Landlord's Certificate and Leaseholder Deed of Certificate.

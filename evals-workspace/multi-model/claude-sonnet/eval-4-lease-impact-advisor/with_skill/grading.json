@@ -3,32 +3,32 @@
     {
       "expectation": "Response identifies 68 years as a critical lease length issue",
       "pass": true,
-      "reason": "Clearly states 'Risk Assessment: CRITICAL' and 'This lease is in the critical zone'"
+      "reason": "Explicitly states 'CRITICAL RISK' and 'falls into the CRITICAL risk band' with clear warnings"
     },
     {
       "expectation": "Response mentions specific lender names and their minimum requirements (not just 'most lenders want 70+ years')",
       "pass": true,
-      "reason": "Lists specific lenders with requirements: Nationwide (55), NatWest (55+), HSBC (50+), Barclays/Halifax/Lloyds/TSB (70+), Virgin Money (85+)"
+      "reason": "Lists specific lenders by name with exact requirements: Halifax, Barclays, Lloyds (70+), Nationwide (55+), NatWest (55+), etc."
     },
     {
       "expectation": "Response mentions marriage value applies below 80 years",
       "pass": true,
-      "reason": "States 'At 68 years, marriage value applies heavily' and includes it in cost calculations"
+      "reason": "Explicitly states 'marriage value applies (kicks in below 80 years)' and includes it in cost calculations"
     },
     {
       "expectation": "Response discusses lease extension options (statutory Section 42, informal, assign benefit)",
       "pass": true,
-      "reason": "Covers all three: 'Statutory route (Section 42 notice)', 'Informal negotiation', and 'Assign benefit'"
+      "reason": "Covers all three options: Section 42 statutory route, informal negotiation, and assign benefit to buyer with details"
     },
     {
       "expectation": "Response quantifies the price impact (discount percentage or range)",
       "pass": true,
-      "reason": "States 'Expect 15-25% discount vs comparable long lease properties'"
+      "reason": "States 'Expect 15-25% discount vs. comparable long-lease properties' and mentions 20-30% reduced buyer pool"
     },
     {
       "expectation": "Response mentions reduced buyer pool due to mortgage restrictions",
       "pass": true,
-      "reason": "States 'Buyer pool: Reduced by 60-70%' and 'You're looking at specialist lenders or cash buyers primarily'"
+      "reason": "Explicitly states 'roughly 20-30% of the normal buyer pool' and explains mortgage-related restrictions"
     }
   ],
   "total_pass": 6,

@@ -2,31 +2,31 @@
   "grades": [
     {
       "expectation": "Response gives specific minimum lease length for Halifax (70 years)",
-      "pass": false,
-      "reason": "Response states Halifax 'commonly requires a higher minimum unexpired term than 72 years' but doesn't specify the actual 70-year requirement"
+      "pass": true,
+      "reason": "Clearly states 'Halifax minimum is 70 years'"
     },
     {
       "expectation": "Response gives specific minimum lease length for Nationwide (55 years)",
-      "pass": false,
-      "reason": "Response states Nationwide 'typically requires a minimum term above this level' but doesn't specify the actual 55-year requirement"
+      "pass": true,
+      "reason": "Clearly states 'Nationwide minimum is 55 years'"
     },
     {
       "expectation": "Response gives specific minimum lease length for Barclays (70 years)",
-      "pass": false,
-      "reason": "Response suggests Barclays is 'more likely to be considered' but doesn't specify the actual 70-year requirement"
+      "pass": true,
+      "reason": "Clearly states 'Barclays minimum is 70 years'"
     },
     {
       "expectation": "Response provides a clear yes/no eligibility answer for each lender at 72 years",
       "pass": true,
-      "reason": "Provides clear answers: Halifax and Nationwide 'likely problem', Barclays 'more likely to be considered but still may not be acceptable'"
+      "reason": "Provides explicit 'YES' answers for all three lenders with mathematical justification"
     },
     {
       "expectation": "Response cites Part 2 as the source (not general knowledge)",
       "pass": true,
-      "reason": "Explicitly references UK Finance Lenders' Handbook Part 1 para 5.14.1 and Part 2, advising to check each lender's Part 2"
+      "reason": "Explicitly references 'lender-specific Part 2 requirement' and 'Part 1 HB 5.14.1 tells you to check Part 2'"
     }
   ],
-  "total_pass": 2,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 40
+  "score_pct": 100
 }

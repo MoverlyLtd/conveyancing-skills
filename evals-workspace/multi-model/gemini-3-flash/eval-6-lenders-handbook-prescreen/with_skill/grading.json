@@ -3,30 +3,30 @@
     {
       "expectation": "Response cites specific Handbook Part 1 section numbers (5.14 for leasehold, 5.5 for building regs)",
       "pass": true,
-      "reason": "Correctly cites Part 1 Section 5.14.1 for leasehold and Sections 5.5.1 & 5.5.2 for building regulations"
+      "reason": "Correctly cites Part 1, Section 5.14.1 for leasehold and Section 5.5.1 for building regulations"
     },
     {
       "expectation": "Response mentions Part 2 lender-specific requirements for lease length",
       "pass": true,
-      "reason": "Explicitly references Part 2, Section 5.14.1 for lender-specific lease requirements and mentions checking specific lender's Part 2 response"
+      "reason": "Explicitly references Part 2 requirements and provides specific examples of different lenders' minimum lease terms"
     },
     {
       "expectation": "Response discusses building regulations enforcement period (4-year/10-year thresholds)",
-      "pass": false,
-      "reason": "Mentions 12-month enforcement period under Section 36 of Building Act 1984 but does not discuss the standard 4-year/10-year enforcement thresholds typically relevant to conveyancing"
+      "pass": true,
+      "reason": "Clearly explains the 4-year rule for building works enforcement and mentions the 10-year rule for other breaches"
     },
     {
       "expectation": "Response mentions indemnity insurance as potential resolution for building regs",
       "pass": true,
-      "reason": "Clearly mentions indemnity insurance as a resolution option and references Part 2 Section 5.4.5 regarding insurance in lieu of missing documents"
+      "reason": "Discusses indemnity insurance as standard resolution and mentions specific policy requirements including lender acceptance criteria"
     },
     {
       "expectation": "Response does NOT just give generic advice \u2014 provides handbook-specific guidance",
       "pass": true,
-      "reason": "Provides detailed handbook-specific guidance with precise section references, specific requirements, and structured decision-making process rather than generic conveyancing advice"
+      "reason": "Response is specifically structured around Handbook sections with detailed citations and lender-specific examples rather than generic conveyancing advice"
     }
   ],
-  "total_pass": 4,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 80
+  "score_pct": 100
 }

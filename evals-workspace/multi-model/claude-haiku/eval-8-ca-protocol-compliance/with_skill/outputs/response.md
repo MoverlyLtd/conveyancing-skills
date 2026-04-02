@@ -1,16 +1,16 @@
-According to the Conveyancing Association (CA) Protocol, there are several steps you can take to address delays caused by the other side not responding to enquiries:
+Okay, let's review the relevant sections of the Conveyancing Association (CA) Protocol on reducing transaction delays:
 
-CA 1.0 Communication:
-- Make sure you are using electronic communication (secure portal or encrypted email) as the first choice for correspondence.
-- Respond promptly to the other side and use phone calls to resolve complex issues rather than protracted email exchanges.
-- Maintain regular updates to the other lawyer and estate agent on progress.
-- Request full chain information and Material Information from the estate agent to understand any potential delays.
+1.0 Communication:
+- The protocol states you should work cooperatively with the other side and respond promptly to their enquiries. You should aim to respond within 5 working days.
+- You should also maintain regular updates to the other lawyer and estate agent about progress.
 
-CA 2.4 Raising Enquiries:
-- Raise enquiries at the earliest stage possible and implement a supervisor review process to catch any issues early.
-- Avoid requesting retentions under £200 and instead rely on the Standard Conditions of Sale.
+2.4 Raising Enquiries:
+- The protocol recommends raising enquiries at the earliest stage possible and implementing supervisor reviews at regular stages to catch issues early.
 
-CA 3.0 Post-Completion:
-- The seller's lawyer should assist with Land Registry requisitions cooperatively and promptly after completion.
+If the other side is not responding in a timely manner, the protocol outlines an escalation process:
 
-The key is to be proactive in your communication, raise issues early, and work collaboratively with the other side to avoid unnecessary delays. If the other side continues to be unresponsive, you may need to escalate the matter or consider other options available under the protocol.
+1. First, raise the delay with the fee earner handling the matter on the other side.
+2. If that does not resolve it, you should raise the issue with a senior partner or the compliance officer at the other firm. 
+3. If the matter still cannot be resolved, you should consider referring the issue to the relevant regulatory body (SRA or CLC).
+
+The key is to document your attempts to engage with the other side and follow the escalation steps outlined in the CA Protocol. This demonstrates you are acting in accordance with the protocol to try to progress the transaction.

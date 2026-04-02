@@ -3,22 +3,22 @@
     {
       "expectation": "Response provides a structured checklist of pre-exchange items",
       "pass": true,
-      "reason": "Clear Stage B Pre-Exchange checklist with organized bullet points for buyer and seller sides"
+      "reason": "Clear structured checklists with status tracking for both buyer and seller sides"
     },
     {
       "expectation": "Response mentions specific protocol stages or sections",
       "pass": true,
-      "reason": "Explicitly references Stage B (Pre-Exchange), Stage C (Exchange), General obligations, and specific paragraph numbers throughout"
+      "reason": "Explicitly references Stage B, General paras (a)-(l), and specific paragraph numbers throughout"
     },
     {
       "expectation": "Response covers key items: searches currency, mortgage offer, deposit, insurance, signed contracts",
       "pass": true,
-      "reason": "Covers all key items: searches (Stage B para 11), mortgage offer (Stage B para 12), deposit (Stage B para 9), insurance (Stage C para 8), signed contracts (Stage B para 8)"
+      "reason": "All key items covered - searches with 6-month currency note, mortgage offer conditions, deposit as cleared funds, insurance from exchange, signed contracts"
     },
     {
       "expectation": "Response references the protocol as source (not just general best practice)",
       "pass": true,
-      "reason": "Explicitly states 'Law Society protocol', mentions 'Protocol-compliant', cites specific protocol stages and paragraph numbers, and notes to defer to latest published Protocol"
+      "reason": "Consistently references Law Society Conveyancing Protocol (2019) with specific paragraph citations throughout"
     }
   ],
   "total_pass": 4,

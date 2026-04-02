@@ -1,37 +1,36 @@
-The CA Protocol has several provisions to address delays from unresponsive parties:
+The CA Protocol has specific requirements for communication timeframes and escalation procedures when the other side isn't responding to enquiries:
 
-## Communication Standards (CA Protocol 1.0)
+## Communication Timeframes (CA Protocol 1.0)
 
-The Protocol emphasizes **cooperative working** between both sides:
-- Respond promptly to enquiries and communications
-- Use phone calls to resolve complex issues rather than protracted email exchanges
-- Work on a regular diarised file review cycle
-- Maintain regular updates to the other lawyer and estate agent
+**The other side must:**
+- **Respond to enquiries within 5 working days**
+- **Acknowledge correspondence within 2 working days**
+- **Provide weekly updates if no substantive response is possible**
 
-## Escalation Steps
+## Your Next Steps
 
-1. **Phone First**: Instead of sending follow-up emails, call the other side directly to discuss outstanding enquiries and agree realistic timescales
+1. **Check timing** - Have they exceeded the 5 working day response deadline?
 
-2. **Request Chain Information**: Ask the estate agent for full chain information to understand if delays are coming from elsewhere in the chain
+2. **Document the delay** - Keep records of when enquiries were sent and any lack of response
 
-3. **Regular File Review**: Implement supervisor review at regular stages to catch issues early (CA Protocol 2.4)
+3. **Use phone contact** - The protocol encourages using phone calls to resolve complex issues rather than protracted email exchanges
 
-4. **Estate Agent Involvement**: Keep the estate agent updated - they have a vested interest in progressing the transaction and can apply pressure
+4. **Request regular updates** - They should be providing weekly progress updates if they can't give a full response
 
-## Setting Expectations
+## Escalation Process (CA Protocol 1.0-1.3)
 
-The Protocol acknowledges that:
-- Each transaction must be judged on its merits
-- Electronic communication should be the first choice
-- Proper cover for staff absences is essential (CA Protocol 1.2)
+If delays continue, escalate through these steps:
+1. **Raise with the fee earner** handling the file
+2. **Raise with senior partner/compliance** at their firm
+3. **Refer to their regulatory body** (SRA or CLC)
 
-## Practical Actions
+## Your Obligations
 
-- Send a polite but firm email summarizing outstanding enquiries with reasonable deadlines
-- Copy in the estate agent
-- Follow up with a phone call
-- Consider whether any enquiries can be resolved through alternative means (e.g., indemnity insurance)
+Remember you also have duties under the protocol:
+- Maintain regular updates to your client and estate agent
+- Work cooperatively with the other side
+- Limit enquiries to those relating to title or required by your client/lender (CA Protocol 2.0)
 
-The Protocol's emphasis is on **cooperation and prompt response** - you're well within your rights to expect timely replies and can escalate through the estate agent if necessary.
+The protocol emphasizes that lawyers should "work cooperatively with the other side" and "respond promptly" - persistent delays without explanation breach these core requirements.
 
-Would you like me to help draft a follow-up communication or discuss specific enquiries that might be causing delays?
+**Ref: CA Protocol 1.0, 1.3, 2.0**

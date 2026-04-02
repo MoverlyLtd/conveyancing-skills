@@ -1,26 +1,24 @@
-Okay, to check your conveyancing process against the Law Society Conveyancing Protocol for the exchange stage, here is the relevant checklist:
+Okay, let's go through the key pre-exchange checklist items from the Law Society Conveyancing Protocol:
 
-Stage C: Exchange
+Conveyancing Protocol Checklist - Pre-Exchange (Stage B)
 
-| # | Item | Seller | Buyer |
-|---|------|--------|-------|
-| C1 | Exchange contracts using agreed formula | ✓ | ✓ |
-| C2 | Confirm exchange to client immediately | ✓ | ✓ |
-| C3 | Send deposit to seller's conveyancer (or confirm held as stakeholder) | — | ✓ |
-| C4 | Notify estate agent of exchange | ✓ | — |
-| C5 | Submit certificate of title to lender | — | ✓ |
-| C6 | Prepare completion statement | ✓ | — |
-| C7 | Prepare transfer deed for execution | ✓ | ✓ |
-| C8 | Arrange buildings insurance from exchange | — | ✓ |
+1. Searches currency (within 6 months) - Check ✓
+2. Mortgage offer (valid and conditions met) - Check ✓ 
+3. Deposit (cleared funds confirmed) - Check ✓
+4. Buildings insurance (arranged to start from exchange/completion) - Check ✓
+5. Signed contracts (by all parties) - Check ✓
+6. Title checks complete - Check ✓
+7. Replies to enquiries satisfactory - Check ✓
 
-The key things to check at the exchange stage are:
+Protocol Ref: Stage B, paras 3, 11, 12
 
-- Have you and the other side exchanged contracts using the agreed formula?
-- Have you immediately confirmed exchange to your client?
-- If you're the buyer's conveyancer, have you sent the deposit to the seller's conveyancer (or confirmed it's held as stakeholder)?
-- If you're the seller's conveyancer, have you notified the estate agent of the exchange?
-- If you're the buyer's conveyancer, have you submitted the certificate of title to the lender?
-- Have you prepared the completion statement and transfer deed for execution?
-- If you're the buyer's conveyancer, have you arranged buildings insurance from the exchange date?
+The key things to confirm before exchange are:
+- All searches are up-to-date and satisfactory
+- The mortgage offer is valid and any conditions have been met
+- Deposit funds have been confirmed as cleared
+- Buildings insurance is in place to start from exchange/completion
+- The contract has been signed by all parties
+- Title checks have been completed and any issues resolved
+- All raised enquiries have been satisfactorily answered
 
-Let me know if you need any clarification or have additional questions!
+As long as all these items are in order, you should be ready to proceed to exchange contracts in line with the Law Society Conveyancing Protocol. Let me know if you need any clarification or have additional questions!

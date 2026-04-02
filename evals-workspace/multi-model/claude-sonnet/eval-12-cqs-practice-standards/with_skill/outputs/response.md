@@ -1,102 +1,102 @@
-For your CQS renewal audit, the assessor will focus on these key areas with specific evidence requirements:
+For your CQS renewal audit next month, the assessor will focus on **firm-level practice management standards** (this is separate from individual SRA competence requirements). Here are the key areas and evidence you need ready:
 
-## Priority Areas (Most Heavily Scrutinised)
+## High-Priority Areas (Most Heavily Scrutinised)
 
-### 1. Governance & Leadership
+### 1. **Governance & Organisation**
 **What they'll check:**
-- Your designated Senior Responsible Officer is clearly identified
+- Your designated CQS Senior Responsible Officer is clearly identified
 - Written procedures exist for monitoring protocol compliance
-- Regular compliance reviews are documented
+- Staff awareness of CQS standards
 
 **Evidence needed:**
-- SRO appointment letter with contact details
-- Documented compliance monitoring procedures
-- Meeting minutes showing regular CQS standard reviews
-- Staff awareness records of CQS requirements
+- Named SRO with current contact details
+- Documented procedures for protocol compliance monitoring
+- Training records showing all conveyancing staff know CQS standards
+- Minutes from compliance review meetings
 
-### 2. Risk Management & AML
+### 2. **Risk Management** 
 **What they'll check:**
-- Current AML policy matches latest regulations
-- Client due diligence procedures are robust
-- Source of funds verification is documented
-- Conflict checking systems are operational
+- AML procedures are current and being followed
+- Fraud prevention measures are in place
+- Conflict checking systems work
 
 **Evidence needed:**
-- Updated AML risk assessment and policy
-- Sample CDD files showing ID verification
-- Source of funds verification examples
-- Conflict check register/system demonstration
-- Current PII certificate
+- Updated AML policy matching current regulations
+- Client ID verification records
+- Source of funds procedures with examples
+- Sanctions screening policy and provider details
+- Current conflict check system/register
+- Professional indemnity insurance certificate
 
-### 3. Information Security
+### 3. **Information Security**
 **What they'll check:**
-- Staff cyber security awareness (this is increasingly important)
-- Bank detail verification procedures
-- Secure communication methods
+- Cyber security awareness and procedures
+- Protection against fraud (especially payment diversion)
 - Data protection compliance
 
 **Evidence needed:**
-- Cyber security training records with dates
-- Bank detail verification procedure document
+- IT security policy
+- Staff training records on cyber risks (phishing, BEC, payment fraud)
+- Bank detail verification procedures
+- GDPR-compliant privacy policy
+- Business continuity plan
 - Secure email/portal system details
-- GDPR compliance documentation
 
 ## Other Key Areas
 
-### 4. Training Records
-**Evidence needed:**
-- Current CQS mandatory training certificates for all staff
-- CPD records for conveyancing team
-- Training on recent regulatory changes
-- New starter induction checklists
+### **Training & Development**
+- Current CQS mandatory training certificates
+- CPD records for conveyancing staff
+- Training on regulatory changes
+- New starter induction records
 
-### 5. Client Care
-**Evidence needed:**
-- Written complaints procedure (displayed publicly)
-- Complaints register with resolution timescales
-- Client care procedure document
-- Sample engagement letters showing clear costs information
+### **Client Care**
+- Written complaints procedure (displayed to clients)
+- Complaints register with timely resolution evidence
+- Client care procedures and cost information templates
 
-### 6. File Management
-**Evidence needed:**
-- File review schedules and completed reviews
-- Undertakings register with status tracking
-- Post-completion procedure checklist
-- File retention policy
+### **File & Case Management**
+- File audit records
+- Undertakings register
+- Key dates monitoring system
+- Post-completion procedure checklists
 
-## Pre-Audit Checklist
+## Quick Audit Preparation Checklist
 
-**1 Week Before:**
-- [ ] Verify all training certificates are current and accessible
-- [ ] Check complaints register is up to date
-- [ ] Review AML policy against current regulations
-- [ ] Test staff knowledge of cyber security procedures
-- [ ] Ensure all file reviews are documented
+**Week 1:**
+- [ ] Verify all CQS training certificates are current
+- [ ] Update AML policy if needed
+- [ ] Check complaints register is up-to-date
+- [ ] Review cyber security training records
 
-**Key Questions to Ask Yourself:**
-- Can you quickly locate evidence for each requirement?
-- Are all training records current (not expired)?
-- Is your complaints procedure visible to clients?
-- Do staff know how to verify bank details securely?
-- Is your SRO clearly designated and contactable?
+**Week 2:**
+- [ ] Audit file review documentation
+- [ ] Check conflict checking system works
+- [ ] Verify all procedures reference current forms/protocols
+- [ ] Test staff knowledge of key procedures
 
-## Common Audit Findings
+**Week 3:**
+- [ ] Gather all evidence documents
+- [ ] Check SRO responsibilities are documented
+- [ ] Review business continuity plan
+- [ ] Final staff briefing on CQS awareness
 
-Be particularly careful about:
-- **Expired training** - especially cyber security awareness
-- **Incomplete complaints records** - missing resolution dates
-- **Outdated procedures** - especially AML and cyber security
-- **Poor documentation** - of file reviews and compliance monitoring
+**Week 4:**
+- [ ] Final document check
+- [ ] Ensure all systems accessible for assessor
+- [ ] Brief reception/support staff on assessor visit
 
-## Quick Wins
+## Key Distinction
 
-If you're short on time, prioritise:
-1. Updating any expired training certificates
-2. Documenting recent compliance review meetings
-3. Ensuring cyber security procedures are written down
-4. Checking your complaints procedure is displayed
-5. Verifying your AML risk assessment reflects current guidance
+Remember: CQS accredits your **firm's systems and processes** for quality conveyancing delivery. This is separate from SRA regulation of individual solicitor competence. The assessor will focus on whether your firm has robust procedures and evidence of following them, not individual lawyer capabilities.
 
-The assessor will want to see that CQS standards are embedded in your daily practice, not just documented. Be prepared to explain how your procedures work in practice, not just show that they exist on paper.
+## Red Flags to Avoid
 
-Would you like me to help you focus on any specific area where you're concerned about your evidence?
+- Expired training certificates
+- Gaps in complaints handling
+- Outdated AML procedures
+- Missing file audit records
+- No evidence of staff CQS awareness
+- Unclear SRO responsibilities
+
+Would you like me to focus on any specific area where you're concerned about your current evidence?

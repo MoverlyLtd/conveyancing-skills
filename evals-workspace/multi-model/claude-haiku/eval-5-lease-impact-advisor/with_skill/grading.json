@@ -3,30 +3,30 @@
     {
       "expectation": "Response identifies 95 years as relatively safe for most lenders",
       "pass": true,
-      "reason": "Clearly states 95 years is GREEN risk band with no impact on mortgage eligibility and all mainstream lenders will accept"
+      "reason": "Clearly states it's in 'GREEN risk band' with no impact on mortgage availability and lists major lenders that will accept it"
     },
     {
       "expectation": "Response notes no marriage value applies (above 80 years)",
       "pass": false,
-      "reason": "Does not explicitly mention marriage value or explain the 80-year threshold significance regarding marriage value"
+      "reason": "Marriage value concept is not mentioned or explained anywhere in the response"
     },
     {
       "expectation": "Response mentions specific lender thresholds showing 95 years is acceptable",
       "pass": true,
-      "reason": "References 80-90 year threshold and states all mainstream lenders will accept 95 years"
+      "reason": "Explicitly lists major lenders (Nationwide, NatWest, HSBC, Barclays, Halifax, Lloyds, Santander) that will accept 95-year lease"
     },
     {
       "expectation": "Response suggests extension is still worthwhile for future value protection",
-      "pass": false,
-      "reason": "Actually suggests opposite - states no need to factor in cost of lease extension and recommends proceeding with confidence"
+      "pass": true,
+      "reason": "States 'extending the lease is still advisable to protect future value' and 'still worthwhile'"
     },
     {
       "expectation": "Response does NOT treat this as an urgent/critical issue",
       "pass": true,
-      "reason": "Treats as low-risk situation, describes as 'excellent result' and recommends proceeding with confidence"
+      "reason": "Concludes 'should not be a concern' and describes extension as 'not an urgent requirement'"
     }
   ],
-  "total_pass": 3,
+  "total_pass": 4,
   "total_expectations": 5,
-  "score_pct": 60
+  "score_pct": 80
 }

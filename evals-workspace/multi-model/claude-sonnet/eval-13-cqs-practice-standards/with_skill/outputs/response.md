@@ -1,62 +1,52 @@
-Here are the CQS-specific onboarding requirements for your new fee earner:
+For a new fee earner joining your CQS-accredited firm, you have specific **firm-level CQS onboarding requirements** that go beyond standard SRA individual competence obligations:
 
-## Immediate Requirements (Week 1)
+## CQS Mandatory Onboarding Elements
 
-**CQS Standards Awareness (Standard 1.4)**
-- Introduce them to your firm's CQS Senior Responsible Officer (SRO)
-- Provide copies of the Law Society Conveyancing Protocol (2019 edition)
-- Share your firm's written procedures for protocol compliance
-- Explain their role in maintaining CQS accreditation
+### 1. **CQS Standards Awareness** (Standard 1.4)
+- **Law Society Conveyancing Protocol** — complete training on all stages
+- **Your firm's CQS procedures** — how you implement protocol requirements
+- **CQS practice standards** — the 7 core areas your firm must maintain
+- **Evidence needed:** Training completion records with dates
 
-**Client Care Training (Standard 2.1-2.3)**
-- Review your client care procedures document with them
-- Show them your standard costs information templates
-- Explain your client communication policy and progress reporting requirements
-
-## Within First Month
-
-**Risk Management Training (Standards 4.1-4.7)**
-- Anti-money laundering policy and procedures
-- Client identification and verification requirements
-- Source of funds/wealth checking procedures
-- Sanctions screening process
-- Fraud awareness training (particularly fund diversion and BEC scams)
-- Conflict of interest checking procedures
-
-**Information Security (Standards 5.1-5.4)**
-- Cyber security policy training
-- Phishing and business email compromise awareness
-- Secure email/portal usage for sensitive communications
-- Bank details verification procedures (especially critical for completion)
-
-**Process Training (Standards 3.1-3.6)**
+### 2. **Firm-Specific Procedure Training** (Standard 6.5)
 - Your documented conveyancing process aligned with the Protocol
 - File review procedures at key transaction stages
-- Chain management procedures
-- Exchange and completion checklists and authorisation processes
-- Current property forms and standard conditions
+- Chain management and exchange/completion protocols
+- Your case management system and file standards
+- **Evidence needed:** Induction checklist completion
 
-## Documentation Required
+### 3. **Risk Management Training** (Standards 4.1-4.7)
+- **AML procedures** — your firm's CDD and source of funds policies
+- **Fraud awareness** — BEC, fund diversion, phishing recognition
+- **Sanctions screening** — your checking procedures
+- **Conflict checking** — your firm's system and process
+- **Evidence needed:** Training certificates, policy acknowledgments
 
-You must maintain evidence of:
-- **Induction checklist** completion (Standard 6.4)
-- **Training records** with specific dates and topics covered (Standards 6.1, 6.3)
-- **Internal training** on your firm's specific procedures (Standard 6.5)
+### 4. **Cyber Security Training** (Standards 5.1-5.3)
+- **Mandatory cyber awareness** covering phishing, BEC, fund diversion
+- **Secure communication** procedures (email encryption/portals)
+- **Bank detail verification** protocols for completion funds
+- **Evidence needed:** Cyber security training completion certificate
 
-## Key CQS Training Areas
+## Important Distinction
 
-Make sure they understand:
-1. **Their supervisor's identity** and supervision arrangements
-2. **File audit requirements** - they may be subject to regular file reviews
-3. **Complaints procedures** - both handling and learning from them
-4. **Undertakings register** - how to log and monitor undertakings
+**CQS firm requirements vs SRA individual requirements:**
+- **CQS:** Firm-wide training on protocol compliance and practice standards
+- **SRA:** Individual solicitor competence, CPD, and regulatory compliance
+- The fee earner needs **both** — but CQS focuses on your firm's systems and processes
 
-## Ongoing Requirements
+## Timeline Requirements
 
-- Plan their **CPD schedule** (Standard 6.2)
-- Ensure they complete any **CQS mandatory training** within required timescales
-- Include them in **regulatory update training** as changes occur
+- **CQS training:** Should be completed within first month
+- **Protocol training:** Must be completed before handling transactions independently
+- **Your firm's induction programme:** As per your documented procedure (Standard 6.4)
 
-The key is documenting everything - CQS auditors will want to see evidence that new staff received comprehensive training on both the Protocol requirements and your firm's specific CQS compliance procedures.
+## Documentation for CQS Audit
 
-Would you like me to help you create a specific induction checklist template for CQS compliance?
+Ensure you record:
+- Training completion dates and certificates
+- Completed induction checklist
+- Policy acknowledgment forms
+- Assigned supervisor details (Standard 3.3)
+
+Would you like me to detail any specific training area, or help you review your current induction checklist against CQS requirements?

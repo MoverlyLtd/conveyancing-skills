@@ -3,30 +3,30 @@
     {
       "expectation": "Response references the CLC Accounts Code or subsidiary code",
       "pass": true,
-      "reason": "Explicitly mentions 'Accounts Code' multiple times and references specific ACC1-ACC4 provisions"
+      "reason": "Clearly identifies CLC Accounts Code as subsidiary code under CLC Code of Conduct"
     },
     {
       "expectation": "Response mentions specific obligations: designated client account, reconciliation, interest",
       "pass": true,
-      "reason": "Clearly covers all three: designated client accounts (ACC1), regular reconciliation (ACC2), and interest handling (ACC3)"
+      "reason": "Explicitly covers all three: designated client account (ACC1), monthly reconciliation (ACC2), and interest handling (ACC3)"
     },
     {
       "expectation": "Response covers the requirement for accountant's reports",
       "pass": true,
-      "reason": "Explicitly mentions annual accountant's report requirement under ACC4 with details about qualified accountant preparation"
+      "reason": "Clearly states requirement for annual accountant's report to CLC (ACC4)"
     },
     {
       "expectation": "Response mentions that CLC Code of Conduct prevails where subsidiary codes conflict",
-      "pass": false,
-      "reason": "No mention of hierarchy between CLC Code of Conduct and subsidiary codes or conflict resolution"
+      "pass": true,
+      "reason": "Explicitly states hierarchy rule that Code of Conduct prevails over subsidiary codes when in conflict"
     },
     {
       "expectation": "Response distinguishes CLC client money rules from SRA Accounts Rules",
       "pass": true,
-      "reason": "Includes dedicated section highlighting CLC's outcomes-based approach vs SRA's prescriptive rules"
+      "reason": "Clear section distinguishing CLC Accounts Code from SRA Accounts Rules, noting different requirements and terminology"
     }
   ],
-  "total_pass": 4,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 80
+  "score_pct": 100
 }

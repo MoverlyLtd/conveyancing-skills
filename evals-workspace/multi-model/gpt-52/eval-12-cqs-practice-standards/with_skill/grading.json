@@ -3,32 +3,32 @@
     {
       "expectation": "Response covers multiple CQS practice areas (governance, client care, training, file management, cyber security)",
       "pass": true,
-      "reason": "Comprehensively covers all key areas including governance, client care, training, file management, cyber security, AML, conflicts, and more"
+      "reason": "Comprehensive coverage of 8 key areas including governance, client care, training, file management, and cyber security"
     },
     {
       "expectation": "Response mentions specific evidence types needed (e.g. training records, complaints log, SRO details)",
       "pass": true,
-      "reason": "Extensively details specific evidence needed including training records, complaints register, SRO appointment details, file review checklists, and many other specific documents"
+      "reason": "Detailed evidence lists for each area including training records, complaints register, SRO details, file review records, etc."
     },
     {
       "expectation": "Response references the Senior Responsible Officer (SRO) requirement",
       "pass": true,
-      "reason": "Explicitly mentions CQS Senior Responsible Officer (SRO) requirement with specific evidence needed including appointment and role description"
+      "reason": "Explicitly mentions 'CQS Senior Responsible Officer (SRO)' with deputies/cover in governance section"
     },
     {
       "expectation": "Response mentions protocol compliance monitoring as a CQS requirement",
       "pass": true,
-      "reason": "Covers protocol compliance monitoring through periodic CQS compliance reviews, action logs, internal audits, and conveyancing process alignment to Protocol stages"
+      "reason": "Clearly states need for Protocol compliance monitoring procedure and regular compliance reviews"
     },
     {
       "expectation": "Response covers cyber security / IT security requirements",
       "pass": true,
-      "reason": "Dedicated section on information security covering cyber controls, staff training, secure transmission methods, and specific evidence requirements"
+      "reason": "Dedicated section 6 on information security covering cyber policy, fraud prevention, phishing training, and Cyber Essentials"
     },
     {
       "expectation": "Response mentions file management and supervision requirements",
       "pass": true,
-      "reason": "Comprehensive coverage of supervision policy, file review processes, case management systems, and file retention requirements with specific evidence types"
+      "reason": "Section 2 covers supervision and file review requirements, Section 8 covers file/case management with detailed requirements"
     }
   ],
   "total_pass": 6,

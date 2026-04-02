@@ -3,27 +3,27 @@
     {
       "expectation": "Response cites specific Handbook Part 1 section numbers (5.14 for leasehold, 5.5 for building regs)",
       "pass": true,
-      "reason": "Correctly cites HB 5.14.1 for lease term and HB 5.5.1-5.5.2 for building regulations"
+      "reason": "Correctly cites HB 5.14.1 for leasehold and HB 5.5.1-5.5.2 for building regulations"
     },
     {
       "expectation": "Response mentions Part 2 lender-specific requirements for lease length",
       "pass": true,
-      "reason": "Explicitly states 'Check Part 2 for your lender's minimum term requirement' and mentions checking Part 2 for indemnity insurance acceptance"
+      "reason": "Explicitly states 'You'll need to check Part 2 for your specific lender's exact requirement' and later mentions checking 'Part 2 for your specific lender's approach'"
     },
     {
       "expectation": "Response discusses building regulations enforcement period (4-year/10-year thresholds)",
       "pass": true,
-      "reason": "Mentions '4 years for injunction proceedings' and '12 months for prosecution after discovery' - covers relevant enforcement periods"
+      "reason": "Clearly discusses the '4-year enforcement rule' and distinguishes between work completed >4 years ago vs <4 years ago"
     },
     {
       "expectation": "Response mentions indemnity insurance as potential resolution for building regs",
       "pass": true,
-      "reason": "Specifically discusses 'Building regulations indemnity policy' and references HB 9 requirements for lender protection"
+      "reason": "Multiple mentions of 'Indemnity insurance' as a solution, noting it's 'readily available and typically accepted by lenders'"
     },
     {
       "expectation": "Response does NOT just give generic advice \u2014 provides handbook-specific guidance",
       "pass": true,
-      "reason": "Uses Handbook decision tree analysis, cites specific sections, references reporting requirements per HB 2.3, and provides structured handbook-based approach"
+      "reason": "Response is specifically structured around Handbook sections, cites specific section numbers, and provides targeted advice based on Handbook requirements rather than general conveyancing guidance"
     }
   ],
   "total_pass": 5,

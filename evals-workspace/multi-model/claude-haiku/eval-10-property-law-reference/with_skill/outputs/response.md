@@ -1,17 +1,15 @@
-Okay, let's look up the information on restrictive covenants for freehold properties:
+Okay, let's look into the rules around restrictive covenants on freehold properties:
 
-According to the Law Society's guidance on restrictive covenants:
+According to the Law Society, restrictive covenants are obligations attached to the ownership of land that restrict how the land can be used. There are some key things to understand about restrictive covenants:
 
-"A restrictive covenant is a private legal agreement that restricts the use of land. Restrictive covenants may be found in the deeds or title documents of freehold and leasehold properties."
+1. Pre-1926 covenants are governed by common law and equity, and you have to show the covenant "touches and concerns" the land per the case of *Tulk v Moxhay*.
 
-The key points about restrictive covenants on freehold properties include:
+2. Post-1925 covenants are governed by Section 78 of the Law of Property Act 1925, which provides for automatic annexation of covenants to the land.
 
-- Restrictive covenants are legally binding and run with the land, meaning they apply to current and future owners.
-- Common types of restrictive covenants include restrictions on extensions, outbuildings, business use, and altering the property's appearance.
-- The person seeking to enforce a restrictive covenant must have "the benefit" of it, usually another property owner.
-- Restrictive covenants can sometimes be modified or discharged by application to the Upper Tribunal (Lands Chamber).
-- It's important to review the property deeds carefully to understand any restrictive covenants before purchasing a freehold property.
+3. If you want to modify or discharge a restrictive covenant, you can apply to the Upper Tribunal (Lands Chamber) under Section 84 of the Law of Property Act 1925.
 
-I would suggest discussing any specific restrictive covenants on your property with your conveyancer, as they will be able to advise on the details and implications. Let me know if you need any clarification or have additional questions!
+The Land Registry also has relevant guidance in Practice Guide 62 on the use of powers of attorney to deal with restrictive covenants.
 
-(Source: https://www.lawsociety.org.uk/topics/property/restrictive-covenants)
+I would suggest discussing the specific details of any restrictive covenants affecting your freehold property with your conveyancer. They will be able to advise you on the implications and options available.
+
+(Sources: https://www.lawsociety.org.uk/topics/property/restrictive-covenants, https://www.gov.uk/government/publications/powers-of-attorney-and-registered-land/practice-guide-62-powers-of-attorney-and-registered-land)

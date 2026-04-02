@@ -2,31 +2,31 @@
   "grades": [
     {
       "expectation": "Response gives specific minimum lease length for Halifax (70 years)",
-      "pass": false,
-      "reason": "Does not provide the specific 70-year minimum - only mentions checking 'Part 2 minimum' without stating the actual figure"
+      "pass": true,
+      "reason": "Clearly states 'Halifax's minimum is 70 years remaining'"
     },
     {
       "expectation": "Response gives specific minimum lease length for Nationwide (55 years)",
-      "pass": false,
-      "reason": "Does not provide the specific 55-year minimum - only mentions checking minimum term requirements without stating the actual figure"
+      "pass": true,
+      "reason": "Clearly states 'Nationwide's minimum is 55 years remaining'"
     },
     {
       "expectation": "Response gives specific minimum lease length for Barclays (70 years)",
-      "pass": false,
-      "reason": "Does not provide the specific 70-year minimum - only mentions checking 'Part 2 minimum' without stating the actual figure"
+      "pass": true,
+      "reason": "Clearly states 'Barclays' minimum is 70 years remaining'"
     },
     {
       "expectation": "Response provides a clear yes/no eligibility answer for each lender at 72 years",
-      "pass": false,
-      "reason": "Gives vague 'generally will lend' responses with conditions rather than clear yes/no answers based on the specific 72-year lease term"
+      "pass": true,
+      "reason": "Provides clear 'YES' answers for all three lenders with reasoning that 72 years exceeds each minimum"
     },
     {
       "expectation": "Response cites Part 2 as the source (not general knowledge)",
       "pass": true,
-      "reason": "Explicitly mentions 'Part 2 minimum lease term' and 'Part 2 requirements' as the source for lender criteria"
+      "reason": "Explicitly cites 'Part 2: lender-specific minimum lease term requirements' in sources section"
     }
   ],
-  "total_pass": 1,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 20
+  "score_pct": 100
 }

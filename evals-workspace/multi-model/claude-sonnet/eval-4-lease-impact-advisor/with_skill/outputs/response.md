@@ -1,80 +1,74 @@
-I'll assess the impact of that 68-year lease on your listing. Let me run the analysis:
+I'll assess the lease impact for your listing. Let me run the calculations for a 68-year lease on a £425,000 property.
 
 ```bash
 bash scripts/lease-calc.sh 68 425000 25
 ```
 
-## Risk Assessment: **CRITICAL**
+## **CRITICAL RISK** — Immediate Action Required
 
-This lease is in the critical zone and will significantly impact saleability and pricing.
+With only 68 years remaining, this lease falls into the **CRITICAL** risk band. This will significantly impact your sale.
 
-## Lender Eligibility
+### **Lender Eligibility — Severely Restricted**
 
-With 68 years remaining, your buyer pool is severely restricted:
+**INELIGIBLE** (decline or require extension before completion):
+- Halifax, Barclays, Lloyds, TSB, Virgin Money (all require 70+ years)
+- Coventry BS (70+ years requirement)
 
-**ELIGIBLE:**
-- Nationwide (minimum 55 years)
-- NatWest (needs 55+ years for 25-year mortgage)
-- HSBC (50 years after mortgage term, but must refer under 85 years)
+**MARGINAL** (may consider with referral):
+- Santander (complex criteria, likely referral needed)
+- HSBC (subject to valuer opinion, risky at 68 years)
 
-**INELIGIBLE:**
-- Barclays, Halifax, Lloyds, TSB (all need 70+ years)
-- Virgin Money (needs 85+ years)
-- Santander (complex rules but likely decline)
-- Coventry BS (needs 70+ years)
+**ELIGIBLE**:
+- Nationwide (55+ years minimum)
+- NatWest (requires 55+ years for 25-year mortgage)
 
-**Reality check**: Even "eligible" lenders may be cautious. You're looking at specialist lenders or cash buyers primarily.
+### **Buyer Pool Impact**
 
-## Saleability Impact
+You're looking at roughly **20-30% of the normal buyer pool**:
+- Only 2-3 mainstream lenders likely to lend
+- Many buyers' brokers will steer them away
+- Cash buyers become a significant portion of realistic prospects
+- Expect longer marketing time and price pressure
 
-- **Buyer pool**: Reduced by 60-70%
-- **Price impact**: Expect 15-25% discount vs comparable long lease properties
-- **Marketing time**: Likely extended significantly
-- **Mortgage issues**: Most applications will be declined or need manual underwriting
+### **Extension Costs & Marriage Value**
 
-## Extension Costs (Estimated)
+**Critical**: At 68 years, marriage value applies (kicks in below 80 years), adding significantly to extension costs:
 
-At 68 years, marriage value applies heavily:
-- **Diminution**: ~£85,000-105,000 (freeholder's loss)
-- **Marriage value**: ~£42,000-52,000 (50% of uplift to leaseholder)
-- **Legal costs**: ~£15,000-25,000 (both sides)
-- **Total cost**: **£142,000-182,000**
+Estimated extension cost: **£35,000 - £55,000** including:
+- Diminution in landlord's interest: ~£20,000-30,000
+- Marriage value (50% share): ~£10,000-20,000  
+- Landlord's legal/valuation costs: ~£5,000
 
-## Recommendation
+### **Recommendation: Extend Before Marketing**
 
-**Strongly advise your vendor to extend before marketing.** Here's why:
+**Strongly advise your vendor to extend before listing** because:
 
-1. **Better saleability**: Extension to 158 years eliminates mortgage issues
-2. **Fuller buyer pool**: All mainstream lenders accept 90+ years
-3. **Better price**: Avoid the "short lease discount"
-4. **Faster sale**: No mortgage complications
+1. **Price impact**: Expect 15-25% discount vs. comparable long-lease properties
+2. **Marketing time**: Significantly longer to find suitable buyers
+3. **Chain risk**: Higher fall-through rate due to mortgage issues
+4. **Future costs**: Extension will only get more expensive as lease shortens
 
-## Extension Options
+### **Extension Options**
 
-**Statutory route (Section 42 notice):**
-- Requires 2 years ownership (likely met)
+Your vendor's conveyancer should advise on:
+
+**Statutory Route (Section 42)**:
+- Requires 2 years ownership
 - Adds 90 years, reduces ground rent to peppercorn
-- Costs as estimated above
+- Formal process, typically 6-12 months
 
-**Informal negotiation:**
-- Potentially faster
-- Terms negotiable
-- May be cheaper (no marriage value formula)
+**Informal Negotiation**:
+- No ownership requirement
+- Negotiate directly with freeholder
+- Potentially faster but less certain
 
-**Assign benefit:**
-- Vendor starts statutory process
-- Assigns right to buyer on completion
-- Buyer completes extension post-purchase
+**Assign Benefit to Buyer**:
+- Start statutory process, assign to buyer on completion
+- Buyer gets extension at seller's cost basis
+- Can make property more attractive to buyers
 
-## Your listing strategy
+### **The Bottom Line**
 
-If extending before marketing isn't possible:
-- **Price aggressively** to account for lease issues
-- **Target cash buyers** and specialist mortgage brokers
-- **Highlight extension potential** in marketing
-- **Budget extra marketing time**
-- **Prepare for mortgage fall-throughs**
+At 68 years, this isn't just a "short lease" — it's approaching unmortgageable territory. Without extension, you're essentially marketing to a specialist buyer pool. The extension cost (£35k-55k) is likely less than the price discount you'll face, and the vendor will have a much stronger position post-extension.
 
-Your conveyancer should advise on the best extension route, and we'd recommend discussing with a specialist lease extension solicitor to get precise costs and timescales.
-
-Would you like me to explain any of these aspects in more detail?
+Would you like me to explain how to position this with your vendor, or do you need specifics about any of the lenders mentioned?

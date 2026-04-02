@@ -3,32 +3,32 @@
     {
       "expectation": "Response references CLC Code of Conduct ethical principles or outcomes",
       "pass": true,
-      "reason": "Clearly references Principle 3 (Act in the Best Interests of Clients), Outcome 3.6, Principle 2 (High Standards of Work), Outcomes 2.1 and 3.3"
+      "reason": "Explicitly references CLC Code of Conduct, Ethical Principle 3, and specific outcomes like 3.6, 3.2, 2.1, and 4.3"
     },
     {
       "expectation": "Response mentions the CLC's outcomes-focused approach",
       "pass": true,
-      "reason": "Explicitly states 'The CLC focuses on \"outcomes,\" meaning you have the flexibility to resolve the issue as you see fit, provided it is fair'"
+      "reason": "Clearly states CLC operates under 'outcomes-focused regulatory framework' and 'outcomes-focused model rather than prescriptive protocol'"
     },
     {
       "expectation": "Response covers complaint recording and reporting requirements",
       "pass": true,
-      "reason": "Details Complaints Register requirements including nature of complaint, investigation steps, outcome, redress offered, and time taken"
+      "reason": "Details requirements for complaints register, resolution timeline documentation, and maintaining evidence for CLC audits"
     },
     {
       "expectation": "Response mentions the Legal Ombudsman escalation pathway",
       "pass": true,
-      "reason": "Specifically mentions Legal Ombudsman (LeO) for service quality issues like delays and provides context for escalation"
+      "reason": "Explicitly mentions informing clients of right to refer to Legal Ombudsman (LeO) within 8 weeks and references Principle 4.3"
     },
     {
       "expectation": "Response distinguishes CLC requirements from SRA/Law Society complaints procedures",
       "pass": true,
-      "reason": "Explicitly states 'Unlike SRA-regulated firms who might look to the Law Society Protocol, your benchmark is the CLC Transaction Files Code'"
+      "reason": "Extensively compares CLC vs SRA requirements, mentions different roles (RCM vs COLP/COFA), and states CLC firms don't use Law Society Protocol"
     },
     {
       "expectation": "Response mentions transparency obligations to the client",
       "pass": true,
-      "reason": "Covers duty to keep clients informed under Outcome 3.3, providing complaints procedure copy, and written acknowledgment requirements"
+      "reason": "References providing written procedures to clients in Terms of Engagement (Outcome 3.2) and informing clients of Ombudsman rights"
     }
   ],
   "total_pass": 6,

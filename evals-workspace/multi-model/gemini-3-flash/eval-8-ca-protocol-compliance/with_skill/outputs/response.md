@@ -1,27 +1,32 @@
-Under the **Conveyancing Association (CA) Protocol (5th Edition)**, there are several standards designed specifically to prevent and resolve delays regarding enquiries.
+The Conveyancing Association (CA) Protocol (5th Edition, 2023) is specifically designed to reduce transaction delays through standardized communication expectations and escalation procedures.
 
-Here is how the protocol addresses this situation:
+### 1. Communication Timeframes
+Under **CA Protocol 1.0**, the other side is expected to adhere to the following timeframes:
+*   **Acknowledge correspondence:** Within **2 working days** of receipt.
+*   **Respond to enquiries:** Within **5 working days**.
+*   **Updates:** If a substantive response is not possible within these timeframes, the firm should provide **weekly updates** to keep all parties informed.
 
-### 1. The Duty to Cooperate and Respond
-The protocol emphasizes that conveyancers must work together to keep the transaction moving. 
-*   **Promptness:** Firms are expected to respond to the other side promptly and work cooperatively rather than taking an adversarial approach (**CA 1.0**).
-*   **Pick up the phone:** If email exchanges have become protracted or there is a lack of response, the protocol suggests using a phone call to resolve complex or stalled issues immediately (**CA 1.0**).
+### 2. Resolution and Escalation
+If the other side is not responding, the protocol recommends moving away from protracted email exchanges. Under **CA 1.0**, firms are encouraged to **use the telephone** to resolve complex issues or delays directly.
 
-### 2. Standards for Seller’s Replies
-If you are the buyer's lawyer waiting for answers, the protocol places a burden on the seller's side to ensure their initial responses are high quality:
-*   **Professional Review:** The seller's lawyer should not simply pass on the client's comments. They are expected to review and "augment" the seller's replies to ensure they provide full information at the earliest stage, which prevents the need for back-and-forth follow-up questions (**CA 2.2**).
-*   **Early Preparation:** Sellers are encouraged to provide all necessary documents (like planning permissions or management packs) at the very start of the process to avoid late-stage enquiries (**CA 1.8 & 2.1**).
+If the delay continues, you should follow the protocol's **escalation steps**:
+1.  Raise the matter directly with the **fee earner** handling the file.
+2.  If unresolved, escalate to a **senior partner or the firm’s compliance officer** (COLP for SRA firms or HoLP for CLC firms).
+3.  As a final resort, refer the matter to the **relevant regulatory body** (SRA or CLC) for a breach of professional standards.
 
-### 3. Communication and Chain Management
-If the other side is silent, you can leverage the following protocol requirements:
-*   **Regular Updates:** Conveyancers should maintain regular progress updates with both the other lawyer and the estate agent (**CA 1.0**). 
-*   **Chain Information:** You should request full information about the chain from the estate agent to see if the delay is being caused by a party further up or down the line (**CA 1.0**).
+### 3. Handling Technical Enquiries
+If the delayed enquiries relate to property alterations, the protocol provides specific "Technical Decision Trees" to prevent unnecessary back-and-forth.
 
-### 4. Limiting "Standard" Enquiries
-It is worth noting that the protocol also seeks to reduce delays by limiting the *types* of enquiries raised:
-*   **Relevance:** Enquiries should be limited to those regarding the title or specific requirements of the client or lender. The seller's lawyer is actually permitted to refuse "standard" or generic enquiries that aren't specific to the property being sold (**CA 2.0**).
+**Planning vs. Building Regulations (CA 4.0):**
+The protocol requires that **building regulations be treated as a separate concern from planning permission**, as they operate under different legal regimes. If the delay involves determining whether enforcement action can be taken, you must apply the **three enforcement timeline rules**:
+*   **4-year rule:** For operational development (physical works) or change of use to a single dwelling.
+*   **10-year rule:** For breaches of planning conditions or other changes of use.
+*   **12-month rule:** For enforcement related to listed buildings.
 
-### Practical Steps to Take:
-1.  **Call the other conveyancer:** Referencing **CA 1.0**, suggest a brief call to go through the outstanding points rather than waiting for another email.
-2.  **Contact the Estate Agent:** Remind the agent that under **CA 1.0**, the lawyers should be sharing progress updates, and ask them to help facilitate the missing information from the seller.
-3.  **Supervision:** If the delay is significant, the protocol suggests that firms should have a diarised file review cycle and supervisor reviews to catch and resolve such delays (**CA 1.0 & 2.4**).
+### 4. Obligations of the Seller’s Lawyer
+According to **CA 1.8 and 1.9**, the seller’s conveyancer should have reviewed the title and all documentation *before* issuing the contract pack to identify and resolve potential enquiries in advance. Under **CA 2.0**, the seller may refuse "standard" or "boilerplate" enquiries that are not specific to the property or title, which can also be a point of discussion to move the file forward.
+
+### Recommended Action
+*   **Review the file:** Ensure your enquiries are specific to the title or lender requirements (**CA 2.0**).
+*   **Call the other side:** Request a verbal update and reference the **CA 1.0** five-day response target.
+*   **Formal Notice:** If the call is unsuccessful, send a formal letter/email citing **CA Protocol 1.0** and state that you will escalate to their Senior Partner if a response is not received within a further 2 working days.

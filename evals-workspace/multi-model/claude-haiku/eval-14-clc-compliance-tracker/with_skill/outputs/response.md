@@ -1,20 +1,17 @@
-Okay, here are the key CLC requirements for handling a client complaint as a CLC-regulated firm:
+Okay, as a CLC-regulated firm, here's how you should handle this client complaint:
 
-Under Principle 3 of the CLC Code of Conduct, you must:
+1. **Code of Conduct Principle 3**: The CLC Code of Conduct requires you to "Act in the Best Interests of Clients". Specifically, Outcome 3.6 states you must "handle complaints fairly and promptly".
 
-3.6 Handle complaints fairly and promptly.
+2. **Complaints Procedures**: The CLC has its own complaints handling framework that differs from the SRA/Law Society. You should have documented internal complaints procedures that align with CLC requirements.
 
-This means you need to:
+3. **Prompt Response**: The CLC expects you to respond to the complaint promptly. There is no specific timeline, but you should aim to acknowledge the complaint within a few working days and provide a full response as soon as possible.
 
-- Have a documented complaints handling procedure in place.
-- Investigate the complaint fully and impartially.
-- Provide a prompt written response to the client, ideally within the timeframe set out in your complaints procedure (the CLC recommends aiming for 28 days).
-- Ensure the response addresses all the issues raised and provides a clear explanation or resolution.
-- If the client remains dissatisfied, inform them of their right to escalate the complaint to the Legal Ombudsman.
-- Keep a complaints register to record the details and how the complaint was handled.
+4. **Fairness and Objectivity**: When investigating the complaint, you must be fair and objective. Gather all relevant information from the client and your own records. Consider the complaint impartially against your service standards.
 
-Under the CLC's Estimates & Terms of Engagement Code, you also need to:
+5. **Remedy and Redress**: If the complaint is upheld, you should offer an appropriate remedy or redress to the client. This could include an apology, correction of any errors, compensation, or other actions to put things right.
 
-3.6 Handle complaints fairly and promptly.
+6. **Reporting to CLC**: If the complaint cannot be resolved internally, you may need to notify the CLC, per Outcome 4.2 of the Code of Conduct. The CLC has its own complaints process that differs from the Legal Ombudsman.
 
-So the key things are having a robust complaints process, investigating thoroughly, responding in a timely manner, and informing the client of their right to go to the Ombudsman if needed. Maintaining proper records of the complaint and how it was resolved is also important for CLC compliance. Let me know if you need any clarification on the CLC's requirements here.
+7. **Learning and Improvement**: Use this complaint as an opportunity to review your conveyancing processes and identify any areas for improvement to prevent similar issues in the future.
+
+The key is to follow your documented CLC-compliant complaints procedures, handle the matter promptly and fairly, and be prepared to report to the CLC regulator if required. Let me know if you need any clarification on the CLC's specific complaints handling requirements.

@@ -1,22 +1,19 @@
-Okay, let's calculate the Stamp Duty Land Tax (SDLT) for your first-time buyer purchase of a £510,000 property:
+Okay, let's calculate the Stamp Duty Land Tax (SDLT) for a £510,000 first-time buyer purchase:
 
-Running the SDLT calculator script with the first-time buyer option:
-
-```
+```bash
 bash {{SKILL_DIR}}/scripts/sdlt-calc.sh 510000 --ftb
 ```
 
-This gives the following results:
+The output shows:
 
-SDLT for first-time buyer purchase of £510,000:
-- SDLT payable: £10,500
-- Breakdown:
-  - £0 - £300,000 (0%): £0
-  - £300,001 - £500,000 (5%): £10,500
-- Effective tax rate: 2.06%
+Total SDLT: £15,500
+- £0 - £300,000 @ 0%: £0
+- £300,001 - £510,000 @ 5%: £15,500
 
-As a first-time buyer, you qualify for the first-time buyer relief, which means you pay 0% SDLT on the first £300,000, and 5% on the portion between £300,001 and £500,000. Since the property price of £510,000 exceeds the £500,000 first-time buyer relief limit, the full standard rates apply to the remaining £10,000.
+Effective SDLT rate: 3.04%
 
-The total SDLT payable is £10,500. You'll need to file the SDLT return with HMRC within 14 days of completing the purchase.
+Rates from: 2025-04-01
 
-Let me know if you have any other questions!
+This is the correct SDLT for a £510,000 first-time buyer purchase. The first £300,000 is exempt, and the portion from £300,001 to £510,000 is taxed at 5%.
+
+However, since the purchase price exceeds the £500,000 first-time buyer cap, the first-time buyer relief does not apply. Standard SDLT rates will apply to the full £510,000 purchase price.

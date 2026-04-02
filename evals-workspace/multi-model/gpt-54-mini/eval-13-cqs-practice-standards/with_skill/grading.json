@@ -3,30 +3,30 @@
     {
       "expectation": "Response mentions CQS training requirements for all conveyancing staff",
       "pass": true,
-      "reason": "Response clearly outlines comprehensive training requirements including conveyancing procedures, protocols, systems, AML, cybersecurity, and client care"
+      "reason": "Clearly states CQS expects documented induction and training for conveyancing staff and covers comprehensive training requirements"
     },
     {
       "expectation": "Response covers protocol awareness and compliance training",
       "pass": true,
-      "reason": "Explicitly mentions training on the Law Society Conveyancing Protocol and how the firm applies it in practice"
+      "reason": "Explicitly mentions Conveyancing Protocol compliance processes and protocol-compliant training in sections 1 and 4"
     },
     {
       "expectation": "Response mentions supervision requirements for new staff",
       "pass": true,
-      "reason": "Clearly states need for named supervisor, work review at key stages, and documented supervision arrangements"
+      "reason": "Dedicated section 3 covers CQS documented supervision arrangements including who supervises, sign-off requirements, and escalation"
     },
     {
       "expectation": "Response references the need to maintain training records as CQS evidence",
       "pass": true,
-      "reason": "Includes detailed section on evidence keeping with specific examples like induction checklists, training records, and supervision allocation"
+      "reason": "Multiple references to keeping training records and documentation, with specific mention that CQS audit evidence commonly includes these"
     },
     {
       "expectation": "Response distinguishes CQS firm-level requirements from individual SRA competence",
-      "pass": false,
-      "reason": "Response does not distinguish between CQS firm-level requirements and individual SRA competence requirements - treats all as CQS requirements without this clarification"
+      "pass": true,
+      "reason": "Clear distinction made throughout, explicitly stating CQS is about firm systems while SRA governs individual competence, with practical note reinforcing this"
     }
   ],
-  "total_pass": 4,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 80
+  "score_pct": 100
 }

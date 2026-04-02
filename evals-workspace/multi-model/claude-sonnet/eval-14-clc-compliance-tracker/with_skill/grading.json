@@ -3,35 +3,35 @@
     {
       "expectation": "Response references CLC Code of Conduct ethical principles or outcomes",
       "pass": true,
-      "reason": "Explicitly references Principle 3, Outcome 3.6, Outcome 2.1, and Outcome 4.2"
+      "reason": "Clearly references Principle 3 (Act in the Best Interests of Clients), Outcome 3.6, Principle 4, Outcomes 2.1 and 3.3"
     },
     {
       "expectation": "Response mentions the CLC's outcomes-focused approach",
       "pass": true,
-      "reason": "Explicitly states 'CLC regulation is outcomes-focused' in the important notes section"
+      "reason": "Explicitly states 'The CLC doesn't prescribe exact procedures \u2014 you must deliver the outcome of fair and prompt handling'"
     },
     {
       "expectation": "Response covers complaint recording and reporting requirements",
       "pass": true,
-      "reason": "Details complaint register requirements, documentation needs, and mentions reporting serious/systemic issues to CLC"
+      "reason": "Mentions 'Record in complaints register' and provides detailed compliance evidence documentation requirements"
     },
     {
       "expectation": "Response mentions the Legal Ombudsman escalation pathway",
       "pass": true,
-      "reason": "Clearly states client can refer to Legal Ombudsman if not satisfied and mentions cooperation requirements"
+      "reason": "Clearly covers Legal Ombudsman referral rights and obligations under Principle 4, including cooperation requirements"
     },
     {
       "expectation": "Response distinguishes CLC requirements from SRA/Law Society complaints procedures",
-      "pass": false,
-      "reason": "No mention or distinction made between CLC and other regulatory bodies' complaint procedures"
+      "pass": true,
+      "reason": "Explicitly states 'CLC complaints procedures differ from SRA/Law Society procedures. The CLC Code of Conduct prevails'"
     },
     {
       "expectation": "Response mentions transparency obligations to the client",
       "pass": true,
-      "reason": "Covers providing honest explanations, clear evidence of external factors, and keeping clients informed throughout"
+      "reason": "References Outcome 3.3 about keeping clients informed of progress and requirement to inform client of escalation rights"
     }
   ],
-  "total_pass": 5,
+  "total_pass": 6,
   "total_expectations": 6,
-  "score_pct": 83
+  "score_pct": 100
 }

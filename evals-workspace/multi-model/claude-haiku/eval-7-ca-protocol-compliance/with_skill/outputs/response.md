@@ -1,13 +1,21 @@
-According to the CA Protocol Section 4.0 on Planning Permission, here is how to handle a rear extension built in 2021 without planning permission records:
+Okay, let's review the CA Protocol guidance for handling a property with a rear extension built in 2021 without planning permission records:
 
-1. Determine if the work required planning permission in the first place:
-   - If the work did not require planning permission, then no further action is needed.
-   - If the work did require planning permission, then proceed to the next step.
+Per CA Protocol Section 4.0 on Planning Permission:
 
-2. Since the work was completed less than 12 months ago without the required planning permission:
-   - Advise the client to obtain a Regularisation Certificate from the local authority to retroactively approve the work.
-   - If a Regularisation Certificate cannot be obtained, then recommend the client purchases bespoke indemnity insurance to cover the lack of planning permission.
+- If no planning permission was obtained for the works:
+  - If the works were completed over 4 years ago without concealment, there is no further action required (the 4-year rule for operational development/change of use applies).
+  - If the works were completed less than 4 years ago, you should obtain an indemnity insurance policy to protect the buyer.
+  - If the works were completed less than 12 months ago, you should either obtain a regularization certificate from the local authority or arrange a bespoke indemnity policy.
 
-3. In all cases where there is no planning permission, advise the client and also inform the valuer. The valuer should confirm the extension is structurally sound.
+Additionally, the protocol states that in all cases where planning permission was not obtained, you should:
 
-The key points are: (1) determine if planning was required, (2) if so and it's under 12 months old, get a Regularisation Certificate or indemnity insurance, and (3) notify the client and valuer.
+- Advise the client about the lack of planning permission.
+- Advise the valuer about the lack of planning permission, so they can confirm the extension is structurally sound.
+
+So in summary, for this 2021 rear extension without records, the key steps are:
+
+1. Determine if it's been over 4 years since completion. If so, no further action is needed.
+2. If under 4 years, obtain an indemnity insurance policy to protect the buyer.
+3. Advise the client and the valuer about the lack of planning permission, so the valuer can assess the structural integrity.
+
+The protocol provides clear guidance on how to handle this type of situation to ensure compliance.

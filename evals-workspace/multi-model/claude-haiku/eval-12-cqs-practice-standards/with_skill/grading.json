@@ -2,36 +2,36 @@
   "grades": [
     {
       "expectation": "Response covers multiple CQS practice areas (governance, client care, training, file management, cyber security)",
-      "pass": true,
-      "reason": "Covers governance & organisation, risk management, information security, training & development, and file & case management - though client care is not explicitly mentioned as a separate section"
+      "pass": false,
+      "reason": "Covers governance, client care, training, and file management but completely omits cyber security requirements"
     },
     {
       "expectation": "Response mentions specific evidence types needed (e.g. training records, complaints log, SRO details)",
       "pass": true,
-      "reason": "Mentions multiple specific evidence types including training records, SRO documentation, written procedures, AML policy, PI insurance certificate, and file audit evidence"
+      "reason": "Clearly mentions training records, complaints log, SRO contact details, written procedures, and checklists"
     },
     {
       "expectation": "Response references the Senior Responsible Officer (SRO) requirement",
       "pass": true,
-      "reason": "Explicitly mentions 'designated CQS Senior Responsible Officer (SRO) with documented responsibilities'"
+      "reason": "Explicitly mentions designated CQS Senior Responsible Officer and their responsibilities"
     },
     {
       "expectation": "Response mentions protocol compliance monitoring as a CQS requirement",
       "pass": true,
-      "reason": "States 'written procedures for adopting and monitoring CQS protocol compliance' and 'evidence of regular reviews of your firm's compliance with CQS standards'"
+      "reason": "References monitoring compliance with CQS standards and written procedures for adopting/monitoring Conveyancing Protocol compliance"
     },
     {
       "expectation": "Response covers cyber security / IT security requirements",
-      "pass": true,
-      "reason": "Dedicated Information Security section covering cyber security policy, staff training on cyber risks, secure communications, and Cyber Essentials certification"
+      "pass": false,
+      "reason": "No mention of cyber security or IT security requirements whatsoever"
     },
     {
       "expectation": "Response mentions file management and supervision requirements",
       "pass": true,
-      "reason": "File & Case Management section covers standardised file/case management system, key dates monitoring, file storage/retention policy, and regular file audits"
+      "reason": "Covers file review procedures and supervision arrangements for conveyancing staff"
     }
   ],
-  "total_pass": 6,
+  "total_pass": 4,
   "total_expectations": 6,
-  "score_pct": 100
+  "score_pct": 67
 }

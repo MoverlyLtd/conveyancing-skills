@@ -3,30 +3,30 @@
     {
       "expectation": "Response mentions CQS training requirements for all conveyancing staff",
       "pass": true,
-      "reason": "Clearly outlines comprehensive CQS training requirements including standards awareness, client care, risk management, and information security training"
+      "reason": "Clearly states 'CQS Mandatory Onboarding Elements' and mentions firm-level training requirements for fee earners"
     },
     {
       "expectation": "Response covers protocol awareness and compliance training",
       "pass": true,
-      "reason": "Explicitly mentions Law Society Conveyancing Protocol (2019 edition), firm's written procedures for protocol compliance, and documented conveyancing process aligned with the Protocol"
+      "reason": "Explicitly mentions 'Law Society Conveyancing Protocol \u2014 complete training on all stages' and protocol compliance throughout"
     },
     {
       "expectation": "Response mentions supervision requirements for new staff",
       "pass": true,
-      "reason": "States 'Their supervisor's identity and supervision arrangements' as a key understanding requirement"
+      "reason": "References 'Assigned supervisor details (Standard 3.3)' in documentation section"
     },
     {
       "expectation": "Response references the need to maintain training records as CQS evidence",
       "pass": true,
-      "reason": "Explicitly states need to maintain 'Training records with specific dates and topics covered' and notes that 'CQS auditors will want to see evidence'"
+      "reason": "Multiple references to evidence requirements and dedicated 'Documentation for CQS Audit' section detailing record-keeping"
     },
     {
       "expectation": "Response distinguishes CQS firm-level requirements from individual SRA competence",
-      "pass": false,
-      "reason": "Does not distinguish between CQS firm-level requirements and individual SRA competence requirements - treats all as CQS requirements without this differentiation"
+      "pass": true,
+      "reason": "Includes clear 'Important Distinction' section explicitly contrasting CQS firm requirements vs SRA individual requirements"
     }
   ],
-  "total_pass": 4,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 80
+  "score_pct": 100
 }

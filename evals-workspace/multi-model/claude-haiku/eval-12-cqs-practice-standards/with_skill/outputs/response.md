@@ -1,33 +1,25 @@
-Based on the CQS practice standards, here are the key areas the CQS assessor will focus on during your renewal audit, and the evidence you should have ready:
+Understood, let's review the key areas the CQS assessor will be focusing on during your upcoming renewal audit:
 
-1. Governance & Organisation:
-   - Ensure you have a designated CQS Senior Responsible Officer (SRO) with documented responsibilities.
-   - Provide your written procedures for adopting and monitoring CQS protocol compliance.
-   - Demonstrate that all conveyancing staff are aware of the CQS standards and protocols through training records.
-   - Show evidence of regular reviews of your firm's compliance with CQS standards.
+Governance & Organisation:
+- Ensure you have a designated CQS Senior Responsible Officer (SRO) who is responsible for protocol compliance across the firm. Provide their contact details.
+- Have written procedures documenting how the firm adopts and monitors compliance with the Conveyancing Protocol. 
+- Demonstrate that all conveyancing staff are aware of the CQS standards and protocols through training records.
+- Show evidence of regular reviews of the firm's compliance with CQS standards.
 
-2. Risk Management:
-   - Have your anti-money laundering policy and procedures, including client identification/verification and source of funds/wealth checks.
-   - Demonstrate your sanctions screening procedures and fraud awareness/prevention measures.
-   - Provide your current professional indemnity insurance certificate.
-   - Show your conflict of interest checking procedures and register.
+Client Care:
+- Provide your firm's written client care procedures.
+- Have templates showing that clear costs information is provided to clients at the outset.
+- Demonstrate your procedures for keeping clients informed of progress throughout transactions.
+- Ensure your written complaints procedure is displayed and communicated to clients. Maintain a complaints log to show issues are investigated and resolved within set timescales.
+- Evidence how learnings from complaints are fed back into your practices.
 
-3. Information Security:
-   - Present your cyber security policy and evidence of staff training on cyber risks.
-   - Explain your secure communications methods, such as encrypted email or client portal.
-   - Provide your data protection policy and business continuity plan.
-   - If held, have your Cyber Essentials certification ready.
+Conveyancing Process:
+- Document your conveyancing process and how it aligns with the Law Society Conveyancing Protocol.
+- Demonstrate your file review procedures at key transaction stages.
+- Show your supervision arrangements for all conveyancing staff.
+- Confirm procedures for managing property chains and linked transactions.
+- Provide checklists and authorization processes for exchange and completion.
 
-4. Training & Development:
-   - Ensure all mandatory CQS training is completed and certificates are up-to-date.
-   - Demonstrate your CPD plan and training records for conveyancing staff.
-   - Show evidence of training on relevant regulatory changes.
-   - Provide your induction programme for new conveyancing staff.
+The assessor will be looking for comprehensive documentation and evidence of consistent implementation of these practice standards across your firm. Ensuring all your training records, policies, procedures, and compliance monitoring activities are up-to-date will be crucial.
 
-5. File & Case Management:
-   - Describe your standardised file/case management system.
-   - Provide examples of your key dates monitoring and undertakings register.
-   - Present your documented post-completion procedures.
-   - Explain your file storage and retention policy, and evidence of regular file audits.
-
-The assessor will likely request samples of the above documents and may also conduct interviews with staff to verify your firm's compliance. Ensure you have all the necessary evidence organised and ready to present during the audit.
+Please let me know if you have any other questions as you prepare for the CQS audit. I'm happy to provide further guidance on evidencing your firm's compliance.

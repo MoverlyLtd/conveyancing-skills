@@ -3,25 +3,25 @@
     {
       "expectation": "Response provides a structured checklist of pre-exchange items",
       "pass": true,
-      "reason": "Provides clear structured table format with numbered items and checkboxes"
+      "reason": "Clear numbered checklist with checkboxes and bullet points provided"
     },
     {
       "expectation": "Response mentions specific protocol stages or sections",
       "pass": true,
-      "reason": "Explicitly references 'Stage C: Exchange' from the Law Society Conveyancing Protocol"
+      "reason": "References 'Stage B' and specific paragraphs '3, 11, 12'"
     },
     {
       "expectation": "Response covers key items: searches currency, mortgage offer, deposit, insurance, signed contracts",
-      "pass": false,
-      "reason": "Covers deposit, insurance, and contracts but missing searches currency and mortgage offer verification"
+      "pass": true,
+      "reason": "All key items explicitly covered: searches (6 months), mortgage offer, deposit, insurance, signed contracts"
     },
     {
       "expectation": "Response references the protocol as source (not just general best practice)",
       "pass": true,
-      "reason": "Clearly states this is 'against the Law Society Conveyancing Protocol' and references specific stage"
+      "reason": "Multiple explicit references to 'Law Society Conveyancing Protocol' and 'Protocol Ref'"
     }
   ],
-  "total_pass": 3,
+  "total_pass": 4,
   "total_expectations": 4,
-  "score_pct": 75
+  "score_pct": 100
 }

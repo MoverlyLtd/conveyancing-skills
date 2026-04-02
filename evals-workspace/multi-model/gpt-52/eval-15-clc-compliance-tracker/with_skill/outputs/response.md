@@ -1,57 +1,35 @@
-Under CLC regulation your duties around client money come from (a) the **Code of Conduct** outcomes (especially acting in clients’ best interests and maintaining high standards) and (b) the **CLC Accounts Code** (the detailed, practical rules). In plain terms, you must keep client money safe, separate, transparent, and properly accounted for.
+Under CLC regulation, your client money obligations sit within an **outcomes‑focused framework**: the CLC expects you to achieve the required protections for clients’ funds, but you can design your own procedures to deliver those outcomes.
 
-## Core obligations (what you must achieve)
+### 1) What rules apply (and the hierarchy)
+- Your core duties come from the **CLC Code of Conduct** (ethical principles and outcomes), especially acting in clients’ best interests and protecting client money.
+- The detailed handling requirements are in the **CLC Accounts Code** (a subsidiary code dealing specifically with client money).
+- **Hierarchy rule:** if anything in a subsidiary code (including the **Accounts Code**) conflicts with the **CLC Code of Conduct**, the **Code of Conduct prevails**.
 
-### 1) Keep client money separate and protected
-- **Client money must be held in a properly designated client account**, separate from office/business money (except where the Accounts Code permits limited use of an office account for specific circumstances).
-- You must protect client funds from loss or misuse through **appropriate controls**, restricted access, and secure banking arrangements.
+### 2) Key client money obligations (CLC Accounts Code + Code of Conduct outcomes)
+In practical terms, CLC-regulated firms and individuals must ensure:
 
-### 2) Maintain accurate accounting records and reconciliations
-- Keep **up-to-date client ledgers** showing receipts, payments, and the balance for each matter/client.
-- Perform **regular reconciliations** of the client account (monthly is the minimum standard expected) and investigate/resolve discrepancies promptly.
-- Ensure there is a clear **audit trail**: every movement of client money should be supported by a legitimate reason and appropriate file/accounting entries.
+- **Client money is kept separate and properly safeguarded**
+  - Client funds should be held in a **designated client account**, not mixed with office money (save for limited, properly controlled situations your procedures must address).
+- **Accurate accounting records and prompt handling**
+  - Maintain clear records showing receipts, payments, and client balances.
+  - Handle receipts and payments promptly and only for proper client/matter purposes.
+- **Regular reconciliations**
+  - The client account must be **reconciled regularly (at least monthly)** to ensure ledger balances match bank balances and discrepancies are investigated and resolved quickly.
+- **Interest is dealt with transparently**
+  - Have a clear policy on **when interest is paid/retained** and ensure it matches what you told the client in the **terms of engagement**.
+- **Appropriate controls and supervision**
+  - Put in place internal controls (authorisation levels, dual controls where appropriate, segregation of duties, oversight) proportionate to your firm’s size and risk profile—because the CLC assesses whether your arrangements achieve the outcomes.
+- **Accountant’s reporting**
+  - Submit an **annual accountant’s report** to the CLC as required by the Accounts Code.
+- **Prompt correction and openness**
+  - If issues arise (shortages, misuse, operational failures), you must address them promptly and, where relevant, deal with the CLC **openly and cooperatively** (Code of Conduct Principle 4).
 
-### 3) Only use client money for its proper purpose
-- Client funds must only be used **for the transaction/matter they relate to** (e.g., completion monies, disbursements) and in line with client authority/retainer.
-- Avoid situations where one client’s money is used to fund another client’s matter (even temporarily).
+### 3) How this differs from SRA/Law Society requirements
+- These duties are under the **CLC Accounts Code** and **CLC Code of Conduct**, **not** the SRA Accounts Rules.
+- CLC compliance roles and reporting lines differ from SRA firms (e.g., **CLC uses a Regulatory Compliance Manager**, not an SRA COLP/COFA).
+- CLC firms are not governed by the Law Society Conveyancing Protocol/CQS as a regulatory scheme—CLC regulation is its own framework.
 
-### 4) Control withdrawals and transfers
-- Have robust internal controls so that payments out of client account are **authorised, properly recorded, and verified** (e.g., dual authorisation where appropriate).
-- Take heightened care for **bank details changes** and fraud risks (verification steps, call-backs, clear procedures).
+### 4) Complaints and client money issues
+If a client complains about money handling, your response must follow the **CLC’s complaints requirements**, which **differ from SRA/Law Society procedures**, and you must handle it **fairly and promptly** (Code of Conduct outcome on complaints).
 
-### 5) Deal properly with interest
-- Your **terms of engagement must explain your interest policy** (when interest is paid/retained and how it’s calculated).
-- Apply interest in line with what you told the client and what is fair in the circumstances.
-
-### 6) Return funds promptly
-- Any **residual balances** should be identified and **returned to the client promptly** once no longer required (with a clear documented process for tracing clients and handling small balances).
-
-### 7) Transparency at the start and during the retainer
-- Provide clear written information about:
-  - where and how funds will be held,
-  - when you will ask for money on account,
-  - anticipated payments (e.g., SDLT, Land Registry fees),
-  - and any third-party managed account arrangements if used.
-
-### 8) Annual and ongoing compliance requirements
-- Submit an **accountant’s report to the CLC annually** (and ensure the firm cooperates with any CLC audit/requests).
-- Ensure staff handling client money are **trained and supervised** appropriately.
-
-## Practical “must-have” controls the CLC will expect to see evidence of
-- Designated **client account** and clear segregation from office money.
-- **Monthly 3-way reconciliation** (bank balance vs cashbook vs client ledgers), signed off.
-- A process for **authorising payments**, especially CHAPS/Faster Payments.
-- **Residual balance** review schedule.
-- Documented **interest policy** and evidence it’s applied.
-- Clear procedures to prevent and detect **cybercrime/payment diversion fraud**.
-
-## How this links to the Code of Conduct outcomes
-These obligations are how you evidence outcomes such as:
-- acting in clients’ best interests and protecting their assets (client money),
-- maintaining high standards of work (proper systems and supervision),
-- being open and cooperative with the regulator (records, reports, reconciliations).
-
-## Questions to tailor this to your setup
-1) Are you a **manager/HoLP/HoFA-equivalent** within a CLC practice, or an employed licensed conveyancer?  
-2) Do you use any **third-party managed accounts (TPMAs)** or only traditional client accounts?  
-3) Are you looking for a **policy/checklist** for file audits and CLC inspection readiness?
+If you tell me your setup (sole practitioner vs firm, volume of completions, whether you hold client money frequently, and what banking arrangements you use), I can suggest a proportionate set of controls and an audit/reconciliation checklist aligned to the CLC Accounts Code.

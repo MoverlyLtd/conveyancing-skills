@@ -1,43 +1,30 @@
-I'll generate a pre-exchange checklist based on the Law Society Conveyancing Protocol. To give you the most relevant checklist, could you tell me:
+I'll generate a comprehensive pre-exchange checklist based on the Law Society Conveyancing Protocol. First, let me clarify your role:
 
-1. Are you acting for the **buyer** or **seller** (or both)?
-2. Is this a **residential** property transaction?
+Are you acting for the **buyer**, **seller**, or both parties in this transaction?
 
-In the meantime, here are the critical **Stage B (Pre-Exchange)** items that both parties should verify before exchange:
+In the meantime, here are the **critical pre-exchange items** that must be verified regardless of which side you're acting for:
 
-## Essential Pre-Exchange Checklist
+## Essential Pre-Exchange Checklist (Stage B & C)
 
-### For Seller's Conveyancer:
-- [ ] **Contract pack issued** - Contract, title docs, property forms (TA6/TA7/TA10), replies to enquiries *(Stage B, para 1)*
-- [ ] **Draft transfer included** in contract pack *(Stage B, para 2)*
-- [ ] **All enquiries answered** fully and promptly *(Stage B, para 6)*
-- [ ] **Contract approved** and completion date agreed *(Stage B, para 7)*
-- [ ] **Signed contract obtained** from seller *(Stage B, para 8)*
-- [ ] **Fixtures & fittings list (TA10)** agreed with buyer *(Stage B, para 10)*
+### 🔍 **Universal Requirements (Both Sides)**
 
-### For Buyer's Conveyancer:
-- [ ] **Contract pack reviewed** and necessary enquiries raised *(Stage B, para 3)*
-- [ ] **Title reported** to client *(Stage B, para 4)*
-- [ ] **Mortgage funds requested** from lender *(Stage B, para 5)*
-- [ ] **Contract approved** and completion date agreed *(Stage B, para 7)*
-- [ ] **Signed contract obtained** from buyer *(Stage B, para 8)*
-- [ ] **Deposit funds available** *(Stage B, para 9)*
-- [ ] **Search results satisfactory** (local authority, drainage, environmental) *(Stage B, para 11)*
-- [ ] **Mortgage offer conditions met** *(Stage B, para 12)*
+| ✅ | Item | Protocol Ref | Status |
+|---|------|-------------|---------|
+| ⬜ | **Searches current** (within 6 months) | Stage B, para 11 | ⏳ Pending |
+| ⬜ | **Mortgage offer valid** and conditions met | Stage B, para 12 | ⏳ Pending |
+| ⬜ | **Deposit funds cleared** and available | Stage B, para 9 | ⏳ Pending |
+| ⬜ | **Buildings insurance arranged** (from exchange/completion) | Stage C, para 8 | ⏳ Pending |
+| ⬜ | **Contracts signed** by all parties | Stage B, para 8 | ⏳ Pending |
+| ⬜ | **Title checks complete** and satisfactory | Stage B, para 4 | ⏳ Pending |
+| ⬜ | **Enquiries replies satisfactory** | Stage B, para 6 | ⏳ Pending |
 
-### Both Parties Must Check:
-- [ ] **Standard Conditions of Sale** used (latest edition) *(General, para b)*
-- [ ] **Only essential amendments** made to Standard Conditions *(General, para f)*
-- [ ] **Exchange formula agreed** (Formula A, B, or C) *(General, para e)*
-- [ ] **Other side's conveyancer identity verified** *(General, para a)*
+### ⚠️ **Critical Pre-Exchange Warnings**
 
-## Critical Pre-Exchange Questions:
-1. Are all searches clear and in date?
-2. Has the mortgage offer been issued and all conditions satisfied?
-3. Are deposit funds cleared and available?
-4. Has the client been fully advised and given authority to exchange?
-5. Is buildings insurance arranged from exchange date?
+- **DO NOT exchange** until ALL items above are confirmed
+- Check completion date is achievable for both sides
+- Ensure exchange formula is agreed (Law Society Formula A, B, or C)
+- Verify all Standard Conditions amendments are agreed
 
-**Remember**: The protocol serves client interests - don't exchange if anything material is outstanding, regardless of pressure from other parties.
+Once you confirm whether you're acting for buyer/seller, I can provide the specific detailed checklist for your role with all Stage B and Stage C requirements.
 
-Would you like me to expand on any specific area or generate a more targeted checklist based on your role in the transaction?
+**Which side are you representing?**

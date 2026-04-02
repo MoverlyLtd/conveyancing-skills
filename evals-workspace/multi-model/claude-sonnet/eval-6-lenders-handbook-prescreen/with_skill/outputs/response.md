@@ -1,66 +1,47 @@
-I'll run through the relevant Lender's Handbook checks for your leasehold property with 72 years remaining and the loft conversion building regulations issue.
+I'll run through the key Lender's Handbook requirements for your leasehold property with 72 years remaining and building regulations issues.
 
-## Key Issues Identified
+## Lease Term Analysis (HB 5.14.1)
 
-### 1. Lease Term (HB 5.14.1)
-**Check 9.1**: Does the unexpired lease term meet lender's minimum?
-- **Status**: 72 years remaining - this will depend on your specific lender
-- **Action**: Check Part 2 for your lender's minimum term requirement
-- **Common thresholds**: Many lenders require 75-85 years minimum, some accept shorter terms
+**72 years remaining eligibility by major lender:**
 
-### 2. Building Regulations (HB 5.5.1)
-**Check 13.6**: Does the property have necessary building regulation approval?
-- **Status**: FAILED - loft conversion lacks building regulations sign-off
-- **Risk**: This is a breach that could affect title quality
+- **Halifax: YES** — 72 years exceeds their 70-year minimum
+- **Barclays: YES** — 72 years exceeds their 70-year minimum  
+- **Nationwide: YES** — 72 years significantly exceeds their 55-year minimum (most permissive major lender)
+- **Santander: YES** — 72 years exceeds their 55-year minimum
+- **HSBC: YES** — 72 years exceeds their 70-year minimum
+- **NatWest: YES** — 72 years exceeds their 70-year minimum
 
-## Reporting Decision Tree Analysis
+You'll need to check Part 2 for your specific lender's exact requirement, but 72 years meets all major lenders' thresholds.
 
-Following the handbook's decision tree:
+## Building Regulations Issue (HB 5.5.1-5.5.2)
 
-**Can you certify title as good and marketable?**
-- **Answer**: Potentially NO due to the building regulations breach
+The loft conversion without building regulations approval requires careful assessment:
 
-**Building Regulations Breach Assessment (HB 5.5.1-5.5.2):**
-1. **Is there reasonable prospect of enforcement?**
-   - Time since conversion completed?
-   - Has local authority taken any action?
-   - Is breach obvious/visible from outside?
+### Key Questions:
+1. **When was the work completed?** The **4-year enforcement rule** is critical — if the work was completed more than 4 years ago, enforcement action is time-barred
+2. **Can you certify good and marketable title despite this defect?**
 
-2. **Time-barring considerations:**
-   - 4 years for injunction proceedings
-   - 12 months for prosecution after discovery
+### Resolution Options:
 
-**If no reasonable prospect of enforcement AND you can certify good title:**
-→ Proceed without referral
+**If work completed >4 years ago:**
+- Enforcement action is time-barred under building regulations
+- **Indemnity insurance** readily available and typically accepted by lenders
+- You may be able to certify good and marketable title with insurance in place
 
-**If enforcement risk remains:**
-→ **REPORT to lender before completion**
+**If work completed <4 years ago:**
+- Enforcement risk remains live
+- **Report to lender before completion** — they may still accept with indemnity insurance
+- Alternative: obtain retrospective building regulations approval (expensive/time-consuming)
 
-## Recommended Actions
+## Action Required:
 
-### For the Lease Term:
-1. **Identify your lender** and check their Part 2 requirements
-2. **If below minimum**: Report to lender immediately
-3. **If borderline**: Consider lease extension advice
+1. **Establish completion date** of loft conversion work
+2. **Check Part 2** for your specific lender's approach to:
+   - Building regulations indemnity insurance acceptance
+   - Any specific requirements for structural alterations
+3. **If >4 years + insurance available:** Likely acceptable without referral
+4. **If <4 years or insurance unavailable:** Report to lender per HB 2.3 before exchange
 
-### For Building Regulations:
-1. **Assess enforcement risk:**
-   - When was conversion completed?
-   - Any local authority correspondence?
-   - Visible external changes?
+The 72-year lease term should not be problematic for any major lender, but the building regulations issue needs the enforcement timeline check and potentially indemnity insurance to resolve.
 
-2. **If enforceable breach risk exists:**
-   - **REPORT to lender** per HB 2.3
-   - Summarize legal risks
-   - Recommend protection (indemnity insurance likely)
-   - **DO NOT COMPLETE** until written instructions received
-
-3. **Consider indemnity insurance:**
-   - Building regulations indemnity policy
-   - Check Part 2 for lender's acceptance
-   - Policy must protect the lender (HB 9)
-
-## Critical Rule
-**"If you believe any matter should reasonably be considered important by the lender in deciding whether to lend"** - both the short lease and building regulations breach likely fall into this category and should be reported unless you're certain they don't affect title quality.
-
-Which lender are you acting for? I can check their specific Part 2 requirements for minimum lease terms and indemnity insurance acceptance.
+Which lender are you dealing with? I can check their specific Part 2 requirements for both lease length and building regulations indemnity acceptance.

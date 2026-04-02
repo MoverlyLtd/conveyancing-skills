@@ -1,30 +1,40 @@
-Under the UK Finance Mortgage Lenders’ Handbook (England & Wales) Part 1, both points you mention are “lender-relevant” and usually trigger either (a) a Part 2 minimum requirement check, and/or (b) a duty to report to the lender before you can give an unqualified Certificate of Title.
+## 1) Lease term — handbook position
 
-## 1) Lease term: 72 years unexpired
-- **Part 1 position:** You must ensure the lease term meets the lender’s minimum requirement.  
-  - **Handbook ref:** **HB 5.14.1** (“unexpired term of the lease must comply with the lender’s requirements” – **check Part 2**).
-- **Practical effect:** Part 1 does **not** set a universal minimum (e.g., 70/80/85 years); it defers to **the lender’s Part 2**. Many lenders require a longer term than 72 years either at completion or with a buffer beyond the mortgage term.
-- **What you should do:** Check the specific lender’s **Part 2** for minimum unexpired term requirements. If 72 years is below that minimum (or only just meets it), you’ll typically need:
-  - a **lease extension** completed (or sometimes contractually guaranteed) before/at completion, or
-  - **report to lender** and await written instructions if you cannot certify compliance.
+**Part 1 (England & Wales), HB 5.14.1 (lease length):** you must ensure the unexpired term meets the **lender’s minimum requirement** and, if it doesn’t (or if Part 2 requires referral), you **must report to the lender** before exchange/completion. The exact minimum is **lender-specific in Part 2**.
 
-## 2) Loft conversion with no building regulations sign-off
-- **Part 1 position:** You must take all reasonable steps to ensure the property has necessary **building regulations approval**, and deal with breaches depending on enforcement risk and marketability.
-  - **Handbook refs:**  
-    - **HB 5.5.1** – requirement to take reasonable steps re planning/building regs.  
-    - **HB 5.5.1–5.5.2** – if there’s a breach, you can only proceed without reporting if you are satisfied there is **no reasonable prospect of enforcement** *and* you can still certify **good and marketable title**; otherwise you must report.
-- **Practical effect:** A lack of building regs sign-off for a loft conversion is a classic “title/marketability/valuation” issue. Even where local authority enforcement is time-barred, lenders may still care about:
-  - safety/compliance risk, and/or
-  - whether the valuer assumed the loft is compliant/usable accommodation (**HB 4.2 / 4.3**—discrepancy vs valuation assumptions can require reporting).
+Based on the key Part 2 thresholds (you still need to check the borrower’s actual lender’s Part 2 page):
 
-## How this plays out in Handbook terms (reporting)
-You should assume this is a **“check Part 2 + likely report”** scenario unless you can confidently certify without qualification:
+- **Halifax:** **YES** — 72 years **meets** minimum (**70 years**) (Part 2 override of HB 5.14.1)  
+- **Barclays:** **YES** — 72 years **meets** minimum (**70 years**) (Part 2)  
+- **Nationwide:** **YES** — 72 years **meets** minimum (**55 years**) (Part 2)  
+- **Santander:** **YES** — 72 years **meets** minimum (**55 years**) (Part 2)
 
-- **Lease length:** must comply with lender Part 2 (**HB 5.14.1**). If not, you can’t certify without resolving or getting lender authority.
-- **Loft/no building regs:** if you cannot be satisfied on “no reasonable prospect of enforcement” and “good/marketable”, you must **report to lender before completion** (**HB 2.3** duty to disclose material matters / don’t complete until instructions—also reflected in the Certificate of Title requirements).
+**Practical note:** some lenders also have Part 2 rules tied to *mortgage term/end-of-mortgage* unexpired term (not just “today’s” term). You need to confirm the borrower’s lender and check its Part 2 wording under **5.14.1**.
 
-## What I need from you to be precise
-1) **Which lender** (e.g., Nationwide, Santander, Halifax, Barclays, etc.) and whether it’s **residential or BTL**; and  
-2) Roughly **when the loft conversion was done** (helps assess enforcement risk and what evidence might be available).
+## 2) Loft conversion without building regs sign-off — handbook position
 
-If you tell me the lender, I can point you to the exact **Part 2** lease term rule and any lender-specific stance on lack of building regs / indemnity insurance.
+**Part 1, HB 5.5.1–5.5.2 (planning & building regulations):**
+- You must take **all reasonable steps** to ensure the property has the necessary **planning permission and building regulation approval** (HB **5.5.1**).
+- If there’s a **breach** (e.g., no completion certificate), you can only proceed without referral if you are satisfied there is **no reasonable prospect of enforcement** and you can still certify title as good/marketable; otherwise you should **report to the lender** (HB **5.5.1–5.5.2**, and the general reporting duty in HB **2.3**).
+
+**Enforcement time limits you should factor in (as typically used in conveyancing):**
+- **Building regulations enforcement:** the commonly applied threshold is **4 years** from completion of the works (after which enforcement action is generally time‑barred).
+- **Other planning breaches:** often referenced as **10 years** in some contexts (with **4 years** for operational development / change of use in many cases). If planning is also an issue, you assess the relevant planning limit separately.
+
+**Indemnity insurance:** where there is no building regs sign-off, a common solution is **lack of building regulations approval indemnity insurance**—*subject to the lender’s Part 2 stance* and the usual condition that the local authority has **not** been approached (Handbook treatment of indemnities is in **HB 9**, and reporting is still required if you can’t give an unqualified Certificate of Title).
+
+## 3) Do you have to tell the lender?
+
+- **Lease length at 72 years:** usually **no referral** *if* it meets the lender’s Part 2 minimum and any “term remaining at end of mortgage” requirement (HB 5.14.1 + Part 2).
+- **Loft conversion with no building regs sign-off:** **often yes — report** unless you can clearly justify “no reasonable prospect of enforcement” and you are comfortable certifying title/marketability (HB 5.5.1–5.5.2). Many firms will refer as a matter of risk management, especially if:
+  - works appear recent/within the enforcement window,
+  - the valuer assumed it is compliant habitable space,
+  - there are safety/structural concerns, or
+  - the lender’s Part 2 explicitly requires reporting.
+
+## What I need to answer precisely for *your* case
+1) **Which lender** is it (e.g., Halifax, Nationwide, Barclays, Santander, HSBC etc.)?  
+2) **When was the loft conversion done** (approx. completion date) and was any application/regularisation made to Building Control?  
+3) Is the loft counted as a bedroom/valued space in the **valuation/mortgage offer**?
+
+With those, I can tell you whether this is (a) acceptable without referral, (b) acceptable with indemnity, or (c) must be reported / needs a deed of variation / regularisation, by reference to the relevant Part 2 requirements.

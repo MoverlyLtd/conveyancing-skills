@@ -3,32 +3,32 @@
     {
       "expectation": "Response covers multiple CQS practice areas (governance, client care, training, file management, cyber security)",
       "pass": true,
-      "reason": "Response thoroughly covers all five areas: governance/accountability, risk management, information security/cyber awareness, training/competency, client care/complaints, and file/case management"
+      "reason": "Response systematically covers all 6 key areas: governance/supervision, risk management/AML, training, cyber security, file management, and client care/complaints"
     },
     {
       "expectation": "Response mentions specific evidence types needed (e.g. training records, complaints log, SRO details)",
       "pass": true,
-      "reason": "Response provides detailed evidence lists including training certificates, complaints register, SRO documentation, undertakings register, audit logs, and many other specific evidence types"
+      "reason": "Response provides detailed evidence lists for each section including training registers, complaints register, SRO appointment records, file review logs, undertakings register, etc."
     },
     {
       "expectation": "Response references the Senior Responsible Officer (SRO) requirement",
       "pass": true,
-      "reason": "Response explicitly mentions the SRO role and need for documentation naming the SRO and their specific responsibilities"
+      "reason": "Explicitly mentions SRO requirement under Governance section: 'You must have a named SRO responsible for CQS compliance' with evidence requirements"
     },
     {
       "expectation": "Response mentions protocol compliance monitoring as a CQS requirement",
       "pass": true,
-      "reason": "Response specifically states need for 'written procedures showing how the firm adopts and monitors the Law Society Protocol' and mentions regular compliance reviews"
+      "reason": "References Law Society Conveyancing Protocol compliance multiple times, including in file management section and preparation checklist"
     },
     {
       "expectation": "Response covers cyber security / IT security requirements",
       "pass": true,
-      "reason": "Response has dedicated section on Information Security and Cyber Awareness, covering cyber security policy, fraud training, secure communications, and bank detail verification procedures"
+      "reason": "Dedicated section 4 on 'Information Security and Cyber Crime' covering bank detail verification, staff training on phishing/BEC, and cyber security policies"
     },
     {
       "expectation": "Response mentions file management and supervision requirements",
       "pass": true,
-      "reason": "Response includes dedicated File and Case Management section covering file reviews, undertakings register, internal file audits, and standardized checklists"
+      "reason": "Section 1 covers supervision procedures and section 5 covers file management including file reviews, undertakings register, and audit requirements"
     }
   ],
   "total_pass": 6,

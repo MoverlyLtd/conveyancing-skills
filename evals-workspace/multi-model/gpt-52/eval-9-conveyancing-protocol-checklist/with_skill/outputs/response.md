@@ -1,58 +1,54 @@
-To check you’re Protocol-compliant “about to exchange”, you mainly need to run through **Stage B (Pre‑Exchange)** and **Stage C (Exchange)**, plus the **General obligations** that apply throughout.
+To sanity-check you’re genuinely “ready to exchange” under the **Law Society Conveyancing Protocol (2019)**, you should run a **Stage B (Pre‑Exchange)** checklist (and keep the **General Obligations** in view throughout).
 
-Before I tailor this precisely: are you acting for the **buyer or the seller** (or both)?
+If you tell me whether you’re acting for **buyer or seller**, I can tailor this precisely. For now, here are **both sides’** Stage B checks with clear statuses you can tick off.
 
-## General obligations (apply throughout)
-- **Confirm the other side’s conveyancer is genuine/authorised** (General, para (a))  
-- **Use the current Standard Conditions of Sale** (General, para (b))  
-- **Use the Code for Completion by Post** (General, para (c))  
-- **Use the current TA forms (TA6/TA7/TA10 etc.)** (General, para (d))  
-- **Use the telephone exchange formulae** (General, para (e))  
-- **Keep amendments to Standard Conditions to essentials only** (General, para (f))  
-- **Only vary the Code for Completion by Post on client instruction** (General, para (g))  
-- **Buyer side only: limit extra enquiries to what’s relevant and necessary** (General, para (l))
-
-## Stage B — Pre‑Exchange checklist (what should be “done/ready” now)
-
-### If you act for the **buyer**
-- **Review the contract pack and raise only necessary enquiries** (Stage B, para 3)  
-- **Report on title to the client** (Stage B, para 4)  
-- **Report to the lender / satisfy lender requirements and request funds process as needed** (Stage B, para 5)  
-- **Ensure contract is approved and a completion date is agreed** (Stage B, para 7)  
-- **Hold the client’s signed contract** (Stage B, para 8)  
-- **Arrange/hold the deposit monies as required** (Stage B, para 9)  
-- **Confirm TA10 fixtures/fittings are agreed** (Stage B, para 10)  
-- **Check search results are satisfactory** (Stage B, para 11)  
-- **Check mortgage offer conditions are met** (Stage B, para 12)
-
-### If you act for the **seller**
-- **Contract pack issued (contract, title, forms, etc.)** (Stage B, para 1)  
-- **Draft transfer included** (Stage B, para 2)  
-- **Enquiries answered fully and promptly** (Stage B, para 6)  
-- **Contract approved and completion date agreed** (Stage B, para 7)  
-- **Hold the client’s signed contract** (Stage B, para 8)  
-- **Confirm TA10 fixtures/fittings are agreed** (Stage B, para 10)
-
-## Stage C — Exchange checklist (the exchange “moment” and immediately after)
-
-### Both sides
-- **Exchange using the agreed telephone formula** (Stage C, para 1)  
-- **Tell the client immediately once exchange happens** (Stage C, para 2)  
-- **Ensure transfer deed is prepared for execution (and signing logistics are in hand)** (Stage C, para 7)
-
-### Buyer side
-- **Send deposit to seller’s conveyancer (or confirm held as stakeholder as agreed)** (Stage C, para 3)  
-- **Submit certificate of title to lender (where applicable)** (Stage C, para 5)  
-- **Buildings insurance in place from exchange (where responsibility passes at exchange)** (Stage C, para 8)
-
-### Seller side
-- **Notify the estate agent of exchange** (Stage C, para 4)  
-- **Prepare completion statement** (Stage C, para 6)
+## General obligations (apply throughout) — Protocol: **General, paras (a)–(l)**
+1) Other side’s conveyancer verified (firm/identity) — **Status: Pending/Pass/Fail** (General, para (a))  
+2) Latest **Standard Conditions of Sale** being used — **Status: Pending/Pass/Fail** (General, para (b))  
+3) **Code for Completion by Post** applies (and any variations client‑approved) — **Status: Pending/Pass/Fail** (General, paras (c) & (g))  
+4) Current property forms used (TA6/TA7/TA10 etc.) — **Status: Pending/Pass/Fail** (General, para (d))  
+5) Telephone exchange will use the protocol **formulae** — **Status: Pending/Pass/Fail** (General, para (e))  
+6) Any amendments to Standard Conditions are essential only — **Status: Pending/Pass/Fail** (General, para (f))  
+7) (Buyer) Only necessary/relevant additional enquiries raised — **Status: Pending/Pass/Fail** (General, para (l))  
 
 ---
 
-### Two quick “exchange blockers” to sanity-check (practical, but aligned with the Protocol)
-- **Completion date and deposit arrangement are clearly agreed** (ties to Stage B, para 7 and para 9)  
-- **Nothing material is outstanding that would make exchange unsafe** (e.g., unresolved title issue / lender condition / critical search issue) (Stage B, paras 4, 11, 12)
+## Stage B — Pre‑Exchange checklist (Seller) — Protocol: **Stage B, paras 1–10**
+1) Contract pack issued (contract, title, forms, etc.) — **Status: Pending/Pass/Fail** (Stage B, para 1)  
+2) Draft transfer included with contract pack — **Status: Pending/Pass/Fail** (Stage B, para 2)  
+3) Enquiries replied to fully and promptly — **Status: Pending/Pass/Fail** (Stage B, para 6)  
+4) Contract approved and **completion date agreed** — **Status: Pending/Pass/Fail** (Stage B, para 7)  
+5) Contract **signed by client** — **Status: Pending/Pass/Fail** (Stage B, para 8)  
+6) Fixtures & fittings (TA10) agreed — **Status: Pending/Pass/Fail** (Stage B, para 10)  
 
-If you tell me **buyer or seller**, and whether it’s **freehold/leasehold** and **mortgage/no mortgage**, I’ll narrow this into a tight “ready to exchange” tick list for your exact scenario. (Always defer to the latest published Protocol for definitive requirements.)
+---
+
+## Stage B — Pre‑Exchange checklist (Buyer) — Protocol: **Stage B, paras 3–12**
+1) Contract pack reviewed; only necessary enquiries raised — **Status: Pending/Pass/Fail** (Stage B, para 3)  
+2) Title reported to client (clear advice on risks/limitations) — **Status: Pending/Pass/Fail** (Stage B, para 4)  
+3) Lender reported to / mortgage funding steps progressed — **Status: Pending/Pass/Fail** (Stage B, para 5)  
+4) Contract approved and **completion date agreed** — **Status: Pending/Pass/Fail** (Stage B, para 7)  
+5) Contract **signed by client** — **Status: Pending/Pass/Fail** (Stage B, para 8)  
+6) Deposit requested — **Status: Pending/Pass/Fail** (Stage B, para 9)  
+7) Fixtures & fittings (TA10) agreed — **Status: Pending/Pass/Fail** (Stage B, para 10)  
+8) Searches satisfactory — **Status: Pending/Pass/Fail** (Stage B, para 11)  
+9) Mortgage offer conditions met — **Status: Pending/Pass/Fail** (Stage B, para 12)  
+
+---
+
+## “Must-check” exchange readiness (Protocol-aligned essentials you should explicitly confirm)
+(These map to the Protocol Stage B items above and are the common exchange blockers.)
+
+1) Searches are satisfactory **and in-date (typically within 6 months)** — **Status: Pending/Pass/Fail** (Stage B, para 11)  
+2) Mortgage offer is valid and **all conditions satisfied** — **Status: Pending/Pass/Fail** (Stage B, para 12)  
+3) Deposit is confirmed as **cleared funds** (and stakeholder/agent position agreed) — **Status: Pending/Pass/Fail** (Stage B, para 9)  
+4) Buildings insurance arranged to start from **exchange (usual)** or as contract requires — **Status: Pending/Pass/Fail** (Stage C, para 8)  
+5) Contracts signed by **all parties** — **Status: Pending/Pass/Fail** (Stage B, para 8)  
+6) Title checks complete (ownership, restrictions, easements, lease terms if applicable) — **Status: Pending/Pass/Fail** (Stage B, paras 3–4)  
+7) Replies to enquiries satisfactory (and any undertakings/document production agreed) — **Status: Pending/Pass/Fail** (Stage B, paras 3 & 6)  
+
+---
+
+If you answer these two questions, I’ll produce a single tailored “ready to exchange” checklist for your file:
+1) Are you acting for the **buyer or the seller**?  
+2) Is it **freehold or leasehold**, and is there a **mortgage** involved?

@@ -3,27 +3,27 @@
     {
       "expectation": "Response correctly identifies that FTB relief does NOT apply because \u00a3510,000 exceeds the \u00a3500,000 cap",
       "pass": true,
-      "reason": "Clearly states FTB won't qualify and explicitly explains the \u00a3500,000 limit is exceeded"
+      "reason": "Explicitly states 'First-time buyer relief does NOT apply because \u00a3510,000 exceeds the \u00a3500,000 cap'"
     },
     {
       "expectation": "Response uses standard rates (not FTB rates) for the calculation",
       "pass": true,
-      "reason": "Uses standard rates: 0% up to \u00a3125k, 2% \u00a3125-250k, 5% \u00a3250k+"
+      "reason": "Uses standard rates: 0%, 2%, 5% bands rather than FTB rates with higher nil-rate band"
     },
     {
       "expectation": "Response mentions the \u00a3500,000 FTB cap (not \u00a3625,000)",
       "pass": true,
-      "reason": "Correctly states the \u00a3500,000 limit multiple times, no mention of incorrect \u00a3625,000"
+      "reason": "Correctly references the \u00a3500,000 cap threshold for FTB relief"
     },
     {
       "expectation": "Response calculates standard SDLT of \u00a315,500",
       "pass": true,
-      "reason": "Calculation shows \u00a315,500 total with correct breakdown"
+      "reason": "Shows calculation resulting in \u00a315,500 total SDLT"
     },
     {
       "expectation": "Response does NOT apply the \u00a3300,000 nil-rate FTB band",
       "pass": true,
-      "reason": "Uses standard \u00a3125,000 nil-rate band, not the FTB \u00a3300,000 band"
+      "reason": "Uses standard \u00a3125,000 nil-rate band, not the enhanced \u00a3300,000 FTB nil-rate band"
     }
   ],
   "total_pass": 5,

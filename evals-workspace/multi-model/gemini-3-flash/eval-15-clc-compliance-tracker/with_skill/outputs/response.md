@@ -1,28 +1,31 @@
-Under the CLC’s outcomes-focused framework, your obligations regarding client money are primarily governed by **Principle 3** of the Code of Conduct (effective 1 January 2025) and the specific **Accounts Code**.
+Under CLC regulation, your obligations regarding client money are governed by an **outcomes-focused framework**. This means that while the CLC sets the required outcomes, your firm has the flexibility to develop its own internal procedures to achieve them.
 
-Your overarching duty is to protect client money and assets, ensuring they are never used for any purpose other than that for which they were intended.
+### 1. The Regulatory Hierarchy
+It is fundamental to remember that the **CLC Code of Conduct prevails** in all instances. While the specific technical requirements for client money are found in the **CLC Accounts Code** (a subsidiary code), these must always be read in light of the overarching Ethical Principles in the Code of Conduct.
 
-### 1. Separation of Funds (ACC1)
-You must keep client money entirely separate from the firm’s own money. All client funds must be held in a **designated client account** at a bank or building society. 
+### 2. Core Ethical Obligations
+Under **Principle 3: Act in the Best Interests of Clients**, you have a specific duty (Outcome 3.4) to **protect client money and assets**. This is an absolute requirement that takes precedence over any commercial interests of the firm.
 
-### 2. Regular Reconciliations (ACC2)
-You are required to perform regular reconciliations of your client accounts. Under CLC requirements, this must be done at least **monthly** to ensure that the bank balance matches your internal accounting records and individual client ledgers.
+### 3. Specific Requirements (CLC Accounts Code)
+The **CLC Accounts Code** mandates several key actions to ensure the safety of client funds:
 
-### 3. Handling Interest (ACC3)
-You must have a clear policy on how interest earned on client money is handled. This must be:
-*   Communicated to the client within your **Terms of Engagement**.
-*   Applied fairly, ensuring clients receive the interest they are entitled to based on the terms you have agreed upon.
+*   **Designated Accounts (ACC1):** All client money must be held in a designated client account, kept strictly separate from the firm's own office money.
+*   **Regular Reconciliations (ACC2):** You must reconcile the client account records against bank statements regularly, at a **minimum of once per month**.
+*   **Interest Policy (ACC3):** You must have a clear policy on how interest on client money is handled and accounted for, and this must be communicated to the client in the terms of engagement.
+*   **Accountant’s Report (ACC4):** Your firm must submit an annual Accountant’s Report to the CLC to verify that the Accounts Code has been complied with.
 
-### 4. Annual Reporting (ACC4)
-To demonstrate compliance, your firm must submit an **Accountant’s Report** to the CLC every year. This report, completed by a qualified independent accountant, confirms that the firm is managing client money in accordance with the Accounts Code.
+### 4. Regulatory Compliance Roles
+Unlike SRA-regulated firms which appoint a COFA (Compliance Officer for Finance and Administration), CLC-regulated firms appoint a **Regulatory Compliance Manager**. This individual is responsible for ensuring the firm meets its obligations under the CLC Accounts Code and the broader Code of Conduct.
 
-### 5. Transparency and Information
-Under Principle 3 (Outcome 3.2), you must provide clients with clear information about costs. This extends to how their money is being held and protected. If there are changes to costs or how funds are handled, you must inform the client promptly.
+### 5. Key Distinctions from SRA Regulation
+It is important not to confuse CLC requirements with SRA/Law Society rules:
+*   **Framework:** You follow the **CLC Accounts Code**, not the SRA Accounts Rules.
+*   **Protocol:** CLC firms do not use the Law Society Conveyancing Protocol; instead, they follow the CLC's outcomes-focused requirements for transaction management.
+*   **Complaints:** If a client raises a concern regarding the handling of their money, you must follow the **CLC complaints procedures**, which are distinct from the procedures used by SRA-regulated firms.
 
-### 6. Transactional Evidence
-In the event of a CLC audit, you would be expected to provide evidence of:
-*   Compliance with the CLC Accounts Code.
-*   Documented records of all money received and paid out.
-*   Prompt billing following the completion of a matter.
-
-**Key Difference from SRA:** Unlike SRA-regulated firms that follow more prescriptive steps, the CLC expects you to deliver the **outcome** of fund security. You have the flexibility to develop your own internal procedures to meet these standards, provided they are robust and protect the consumer.
+### 6. Evidence and Documentation
+To demonstrate compliance during a CLC audit, you should maintain:
+*   Clear audit trails for every movement of client money.
+*   Signed monthly reconciliation reports.
+*   A written policy on the payment of interest.
+*   Evidence that the Regulatory Compliance Manager is monitoring financial health and compliance.

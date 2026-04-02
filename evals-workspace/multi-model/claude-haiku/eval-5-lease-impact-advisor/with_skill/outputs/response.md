@@ -1,16 +1,21 @@
-Okay, let's assess the impact of a 95-year remaining lease term on the saleability and mortgage availability for this flat.
+Okay, let's assess the impact of a 95-year lease for this leasehold flat purchase:
 
-Using the Lease Impact Advisor:
+Lease Impact Assessment:
 
-- Current unexpired lease term: 95 years
-- This places the property firmly in the GREEN risk band. 
-- With 95 years remaining, this lease length will have no impact on saleability or mortgage eligibility. All mainstream lenders will accept this.
+- Lease Term: 95 years remaining
+- This falls into the **GREEN risk band**, which means there is no impact on saleability or mortgage availability.
 
-The key points to convey to the buyer are:
+Lender Eligibility:
+- The major high street lenders like Nationwide, NatWest, HSBC, Barclays, Halifax, Lloyds, and Santander will all accept a 95-year lease without issue.
 
-- A 95-year lease is considered a low-risk, attractive lease length from the perspective of both lenders and future buyers.
-- There is no need for the buyer to factor in the cost of a lease extension, as the remaining term is well above the 80-90 year threshold where that would become a consideration.
-- The property should have a full pool of potential buyers, as no lenders will decline a mortgage due to the lease length.
-- Pricing should not be impacted by the remaining lease term, as it is well within standard parameters.
+Saleability and Buyer Pool:
+- With 95 years remaining, the property will have a full mainstream buyer pool - no restrictions.
+- There should be no price discount due to the lease length.
 
-Overall, a 95-year lease is an excellent result and the buyer should not have any major concerns about the lease length on this property. I would recommend proceeding with the purchase with confidence.
+Lease Extension Guidance:
+- Even though the lease is well above lender thresholds, extending the lease is still advisable to protect future value.
+- The extension process can be started by the seller before marketing, or the buyer can take it on after purchase.
+- The statutory route (Section 42 notice) would add 90 years and reduce the ground rent to a peppercorn.
+- Your conveyancer can advise on the specific extension process and costs.
+
+In summary, the 95-year lease should not be a concern. It's in the green risk band with no impact on mortgage eligibility or saleability. Extending the lease is still worthwhile but not an urgent requirement.

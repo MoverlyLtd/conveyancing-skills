@@ -3,30 +3,30 @@
     {
       "expectation": "Response mentions CQS training requirements for all conveyancing staff",
       "pass": true,
-      "reason": "Clearly mentions mandatory CQS training modules within first 6 months covering ethics, client care, risk management, and conveyancing best practices"
+      "reason": "Clearly states CQS requires induction programs for new conveyancing staff and protocol training for all staff"
     },
     {
       "expectation": "Response covers protocol awareness and compliance training",
       "pass": true,
-      "reason": "Specifically mentions training on Conveyancing Protocol, CQS procedures and standards, and adherence to core practice standards"
+      "reason": "Dedicates entire section to Conveyancing Protocol training including key stages, standard forms, and compliance procedures"
     },
     {
       "expectation": "Response mentions supervision requirements for new staff",
       "pass": true,
-      "reason": "Details documented supervision policy with named supervisor, regular file reviews, and SRO oversight"
+      "reason": "Explicitly covers CQS supervision requirements including documented procedures and assigned named supervisors"
     },
     {
       "expectation": "Response references the need to maintain training records as CQS evidence",
-      "pass": true,
-      "reason": "States firm should record training completions and mentions documenting training for CQS audit compliance"
+      "pass": false,
+      "reason": "No mention of documenting training or maintaining records as evidence for CQS compliance"
     },
     {
       "expectation": "Response distinguishes CQS firm-level requirements from individual SRA competence",
       "pass": false,
-      "reason": "Response focuses entirely on CQS firm requirements without distinguishing these from individual SRA competence requirements"
+      "reason": "Does not distinguish between CQS firm accreditation requirements and individual SRA professional competence requirements"
     }
   ],
-  "total_pass": 4,
+  "total_pass": 3,
   "total_expectations": 5,
-  "score_pct": 80
+  "score_pct": 60
 }

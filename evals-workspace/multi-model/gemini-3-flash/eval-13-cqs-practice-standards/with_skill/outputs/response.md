@@ -1,42 +1,44 @@
-When a new fee earner joins a CQS-accredited firm, there are several specific onboarding requirements you must meet to maintain your accreditation. These are designed to ensure the new hire understands both the Law Society’s standards and your firm’s internal procedures.
+When onboarding a new fee earner to a CQS-accredited firm, you must meet specific practice management standards that go beyond the baseline SRA regulatory requirements.
 
-Based on the CQS Practice Management Standards, here are the key areas to cover:
+It is important to distinguish between **CQS firm-level requirements** and **individual SRA competence**. While the SRA regulates the individual's personal professional competence and continuing professional development (CPD), CQS focuses on ensuring the individual is integrated into the firm’s accredited systems, protocols, and risk management processes.
 
-### 1. Mandatory CQS Training (Standard 6.1)
-The Law Society requires all relevant staff to complete mandatory CQS training.
-*   **Action:** Ensure the new fee earner completes the initial CQS training modules.
-*   **Evidence:** Keep a copy of the training certificates and record the completion dates in your training log.
+Here are the specific CQS onboarding requirements you must address:
 
-### 2. Formal Induction Programme (Standard 6.4)
-You must have a documented induction process specifically for conveyancing staff.
-*   **Internal Systems:** Train them on your specific file/case management system (Standard 7.1).
-*   **Firm Procedures:** Ensure they are briefed on your firm's unique way of handling AML, source of funds, and conflict checks (Section 4).
-*   **Evidence:** Use an induction checklist signed by both the new hire and the supervisor.
+### 1. Formal Induction Programme (Requirement 6.4)
+The firm must have a documented induction programme for new conveyancing staff. This is a specific CQS requirement that exceeds general SRA requirements. You should use an **induction checklist** as evidence that the new fee earner has been briefed on:
+*   The firm’s specific conveyancing procedures and case management systems.
+*   How the firm handles file reviews and key date monitoring.
+*   Office-specific policies for handling exchange and completion.
 
-### 3. Awareness of the Conveyancing Protocol (Standards 1.4 & 5.8)
-It is a core requirement that all staff are aware of and adhere to the Law Society Conveyancing Protocol.
-*   **Action:** Provide them with a copy of the current Protocol and your firm's written procedures for adopting it.
-*   **Evidence:** Documented confirmation that the staff member has read and understands these standards.
+### 2. Mandatory CQS Training (Requirement 6.1)
+The Law Society requires all relevant staff in accredited firms to complete mandatory CQS training modules. 
+*   **Action:** You must ensure the new fee earner completes the core CQS training (typically covering the Protocol and AML) within the timescales set by the Law Society (usually within 6 months of joining, but check current Law Society guidance).
+*   **Record Keeping:** Keep copies of their completion certificates in the firm’s training records. Note that while SRA requires "competence," CQS specifically requires these Law Society-approved modules.
 
-### 4. Supervision and File Reviews (Standards 3.2 & 3.3)
-You must clearly define how the new fee earner will be supervised.
-*   **Supervisor:** Formally assign a supervisor to the new hire.
-*   **File Reviews:** Determine the frequency of their file reviews. New hires often require more frequent "key stage" reviews initially until their competency is fully assessed.
-*   **Evidence:** A supervision policy or letter naming their supervisor and an updated file review schedule.
+### 3. Protocol Awareness (Requirement 1.4 & 5.8)
+The fee earner must be made aware of the **Law Society Conveyancing Protocol**.
+*   Unlike general SRA regulation, which is outcomes-focused, CQS requires strict adherence to the technical steps of the Protocol.
+*   The new joiner must be trained on how your firm specifically adopts and monitors protocol compliance (Requirement 1.3).
 
-### 5. Cyber Security and Risk Awareness (Section 5)
-Given the high risk of fraud in conveyancing, specific training is required.
-*   **Fraud Training:** Brief them on risks like phishing, Business Email Compromise (BEC), and your firm's specific policy for verifying bank details (Standard 5.4).
-*   **Data Protection:** Ensure they understand your firm's GDPR/UK GDPR compliance and secure communication methods (e.g., using secure portals rather than standard email for sensitive data).
+### 4. Supervision Arrangements (Requirement 3.3)
+You must formally assign a supervisor to the new fee earner.
+*   **CQS Requirement:** You must document the supervision arrangements, including who the supervisor is and the frequency/method of supervision.
+*   **SRA Distinction:** While the SRA Code of Conduct sets a high-level duty to supervise, CQS requires a **documented firm-level procedure** that proves supervision is actually happening (e.g., through signed-off file reviews).
 
-### 6. Professional Standards & Complaints (Section 2)
-The new hire needs to understand how your firm handles client care.
-*   **Complaints:** They must know your written complaints procedure and where it is displayed to clients.
-*   **Costs:** They must be trained on providing clear costs information at the outset of every matter.
+### 5. Cyber Security and Fraud Training (Requirement 5.2)
+Given the high risk of "Friday afternoon fraud," CQS requires specific training on cyber security risks.
+*   The new fee earner must be briefed on your firm’s procedures for **verifying bank details** and preventing Business Email Compromise (BEC).
+*   Ensure they understand the firm's secure communication methods (e.g., encrypted portals) for sensitive data.
 
-**Next Steps for your SRO:**
-*   Update your **staff training records** immediately.
-*   Ensure the new hire is added to your **CQS renewal application** data when the time comes.
-*   Verify that their **PII (Professional Indemnity Insurance)** coverage is active for their start date.
+### 6. Risk Management & AML (Section 4)
+The joiner must be trained on the firm’s specific **Anti-Money Laundering (AML)** and **Source of Wealth** procedures. 
+*   Ensure they know the "triggers" for enhanced due diligence according to your firm's specific risk assessment, not just the general legislative requirements.
 
-*Note: CQS requirements are updated periodically. It is recommended to check the current standards on the Law Society website to ensure your induction checklist remains compliant.*
+### Summary Checklist for the Personnel File:
+*   [ ] Signed induction checklist.
+*   [ ] Copy of the firm's Supervision Policy provided.
+*   [ ] Training record initiated (to include future CQS mandatory module dates).
+*   [ ] Briefing on the Law Society Conveyancing Protocol.
+*   [ ] Training on firm-specific cyber-security/bank verification protocols.
+
+**Note:** CQS requirements evolve periodically. You should verify the current Core Practice Management Standards (CPMS) on the Law Society website to ensure your induction checklist remains compliant.

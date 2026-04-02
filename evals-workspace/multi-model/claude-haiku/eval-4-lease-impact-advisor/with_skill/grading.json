@@ -3,32 +3,32 @@
     {
       "expectation": "Response identifies 68 years as a critical lease length issue",
       "pass": true,
-      "reason": "Clearly identifies 68-year lease as 'RED' risk band and 'significant challenge' that will limit buyer pool"
+      "reason": "Clearly identifies 68 years as 'RED' risk band and states it will significantly impact saleability and price"
     },
     {
       "expectation": "Response mentions specific lender names and their minimum requirements (not just 'most lenders want 70+ years')",
       "pass": true,
-      "reason": "Lists specific lenders (Nationwide, NatWest, HSBC, Barclays, Halifax, Lloyds) with their exact minimum requirements"
+      "reason": "Lists specific lenders: Halifax, Lloyds, Barclays (70+ years), Santander (82+ years)"
     },
     {
       "expectation": "Response mentions marriage value applies below 80 years",
       "pass": true,
-      "reason": "Explicitly mentions 'landlord's marriage value claim' in lease extension cost estimate"
+      "reason": "Explicitly states 'marriage value would apply for a lease extension' and mentions it's under 80 years"
     },
     {
       "expectation": "Response discusses lease extension options (statutory Section 42, informal, assign benefit)",
       "pass": false,
-      "reason": "Only mentions 'statutory lease extension' without discussing Section 42, informal options, or assign benefit alternatives"
+      "reason": "Only mentions statutory Section 42 route, does not discuss informal extension or assign benefit options"
     },
     {
       "expectation": "Response quantifies the price impact (discount percentage or range)",
       "pass": true,
-      "reason": "Provides specific discount range of '5-15% compared to a freehold or longer-lease property'"
+      "reason": "States '5-15% discount compared to a similar property with a longer lease'"
     },
     {
       "expectation": "Response mentions reduced buyer pool due to mortgage restrictions",
       "pass": true,
-      "reason": "States 'restricted buyer pool' and that buyers 'may need to use specialist lenders or pay cash, which will limit potential purchasers'"
+      "reason": "States buyer pool will be 'restricted to mainly cash buyers' due to lender restrictions"
     }
   ],
   "total_pass": 5,

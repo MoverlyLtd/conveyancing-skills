@@ -1,53 +1,85 @@
-For a new fee earner joining a CQS-accredited firm, the CQS-specific onboarding focus is mainly on making sure they are properly inducted into your firm’s conveyancing procedures, the Conveyancing Protocol, and your supervision/risk controls.
+For a new fee earner joining a **CQS-accredited firm**, the key point is that **CQS is about the firm’s systems and controls**, while **SRA rules govern the individual lawyer’s competence, supervision and conduct**. So onboarding should cover both, but the CQS angle is mainly about making sure the person is properly brought into the firm’s conveyancing processes and compliance framework.
 
-In plain terms, you should make sure the following are in place:
+## CQS-specific onboarding requirements to cover
 
-### CQS onboarding essentials
-1. **Induction into the firm’s conveyancing procedures**
-   - They should be shown your firm’s current conveyancing process, not just left to “pick it up as they go.”
-   - This includes your approach to opening files, reporting, exchange, completion, post-completion, and close-out.
+### 1. Induction into the firm’s CQS procedures
+CQS expects the new fee earner to be inducted into the firm’s:
+- conveyancing procedures and workflow
+- Conveyancing Protocol / protocol-compliant processes
+- file management and key stage requirements
+- complaints handling process
+- AML / ID / source of funds checks
+- fraud prevention and bank detail verification procedures
+- cyber security and data protection procedures
 
-2. **Training on the Conveyancing Protocol**
-   - They should understand the Law Society Conveyancing Protocol and how your firm applies it in practice.
-   - If they are handling residential conveyancing, this is particularly important.
+This is a **firm-level CQS requirement**: the firm must show it has documented induction and training for conveyancing staff.
 
-3. **Training on firm-specific systems and templates**
-   - They need to be trained on your case management system, standard letters, precedent documents, forms, checklists, and file controls.
-   - Make sure they know which forms/conditions/version-controlled documents are current.
+### 2. Training on the firm’s own conveyancing systems
+The new starter should be trained on:
+- case management system
+- standard letters/templates
+- checklists and milestone tracking
+- post-completion process
+- undertakings register
+- file review and escalation routes
 
-4. **Supervision arrangements**
-   - A new fee earner should have a named supervisor.
-   - Their work should be reviewed at key stages until they are fully up to speed.
-   - CQS expects supervision to be real and documented, not informal only.
+Again, the CQS focus is on having **documented training records** showing the person was brought into the firm’s processes.
 
-5. **AML / ID / source of funds training**
-   - They must understand your client due diligence procedures, source of funds checks, sanctions screening, and fraud prevention steps.
-   - This is especially important in conveyancing because of funds diversion and identity fraud risks.
+### 3. Awareness of the firm’s supervision arrangements
+CQS requires **documented supervision arrangements** at firm level. For the new fee earner, you should confirm:
+- who supervises them
+- what matters need sign-off
+- which stages require review
+- how issues are escalated
 
-6. **Cybersecurity and fraud awareness**
-   - They should be briefed on phishing, business email compromise, bank detail change requests, and how your firm verifies completion monies and bank details.
-   - CQS places real emphasis on this area.
+Important distinction:
+- **CQS**: the firm must have a supervision structure and evidence it is followed
+- **SRA**: individual supervision standards apply to the supervising solicitor and the fee earner’s work allocation
 
-7. **Client care and complaints process**
-   - They should know how your firm gives costs information, updates clients, and handles complaints.
-   - They should also know where the complaints procedure is and how to escalate issues.
+### 4. CQS / Protocol compliance training
+The fee earner should be trained on:
+- the firm’s CQS standards
+- the firm’s protocol-compliant processes
+- any recent regulatory or practice changes affecting residential conveyancing
 
-8. **File management and key dates**
-   - They need training on diary controls, undertakings tracking, post-completion tasks, and file retention rules.
+Keep **training records**, because CQS audit evidence commonly includes these.
 
-### What evidence you should keep
+### 5. Risk and security onboarding
+CQS also expects staff awareness of conveyancing risks, including:
+- identity verification and anti-money laundering checks
+- source of funds / source of wealth processes
+- sanctions screening if used by the firm
+- fraud and cyber risks, especially payment diversion
+- secure communication procedures
+
+If the firm uses any mandatory cyber or fraud training, log completion.
+
+### 6. File review and quality control arrangements
+The new fee earner should be told:
+- when their files will be reviewed
+- what triggers review
+- who reviews files
+- how feedback is recorded
+
+CQS expects firms to have **regular file reviews** and to evidence them.
+
+### 7. Complaints and client care
+They should be inducted into:
+- client care standards
+- how to give costs information clearly
+- how progress updates are handled
+- the complaints procedure and escalation process
+
+## What evidence you should keep
 For CQS purposes, keep a record of:
 - induction checklist
 - training attendance / completion records
 - supervision allocation
-- signed policy acknowledgements
-- notes of any competency sign-off
-- refresher training dates
+- policy acknowledgements
+- system access and permissions if relevant
+- file review schedule for the new starter
 
-### Practical CQS point
-If the fee earner is new to conveyancing, or new to your systems, you should consider limiting their unsupervised work until they’ve been signed off as competent.
-
-### Bottom line
-CQS doesn’t usually prescribe a single “onboarding form,” but it does expect you to **train, supervise, and evidence** that a new fee earner understands your firm’s conveyancing procedures, risk controls, and the Protocol.
+## Practical note
+If the fee earner is a solicitor, their **individual competence and CPD** are still governed by the **SRA**, not CQS. CQS looks at whether the **firm** has made sure they are trained, supervised and operating within the firm’s compliant systems.
 
 If you want, I can turn this into a **new starter CQS onboarding checklist** you can use internally.

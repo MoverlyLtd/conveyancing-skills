@@ -1,16 +1,20 @@
-Okay, let's go through the relevant checks for this leasehold property with the loft conversion:
+Okay, let's go through the relevant sections of the Lender's Handbook Part 1 checklist:
 
-Lease Term (Section 9.1):
-- The lender's handbook requires you to check the Part 2 requirements for the specific lender. You'll need to look up the lender's minimum lease term in the relevant lender's reference file.
-- If the remaining lease term is below the lender's minimum, you'll need to report this to the lender before completion.
+Leasehold Term (Section 9.1):
+- The lease has 72 years remaining.
+- For Halifax, the minimum lease term is 70 years, so this would be acceptable.
+- For Nationwide, the minimum is 55 years, so this would also be acceptable.
+- For other major lenders like Barclays and Santander, the minimum is typically 70 years.
 
-Loft Conversion without Building Regulations (Section 13.6):
-- The handbook requires you to take all reasonable steps to ensure the property has the necessary planning consents and building regulation approvals.
-- If there is a breach of planning or building regulations, you'll need to assess whether there is a reasonable prospect of enforcement action. 
-- If not, and you can still certify good and marketable title, you can proceed. Otherwise, you must report the issue to the lender before completion.
+Building Regulations (Section 13.6):
+- The property has a loft conversion without building regulations approval.
+- The handbook states you must take all reasonable steps to ensure the property has the necessary planning consents and building regulation approvals.
+- If there is a breach, you need to check if there is a reasonable prospect of enforcement action. 
+- If no reasonable prospect of enforcement, and you can still certify good and marketable title, you can proceed.
+- Otherwise, you must report the issue to the lender before completion.
 
-So in summary:
-1. Check the lender's Part 2 requirements for the minimum remaining lease term. Report if below the minimum.
-2. Investigate the loft conversion and status of building regulations. If there is a breach but no enforcement risk, you can likely proceed. But if the title is not good and marketable, you must report to the lender before completion.
+The key points are:
+1. The 72-year lease term meets the requirements of the major lenders.
+2. The unapproved building works need to be reported to the lender, unless you can confirm there is no enforcement risk.
 
-Let me know if you have any other questions!
+If you can resolve the building regulations issue, either through getting retroactive approval or obtaining indemnity insurance, then you should be able to proceed with an unqualified certificate of title. But you will need to make the lender aware of the situation first.

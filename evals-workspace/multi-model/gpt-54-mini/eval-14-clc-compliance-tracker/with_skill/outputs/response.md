@@ -1,69 +1,66 @@
-For a **CLC-regulated firm**, delays in conveyancing are mainly a **service quality** and **complaints-handling** issue. The CLC expects you to deal with it in a way that is **prompt, fair, transparent, and well documented**.
+For a **CLC-regulated firm**, you need to handle the complaint under the **CLC Code of Conduct** and your own complaints procedure. The CLC uses an **outcomes-focused approach**, so the key is to achieve the required result promptly and fairly rather than follow a single prescriptive template.
 
-## What the CLC requires you to do
+A few important CLC points:
 
-### 1) Acknowledge and investigate the complaint promptly
-You should:
-- acknowledge the complaint quickly
-- investigate what caused the delay
-- check the file, key dates, correspondence, and any supervision notes
-- identify whether the delay was avoidable and whether the client suffered loss or inconvenience
+- The **CLC Code of Conduct prevails** if any subsidiary guidance or internal process seems inconsistent.
+- This is **different from SRA/Law Society complaints handling** — don’t use SRA terminology or assume SRA-style steps apply.
+- If the complaint involves client money or an account issue, that also brings the **CLC Accounts Code** into play.
 
-This links to the CLC expectation that you provide a **competent, timely and diligent service**.
+## What the CLC requires in practice
 
-### 2) Respond clearly and fairly
-Your response should:
-- explain what happened in plain language
-- address the client’s specific concerns
-- set out what you are doing to fix the problem
-- explain any remedial steps or compensation/redress if appropriate
-- avoid defensive or misleading statements
+Under the CLC Code of Conduct, you should:
 
-### 3) Keep the client informed
-The CLC expects clients to be kept informed of progress. If the complaint is about delay, you should also give a realistic update on:
-- what has been done
-- what remains outstanding
-- the expected timescale
-- any dependencies outside your control
+1. **Acknowledge the complaint promptly**
+   - Confirm receipt and explain who is dealing with it.
 
-### 4) Follow your complaints procedure
-You should have a written complaints process and use it consistently:
-- log the complaint in your complaints register
-- allocate responsibility for handling it
-- follow your internal timelines
-- escalate if the first handler cannot resolve it
+2. **Investigate fairly and thoroughly**
+   - Review the file, key dates, emails, attendance notes, and any delay causes.
+   - Check whether the delay was avoidable, whether the client was kept informed, and whether your service met the expected standard.
 
-### 5) Handle it fairly and promptly
-The CLC requires complaints to be handled fairly and without unnecessary delay. That means:
-- investigating objectively
-- considering whether the complaint is partly or wholly justified
-- putting things right where needed
-- not delaying the complaint response while the conveyancing matter itself is still ongoing, unless there is a good reason
+3. **Respond clearly and without undue delay**
+   - Explain your findings in plain language.
+   - Set out whether you uphold the complaint in whole or in part.
+   - If delay occurred, explain the reason and what you are doing to put it right.
 
-### 6) Cooperate with the Legal Ombudsman if it escalates
-If the client is dissatisfied after your final response, they may take the matter to the **Legal Ombudsman**. You must cooperate fully and promptly if that happens.
+4. **Provide a remedy if appropriate**
+   - This might include an apology, corrective action, a service remedy, or consideration of compensation/reduction of fees where justified.
 
-### 7) Consider whether the delay points to a wider issue
-If the complaint reveals a pattern, you may need to:
-- review supervision arrangements
-- check workload and staffing
-- improve file monitoring and key-date controls
-- update procedures to avoid repeat delays
+5. **Keep the client informed**
+   - If the investigation takes time, update the client regularly.
 
-## Good evidence to keep on the file
-For CLC compliance purposes, keep:
-- complaint acknowledgment
-- investigation notes
-- file chronology
-- correspondence with the client
-- internal supervision or escalation notes
-- final response letter
-- any redress offered and accepted
+6. **Tell the client about escalation rights**
+   - Your response should explain how the client can escalate the complaint if they remain dissatisfied, including referral to the **Legal Ombudsman** where applicable.
 
-## CLC principles most relevant here
-- **High standards of work**: competent, timely, diligent service
-- **Best interests of clients**: clear information and progress updates
-- **Complaints handling**: fair and prompt resolution
-- **Open and cooperative with regulators/ombudsman** if the matter escalates
+7. **Record and monitor the complaint**
+   - Keep a complaints register or log.
+   - Review whether the delay points to a wider service issue or supervision problem.
 
-If you want, I can also give you a **CLC-compliant complaint response template** for delay complaints.
+## Regulatory angle
+
+A delay complaint can engage several CLC outcomes, including:
+
+- **Acting in the client’s best interests**
+- **Providing competent, timely and diligent service**
+- **Keeping the client informed**
+- **Handling complaints fairly and promptly**
+
+If the delay indicates a deeper problem, you may also need to consider:
+
+- supervision and file management,
+- whether staff had sufficient competence,
+- whether undertakings or deadlines were at risk,
+- and whether any reportable matter needs to be raised with the **CLC**.
+
+## Good practice for your response
+
+Your complaint response should usually include:
+
+- the issue complained about,
+- the facts and chronology,
+- what caused the delay,
+- whether the delay was reasonable,
+- any impact on the client,
+- what you are doing to prevent recurrence,
+- and how the client can pursue the matter further.
+
+If you want, I can also give you a **CLC-compliant complaint response template** for a delay complaint.

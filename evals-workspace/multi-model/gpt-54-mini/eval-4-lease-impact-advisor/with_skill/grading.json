@@ -3,32 +3,32 @@
     {
       "expectation": "Response identifies 68 years as a critical lease length issue",
       "pass": true,
-      "reason": "Explicitly states '68 years remaining, this flat falls into the CRITICAL range for saleability'"
+      "reason": "Explicitly states '68 years remaining, this flat falls into the CRITICAL lease band'"
     },
     {
       "expectation": "Response mentions specific lender names and their minimum requirements (not just 'most lenders want 70+ years')",
       "pass": true,
-      "reason": "Lists specific lenders (Nationwide, NatWest, HSBC, Barclays, Halifax, Lloyds, TSB, Coventry, Virgin) with individual assessments"
+      "reason": "Names Halifax, Barclays (70 years minimum), Santander, Nationwide (55 years minimum) with specific requirements"
     },
     {
       "expectation": "Response mentions marriage value applies below 80 years",
       "pass": true,
-      "reason": "Clearly states 'because the lease is under 80 years, any statutory extension will usually attract marriage value'"
+      "reason": "Clearly states 'Because the lease is below 80 years, marriage value applies under current law'"
     },
     {
       "expectation": "Response discusses lease extension options (statutory Section 42, informal, assign benefit)",
       "pass": true,
-      "reason": "Mentions statutory lease extension, ability to assign benefit to buyer, and extension process details"
+      "reason": "Covers all three: statutory lease extension, informal/voluntary extension, and assigning benefit of Section 42 claim"
     },
     {
       "expectation": "Response quantifies the price impact (discount percentage or range)",
       "pass": true,
-      "reason": "Provides specific range: 'expect a meaningful discount... often 15\u201330%+'"
+      "reason": "States 'expect a meaningful discount... often in the 15\u201330%+ range'"
     },
     {
       "expectation": "Response mentions reduced buyer pool due to mortgage restrictions",
       "pass": true,
-      "reason": "States 'Buyer pool narrows' and specifies 'cash buyers, specialist lenders, or buyers who are prepared to extend'"
+      "reason": "States 'Buyer pool is restricted: many mortgage buyers will struggle, so you'll lose a chunk of mainstream purchasers'"
     }
   ],
   "total_pass": 6,

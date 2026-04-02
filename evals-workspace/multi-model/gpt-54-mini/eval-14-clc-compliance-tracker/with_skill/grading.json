@@ -3,35 +3,35 @@
     {
       "expectation": "Response references CLC Code of Conduct ethical principles or outcomes",
       "pass": true,
-      "reason": "Explicitly lists relevant CLC principles including high standards of work, best interests of clients, complaints handling, and cooperation with regulators"
+      "reason": "Explicitly mentions CLC Code of Conduct and lists specific outcomes like 'Acting in the client's best interests' and 'Providing competent, timely and diligent service'"
     },
     {
       "expectation": "Response mentions the CLC's outcomes-focused approach",
-      "pass": false,
-      "reason": "Does not specifically mention the CLC's outcomes-focused regulatory approach or framework"
+      "pass": true,
+      "reason": "Clearly states 'The CLC uses an outcomes-focused approach, so the key is to achieve the required result promptly and fairly'"
     },
     {
       "expectation": "Response covers complaint recording and reporting requirements",
       "pass": true,
-      "reason": "Mentions logging complaints in complaints register and keeping detailed records including investigation notes and correspondence"
+      "reason": "Mentions 'Keep a complaints register or log' and discusses when reportable matters need to be raised with the CLC"
     },
     {
       "expectation": "Response mentions the Legal Ombudsman escalation pathway",
       "pass": true,
-      "reason": "Clearly states clients may take matters to Legal Ombudsman if dissatisfied and firm must cooperate fully"
+      "reason": "Explicitly states clients should be told about 'referral to the Legal Ombudsman where applicable'"
     },
     {
       "expectation": "Response distinguishes CLC requirements from SRA/Law Society complaints procedures",
-      "pass": false,
-      "reason": "Does not distinguish CLC-specific requirements from other legal regulators' procedures"
+      "pass": true,
+      "reason": "Clearly states 'This is different from SRA/Law Society complaints handling \u2014 don't use SRA terminology or assume SRA-style steps apply'"
     },
     {
       "expectation": "Response mentions transparency obligations to the client",
       "pass": true,
-      "reason": "Emphasizes keeping clients informed of progress, explaining what happened in plain language, and avoiding misleading statements"
+      "reason": "Covers keeping client informed throughout process and responding in plain language, plus updating client regularly during investigation"
     }
   ],
-  "total_pass": 4,
+  "total_pass": 6,
   "total_expectations": 6,
-  "score_pct": 67
+  "score_pct": 100
 }

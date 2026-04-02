@@ -3,32 +3,32 @@
     {
       "expectation": "Response covers multiple CQS practice areas (governance, client care, training, file management, cyber security)",
       "pass": true,
-      "reason": "Response comprehensively covers all areas: governance, client care, conveyancing process, risk management, information security, training, and file management"
+      "reason": "Covers all areas comprehensively - governance, client care, training, file management, cyber security, plus risk management and protocol compliance"
     },
     {
       "expectation": "Response mentions specific evidence types needed (e.g. training records, complaints log, SRO details)",
       "pass": true,
-      "reason": "Response provides detailed evidence lists including training records, complaints register, SRO details, procedures, certificates, and audit logs"
+      "reason": "Provides extensive specific evidence examples including training records, complaints log, SRO nomination, file audit records, and many others"
     },
     {
       "expectation": "Response references the Senior Responsible Officer (SRO) requirement",
       "pass": true,
-      "reason": "Response explicitly mentions 'Named CQS Senior Responsible Officer (SRO)' and includes SRO details in checklist"
+      "reason": "Clearly mentions 'Named CQS Senior Responsible Officer (SRO)' and includes it in priority evidence list"
     },
     {
       "expectation": "Response mentions protocol compliance monitoring as a CQS requirement",
       "pass": true,
-      "reason": "Response states 'Evidence that it aligns with the Law Society Conveyancing Protocol' under conveyancing process section"
+      "reason": "Dedicates entire section to 'Conveyancing process and protocol compliance' with specific monitoring procedures"
     },
     {
       "expectation": "Response covers cyber security / IT security requirements",
       "pass": true,
-      "reason": "Response has dedicated 'Information security' section covering cyber security policy, staff training, secure communications, and Cyber Essentials"
+      "reason": "Comprehensive cyber security section covering policy, training, secure communications, and bank detail verification"
     },
     {
       "expectation": "Response mentions file management and supervision requirements",
       "pass": true,
-      "reason": "Response covers file management in section 7 and supervision arrangements in section 3, including file reviews, case management, and retention policies"
+      "reason": "Covers file management systems, supervision arrangements, file audits, and retention policies"
     }
   ],
   "total_pass": 6,

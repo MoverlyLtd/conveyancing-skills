@@ -3,30 +3,30 @@
     {
       "expectation": "Response references CA Protocol section 4.0 or 4.1 specifically",
       "pass": true,
-      "reason": "Explicitly references 'CA Protocol 4.0' at the beginning and end"
+      "reason": "Response explicitly mentions 'CA Protocol Section 4.0' in the opening and references it again at the end"
     },
     {
       "expectation": "Response mentions the 4-year enforcement period for operational development",
       "pass": true,
-      "reason": "Clearly states 'less than 4 years ago' and 'usual 4-year immunity period for planning breaches hasn't yet passed'"
+      "reason": "Response clearly states 'The 4-year enforcement rule doesn't apply here (work too recent)' and categorizes as 'less than 4 years ago'"
     },
     {
       "expectation": "Response discusses whether indemnity insurance is appropriate vs obtaining retrospective consent",
       "pass": true,
-      "reason": "Provides both options: 'Obtain regularisation certificate' OR 'Arrange bespoke indemnity insurance'"
+      "reason": "Response provides clear options: 'Regularisation certificate (retrospective planning permission), OR Bespoke indemnity insurance at seller's expense'"
     },
     {
       "expectation": "Response mentions building regulations as a separate concern from planning",
-      "pass": false,
-      "reason": "No mention of building regulations - only focuses on planning permission issues"
+      "pass": true,
+      "reason": "Response has a dedicated 'Building Regulations (Separate Check)' section addressing this as a distinct issue"
     },
     {
       "expectation": "Response references specific enforcement timeline rules (4yr/10yr/12mo)",
-      "pass": false,
-      "reason": "Only mentions 4-year rule, no reference to 10-year or 12-month enforcement periods"
+      "pass": true,
+      "reason": "Response mentions 4-year rule for planning and 10-year rule for building regulations ('post-1984 work less than 10 years old')"
     }
   ],
-  "total_pass": 3,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 60
+  "score_pct": 100
 }

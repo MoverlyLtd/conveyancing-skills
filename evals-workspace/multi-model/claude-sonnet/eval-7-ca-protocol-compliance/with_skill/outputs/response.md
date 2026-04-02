@@ -1,32 +1,36 @@
-Based on CA Protocol 4.0, here's how to handle a rear extension built in 2021 without planning permission records:
+Based on the CA Protocol Section 4.0, here's the decision tree for your 2021 rear extension without planning permission:
 
-## CA Protocol Decision Tree Analysis
+## Planning Permission Analysis
 
-Since the work was completed **less than 4 years ago** (2021), the CA Protocol requires:
+Since the work was completed **less than 4 years ago** (2021), this falls into the **highest risk category**:
 
-### Required Actions:
-1. **Obtain regularisation certificate** from the Local Authority, OR
-2. **Arrange bespoke indemnity insurance** to cover enforcement risk
+**Action Required:**
+- **Regularisation certificate** (retrospective planning permission), OR
+- **Bespoke indemnity insurance** at seller's expense
 
-### Essential Client Advisories:
-- **Advise the client** that planning permission was not obtained
-- **Advise the valuer/surveyor** that planning permission was not obtained
-- The surveyor should confirm the extension is structurally sound
+**Key Points:**
+- The 4-year enforcement rule doesn't apply here (work too recent)
+- Standard indemnity insurance may not cover such recent work
+- **Must advise both client AND valuer** that work proceeded without permission
+- Valuer should confirm the extension is structurally sound
 
-### Key Considerations:
-- Since this is **recent work** (less than 4 years), the Local Authority can still take enforcement action
-- The usual 4-year immunity period for planning breaches hasn't yet passed
-- This creates a **genuine risk** that requires active resolution
+## Building Regulations (Separate Check)
 
-### Cost Responsibility:
-Under CA Protocol principles, this would typically be at the **seller's expense** as it represents a title defect that the seller should resolve.
+The extension will also need building regulations compliance verification:
 
-## Next Steps:
-1. Check if the extension actually required planning permission (some extensions fall under Permitted Development Rights)
-2. If permission was required, pursue regularisation certificate or bespoke indemnity
-3. Ensure surveyor is informed to assess structural adequacy
-4. Keep lender informed if this affects their security
+Since it's **post-1984 work less than 10 years old** without a completion certificate:
+- **Structural works:** Recommend indemnity at seller's cost
+- **Must advise client AND surveyor** that building regs consent wasn't obtained
+- Surveyor should confirm structural soundness
+- Advise client that missing building regs may indicate safety compliance issues
 
-**Reference: CA Protocol 4.0 Planning Permission**
+## Communication Timeframes
 
-The Protocol emphasizes that recent unauthorized works create material enforcement risk and require proactive resolution rather than just standard indemnity insurance.
+Under CA Protocol Section 1.0:
+- Raise this issue **immediately** with the seller
+- Respond to any related enquiries within **5 working days**
+- If no substantive response possible, provide **weekly updates**
+
+The seller has defective title here due to the recent unauthorized work, so remedying this is their responsibility under CA Protocol 1.7.
+
+**Ref: CA Protocol 4.0, 1.0, 1.7**

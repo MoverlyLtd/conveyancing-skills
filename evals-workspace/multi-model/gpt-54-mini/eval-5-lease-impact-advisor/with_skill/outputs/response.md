@@ -1,23 +1,29 @@
-With **95 years remaining**, you generally **shouldn’t be concerned about lease length** from a saleability or mortgage point of view.
+At **95 years unexpired**, you generally **should not be concerned** from a lease-length/mortgage perspective.
 
-### Why
-- **95 years = GREEN band**
-- **No marriage value issue**
-- **Most mainstream lenders will accept it**
-- **Good buyer pool**: both owner-occupiers and mortgage buyers should be fine
+### Estate-agent view
+- **Saleability:** Strong. A 95-year lease sits in the **GREEN** band.
+- **Buyer pool:** Broad — most buyers and mainstream lenders should be comfortable.
+- **Value impact:** Usually **no meaningful discount** just because of lease length at this level.
 
-### Estate agent view
-This is usually seen as a **healthy lease length**. It should not materially reduce marketability or value on lease length alone.
+### Lender thresholds
+To give a lender-specific view:
+- **Halifax:** typically fine at **70+ years**
+- **Barclays:** typically fine at **70+ years**
+- **Santander:** typically fine at **55+ years**
+- **Nationwide:** typically fine at **55+ years**
 
-### What to still check
-Even with a long lease, buyers/lenders may still look at:
-- **Ground rent** terms
-- **Service charge** levels and history
-- Any **doubling/escalating ground rent** clauses
-- **Building safety / cladding** issues
-- Whether the lease has any **unusual restrictions**
+So a **95-year lease comfortably exceeds** these thresholds.
 
-### Practical takeaway
-If the lease is genuinely **95 years unexpired**, lease length itself is **not a red flag**. I’d treat it as broadly acceptable for the market.
+### Should the seller do anything?
+Even though it’s mortgage-friendly now, it can still be worth planning ahead because a lease **keeps depreciating over time**. Extending earlier is usually cheaper than waiting until the term drops further.
 
-If you want, I can also give you a **quick lender-suitability check** based on the property type and likely mortgage term.
+### Lease extension options
+If the leaseholder ever wants to extend, the main routes are:
+1. **Statutory Section 42 claim** – adds **90 years** and reduces ground rent to a peppercorn
+2. **Informal/voluntary negotiation** with the freeholder
+3. **Assigning the benefit of a claim to the buyer** if a sale is underway
+
+### Marriage value
+Because the lease is **above 80 years**, **no marriage value applies** at present.
+
+If you want, I can also tell you how this would look for a **specific mortgage term** or help you assess whether there’s any issue with **ground rent terms** instead.

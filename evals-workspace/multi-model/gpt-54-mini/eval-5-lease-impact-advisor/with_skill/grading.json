@@ -3,30 +3,30 @@
     {
       "expectation": "Response identifies 95 years as relatively safe for most lenders",
       "pass": true,
-      "reason": "Clearly states 'Most mainstream lenders will accept it' and calls it a 'healthy lease length'"
+      "reason": "Clearly states 'you generally should not be concerned' and that most buyers and mainstream lenders should be comfortable"
     },
     {
       "expectation": "Response notes no marriage value applies (above 80 years)",
       "pass": true,
-      "reason": "Explicitly states 'No marriage value issue'"
+      "reason": "Explicitly states 'Because the lease is above 80 years, no marriage value applies at present'"
     },
     {
       "expectation": "Response mentions specific lender thresholds showing 95 years is acceptable",
-      "pass": false,
-      "reason": "No specific lender thresholds mentioned - only general statement about mainstream lenders"
+      "pass": true,
+      "reason": "Provides specific thresholds for Halifax, Barclays, Santander, and Nationwide (55-70+ years) showing 95 years 'comfortably exceeds' these"
     },
     {
       "expectation": "Response suggests extension is still worthwhile for future value protection",
-      "pass": false,
-      "reason": "No mention of lease extension or future value protection considerations"
+      "pass": true,
+      "reason": "States 'it can still be worth planning ahead' and 'Extending earlier is usually cheaper than waiting until the term drops further'"
     },
     {
       "expectation": "Response does NOT treat this as an urgent/critical issue",
       "pass": true,
-      "reason": "Clearly states 'shouldn't be concerned' and 'not a red flag' - treats it as acceptable"
+      "reason": "Tone is reassuring throughout, categorizes as 'GREEN band' and emphasizes no immediate concern while discussing future planning"
     }
   ],
-  "total_pass": 3,
+  "total_pass": 5,
   "total_expectations": 5,
-  "score_pct": 60
+  "score_pct": 100
 }

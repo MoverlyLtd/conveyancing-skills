@@ -3,32 +3,32 @@
     {
       "expectation": "Response covers multiple CQS practice areas (governance, client care, training, file management, cyber security)",
       "pass": true,
-      "reason": "Comprehensively covers all mentioned areas with dedicated sections for each"
+      "reason": "Clearly covers all areas with dedicated sections for governance, client care, training, file management, and cyber security"
     },
     {
       "expectation": "Response mentions specific evidence types needed (e.g. training records, complaints log, SRO details)",
       "pass": true,
-      "reason": "Provides detailed evidence lists including training certificates, complaints register, SRO appointment letter, and many others"
+      "reason": "Provides extensive specific evidence lists including training records, complaints register, SRO contact details, AML policies, etc."
     },
     {
       "expectation": "Response references the Senior Responsible Officer (SRO) requirement",
       "pass": true,
-      "reason": "Clearly identifies SRO requirement with specific evidence needed including appointment letter and contact details"
+      "reason": "Explicitly mentions 'designated CQS Senior Responsible Officer' and includes SRO responsibilities in evidence requirements"
     },
     {
       "expectation": "Response mentions protocol compliance monitoring as a CQS requirement",
       "pass": true,
-      "reason": "Explicitly covers compliance monitoring procedures, review documentation, and meeting minutes for CQS standard reviews"
+      "reason": "Specifically states 'Written procedures exist for monitoring protocol compliance' and 'Documented procedures for protocol compliance monitoring'"
     },
     {
       "expectation": "Response covers cyber security / IT security requirements",
       "pass": true,
-      "reason": "Dedicated section on Information Security covering cyber security training, secure communications, and bank detail verification"
+      "reason": "Dedicated 'Information Security' section covering cyber security awareness, IT security policy, and fraud prevention measures"
     },
     {
       "expectation": "Response mentions file management and supervision requirements",
       "pass": true,
-      "reason": "Specific File Management section covering file reviews, undertakings register, and file retention policies"
+      "reason": "Includes 'File & Case Management' section with file audit records, undertakings register, and monitoring systems"
     }
   ],
   "total_pass": 6,

@@ -1,60 +1,61 @@
-As a CLC‑regulated firm, the CLC expects you to deal with delay complaints in a way that delivers the Code of Conduct outcomes on: **client best interests (Principle 3), high standards of work (Principle 2), and complaints handling (Outcome 3.6)**. Practically, that means you should do the following.
+For a CLC‑regulated firm, a delay complaint engages the **CLC Code of Conduct (effective 1 Jan 2025)**—especially the regulator’s **outcomes‑focused** duties to provide a competent, timely service and to handle complaints fairly and promptly. If anything in a subsidiary code or internal policy points a different way, **the CLC Code of Conduct prevails** (hierarchy rule).
 
-## 1) Acknowledge promptly and treat it as a formal complaint (if it is)
-- **Log it immediately** in your complaints register (date received, matter reference, who is handling it, key allegations, outcome sought).
-- **Acknowledge quickly** (same/next working day is good practice) and confirm:
-  - you are investigating,
-  - who will handle it (ideally someone suitably senior and, where possible, not the fee earner complained about),
-  - when the client can expect a substantive response.
+Also, note this is **not** the SRA/Law Society complaints framework (and CLC firms don’t follow CQS/Protocol as a regulatory requirement). The CLC expects you to meet CLC outcomes using procedures that fit your practice.
 
-## 2) Investigate properly and address the delay risk now
-Because the complaint is about delay, the CLC will expect you to:
-- **Review the file and the timeline** (instruction date, key milestones, outstanding requisitions/enquiries, lender/chain issues, internal handoffs).
-- **Identify what is within your control vs. external causes** (e.g., searches, lender, seller’s solicitors) and whether you communicated those causes clearly at the time.
-- **Put an immediate recovery plan in place** (clear next steps, deadlines, escalation points, supervision).
+## What the CLC requires you to do now (practical checklist)
 
-This links directly to outcomes on **competent/timely service** and **keeping the client informed**.
+### 1) Acknowledge and triage promptly
+- **Acknowledge receipt quickly** and explain your complaints process, timescales, and who is handling it.
+- Check whether the complaint indicates any **immediate client detriment** (e.g., risk of missing a contractual deadline, mortgage offer expiry) and prioritise steps to mitigate.
 
-## 3) Provide a clear substantive response
-Your written response should:
-- **Explain what happened** (plain-English chronology).
-- **Accept responsibility where appropriate** and apologise if service fell short.
-- **Set out corrective actions** (what you’ve done already and what will happen next, with dates).
-- **Offer a fair remedy if justified**, e.g.:
-  - fee reduction/waiver of an admin charge,
-  - reimbursement of directly caused costs,
-  - priority handling / senior oversight going forward.
-- **Confirm how to escalate** if the client remains unhappy (your internal next stage and then the Legal Ombudsman, where applicable).
+### 2) Follow your written complaints procedure (CLC-specific expectations)
+The CLC expects you to have and use an **effective internal complaints procedure** that is:
+- **Clear and accessible** to the client (including how to complain and what happens next)
+- **Fair, independent where possible**, and handled by an appropriate person (often a senior/complaints handler)
+- **Timely**, with updates if resolution will take longer than expected
+- Focused on **putting things right** (not just explaining)
 
-## 4) Meet the “fair and prompt” complaints-handling outcome
-CLC requirements are outcomes-focused, but the expectation is that you:
-- handle the complaint **promptly**, **fairly**, and **consistently** with your written procedure;
-- keep the client updated if your response will take longer than expected;
-- make sure the complaint is **properly supervised** and not “marked by its own homework” where independence is possible.
+Importantly: **CLC complaints handling differs from SRA/Law Society processes**—make sure your letters, terminology, and signposting reflect the **CLC/Legal Ombudsman route**, not SRA ones.
 
-## 5) Record everything on the file (audit trail)
-For CLC compliance purposes, keep evidence of:
-- the complaint and your acknowledgements,
-- your investigation steps and findings,
-- supervision/management review notes,
-- the final outcome and any remedy,
-- any service-recovery actions and whether they were completed.
+### 3) Investigate properly and keep a clear audit trail
+- Review the **full file**, including:
+  - key dates/milestones and diarising,
+  - correspondence and call notes,
+  - workload allocation/supervision,
+  - any third‑party dependencies (searches, management pack, lender, chain).
+- Identify the **root cause** of the delay (capacity, supervision, missing information, third party, client-caused, chain issues, etc.).
+- Record what you found and what you decided—CLC expects evidence of competent handling and learning.
 
-Good records help demonstrate delivery of outcomes under **Principle 2 (standards)** and **Principle 3 (client care/complaints)**.
+### 4) Provide a substantive written outcome
+Your final response should typically:
+- Address each point raised (what happened, why, and whether service fell below standard)
+- Apologise where appropriate and explain **what you are doing now** to progress the matter
+- Offer a **remedy** if appropriate (e.g., fee reduction, waiving an admin fee, paying a direct and reasonable cost you caused—assessed case-by-case)
+- Confirm any **service improvements** you will implement (e.g., improved milestone chasing, supervision triggers)
 
-## 6) Consider whether anything must be reported to the CLC
-Most delay complaints **won’t** be reportable. But you should consider reporting to the CLC **without delay** if the complaint reveals something that could indicate a **serious regulatory issue**, for example:
-- systemic service failures affecting multiple clients,
-- dishonesty, misleading statements, or serious competence/supervision issues,
-- significant risk to client money/assets,
-- repeated similar complaints suggesting a wider problem.
+### 5) Signpost the Legal Ombudsman correctly
+If the client remains unhappy after your final response (or you hit your stated internal time limit), you must **signpost the client to the Legal Ombudsman** with the correct details and how/when they can complain to LeO.
 
-## 7) Learn from it (root cause + improvement)
-The CLC will expect you to use complaints as a consumer-protection tool:
-- identify root causes (capacity, workflow, supervision, third-party bottlenecks, unclear client updates),
-- implement changes (diary controls, milestone tracking, escalation triggers, template updates),
-- record the improvement action and follow-up.
+(Again: this is **different from SRA/Law Society signposting**—avoid SRA wording.)
 
----
+### 6) Consider whether you must notify the CLC
+The CLC expects firms to deal with the regulator **openly and cooperatively** and to report relevant matters **without delay** where appropriate. A routine delay complaint won’t always be reportable, but consider escalation/notification if, for example:
+- there may be a **serious service failure** affecting multiple clients,
+- there is evidence of **systemic resourcing/supervision issues**,
+- there is a risk to **client money or client assets** (then the **CLC Accounts Code** may also be engaged),
+- you anticipate an Ombudsman finding or claim that indicates wider risk.
 
-If you tell me (a) roughly how long the delay is, (b) what stage the transaction is at, and (c) whether the client has said they want a fee reduction/compensation, I can help you draft a compliant acknowledgement and a substantive response structure that fits your scenario.
+### 7) Log, learn, and improve (regulatory expectation)
+- Record the complaint in your **complaints register** and track time to resolution.
+- Feed outcomes into **training/supervision** and process fixes (CLC is outcomes-focused and expects continuous improvement).
+- If delays arose from undertakings, completions, or post-completion slippage, consider whether your file controls/diary systems need tightening.
+
+## Who should oversee this internally?
+Make sure your **Regulatory Compliance Manager** (CLC role—**not** an SRA COLP/COFA) has visibility of the complaint trend and any systemic risks, so you can evidence governance and improvements.
+
+## If you want, I can tailor this to your case
+Tell me:
+1) is the matter sale/purchase/remortgage and where it’s stuck,  
+2) any critical dates (exchange/completion target, mortgage offer expiry), and  
+3) what your current complaints timescales say,  
+and I’ll suggest a compliant acknowledgement template and an investigation plan for a “delay” complaint.

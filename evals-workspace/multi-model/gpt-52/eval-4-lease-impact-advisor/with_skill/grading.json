@@ -3,32 +3,32 @@
     {
       "expectation": "Response identifies 68 years as a critical lease length issue",
       "pass": true,
-      "reason": "Clearly identifies 68 years as 'CRITICAL (<70 years)' band with material impact"
+      "reason": "Explicitly states 68 years is in the 'CRITICAL' band for saleability and mortgageability"
     },
     {
       "expectation": "Response mentions specific lender names and their minimum requirements (not just 'most lenders want 70+ years')",
       "pass": true,
-      "reason": "Lists specific lenders (Barclays, Halifax/Lloyds, TSB, etc.) with their exact eligibility requirements"
+      "reason": "Lists specific lenders with exact requirements: Halifax, Barclays, Lloyds, TSB (70 years), Nationwide (55 years), Santander, Virgin Money (85+ years)"
     },
     {
       "expectation": "Response mentions marriage value applies below 80 years",
       "pass": true,
-      "reason": "Explicitly discusses marriage value inclusion below 80 years and 50% payable amount"
+      "reason": "Clearly states 'marriage value applies under current law' because lease is below 80 years"
     },
     {
       "expectation": "Response discusses lease extension options (statutory Section 42, informal, assign benefit)",
       "pass": true,
-      "reason": "Covers both statutory Section 42 and informal extensions, plus assignability of notice to buyer"
+      "reason": "Covers all three options: statutory Section 42 notice, informal/voluntary deal, and assigning benefit of Section 42 claim"
     },
     {
       "expectation": "Response quantifies the price impact (discount percentage or range)",
       "pass": true,
-      "reason": "Provides specific discount range of 'mid-to-high single digits up to ~15%'"
+      "reason": "States 'expect a meaningful discount vs comparable long leases\u2014often 15\u201330%+' in this territory"
     },
     {
       "expectation": "Response mentions reduced buyer pool due to mortgage restrictions",
       "pass": true,
-      "reason": "States 'buyer pool shrinks sharply' and explains shift to cash buyers/specialist lending"
+      "reason": "Explicitly states 'buyer pool shrinks sharply' and 'you'll lose many first-time buyers and anyone reliant on mainstream lenders'"
     }
   ],
   "total_pass": 6,

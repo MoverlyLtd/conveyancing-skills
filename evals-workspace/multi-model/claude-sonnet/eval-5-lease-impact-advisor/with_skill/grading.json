@@ -3,27 +3,27 @@
     {
       "expectation": "Response identifies 95 years as relatively safe for most lenders",
       "pass": true,
-      "reason": "Clearly states 'GREEN BAND - No concerns' and shows all major lenders are eligible"
+      "reason": "Clearly states this is 'GREEN band lease with minimal concerns' and 'all mainstream lenders will accept'"
     },
     {
       "expectation": "Response notes no marriage value applies (above 80 years)",
       "pass": true,
-      "reason": "Explicitly states 'Marriage value: Won't apply (only kicks in under 80 years)'"
+      "reason": "Explicitly states 'No marriage value applies (only kicks in below 80 years)' twice in the response"
     },
     {
       "expectation": "Response mentions specific lender thresholds showing 95 years is acceptable",
       "pass": true,
-      "reason": "Lists specific lenders with their year requirements (Nationwide 55+, Barclays/Halifax/Lloyds 70+, Virgin Money 85+)"
+      "reason": "Lists 5 major lenders with their specific minimum requirements (55yr, 70yr, 50yr+term, etc.) showing 95 years exceeds all"
     },
     {
       "expectation": "Response suggests extension is still worthwhile for future value protection",
       "pass": true,
-      "reason": "States 'Consider extension when it drops to around 85-90 years to maintain maximum value'"
+      "reason": "Dedicated section explaining extension is 'worth considering for future value protection' and 'future-proofs the investment'"
     },
     {
       "expectation": "Response does NOT treat this as an urgent/critical issue",
       "pass": true,
-      "reason": "Uses 'GREEN BAND - No concerns', 'Proceed with confidence', and 'No action needed before completion'"
+      "reason": "Consistently frames as 'GREEN' risk level, 'minimal concerns', 'while not urgent', and states transaction can proceed without complications"
     }
   ],
   "total_pass": 5,

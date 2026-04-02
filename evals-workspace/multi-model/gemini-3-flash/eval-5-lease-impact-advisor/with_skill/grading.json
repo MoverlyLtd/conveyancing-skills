@@ -3,27 +3,27 @@
     {
       "expectation": "Response identifies 95 years as relatively safe for most lenders",
       "pass": true,
-      "reason": "Clearly states 'Green Light (No Concern)' and 'virtually all UK lenders will accept a 95-year lease without issue'"
+      "reason": "Explicitly states 95-year lease is 'safe' and 'will not restrict the buyer pool' with detailed lender threshold analysis"
     },
     {
       "expectation": "Response notes no marriage value applies (above 80 years)",
       "pass": true,
-      "reason": "Explicitly mentions marriage value kicks in 'once a lease drops below 80 years' and notes 95 years is above this threshold"
+      "reason": "Clearly states 'no marriage value applies' because lease is above 80 years with detailed explanation"
     },
     {
       "expectation": "Response mentions specific lender thresholds showing 95 years is acceptable",
       "pass": true,
-      "reason": "Provides detailed table of specific lender requirements (Barclays 70 years, Santander 55-82 years, etc.) showing 95 years exceeds all thresholds"
+      "reason": "Provides specific thresholds for Halifax, Barclays, Nationwide, and Santander, all showing 95 years exceeds requirements"
     },
     {
       "expectation": "Response suggests extension is still worthwhile for future value protection",
       "pass": true,
-      "reason": "Recommends considering extension for long-term ownership and notes 'it is often cheaper and easier to extend while the lease is still in the 90s'"
+      "reason": "Dedicates section to 'Future Value Protection' and recommends planning extension within 10-15 years"
     },
     {
       "expectation": "Response does NOT treat this as an urgent/critical issue",
       "pass": true,
-      "reason": "Consistently frames as 'no concern', 'green light', and 'no impact on saleability' rather than urgent problem"
+      "reason": "Uses 'GREEN' risk assessment, states 'no immediate concerns' and 'no reason to be concerned about a 95-year lease today'"
     }
   ],
   "total_pass": 5,

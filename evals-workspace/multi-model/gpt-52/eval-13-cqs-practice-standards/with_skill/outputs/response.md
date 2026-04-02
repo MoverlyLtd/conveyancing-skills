@@ -1,76 +1,69 @@
-For a new fee earner joining a **CQS-accredited (SRA-regulated) firm**, CQS doesn’t prescribe a single “onboarding form”, but it *does* expect you to be able to evidence that the individual is inducted, trained and supervised so they can work in line with the **Conveyancing Protocol** and your **CQS practice management standards**. Practically, that means the onboarding should cover (and you should keep records of) the following CQS-specific items:
+For a new fee earner joining a **CQS-accredited (Law Society) firm**, the “onboarding requirements” are mainly about ensuring your **firm-level systems** keep meeting the CQS Practice Management Standards—i.e., the firm can evidence that the new joiner is inducted, trained on your processes, and supervised appropriately.
 
-## 1) Confirm role, supervision and accountability (CQS governance/supervision)
-- **Allocate a named supervisor** for the fee earner (and document the supervision arrangement: frequency of 1:1s, file review points, escalation route).
-- Ensure the **CQS Senior Responsible Officer (SRO)** is aware the person is joining and that your internal records (team lists/org chart) are up to date.
-- Give the fee earner clear written scope: what they can run independently vs what needs sign-off (e.g., exchange authority, undertakings, completion statements).
+Separately, **individual competence/CPD** sits under the **SRA** (and your internal performance management), not CQS—so avoid treating CQS as an individual “licence to practise”. CQS is accreditation of the **firm’s conveyancing systems and processes**.
 
-**Evidence to keep:** supervision plan; org chart/team list; induction checklist signed off; file review logs once live.
+## CQS-specific onboarding: what you should do (and be able to evidence)
 
-## 2) Induct them into your Protocol-aligned conveyancing process (CQS conveyancing process)
-They need to be trained on *your firm’s documented conveyancing process* that aligns with the Law Society **Conveyancing Protocol**, including:
-- Your matter lifecycle stages and required checklists.
-- **Exchange/completion controls** (authority to exchange, completion mechanics, release of keys, undertakings handling).
-- **Chain management** expectations and communication standards.
-- Your approach to using **current versions** of TA forms, contract packs, and standard conditions (and how version control works in your firm).
+### 1) Induction that covers CQS and the Conveyancing Protocol
+CQS expects all conveyancing staff to be **aware of CQS and work in line with the Law Society Conveyancing Protocol**. Practically, onboarding should include:
+- An introduction to your **CQS/Protocol-aligned conveyancing process** (your stage map, checklists, templates, and “who does what when”)
+- How your firm monitors **protocol compliance** in day-to-day files (e.g., required checklists, mandatory milestones, peer review points)
 
-**Evidence to keep:** induction materials; process map/checklists issued; confirmation they’ve been trained on your case management workflows.
+**Evidence to keep:** induction checklist signed/dated; training slides/notes; attendee record.
 
-## 3) Client care standards and complaints handling (CQS client care)
-On day one they should understand and be able to apply:
-- Your **client care procedures** (costs information at outset, updates/progress communications, service levels).
-- How you present and explain **fees/disbursements** and any “likely additional costs”.
-- Your **complaints procedure**: where it is, what to do if a client is unhappy, how to log and escalate.
+### 2) Role-specific training on your firm’s procedures and systems
+CQS looks for training on **your specific ways of working**, not just generic conveyancing knowledge. Include:
+- File opening requirements (including what must be on file at the start)
+- Use of your case management system, standard letters, and version-controlled forms
+- Chain management and communication expectations
+- Exchange/completion authority steps (what requires supervisor sign-off)
 
-**Evidence to keep:** acknowledgement they’ve read client care/complaints policies; template pack training record.
+**Evidence to keep:** internal training log showing topics and dates; system training completion record.
 
-## 4) AML / source of funds / sanctions training (CQS risk management)
-CQS expects robust risk controls in conveyancing, so onboarding should include training (and “how we do it here”) on:
-- Your **AML policy**, matter risk assessment, and when to apply **enhanced due diligence**.
-- **Client ID/verification** steps and acceptable evidence.
-- **Source of funds/source of wealth** expectations and red flags.
-- **Sanctions screening**: when it’s done and what to do with a match/possible match.
-- Conflicts checking procedure and when to escalate.
+### 3) Risk and regulatory controls training (as part of CQS risk management)
+CQS places heavy weight on firm-wide risk controls being understood and followed, so onboarding should cover at least:
+- **AML** process: CDD, source of funds/wealth triggers, escalation routes
+- **Sanctions screening** approach and what to do on a hit
+- **Conflicts checking** and when to re-check
+- **Fraud/funds diversion controls**, especially around changing bank details and completion monies
 
-**Evidence to keep:** AML/sanctions training record (topic/date); confirmation of policy read; system screenshots or workflow notes if helpful.
+**Evidence to keep:** training record; confirmation the new joiner knows escalation contacts; policy acknowledgement.
 
-## 5) Fraud and cyber security controls (CQS information security)
-This is a major CQS focus in conveyancing. Ensure they are trained on:
-- **Email modification / bank detail diversion** risks and your firm’s controls.
-- Your **bank detail verification procedure** (especially pre-completion).
-- Secure communication methods (portal/encryption), password/MFA rules, and data handling.
-- What to do if they suspect phishing or a data incident (internal reporting route).
+### 4) Information security / cyber security and “safe conveyancing” behaviours
+CQS expects staff to be trained on cyber risks relevant to conveyancing. Onboarding should include:
+- Phishing/Business Email Compromise red flags
+- Your secure communication method (portal/secure email) for sensitive info
+- The firm’s **bank details verification procedure** and call-back rules
+- Data protection basics (UK GDPR) as applied in conveyancing files
 
-**Evidence to keep:** cyber/fraud training record; acknowledgement of bank details verification process; incident reporting guidance issued.
+**Evidence to keep:** cyber training log; policy acknowledgement; any short assessment/quiz results (if you use them).
 
-## 6) File/case management basics (CQS file management)
-They should know how your firm ensures consistent, auditable files:
-- Using the case management system to ensure **key dates are diarised** and monitored.
-- Where to record advice/decisions, and minimum standard for attendance notes.
-- How your **file audits/reviews** work and what reviewers look for.
-- **Undertakings**: how to give them, who can authorise, and how they’re recorded in the undertakings register.
-- Post-completion workflow (SDLT/registration/mortgage discharge) and handoffs.
+### 5) Supervision arrangements: documented and implemented from day one
+CQS expects the firm to have **documented supervision arrangements** for conveyancing staff and to apply them in practice. For a new joiner, ensure:
+- A named supervisor and clear scope (what they can/can’t sign off)
+- File review points (e.g., pre-exchange, pre-completion, post-completion spot checks)
+- Clear escalation routes for technical issues and risk flags
 
-**Evidence to keep:** system training completion; undertakings register procedure sign-off; first file review outcomes.
+**Evidence to keep:** supervision plan; file review schedule; documented file review notes on early matters.
 
-## 7) CQS mandatory training status (training & development)
-Check whether the fee earner needs/has:
-- Completed **CQS mandatory training** within required timescales (as applicable to their role—requirements can change, so verify against current Law Society CQS guidance).
-- Any internal “refresher” modules you require for Protocol/CQS.
+### 6) Ensure they are included in firm-wide CQS awareness and review processes
+CQS expects ongoing awareness and monitoring, so onboarding should also connect the new joiner to:
+- Your CQS updates channel (team briefings, intranet page, policy library)
+- Complaints learning / service standards (how complaints are logged and handled; how learning is fed back)
+- Any regular compliance meetings or file audit programme
 
-**Evidence to keep:** training certificates/completion dates; CPD plan entry.
+**Evidence to keep:** attendance logs/minutes; acknowledgement they’ve read the complaints procedure and client care standards.
 
----
+## What CQS does *not* usually prescribe as an “onboarding requirement”
+- It doesn’t set an individual fee earner’s CPD hours—that’s **SRA competence/CPD** territory (though CQS expects the **firm** to keep training/CPD records and ensure conveyancing staff are trained appropriately).
+- It doesn’t replace SRA requirements around competence, supervision duties, or conduct—there’s overlap, but they’re distinct regimes.
 
-# A practical onboarding checklist you can use (CQS-focused)
-1. Assign supervisor + agree review cadence and sign-off points  
-2. Issue: Protocol-aligned process map + exchange/completion/undertakings controls  
-3. Client care + costs transparency + complaints logging/escalation  
-4. AML/SOF/SOW + sanctions + conflicts process training  
-5. Fraud/cyber + bank detail verification + secure comms + incident reporting  
-6. Case management standards: key dates, file notes, audits, post-completion  
-7. Verify/record CQS mandatory training completion (or schedule it)
+## Practical “day 1 / week 1” onboarding checklist (CQS-focused)
+- Assign supervisor + document supervision plan  
+- Complete CQS/Protocol induction + record attendance  
+- Train on: AML/SOF, sanctions, conflicts, fraud prevention, bank detail verification  
+- Train on CMS/templates/version control + exchange/completion authority steps  
+- Confirm understanding of client care standards + complaints procedure  
+- Add to training register and audit/file review rota  
 
----
-
-If you tell me (a) whether they are **qualified solicitor/licensed conveyancer/paralegal**, (b) whether they’ll be **supervising others**, and (c) whether you have an upcoming **CQS renewal/audit**, I can tailor a one-page onboarding pack and an evidence list that maps neatly to what auditors typically ask for.
+If you tell me (1) whether they’re **newly qualified vs experienced lateral**, and (2) whether they’ll run files immediately, I can suggest a proportionate supervision and file-review schedule that typically satisfies CQS audit expectations.

@@ -1,38 +1,33 @@
-The CA Protocol expects both conveyancers to cooperate, communicate proactively, and deal with enquiries promptly to avoid delay—but it also recognises that enquiries should be limited to what is genuinely necessary.
+Under the Conveyancing Association Protocol (5th Ed., 2023), the other side shouldn’t simply “go quiet” on enquiries. The key expectations are:
 
-Key points you can lean on when chasing the other side:
+## 1) Communication timeframes you can hold them to (CA 1.0)
+- **Acknowledge correspondence within 2 working days** (even if they can’t answer fully yet).
+- **Respond substantively within 5 working days** where possible (this includes replies to enquiries).
+- If they **cannot** provide a substantive response, they should **still give a weekly update** explaining what is outstanding and when they expect to respond.
 
-## 1) Prompt, cooperative communication is a core expectation
-- The other side should respond in a timely way and work collaboratively to progress the matter, using the phone where it will resolve issues faster than long email chains.  
-  **Ref: CA 1.0 Communication**
-- Files should be progressed through regular, diarised reviews so enquiries don’t just “sit”.  
-  **Ref: CA 1.0 Communication**
+These apply generally to progressing the matter cooperatively and avoiding avoidable delay (CA 1.0, and the “reducing delays” theme at CA 1.0–1.6).
 
-## 2) Enquiries should be raised early and managed actively
-- Buyer’s conveyancer should raise enquiries as early as possible (not drip-fed late), and firms should have a process to spot and deal with issues early (e.g., supervisory review points).  
-  **Ref: CA 2.4**
-- Seller’s conveyancer is expected to review the replies and “front-load” information so that avoidable follow-up enquiries are reduced.  
-  **Ref: CA 2.2; CA 1.8 Pre‑Sale Preparation**
+## 2) What counts as “proper” enquiries (and what doesn’t) (CA 2.0–2.4)
+The Protocol also expects the *buyer’s* side to keep enquiries proportionate:
+- Enquiries should be **limited to title issues and matters required by the client/lender** (CA 2.0).
+- Enquiries should be **raised as early as possible** (CA 2.4).
+- Sellers may legitimately refuse broad “standard” enquiries that are not property-specific (CA 2.0).
 
-## 3) Enquiries should be proportionate (and can be refused if they aren’t)
-- Enquiries should be limited to matters of title, and/or those required by the client or lender. The protocol anticipates that a seller may refuse “standard” or generic enquiries that aren’t property-specific or necessary.  
-  **Ref: CA 2.0**
+So, if you’re chasing, it helps to identify the enquiries that are genuinely (a) title-critical and/or (b) lender-mandated, and separate them from “nice to have” points.
 
-## 4) Practical protocol-aligned steps you can take now
-- Send a clear chase that:
-  - lists the *outstanding enquiries only* (numbered),
-  - states which are *title-critical* and which are *lender-required*,
-  - proposes a call to close them out quickly,
-  - asks for a realistic response date (and partial replies immediately).  
-  **Ref: CA 1.0; CA 2.4**
-- If you are acting for the seller and the delay is on your client’s side (e.g., missing documents), the protocol expectation is that the seller provides/obtains necessary documents at the seller’s expense where appropriate (e.g., permissions/agreements relevant to title).  
-  **Ref: CA 2.1; CA 1.8**
+## 3) Practical steps the Protocol expects to reduce delay (CA 1.0)
+The Protocol encourages:
+- Using the **phone to resolve complex issues** instead of long email chains (CA 1.0).
+- Keeping parties updated and working cooperatively (CA 1.0).
+- Maintaining momentum rather than waiting for “perfect” bundles before engaging (CA 1.0–1.6).
 
-## 5) If the other side still won’t engage
-The protocol itself isn’t a disciplinary code, but it is a useful benchmark when:
-- escalating to the other firm’s supervising partner/manager,
-- updating the agent/client with a factual delay position,
-- narrowing enquiries to essentials and documenting why each is needed.  
-**Ref: CA 1.0; CA 2.0; CA 2.4**
+## 4) Escalation route if non-response continues (CA 1.0–1.3, delays focus)
+If they still don’t engage, the Protocol approach is to escalate in stages:
+1) **Raise it with the fee earner** dealing day-to-day.  
+2) If no improvement, **escalate to a senior/supervisor/partner or the firm’s compliance lead**.  
+3) If the behaviour persists, consider **referral/complaint via the appropriate regulatory route** (SRA or CLC, as applicable), proportionate to the impact and conduct.
 
-If you tell me whether you act for the buyer or seller, and roughly what the outstanding enquiries are (e.g., planning/building regs, leasehold pack, title restriction, management info), I can help you frame a protocol-consistent chase and suggest which enquiries are genuinely “must-answer” versus optional.
+## Suggested chase wording (Protocol-aligned)
+“Further to my enquiries dated [date], please **acknowledge within 2 working days** and provide a **substantive reply within 5 working days**. If you can’t respond fully, please provide a **weekly update** confirming what is outstanding, who you are waiting for, and a target date for response (CA 1.0; CA 2.0–2.4). If we do not hear from you, we will escalate within your firm.”
+
+If you paste (a) the date enquiries were sent, (b) how many and what they relate to (e.g., title, planning, building regulations, leasehold LPE1), I can help you triage which are “Protocol-essential” and propose a tighter escalation plan.

@@ -1,46 +1,47 @@
-Under CLC regulation, your client money obligations are mainly about **protecting client funds, keeping them separate, and accounting for them properly**. In practice, that means:
+Under **CLC regulation**, your client-money obligations sit under the **CLC Accounts Code** (a subsidiary code). The **CLC Code of Conduct prevails** if there is any conflict, and the CLC framework is **outcomes-focused** rather than purely prescriptive. Also, this is **different from SRA/Law Society rules** — don’t rely on SRA Accounts Rules terminology or procedures.
 
-### Core obligations
-- **Hold client money in a designated client account**  
-  Client funds should not be mixed with office/business money.
+### Core obligations around client money
+In plain terms, you must:
 
-- **Keep proper accounting records**  
-  You need records that clearly show what money belongs to which client and why it is held.
+- **Keep client money separate from office money**
+- **Hold client money in a designated client account**
+- **Only use client money for the client/matter it belongs to**
+- **Account for client money properly and promptly**
+- **Reconcile client accounts regularly**
+- **Handle interest in line with your terms of engagement**
+- **Maintain records and controls that protect client money and assets**
 
-- **Reconcile the client account regularly**  
-  Monthly reconciliation is the minimum expectation, so discrepancies are picked up quickly.
+### Key CLC Accounts Code requirements
+- **ACC1:** Client money must be held in a **designated client account**
+- **ACC2:** The client account must be **reconciled regularly** — at least monthly
+- **ACC3:** Interest on client money must be dealt with according to the **terms of engagement**
+- **ACC4:** An **accountant’s report** must be submitted to the CLC annually, where required by the Accounts Code
 
-- **Handle interest in line with your terms of engagement**  
-  Your client care/engagement terms should explain what happens to interest on client money.
+### What “good compliance” looks like
+To show compliance, you’d normally have:
+- A clear **client account policy**
+- Regular **bank reconciliations**
+- Accurate **matter ledgers**
+- Controls for **receipts, transfers, and withdrawals**
+- Evidence that client money is only applied on the correct authority
+- Clear **client care / terms of engagement** covering interest and money handling
+- Proper supervision and file review
 
-- **Protect client money from misuse or loss**  
-  You must have controls in place so client funds are only used for the matter they relate to.
-
-### Related CLC outcomes you should meet
-These obligations link to broader Code of Conduct duties, including:
-- acting in the **client’s best interests**
-- maintaining **high standards of work**
-- acting **honestly and with integrity**
-- keeping matters **clear and transparent** for clients
-
-### Good practice
-- Have a clear **accounts policy**
-- Keep a **client ledger** for each matter
-- Restrict who can authorise withdrawals
-- Review suspense/unallocated funds promptly
-- Make sure staff handling money are properly trained
-
-### Evidence CLC would expect to see
-- client account bank statements
-- reconciliation reports
-- client ledger entries
-- engagement terms showing interest provisions
-- audit trail for receipts and payments
+### Practical risks to avoid
+- Mixing client and office funds
+- Delayed banking or posting
+- Unauthorised transfers between matters
+- Poor reconciliation or unexplained shortages
+- Using client money before conditions for use are met
+- Unclear or inconsistent treatment of interest
 
 ### If something goes wrong
-If client money is missing, misapplied, or there is a significant accounting error, you should treat it as a serious compliance issue and consider whether it needs to be:
-- corrected immediately
-- reported internally
-- notified to the CLC, depending on the circumstances
+If you discover a shortage, misallocation, or misuse of client money, you should:
+- investigate immediately,
+- correct it where possible,
+- record what happened and what you did,
+- and consider whether the matter needs to be **reported to the CLC**.
 
-If you want, I can also give you a **CLC client account compliance checklist** or a **template client money policy outline**.
+If you want, I can also give you:
+1. a **client money compliance checklist** for a CLC firm, or  
+2. a **comparison of CLC Accounts Code vs SRA Accounts Rules**.

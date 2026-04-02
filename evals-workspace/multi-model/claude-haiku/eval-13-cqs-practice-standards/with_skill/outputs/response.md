@@ -1,26 +1,22 @@
-Okay, here are the key CQS onboarding requirements for a new fee earner joining a CQS-accredited firm:
+When onboarding a new fee earner at a CQS-accredited firm, there are several CQS-specific requirements to consider:
 
 1. Induction Training:
-   - The firm should have a documented induction program that covers the firm's CQS procedures and standards.
-   - This should include training on the Conveyancing Protocol, the firm's conveyancing processes, and use of any case management systems.
+   - CQS requires firms to have an induction program for new conveyancing staff that covers the firm's specific procedures and systems.
+   - This should include training on the firm's conveyancing processes, use of the case management system, and adherence to the Conveyancing Protocol.
 
-2. CQS Mandatory Training:
-   - The new fee earner must complete the mandatory CQS training modules within the first 6 months of joining.
-   - This covers areas like ethics, client care, risk management, and conveyancing best practices.
-   - The firm should have a training plan and record training completions.
+2. Conveyancing Protocol Training:
+   - CQS mandates that all conveyancing staff, including new hires, must be trained on the Conveyancing Protocol and the firm's procedures for protocol compliance.
+   - This training should cover the key stages of the protocol, use of standard forms, and the firm's quality control measures.
 
-3. Supervision & Oversight:
-   - The firm must have a documented supervision policy that assigns a named supervisor to oversee the new fee earner's work.
-   - There should be regular file reviews and check-ins to ensure protocol compliance.
-   - The Senior Responsible Officer (SRO) for CQS should be aware of the new hire and monitor their progress.
+3. Supervision Arrangements:
+   - CQS requires firms to have documented supervision procedures for all conveyancing staff.
+   - Ensure the new fee earner is assigned a named supervisor who will be responsible for reviewing their work and providing guidance.
 
-4. Awareness of CQS Standards:
-   - The new fee earner should be made aware of the firm's CQS accreditation and the core practice standards they must adhere to.
-   - This includes procedures for client care, risk management, file management, and cyber security.
-   - Evidence that the new fee earner understands these standards should be documented.
+4. File Management Training:
+   - The new fee earner should be trained on the firm's file/case management system, including how to properly record key dates, maintain the undertakings register, and follow post-completion procedures.
 
-5. Access to Resources:
-   - The new fee earner should be given access to the firm's CQS documentation, protocols, and templates.
-   - They should also be made aware of where to find the latest version of CQS requirements from the Law Society.
+5. Awareness of CQS Standards:
+   - Make sure the new fee earner is aware of the CQS practice management standards and their responsibilities in maintaining the firm's CQS accreditation.
+   - Provide them with access to the firm's CQS-related policies and procedures.
 
-The key is to have a structured onboarding program that integrates the CQS requirements from the start. Documenting the training, supervision, and awareness-building will help demonstrate compliance during the next CQS audit.
+It's important to note that these CQS-specific requirements are in addition to any general induction and training the firm provides for new fee earners. The goal is to ensure the new conveyancing staff member is fully integrated into the firm's CQS-compliant processes and procedures from the outset.
