@@ -38,6 +38,19 @@
       ]
     },
     {
+      "id": 11,
+      "skill": "sdlt-calculator",
+      "prompt": "I'm a first-time buyer looking at a flat for £510,000. What would the stamp duty be?",
+      "expected_output": "FTB relief does NOT apply — £510,000 exceeds the £500,000 cap. Standard rates apply: £15,500 total",
+      "expectations": [
+        "Response correctly identifies that FTB relief does NOT apply because £510,000 exceeds the £500,000 cap",
+        "Response uses standard rates (not FTB rates) for the calculation",
+        "Response mentions the £500,000 FTB cap (not £625,000)",
+        "Response calculates standard SDLT of £15,500",
+        "Response does NOT apply the £300,000 nil-rate FTB band"
+      ]
+    },
+    {
       "id": 4,
       "skill": "lease-impact-advisor",
       "prompt": "I'm an estate agent listing a flat with 68 years remaining on the lease. The asking price is £425,000. What should I know about the lease length?",
