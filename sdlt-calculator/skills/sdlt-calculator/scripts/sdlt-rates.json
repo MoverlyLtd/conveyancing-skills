@@ -13,6 +13,10 @@
       "rate": 5
     },
     {
+      "threshold": 1500000,
+      "rate": 10
+    },
+    {
       "threshold": -1,
       "rate": 12
     }
