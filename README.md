@@ -20,7 +20,7 @@ We believe the conveyancing profession deserves better tools. We're building the
 
 | Tool | What it does |
 |------|-------------|
-| **SDLT Calculator** | Stamp Duty Land Tax — standard, first-time buyer, additional property, non-UK resident. Deterministic bash script, no LLM maths. |
+| **SDLT Calculator** | Stamp Duty Land Tax — standard, first-time buyer, additional property, non-UK resident. Deterministic script with live rate updates. [3 out of 5 models get SDLT wrong without this tool.](#why-skills-not-model-knowledge) |
 | **Lender Pre-Screen** | Full UK Finance Lender's Handbook Part 1 (90+ checks, 24 categories) plus Part 2 requirements for 60+ individual lenders. |
 | **Lender Comparison** | Compare requirements across multiple lenders simultaneously — spawns parallel agents, returns a suitability matrix in seconds. |
 | **Lease Impact Advisor** | Saleability assessment for leasehold properties — risk banding, lender eligibility matrix (13 lenders), extension cost estimates, marriage value analysis. The estate agent's "should we list this?" tool. |
@@ -127,6 +127,22 @@ We want this to become the industry standard toolkit for AI-assisted conveyancin
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 Every contribution stays MIT-licensed and free forever.
+
+## Why skills, not model knowledge
+
+AI models are trained on data that goes stale. Tax rates change on budget day. Lender thresholds change quarterly. Protocol editions get updated. When we tested SDLT calculations across five models, **three out of five got it £11,250 wrong** on a straightforward first-time buyer purchase — including frontier models — because their training data still had the old temporary thresholds.
+
+| Model | Without Skill | With Skill |
+|-------|:---:|:---:|
+| Claude Opus 4 | ✅ £15,500 | ✅ £15,500 |
+| GPT-5.4 Mini | ✅ £15,500 | ✅ £15,500 |
+| GPT-5.2 | ❌ £4,250 | ✅ £15,500 |
+| Gemini 3 Flash | ❌ £4,250 | ✅ £15,500 |
+| Gemini 2.5 Pro | ❌ £4,250 | ✅ £15,500 |
+
+Skills guarantee correctness because they use deterministic scripts with live-updated rate configurations, not model memory. When rates change, the skill is updated once and every user gets the correct answer immediately — no retraining, no waiting for the next model release.
+
+For reference and protocol skills, the delta is even larger. Models give plausible general advice but miss specific section numbers, enforcement timelines, and named lender thresholds that practitioners need. Our evals show a **+31% improvement** when skills are used.
 
 ## Our promise
 

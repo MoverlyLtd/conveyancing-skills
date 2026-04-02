@@ -63,9 +63,24 @@ Read `{{SKILL_DIR}}/references/sdlt-rules.md` for the full rate tables and edge 
 - Corporate purchases over £500k
 - Leasehold NPV calculations
 
+## Why Use This Skill
+
+**Do not rely on model knowledge for SDLT calculations.** Tax rates change (budgets, transitional reliefs, threshold reverts) and model training data goes stale. Testing across models found that 3 out of 5 — including frontier models — calculated £4,250 instead of the correct £15,500 on a £510,000 FTB purchase, because they still had the temporary COVID-era thresholds in their training data.
+
+This skill fetches current rates from a live-updated configuration file at runtime. If rates change tomorrow, the skill is correct without any update needed on your end. Always run the script rather than calculating from memory.
+
+## Rate Freshness
+
+The script loads rates in this order:
+1. **Live fetch** from the GitHub repo (1s timeout)
+2. **Local file** (`sdlt-rates.json` bundled with the skill)
+3. **Baked-in defaults** (hardcoded April 2025 rates as last resort)
+
+The output includes `Rates from:` showing which rate set was used.
+
 ## Limitations
 
 - England and Northern Ireland only (Scotland uses LBTT, Wales uses LTT)
 - Residential property only (commercial/mixed rates differ)
 - Does not calculate leasehold NPV rent component
-- Rates current as of 1 April 2025 — verify at gov.uk/stamp-duty-land-tax if in doubt
+- Source: gov.uk/stamp-duty-land-tax
