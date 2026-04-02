@@ -139,6 +139,73 @@
         "Response cites actual GOV.UK or Land Registry URLs",
         "Response distinguishes pre-1926 vs post-1925 covenants if appropriate"
       ]
+    },
+    {
+      "id": 12,
+      "skill": "cqs-practice-standards",
+      "prompt": "We're preparing for our CQS renewal audit next month. What are the key areas the assessor will check and what evidence do we need to have ready?",
+      "expected_output": "Structured CQS audit preparation covering all practice areas with specific evidence requirements",
+      "expectations": [
+        "Response covers multiple CQS practice areas (governance, client care, training, file management, cyber security)",
+        "Response mentions specific evidence types needed (e.g. training records, complaints log, SRO details)",
+        "Response references the Senior Responsible Officer (SRO) requirement",
+        "Response mentions protocol compliance monitoring as a CQS requirement",
+        "Response covers cyber security / IT security requirements",
+        "Response mentions file management and supervision requirements"
+      ]
+    },
+    {
+      "id": 13,
+      "skill": "cqs-practice-standards",
+      "prompt": "A new fee earner is joining our CQS-accredited firm next week. What CQS-specific onboarding requirements apply?",
+      "expected_output": "CQS training and competence requirements for new staff",
+      "expectations": [
+        "Response mentions CQS training requirements for all conveyancing staff",
+        "Response covers protocol awareness and compliance training",
+        "Response mentions supervision requirements for new staff",
+        "Response references the need to maintain training records as CQS evidence",
+        "Response distinguishes CQS firm-level requirements from individual SRA competence"
+      ]
+    },
+    {
+      "id": 14,
+      "skill": "clc-compliance-tracker",
+      "prompt": "We're a CLC-regulated firm and just received a client complaint about delays in our conveyancing service. What does the CLC require us to do?",
+      "expected_output": "CLC complaints handling requirements with specific Code of Conduct references",
+      "expectations": [
+        "Response references CLC Code of Conduct ethical principles or outcomes",
+        "Response mentions the CLC's outcomes-focused approach",
+        "Response covers complaint recording and reporting requirements",
+        "Response mentions the Legal Ombudsman escalation pathway",
+        "Response distinguishes CLC requirements from SRA/Law Society complaints procedures",
+        "Response mentions transparency obligations to the client"
+      ]
+    },
+    {
+      "id": 15,
+      "skill": "clc-compliance-tracker",
+      "prompt": "As a licensed conveyancer, what are my obligations around client money under CLC regulation?",
+      "expected_output": "CLC Accounts Code requirements for client money handling",
+      "expectations": [
+        "Response references the CLC Accounts Code or subsidiary code",
+        "Response mentions specific obligations: designated client account, reconciliation, interest",
+        "Response covers the requirement for accountant's reports",
+        "Response mentions that CLC Code of Conduct prevails where subsidiary codes conflict",
+        "Response distinguishes CLC client money rules from SRA Accounts Rules"
+      ]
+    },
+    {
+      "id": 16,
+      "skill": "lenders-handbook-prescreen",
+      "prompt": "Will Halifax lend on a property with 72 years remaining on the lease? What about Nationwide and Barclays?",
+      "expected_output": "Specific Part 2 data for each named lender with minimum lease length requirements",
+      "expectations": [
+        "Response gives specific minimum lease length for Halifax (70 years)",
+        "Response gives specific minimum lease length for Nationwide (55 years)",
+        "Response gives specific minimum lease length for Barclays (70 years)",
+        "Response provides a clear yes/no eligibility answer for each lender at 72 years",
+        "Response cites Part 2 as the source (not general knowledge)"
+      ]
     }
   ]
 }
