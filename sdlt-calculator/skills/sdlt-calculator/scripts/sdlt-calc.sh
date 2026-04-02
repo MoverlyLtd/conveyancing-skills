@@ -5,6 +5,69 @@
 
 set -euo pipefail
 
+# --- Rate loading ---
+# Try live rates first (GitHub raw), fall back to local file
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+RATES_URL="https://raw.githubusercontent.com/MoverlyLtd/conveyancing-toolkit/master/sdlt-calculator/skills/sdlt-calculator/scripts/sdlt-rates.json"
+RATES_FILE="$SCRIPT_DIR/sdlt-rates.json"
+RATES_JSON=""
+
+# Attempt live fetch (1s timeout)
+if command -v curl &>/dev/null; then
+  RATES_JSON=$(curl -sf --max-time 1 "$RATES_URL" 2>/dev/null || true)
+fi
+
+# Fallback to local file
+if [[ -z "$RATES_JSON" ]] && [[ -f "$RATES_FILE" ]]; then
+  RATES_JSON=$(cat "$RATES_FILE")
+fi
+
+# Parse rates from JSON if available, otherwise use baked-in defaults
+if [[ -n "$RATES_JSON" ]] && command -v python3 &>/dev/null; then
+  # Extract rates via python3 (available on all modern systems)
+  eval "$(python3 -c "
+import json, sys
+r = json.loads('''$RATES_JSON''')
+s = r['standard']
+print(f'STD_B1={s[0][\"threshold\"]}')
+print(f'STD_B2={s[1][\"threshold\"]}')
+print(f'STD_B3={s[2][\"threshold\"]}')
+print(f'STD_B4={s[3][\"threshold\"]}')
+print(f'STD_R2={s[1][\"rate\"]}')
+print(f'STD_R3={s[2][\"rate\"]}')
+print(f'STD_R4={s[3][\"rate\"]}')
+print(f'STD_R5={s[4][\"rate\"]}')
+ftb = r['firstTimeBuyer']
+print(f'FTB_MAX={ftb[\"maxPrice\"]}')
+print(f'FTB_B1={ftb[\"bands\"][0][\"threshold\"]}')
+print(f'FTB_R2={ftb[\"bands\"][1][\"rate\"]}')
+print(f'FTB_B2={ftb[\"bands\"][1][\"threshold\"]}')
+print(f'ADD_SURCHARGE={r[\"additionalSurcharge\"]}')
+print(f'NR_SURCHARGE={r[\"nonResidentSurcharge\"]}')
+print(f'RATES_DATE={r[\"effectiveFrom\"]}')
+" 2>/dev/null)" || {
+    # Parse failed — use defaults
+    RATES_JSON=""
+  }
+fi
+
+# Baked-in fallback (1 April 2025 rates)
+: "${STD_B1:=125000}"
+: "${STD_B2:=250000}"
+: "${STD_B3:=925000}"
+: "${STD_B4:=1500000}"
+: "${STD_R2:=2}"
+: "${STD_R3:=5}"
+: "${STD_R4:=10}"
+: "${STD_R5:=12}"
+: "${FTB_MAX:=500000}"
+: "${FTB_B1:=300000}"
+: "${FTB_R2:=5}"
+: "${FTB_B2:=500000}"
+: "${ADD_SURCHARGE:=5}"
+: "${NR_SURCHARGE:=2}"
+: "${RATES_DATE:=2025-04-01}"
+
 PRICE=""
 FTB=false
 ADDITIONAL=false
@@ -72,8 +135,8 @@ max() { (( $1 > $2 )) && echo "$1" || echo "$2"; }
 calculate_sdlt() {
   local p=$1 ftb=$2 add=$3 nr=$4
   local surcharge=0
-  (( add == 1 )) && (( surcharge += 5 )) || true
-  (( nr == 1 )) && (( surcharge += 2 )) || true
+  (( add == 1 )) && (( surcharge += ADD_SURCHARGE )) || true
+  (( nr == 1 )) && (( surcharge += NR_SURCHARGE )) || true
 
   local total=0
   local -a bands=()   # "label|rate|tax" entries
@@ -81,75 +144,78 @@ calculate_sdlt() {
 
   # Check FTB eligibility
   local ftb_eligible=0
-  if (( ftb == 1 && p <= 500000 )); then
+  if (( ftb == 1 && p <= FTB_MAX )); then
     ftb_eligible=1
   fi
 
   if (( ftb_eligible == 1 )); then
-    # FTB bands
-    # Band 1: 0–300,000 at 0% + surcharge
-    local b1; b1=$(min $remaining 300000)
+    # FTB Band 1: 0–FTB_B1 at 0% + surcharge
+    local b1; b1=$(min $remaining $FTB_B1)
     local r1=$surcharge
     local t1; t1=$(tax_on_band $b1 $r1)
     (( total += t1 )) || true
-    bands+=("£0–£300,000|${r1}%|£$(fmt $t1)")
-    remaining=$(max $(( remaining - 300000 )) 0)
+    bands+=("£0–£$(fmt $FTB_B1)|${r1}%|£$(fmt $t1)")
+    remaining=$(max $(( remaining - FTB_B1 )) 0)
 
-    # Band 2: 300,001–500,000 at 5% + surcharge
+    # FTB Band 2: FTB_B1+1–FTB_B2 at FTB_R2% + surcharge
     if (( remaining > 0 )); then
-      local b2; b2=$(min $remaining 200000)
-      local r2=$(( 5 + surcharge ))
+      local ftb_b2_width=$(( FTB_B2 - FTB_B1 ))
+      local b2; b2=$(min $remaining $ftb_b2_width)
+      local r2=$(( FTB_R2 + surcharge ))
       local t2; t2=$(tax_on_band $b2 $r2)
       (( total += t2 )) || true
-      bands+=("£300,001–£500,000|${r2}%|£$(fmt $t2)")
-      remaining=$(max $(( remaining - 200000 )) 0)
+      bands+=("£$(fmt $(( FTB_B1 + 1 )))–£$(fmt $FTB_B2)|${r2}%|£$(fmt $t2)")
+      remaining=$(max $(( remaining - ftb_b2_width )) 0)
     fi
   else
-    # Standard bands
-    # Band 1: 0–125,000 at 0% + surcharge
-    local b1; b1=$(min $remaining 125000)
+    # Standard bands (dynamic from rates config)
+    # Band 1: 0–STD_B1 at 0% + surcharge
+    local b1; b1=$(min $remaining $STD_B1)
     local r1=$surcharge
     local t1; t1=$(tax_on_band $b1 $r1)
     (( total += t1 )) || true
-    bands+=("£0–£125,000|${r1}%|£$(fmt $t1)")
-    remaining=$(max $(( remaining - 125000 )) 0)
+    bands+=("£0–£$(fmt $STD_B1)|${r1}%|£$(fmt $t1)")
+    remaining=$(max $(( remaining - STD_B1 )) 0)
 
-    # Band 2: 125,001–250,000 at 2% + surcharge
+    # Band 2: STD_B1+1–STD_B2 at STD_R2% + surcharge
     if (( remaining > 0 )); then
-      local b2; b2=$(min $remaining 125000)
-      local r2=$(( 2 + surcharge ))
+      local b2_width=$(( STD_B2 - STD_B1 ))
+      local b2; b2=$(min $remaining $b2_width)
+      local r2=$(( STD_R2 + surcharge ))
       local t2; t2=$(tax_on_band $b2 $r2)
       (( total += t2 )) || true
-      bands+=("£125,001–£250,000|${r2}%|£$(fmt $t2)")
-      remaining=$(max $(( remaining - 125000 )) 0)
+      bands+=("£$(fmt $(( STD_B1 + 1 )))–£$(fmt $STD_B2)|${r2}%|£$(fmt $t2)")
+      remaining=$(max $(( remaining - b2_width )) 0)
     fi
 
-    # Band 3: 250,001–925,000 at 5% + surcharge
+    # Band 3: STD_B2+1–STD_B3 at STD_R3% + surcharge
     if (( remaining > 0 )); then
-      local b3; b3=$(min $remaining 675000)
-      local r3=$(( 5 + surcharge ))
+      local b3_width=$(( STD_B3 - STD_B2 ))
+      local b3; b3=$(min $remaining $b3_width)
+      local r3=$(( STD_R3 + surcharge ))
       local t3; t3=$(tax_on_band $b3 $r3)
       (( total += t3 )) || true
-      bands+=("£250,001–£925,000|${r3}%|£$(fmt $t3)")
-      remaining=$(max $(( remaining - 675000 )) 0)
+      bands+=("£$(fmt $(( STD_B2 + 1 )))–£$(fmt $STD_B3)|${r3}%|£$(fmt $t3)")
+      remaining=$(max $(( remaining - b3_width )) 0)
     fi
 
-    # Band 4: 925,001–1,500,000 at 10% + surcharge
+    # Band 4: STD_B3+1–STD_B4 at STD_R4% + surcharge
     if (( remaining > 0 )); then
-      local b4; b4=$(min $remaining 575000)
-      local r4=$(( 10 + surcharge ))
+      local b4_width=$(( STD_B4 - STD_B3 ))
+      local b4; b4=$(min $remaining $b4_width)
+      local r4=$(( STD_R4 + surcharge ))
       local t4; t4=$(tax_on_band $b4 $r4)
       (( total += t4 )) || true
-      bands+=("£925,001–£1,500,000|${r4}%|£$(fmt $t4)")
-      remaining=$(max $(( remaining - 575000 )) 0)
+      bands+=("£$(fmt $(( STD_B3 + 1 )))–£$(fmt $STD_B4)|${r4}%|£$(fmt $t4)")
+      remaining=$(max $(( remaining - b4_width )) 0)
     fi
 
-    # Band 5: above 1,500,000 at 12% + surcharge
+    # Band 5: above STD_B4 at STD_R5% + surcharge
     if (( remaining > 0 )); then
-      local r5=$(( 12 + surcharge ))
+      local r5=$(( STD_R5 + surcharge ))
       local t5; t5=$(tax_on_band $remaining $r5)
       (( total += t5 )) || true
-      bands+=("Above £1,500,000|${r5}%|£$(fmt $t5)")
+      bands+=("Above £$(fmt $STD_B4)|${r5}%|£$(fmt $t5)")
     fi
   fi
 
@@ -166,7 +232,7 @@ calculate_sdlt() {
   if (( ftb_eligible == 1 )); then
     label="First-time buyer"
   elif (( ftb == 1 )); then
-    label="Standard (FTB not available — price exceeds £500,000)"
+    label="Standard (FTB not available — price exceeds £$(fmt $FTB_MAX))"
   else
     label="Standard purchase"
   fi
@@ -193,6 +259,7 @@ calculate_sdlt() {
   echo ""
   echo "  Total SDLT:    £$(fmt $total)"
   echo "  Effective rate: $effective"
+  echo "  Rates from:    $RATES_DATE"
 }
 
 # --- Main ---
@@ -203,7 +270,7 @@ if [[ "$COMPARE" == true ]]; then
   echo ""
   calculate_sdlt "$PRICE" 0 0 0
 
-  if (( PRICE <= 500000 )); then
+  if (( PRICE <= FTB_MAX )); then
     echo ""
     calculate_sdlt "$PRICE" 1 0 0
   fi
