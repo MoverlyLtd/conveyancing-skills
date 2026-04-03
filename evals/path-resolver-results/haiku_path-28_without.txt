@@ -1,0 +1,2 @@
+/propertyPack/propertyDetails/rightOfWay/publicRightOfWay
+/propertyPack/propertyDetails/rightOfWay/routePlan

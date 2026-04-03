@@ -1,0 +1,3 @@
+The path for a building regulations certificate for insulation work is:
+
+/propertyPack/alterationsAndChanges/insulation/buildingRegApproval/attachments

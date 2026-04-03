@@ -78,6 +78,9 @@ Other alteration paths:
 
 ## Environmental & Location
 - `/propertyPack/environmentalIssues` — flooding, radon, contaminated land, ground stability, coal mining, coastal erosion, climate risk
+  - `.../contaminatedLand` — contaminated land (structured data)
+  - `.../coalMining` — coal mining risk
+  - `.../groundStability` — ground stability
   - `.../flooding/floodRiskReport/attachments` — flood risk report
   - `.../radon/radonTest/attachments` — radon test report
 - `/propertyPack/location` — lat/lng, BNG coordinates
@@ -111,6 +114,7 @@ Other alteration paths:
   - `.../heatingSystem/centralHeatingDetails/boilerInstallationCertificate/attachments` — boiler installation cert
   - `.../heatingSystem/centralHeatingDetails/replacementOtherThanBoiler/attachments` — heating replacement compliance
 - `/propertyPack/waterAndDrainage`
+  - `.../drainage/publicSewerWithin100ft` — public sewer within 100 feet
   - `.../water/mainsWater/stopcock/attachments` — stopcock photo
   - `.../water/mainsWater/waterMeter/attachments` — water meter photo
   - `.../drainage/mainsFoulDrainage/offMainsDrainageSystem/plantOnOtherLand/attachments` — drainage location plan
@@ -149,8 +153,10 @@ Base: `/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/`
 ## Notices
 Base: `/propertyPack/notices/`
 - `.../neighbourDevelopment/attachments` — neighbour development notice
-- `.../planningApplication/attachments` — planning application notice
-- `.../requiredMaintenance/attachments` — maintenance notice
+- `/propertyPack/notices/planningApplication` — planning application that may affect the property (has attachments)
+- `/propertyPack/notices/requiredMaintenance` — notice requiring maintenance/repairs (has attachments)
+- `.../planningApplication/attachments` — planning application notice attachments
+- `.../requiredMaintenance/attachments` — maintenance notice attachments
 - `.../listedBuildingApplication/attachments` — listed building application
 - `.../infrastructureProject/attachments` — infrastructure project notice
 - `.../partyWallAct/attachments` — party wall notice/agreement
@@ -223,6 +229,7 @@ Base: `/propertyPack/notices/`
 | Document Type | Target Path |
 |---|---|
 | Building regs cert (any alteration) | `.../alterationsAndChanges/{alteration}/buildingRegApproval/attachments` |
+| FENSA certificate (replacement windows) | `/propertyPack/alterationsAndChanges/windowReplacementsSince2002/buildingRegApproval/attachments` |
 | Planning permission (any alteration) | `.../alterationsAndChanges/{alteration}/planningPermission/attachments` |
 | Listed building consent | `.../alterationsAndChanges/{alteration}/listedBuildingConsent/attachments` |
 | Deed restriction consent | `.../alterationsAndChanges/{alteration}/deedRestrictionConsent/attachments` |
@@ -267,6 +274,7 @@ Base: `/propertyPack/notices/`
 | Dates seller cannot move | `/propertyPack/completionAndMoving/moveRestrictionDates` |
 | Sale proceeds clear mortgages? | `/propertyPack/completionAndMoving/sufficientToRepayAllMortgages` |
 | Disputes/complaints | `/propertyPack/disputesAndComplaints/hasDisputesAndComplaints` |
+| Boundary dispute with neighbour | `/propertyPack/disputesAndComplaints/hasDisputesAndComplaints` (NOT `legalBoundaries/*`) |
 | Potential future disputes | `/propertyPack/disputesAndComplaints/leadingToDisputesAndComplaints` |
 | Difficulty obtaining buildings insurance | `/propertyPack/insurance/difficultiesObtainingInsurance` |
 | EPC certificate | `/propertyPack/energyEfficiency/certificate` |

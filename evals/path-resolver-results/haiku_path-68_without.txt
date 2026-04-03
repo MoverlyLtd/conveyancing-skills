@@ -1,0 +1,1 @@
+/propertyTransaction/purchaseTransaction/purchaseStatus

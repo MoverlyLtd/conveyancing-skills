@@ -1,0 +1,2 @@
+/propertyPack/utilities/broadband/speed
+/propertyPack/utilities/broadband/availability

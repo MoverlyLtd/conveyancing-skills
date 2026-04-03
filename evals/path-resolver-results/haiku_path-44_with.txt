@@ -1,0 +1,5 @@
+The path for planning permission breaches is:
+
+/propertyPack/alterationsAndChanges/planningPermissionBreaches/attachments
+
+This is where evidence of any planning permission breaches would be located.

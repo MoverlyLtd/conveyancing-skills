@@ -1,0 +1,1 @@
+/propertyPack/otherIssues/failedTransactionsInLast12Months

@@ -26,22 +26,23 @@ call_anthropic() {
     local model="$1"
     local system="$2"
     local user_msg="$3"
-    
+
     local payload
     payload=$(jq -n \
         --arg model "$model" \
         --arg system "$system" \
         --arg user "$user_msg" \
         '{model: $model, max_tokens: 300, system: $system, messages: [{role: "user", content: $user}]}')
-    
+
     local response
-    response=$(curl -s https://api.anthropic.com/v1/messages \
+    response=$(curl -sS https://api.anthropic.com/v1/messages \
         -H "x-api-key: $ANTHROPIC_API_KEY" \
         -H "anthropic-version: 2023-06-01" \
         -H "content-type: application/json" \
         -d "$payload")
-    
-    echo "$response" | jq -r '.content[0].text // "ERROR"'
+
+    # Prefer content, otherwise surface the API error message for debugging
+    echo "$response" | jq -r '.content[0].text // .error.message // "ERROR"'
 }
 
 call_openai() {
@@ -126,7 +127,7 @@ run_model() {
                 response_with=$(call_openai "$model_id" "$SYSTEM_WITH" "$eval_input")
             fi
             echo "$response_with" > "$cache_with"
-            sleep 0.5
+            sleep 1.2
         fi
         
         # WITHOUT skill
@@ -139,7 +140,7 @@ run_model() {
                 response_without=$(call_openai "$model_id" "$SYSTEM_WITHOUT" "$eval_input")
             fi
             echo "$response_without" > "$cache_without"
-            sleep 0.5
+            sleep 1.2
         fi
         
         local correct_with correct_without
