@@ -1,0 +1,3 @@
+`/propertyPack/environmentalIssues/flooding/floodRiskReport/attachments`
+
+This is the specific attachment path for flood risk reports within the environmental issues section of the property pack.

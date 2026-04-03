@@ -1,0 +1,3 @@
+`/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/newHomeWarranty/attachments`
+
+This is specifically for NHBC or equivalent new home warranty certificates.

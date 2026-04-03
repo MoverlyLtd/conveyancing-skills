@@ -230,3 +230,14 @@ Base: `/propertyPack/notices/`
 | Solar panel lease | `.../electricity/solarPanels/panelProviderLease/attachments` |
 | Damp proofing guarantee | `.../guaranteesWarrantiesAndIndemnityInsurances/dampProofingTreatment/attachments` |
 | Double glazing guarantee | `.../guaranteesWarrantiesAndIndemnityInsurances/doubleGlazing/attachments` |
+| Consents under covenants for alterations | `/propertyPack/additionalInformation/consents/attachments` |
+| Shared driveway / shared costs / jointly-used services | `/propertyPack/rightsAndInformalArrangements/sharedContributions` |
+| Rights of light | `/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/rightsOfLight` |
+| Chancel repair liability | `/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/churchChancel` |
+| Chain position / onward purchase | `/propertyPack/completionAndMoving/otherPropertyInChain` |
+| Lease extension notice on landlord | `/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/enfranchisement/sellerServedNoticeOnLandlord/attachments` |
+| Landlord consent for leasehold alterations | `/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/alterations/sellerAwareOfAlterations/landlordConsentObtained/attachments` |
+| Rights of support | `/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/rightsOfSupport` |
+| Prescriptive / customary rights | `/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/rightsCreatedThroughCustom` |
+| Mines and minerals | `/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/minesAndMinerals` |
+| Access restriction attempts | `/propertyPack/rightsAndInformalArrangements/accessRestrictionAttempts` |

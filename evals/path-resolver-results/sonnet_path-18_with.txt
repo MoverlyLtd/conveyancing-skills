@@ -1,0 +1,3 @@
+`/propertyPack/environmentalIssues/radon/radonTest/attachments`
+
+This is the specific attachment path for uploading radon test reports within the environmental issues section of the property pack.

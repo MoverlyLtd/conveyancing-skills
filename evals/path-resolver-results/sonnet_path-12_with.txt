@@ -1,0 +1,3 @@
+`/propertyPack/specialistIssues/containsAsbestos/attachments`
+
+This path is specifically for asbestos reports and surveys under the specialist issues section of the property pack.
