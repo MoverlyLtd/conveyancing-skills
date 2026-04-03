@@ -1,132 +1,226 @@
 # PDTF Schema Skeleton — Path Resolution Reference
 
-Use this to map natural language subjects to PDTF paths. Paths are under `/propertyPack/` unless noted.
+Use this to map natural language subjects to PDTF paths. All paths are under the transaction root.
+
+## Key Concept: Attachment Paths
+
+Many schema nodes have an `attachments` property for uploading documents directly to the relevant data point. When resolving a document upload, always target the most specific `attachments` path — e.g. a building regs certificate for a loft conversion goes to:
+`/propertyPack/alterationsAndChanges/loftConversion/buildingRegApproval/attachments`
+NOT `/propertyPack/alterationsAndChanges/loftConversion` or `/propertyPack/documents`.
+
+---
 
 ## Title & Ownership
 - `/propertyPack/titlesToBeSold` — title registers, title numbers, proprietors, charges, restrictions, covenants
-- `/propertyPack/ownership` — sellers count, mortgage, help-to-buy, first registration, limited company, ownerships to transfer
+- `/propertyPack/ownership` — sellers count, mortgage, help-to-buy, first registration, limited company
+- `/propertyPack/ownership/ownershipsToBeTransferred` — freehold/leasehold details per ownership (array)
 - `/propertyPack/legalOwners` — names of legal owners
-- `/propertyPack/legalBoundaries` — boundary ownership, flying freehold, title plan discrepancies, adjacent land
+- `/propertyPack/legalBoundaries` — boundary ownership, flying freehold, title plan discrepancies
+  - `.../boundariesDifferFromTitlePlan/attachments` — boundary evidence
+  - `.../ownership/attachments` — boundary ownership evidence
 
 ## Tenure & Leasehold
-- `/propertyPack/ownership/ownershipsToBeTransferred` — contains freehold/leasehold details per ownership
-- Leasehold branch: lease term, ground rent, service charges, management company, lease restrictions, forfeiture
-- Freehold branch: freehold details, estate rentcharges
+Leasehold branch lives at `/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/`:
+- `.../consents/changesInTermOfLease/attachments` — consent to lease term changes
+- `.../consents/landlordConsents/attachments` — landlord consent documents
+- `.../ownershipAndManagement/sellerOwnership/attachments` — share certificate / management company membership
+- `.../buildingSafetyAct/deedOfCertificateServed/attachments` — Leaseholder Deed of Certificate
+- `.../buildingSafetyAct/landlordsCertificateServed/attachments` — Landlord's Certificate
+- `.../alterations/sellerAwareOfAlterations/landlordConsentObtained/attachments` — landlord consent for alterations
+- `.../enfranchisement/sellerServedNoticeOnLandlord/attachments` — enfranchisement notice
+- `.../enfranchisement/sellerAwareOfNoticeOfCollectivePurchase/attachments` — collective purchase notice
+- `.../enfranchisement/sellerAwareOfResponse/attachments` — enfranchisement response
+- `.../requiredDocuments/noticeOfSale/attachments` — notice of sale to landlord
+- `.../requiredDocuments/noticeOfBuildingCondition/attachments` — building condition notice
+- `.../additionalInformation/attachments` — additional leasehold info
 
 ## Alterations & Building Works
-- `/propertyPack/alterationsAndChanges` — structural alterations, extensions, loft conversions, garage conversions, chimney removal, insulation, window replacements, change of use, unfinished works
-- `/propertyPack/alterationsAndChanges/planningPermissionBreaches` — planning/building regs breaches
-- `/propertyPack/typeOfConstruction` — standard construction, building safety, loft, spray foam, accessibility
+Base: `/propertyPack/alterationsAndChanges/`
 
-## Planning & Building Regulations
-- `/propertyPack/alterationsAndChanges` — planning permission, building regs approval (per alteration)
-- `/propertyPack/environmentalIssues/planning` — planning context from environmental data
-- `/propertyPack/notices/planningApplication` — pending planning applications
+Each alteration type has a consistent pattern with sub-paths for documents, planning, building regs, listed building consent, and deed restriction consent — each with their own `attachments`:
+
+| Alteration | Base Path | Has `documents` | Has `planningPermission/attachments` | Has `buildingRegApproval/attachments` | Has `listedBuildingConsent/attachments` | Has `deedRestrictionConsent/attachments` |
+|---|---|---|---|---|---|---|
+| `hasStructuralAlterations` | `.../hasStructuralAlterations/` | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `changeOfUse` | `.../changeOfUse/` | ❌ | ✅ | ✅ | ✅ | ✅ |
+| `nonResidentialPurposes` | `.../nonResidentialPurposes/` | ❌ (has top-level `attachments`) | — | — | — | — |
+| `windowReplacementsSince2002` | `.../windowReplacementsSince2002/` | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `extension` | `.../extension/` | ✅ | ✅ | ✅ | ❌ | ❌ |
+| `hasAddedConservatory` | `.../hasAddedConservatory/` | ✅ | ✅ | ✅ | ✅ | ✅ |
+| `loftConversion` | `.../loftConversion/` | ✅ | ✅ | ✅ | ❌ | ❌ |
+| `garageConversion` | `.../garageConversion/` | ✅ | ✅ | ✅ | ❌ | ❌ |
+| `removalOfInternalWalls` | `.../removalOfInternalWalls/` | ✅ | ✅ | ✅ | ❌ | ❌ |
+| `removalOfChimneyBreast` | `.../removalOfChimneyBreast/` | ✅ | ✅ | ✅ | ❌ | ❌ |
+| `insulation` | `.../insulation/` | ✅ | ✅ | ✅ | ❌ | ❌ |
+| `otherBuildingWorksOrChangesToTheProperty` | `.../otherBuildingWorksOrChangesToTheProperty/` | ✅ | ✅ | ✅ | ❌ | ❌ |
+
+Other alteration paths:
+- `.../worksUnfinished/attachments` — unfinished works evidence
+- `.../planningPermissionBreaches/attachments` — breach evidence
+- `.../unresolvedPlanningIssues/attachments` — unresolved planning evidence
+
+### Resolution Examples
+| Document | Target Path |
+|---|---|
+| Building regs cert for loft conversion | `.../loftConversion/buildingRegApproval/attachments` |
+| Planning permission for extension | `.../extension/planningPermission/attachments` |
+| Listed building consent for window replacement | `.../windowReplacementsSince2002/listedBuildingConsent/attachments` |
+| Completion certificate for garage conversion | `.../garageConversion/buildingRegApproval/attachments` |
+| General docs bundle for chimney removal | `.../removalOfChimneyBreast/documents` |
 
 ## Environmental & Location
-- `/propertyPack/environmentalIssues` — flooding, radon, contaminated land, ground stability, coal mining, non-coal mining, coastal erosion, climate risk, infrastructure risk
+- `/propertyPack/environmentalIssues` — flooding, radon, contaminated land, ground stability, coal mining, coastal erosion, climate risk
+  - `.../flooding/floodRiskReport/attachments` — flood risk report
+  - `.../radon/radonTest/attachments` — radon test report
 - `/propertyPack/location` — lat/lng, BNG coordinates
-- `/propertyPack/localAuthority` — council name, search turnaround times
+- `/propertyPack/localAuthority` — council name, search turnaround
 
-## Searches
-- `/propertyPack/localSearches` — local land charges, CON29R results
-- `/propertyPack/searches` — all search enquiries (environmental, drainage, mining, etc.)
+## Listing & Conservation
+- `/propertyPack/listingAndConservation/isListed/attachments` — listed building evidence
+- `/propertyPack/listingAndConservation/isConservationArea/attachments` — conservation area evidence
+- `/propertyPack/listingAndConservation/hasTreePreservationOrder/workCarriedOut/attachments` — TPO work documentation
+
+## Construction & Safety
+- `/propertyPack/typeOfConstruction` — standard construction, loft type, spray foam, accessibility
+  - `.../buildingSafety/attachments` — building safety / cladding / EWS1
+  - `.../sprayFoamInsulation/attachments` — spray foam evidence
 
 ## Energy & Services
-- `/propertyPack/energyEfficiency` — EPC, green deal loan
-- `/propertyPack/electricity` — mains, solar panels, heat pumps
-- `/propertyPack/heating` — heating system type
-- `/propertyPack/waterAndDrainage` — water supply, drainage type, sewerage
-- `/propertyPack/connectivity` — broadband, mobile, TV
-
-## Specialist Issues
-- `/propertyPack/specialistIssues` — dry rot, asbestos, Japanese knotweed, subsidence, health/safety
-- `/propertyPack/typeOfConstruction/buildingSafety` — cladding, fire safety remediation
-
-## Rights & Restrictions
-- `/propertyPack/rightsAndInformalArrangements` — shared costs, access rights, neighbouring land rights
-- `/propertyPack/servicesCrossing` — pipes/cables crossing other property
-- `/propertyPack/parking` — parking arrangements, ULEZ, EV charging
-
-## Notices
-- `/propertyPack/notices` — neighbour development, planning applications, required maintenance, party wall, listed building applications, infrastructure projects
-
-## Property Description & Features
-- `/propertyPack/address` — full address
-- `/propertyPack/uprn` — UPRN
-- `/propertyPack/buildInformation` — property type, year built, internal area, new build, HMO
-- `/propertyPack/residentialPropertyFeatures` — bedrooms, bathrooms, receptions
-- `/propertyPack/listingAndConservation` — listed building, conservation area, TPOs
-- `/propertyPack/fixturesAndFittings` — what's included/excluded in sale
-
-## Insurance
-- `/propertyPack/insurance` — insurance difficulties, current insurance status
-- `/propertyPack/guaranteesWarrantiesAndIndemnityInsurances` — warranties, guarantees, indemnity policies
-
-## Price & Transaction
-- `/propertyPack/priceInformation` — price, price qualifier, disposal type, sale at undervalue
-- `/valuationComparisonData` — valuation estimates, comparable properties
-- `/contracts` — contract details
-- `/offers` — purchase offers
-
-## Occupiers & Seller
-- `/propertyPack/occupiers` — who lives there, anyone over 17
-- `/propertyPack/completionAndMoving` — chain status, move dates, mortgage repayment sufficiency
-- `/propertyPack/consumerProtectionRegulationsDeclaration` — CPR compliance
-
-## Disputes
-- `/propertyPack/disputesAndComplaints` — past disputes, potential disputes
+- `/propertyPack/energyEfficiency` — EPC rating, green deal
+  - `.../greenDealLoan/hasGreenDealLoan/attachments` — Green Deal documentation
+- `/propertyPack/electricity`
+  - `.../mainsElectricity/electricityMeter/attachments` — meter photo
+  - `.../solarPanels/panelsOwnedOutright/attachments` — solar ownership docs
+  - `.../solarPanels/panelProviderLease/attachments` — panel lease agreement
+  - `.../solarPanels/photovoltaicMeterPanelLocation/attachments` — PV meter photo
+  - `.../solarPanels/maintenanceAgreement/attachments` — maintenance agreement
+  - `.../solarPanels/photovoltaicBatteries/attachments` — battery location photo
+  - `.../solarPanels/nationalGrid/fitOrSegInPlace/attachments` — FIT/SEG evidence
+  - `.../heatPump/attachments` — heat pump building regs / MCS certificate
+- `/propertyPack/heating`
+  - `.../heatingSystem/centralHeatingDetails/centralHeatingFuel/gasMeter/attachments` — gas meter photo
+  - `.../heatingSystem/centralHeatingDetails/boilerInstallationCertificate/attachments` — boiler installation cert
+  - `.../heatingSystem/centralHeatingDetails/replacementOtherThanBoiler/attachments` — heating replacement compliance
+- `/propertyPack/waterAndDrainage`
+  - `.../water/mainsWater/stopcock/attachments` — stopcock photo
+  - `.../water/mainsWater/waterMeter/attachments` — water meter photo
+  - `.../drainage/mainsFoulDrainage/offMainsDrainageSystem/plantOnOtherLand/attachments` — drainage location plan
+  - `.../drainage/mainsFoulDrainage/offMainsDrainageSystem/plantRegistered/attachments` — discharge permit
+  - `.../drainage/mainsFoulDrainage/offMainsDrainageSystem/attachments` — drainage building regs
+  - `.../maintenanceAgreements/attachments` — drainage maintenance agreements
 
 ## Electrical
-- `/propertyPack/electricalWorks` — electrical testing, post-2005 electrical work
+- `/propertyPack/electricalWorks/testedByQualifiedElectrician/attachments` — electrical test certificate
+- `/propertyPack/electricalWorks/electricalWorkSince2005/suppliedCertificate/attachments` — Part P certificate
 
-## Smart Home
+## Specialist Issues
+- `/propertyPack/specialistIssues/dryRotEtcTreatment/attachments` — treatment report
+- `/propertyPack/specialistIssues/containsAsbestos/attachments` — asbestos report
+- `/propertyPack/specialistIssues/japaneseKnotweed/knotweedSurveyCarriedOut/attachments` — knotweed survey
+- `/propertyPack/specialistIssues/japaneseKnotweed/attachments` — knotweed management plan + insurance
+- `/propertyPack/specialistIssues/subsidenceOrStructuralFault/attachments` — subsidence report
+- `/propertyPack/specialistIssues/ongoingHealthOrSafetyIssue/attachments` — health/safety evidence
+
+## Guarantees, Warranties & Indemnity
+Base: `/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/`
+- `.../newHomeWarranty/attachments` — NHBC / equivalent warranty
+- `.../roofingWork/attachments` — roofing guarantee
+- `.../dampProofingTreatment/attachments` — damp proofing guarantee
+- `.../timberRotOrInfestationTreatment/attachments` — timber treatment guarantee
+- `.../centralHeatingAndorPlumbing/attachments` — heating/plumbing guarantee
+- `.../doubleGlazing/attachments` — double glazing guarantee
+- `.../electricalRepairOrInstallation/attachments` — electrical work guarantee
+- `.../subsidenceWork/attachments` — subsidence work guarantee
+- `.../insulation/attachments` — insulation guarantee
+- `.../solarPanels/attachments` — solar panel guarantee
+- `.../otherGuarantees/attachments` — other guarantees
+- `.../outstandingClaimsOrApplications/attachments` — outstanding claims evidence
+- `.../titleDefectInsurance/attachments` — title defect indemnity policy
+
+## Notices
+Base: `/propertyPack/notices/`
+- `.../neighbourDevelopment/attachments` — neighbour development notice
+- `.../planningApplication/attachments` — planning application notice
+- `.../requiredMaintenance/attachments` — maintenance notice
+- `.../listedBuildingApplication/attachments` — listed building application
+- `.../infrastructureProject/attachments` — infrastructure project notice
+- `.../partyWallAct/attachments` — party wall notice/agreement
+- `.../otherNotices/attachments` — other notices
+
+## Rights & Access
+- `/propertyPack/rightsAndInformalArrangements/neighbouringLandRights/attachments` — neighbouring land evidence
+- `/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/publicRightOfWay/attachments` — right of way plan
+- `/propertyPack/servicesCrossing/pipesWiresCablesDrainsToProperty/attachments` — services to property evidence
+- `/propertyPack/servicesCrossing/pipesWiresCablesDrainsFromProperty/attachments` — services from property evidence
+- `/propertyPack/servicesCrossing/formalOrInformalAgreements/attachments` — shared services agreement
+
+## Occupiers
+- `/propertyPack/occupiers/othersAged17OrOver/vacantPossession/attachments` — tenancy agreement / notice to quit
+- `.../vacantPossession/aged17OrOverWillSignToConfirmWillVacate/attachments` — evidence property will be vacant
+
+## Other Issues
+- `/propertyPack/otherIssues/excessiveNoise/attachments`
+- `/propertyPack/otherIssues/crime/attachments`
+- `/propertyPack/otherIssues/cautionOrConviction/attachments`
+- `/propertyPack/otherIssues/failedTransactionsInLast12Months/attachments`
+
+## Additional Information
+- `/propertyPack/additionalInformation/consents/attachments`
+- `/propertyPack/additionalInformation/furtherInformation/attachments`
+- `/propertyPack/additionalInformation/restrictionsOnUseNotCompliedWith/attachments`
+- `/propertyPack/additionalInformation/otherMaterialIssue/attachments`
+
+## Other Top-Level Paths
+- `/propertyPack/buildInformation/roomDimensions/attachments` — room dimension plans
+- `/propertyPack/delayFactors/hasDelayFactors/attachments` — delay evidence
+- `/propertyPack/councilTax/councilTaxAffectingAlterations/attachments` — council tax alteration evidence
+- `/propertyPack/connectivity` — broadband, mobile, TV
+- `/propertyPack/parking` — parking arrangements, ULEZ, EV charging
+- `/propertyPack/fixturesAndFittings` — included/excluded items
+- `/propertyPack/priceInformation` — price, disposal type
+- `/propertyPack/completionAndMoving` — chain status, move dates, mortgage sufficiency
+- `/propertyPack/disputesAndComplaints` — past and potential disputes
 - `/propertyPack/smartHomeSystems` — smart home systems
-
-## Council Tax
-- `/propertyPack/councilTax` — band, charge, alterations affecting band
-
-## Documents & Surveys
-- `/propertyPack/documents` — uploaded documents
-- `/propertyPack/surveys` — survey reports
-- `/propertyPack/valuations` — valuation reports
+- `/propertyPack/insurance` — insurance difficulties
+- `/propertyPack/consumerProtectionRegulationsDeclaration` — CPR compliance
+- `/propertyPack/address` — full address
+- `/propertyPack/uprn` — UPRN
+- `/propertyPack/residentialPropertyFeatures` — bedrooms, bathrooms, receptions
+- `/propertyPack/documents` — general uploaded documents (use specific attachment paths when possible)
 
 ## Enquiries
-- `/enquiries` — transaction enquiries between conveyancers (key-value, each with messages array)
+- `/enquiries` — transaction enquiries between conveyancers (key-value map, each with messages array and externalIds)
 
-## Milestones
-- `/milestones` — listing date, legal forms, SSTC, searches, enquiries, exchange, completion
+## Milestones & Chain
+- `/milestones` — listing, SSTC, searches, enquiries, exchange, completion
+- `/chain/onwardPurchase` — linked transactions
 
-## Chain
-- `/chain/onwardPurchase` — linked transactions in chain
+## Common Document → Path Quick Reference
 
-## Common Enquiry Subject → Path Mapping
-
-| Enquiry Subject | Primary Path |
-|----------------|-------------|
-| Lease length / ground rent / service charges | `/propertyPack/ownership/ownershipsToBeTransferred` (leasehold branch) |
-| Building regs for extension/loft/works | `/propertyPack/alterationsAndChanges` + specific alteration sub-path |
-| Planning permission | `/propertyPack/alterationsAndChanges/planningPermissionBreaches` |
-| Flooding / flood risk | `/propertyPack/environmentalIssues/flooding` |
-| Japanese knotweed | `/propertyPack/specialistIssues/japaneseKnotweed` |
-| Subsidence | `/propertyPack/specialistIssues/subsidenceOrStructuralFault` |
-| Asbestos | `/propertyPack/specialistIssues/containsAsbestos` |
-| Title defect / restriction | `/propertyPack/titlesToBeSold` |
-| Boundary dispute | `/propertyPack/legalBoundaries` |
-| Right of way / access | `/propertyPack/rightsAndInformalArrangements` |
-| Party wall | `/propertyPack/notices/partyWallAct` |
-| EPC / energy performance | `/propertyPack/energyEfficiency` |
-| Drainage / sewerage | `/propertyPack/waterAndDrainage/drainage` |
-| Covenants | `/propertyPack/titlesToBeSold` (covenants in register) |
-| Conservation area works | `/propertyPack/listingAndConservation/isConservationArea` |
-| Listed building consent | `/propertyPack/listingAndConservation/isListed` |
-| Occupiers / rights of occupation | `/propertyPack/occupiers` |
-| Guarantee / warranty | `/propertyPack/guaranteesWarrantiesAndIndemnityInsurances` |
-| Insurance claim / difficulty | `/propertyPack/insurance` |
-| Chimney breast removal | `/propertyPack/alterationsAndChanges/removalOfChimneyBreast` |
-| Window replacement | `/propertyPack/alterationsAndChanges/windowReplacementsSince2002` |
-| Solar panels / feed-in tariff | `/propertyPack/electricity/solarPanels` |
-| Damp / dry rot treatment | `/propertyPack/specialistIssues/dryRotEtcTreatment` |
-| Neighbour disputes | `/propertyPack/disputesAndComplaints` |
-| Chain / onward purchase | `/chain/onwardPurchase` |
-| Completion date | `/milestones/completion` |
+| Document Type | Target Path |
+|---|---|
+| Building regs cert (any alteration) | `.../alterationsAndChanges/{alteration}/buildingRegApproval/attachments` |
+| Planning permission (any alteration) | `.../alterationsAndChanges/{alteration}/planningPermission/attachments` |
+| Listed building consent | `.../alterationsAndChanges/{alteration}/listedBuildingConsent/attachments` |
+| Deed restriction consent | `.../alterationsAndChanges/{alteration}/deedRestrictionConsent/attachments` |
+| EWS1 / cladding safety | `.../typeOfConstruction/buildingSafety/attachments` |
+| NHBC warranty | `.../guaranteesWarrantiesAndIndemnityInsurances/newHomeWarranty/attachments` |
+| Title defect indemnity | `.../guaranteesWarrantiesAndIndemnityInsurances/titleDefectInsurance/attachments` |
+| Electrical test cert | `.../electricalWorks/testedByQualifiedElectrician/attachments` |
+| Part P cert | `.../electricalWorks/electricalWorkSince2005/suppliedCertificate/attachments` |
+| Boiler installation cert | `.../heating/heatingSystem/centralHeatingDetails/boilerInstallationCertificate/attachments` |
+| Gas safety cert | `.../heating/heatingSystem/centralHeatingDetails/centralHeatingFuel/gasMeter/attachments` |
+| Flood risk report | `.../environmentalIssues/flooding/floodRiskReport/attachments` |
+| Radon test | `.../environmentalIssues/radon/radonTest/attachments` |
+| Knotweed survey | `.../specialistIssues/japaneseKnotweed/knotweedSurveyCarriedOut/attachments` |
+| Knotweed management plan | `.../specialistIssues/japaneseKnotweed/attachments` |
+| Asbestos report | `.../specialistIssues/containsAsbestos/attachments` |
+| Subsidence report | `.../specialistIssues/subsidenceOrStructuralFault/attachments` |
+| Lease extension notice | `.../ownership/.../enfranchisement/sellerServedNoticeOnLandlord/attachments` |
+| Landlord consent | `.../ownership/.../consents/landlordConsents/attachments` |
+| Party wall agreement | `.../notices/partyWallAct/attachments` |
+| Tenancy agreement | `.../occupiers/othersAged17OrOver/vacantPossession/attachments` |
+| Green Deal disclosure | `.../energyEfficiency/greenDealLoan/hasGreenDealLoan/attachments` |
+| Solar panel lease | `.../electricity/solarPanels/panelProviderLease/attachments` |
+| Damp proofing guarantee | `.../guaranteesWarrantiesAndIndemnityInsurances/dampProofingTreatment/attachments` |
+| Double glazing guarantee | `.../guaranteesWarrantiesAndIndemnityInsurances/doubleGlazing/attachments` |
