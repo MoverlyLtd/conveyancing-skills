@@ -15,9 +15,15 @@ NOT `/propertyPack/alterationsAndChanges/loftConversion` or `/propertyPack/docum
 - `/propertyPack/ownership` — sellers count, mortgage, help-to-buy, first registration, limited company
 - `/propertyPack/ownership/ownershipsToBeTransferred` — freehold/leasehold details per ownership (array)
 - `/propertyPack/legalOwners` — names of legal owners
-- `/propertyPack/legalBoundaries` — boundary ownership, flying freehold, title plan discrepancies
-  - `.../boundariesDifferFromTitlePlan/attachments` — boundary evidence
-  - `.../ownership/attachments` — boundary ownership evidence
+- `/propertyPack/legalBoundaries` — boundary ownership, flying freehold, title plan discrepancies, adjacent land
+  - `.../ownership/uniformBoundaries/left` — left boundary owner (Seller/Shared/Neighbour/Not known)
+  - `.../ownership/uniformBoundaries/right` — right boundary owner
+  - `.../ownership/uniformBoundaries/rear` — rear boundary owner
+  - `.../ownership/uniformBoundaries/front` — front boundary owner
+  - `.../ownership/attachments` — boundary plan (when boundaries are non-uniform)
+  - `.../boundariesDifferFromTitlePlan/attachments` — evidence of boundary differences
+  - `.../haveBoundaryFeaturesMoved` — boundary features moved in last 10 years
+  - `.../flyingFreehold` — part of property overhangs neighbour's land
 
 ## Tenure & Leasehold
 Leasehold branch lives at `/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/`:
