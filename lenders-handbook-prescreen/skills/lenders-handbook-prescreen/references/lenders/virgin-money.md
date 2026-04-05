@@ -1,6 +1,6 @@
-# Virgin Money — Part 2 Requirements
+# Clydesdale Bank plc (now Virgin Money) — Part 2 Requirements
 
-> Scraped from UK Finance Lenders' Handbook on 2026-03-29
+> Scraped from UK Finance Lenders' Handbook on 2026-04-05
 > Source: https://lendershandbook.ukfinance.org.uk/lenders-handbook/englandandwales/virgin-money/
 > 108 sections found
 
@@ -637,7 +637,7 @@ None.
 Funds need to be returned if completion hasn’t taken place within 5 working days of the completion date quoted in your certificate of title.
 Funds must be returned to us by CHAPS to:
 Bank: HSBC Bank plc
-Accoount Name: Virgin Money plc Delayed completions
+Account Name: Virgin Money Delayed completions
 Sort Code: 40-63-98
 Account Number: 81333410
 (please also quote the mortgage application number in the Payee field)
@@ -714,7 +714,7 @@ Solicitor Helpline: 0345 604 4858
 ## 16.3.7b What form of attestation clause does the lender use?
 
 Signed as a deed by ......................................
-as attorney for Clydesdale Bank PLC
+as attorney for Nationwide Building Society (trading as Virgin Money)
 In the presence of
 Signature of witness ......................................
 Name of witness ......................................

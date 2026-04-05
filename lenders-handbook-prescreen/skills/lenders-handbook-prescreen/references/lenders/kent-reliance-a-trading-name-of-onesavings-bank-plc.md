@@ -1,6 +1,6 @@
 # Kent Reliance — Part 2 Requirements
 
-> Scraped from UK Finance Lenders' Handbook on 2026-03-29
+> Scraped from UK Finance Lenders' Handbook on 2026-04-05
 > Source: https://lendershandbook.ukfinance.org.uk/lenders-handbook/englandandwales/kent-reliance-a-trading-name-of-onesavings-bank-plc/
 > 108 sections found
 

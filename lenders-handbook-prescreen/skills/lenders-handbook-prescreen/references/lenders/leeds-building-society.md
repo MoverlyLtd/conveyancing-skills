@@ -1,6 +1,6 @@
 # Leeds Building Society — Part 2 Requirements
 
-> Scraped from UK Finance Lenders' Handbook on 2026-03-29
+> Scraped from UK Finance Lenders' Handbook on 2026-04-05
 > Source: https://lendershandbook.ukfinance.org.uk/lenders-handbook/englandandwales/leeds-building-society/
 > 108 sections found
 
@@ -569,25 +569,70 @@ No.
 
 ## 16.5.3a Where should the deed of variation be sent?
 
-Customer Support – Mortgage Administration (as per 16.5.2) or for Limited Company Buy to Let cases only: LBSgeneraladmin@peppergroup.co.uk
+For Residential and Buy to Let Mortgages other than Limited Company Buy to Let Mortgages:
+Leeds Building Society
+26 Sovereign Street
+Leeds
+LS1 4BJ
+DX12299
+Leeds 1
+For Limited Company Buy to Let Mortgages:
+PO Box 1250
+Leeds Building Society
+Uxbridge
+UB8 9JZ
 
 ## 16.5.3b Where should the deed of rectification be sent?
 
-Customer Support – Mortgage Administration (as per 16.5.2) or for Limited Company Buy to Let cases only: LBSgeneraladmin@peppergroup.co.uk.
+For Residential and Buy to Let Mortgages other than Limited Company Buy to Let Mortgages:
+Leeds Building Society
+26 Sovereign Street
+Leeds
+LS1 4BJ
+DX12299
+Leeds 1
+For Limited Company Buy to Let Mortgages:
+PO Box 1250
+Leeds Building Society
+Uxbridge
+UB8 9JZ
 
 ## 16.5.3c Where should the deed of easement be sent?
 
-Customer Support – Mortgage Administration (as per 16.5.2) or for Limited Company Buy to Let cases only: LBSgeneraladmin@peppergroup.co.uk.
+For Residential and Buy to Let Mortgages other than Limited Company Buy to Let Mortgages:
+Leeds Building Society
+26 Sovereign Street
+Leeds
+LS1 4BJ
+DX12299
+Leeds 1
+For Limited Company Buy to Let cases only: LBSgeneraladmin@peppergroup.co.uk.
 
 ## 16.5.3d Where should the option agreements be sent?
 
-Customer Support – Mortgage Administration (as per 16.5.2) or for Limited Company Buy to Let cases only: LBSgeneraladmin@peppergroup.co.uk.
+For Residential and Buy to Let Mortgages other than Limited Company Buy to Let Mortgages:
+Leeds Building Society
+26 Sovereign Street
+Leeds
+LS1 4BJ
+DX12299
+Leeds 1
+For Limited Company Buy to Let cases only: LBSgeneraladmin@peppergroup.co.uk.
 
 ## 16.5.2 If different from 1.11, contact point for confirming proposed deed or agreement will not adversely affect the lender:
 
-For cases other than Limited Company Buy to Let cases:
-Customer Support - Mortgage Administration, 26 Sovereign Street, Leeds, LS1 4BJ. DX 12299 Leeds 1.
-For Limited Company Buy to Let cases: LBSgeneraladmin@peppergroup.co.uk
+For Residential and Buy to Let Mortgages other than Limited Company Buy to Let Mortgages:
+Leeds Building Society
+26 Sovereign Street
+Leeds
+LS1 4BJ
+DX12299
+Leeds 1
+For Limited Company Buy to Let Mortgages:
+PO Box 1250
+Leeds Building Society
+Uxbridge
+UB8 9JZ
 
 ## 17.1.1 If different from 1.11, contact point for redemption statements:
 
@@ -598,7 +643,13 @@ For Limited Company Buy to Let accounts only redemption statements should be req
 
 ## 17.2.1a Where do you send the discharge and repayment remittance?
 
-For cases other than Limited Company Buy to Let cases: Customer Support Administration (as per 16.5.2).
+For Residential and Buy to Let Mortgages other than Limited Company Buy to Let Mortgages:
+Leeds Building Society
+26 Sovereign Street
+Leeds
+LS1 4BJ
+DX12299
+Leeds 1
 For Limited Company Buy to Let cases no repayment remittance is required to be submitted.
 
 ## 17.2.1b Does the lender send the discharge via a DS 1 form or direct with the Land Registry?

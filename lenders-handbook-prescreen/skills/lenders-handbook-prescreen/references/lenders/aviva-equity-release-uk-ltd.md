@@ -1,6 +1,6 @@
 # Aviva Equity Release UK Ltd — Part 2 Requirements
 
-> Scraped from UK Finance Lenders' Handbook on 2026-03-29
+> Scraped from UK Finance Lenders' Handbook on 2026-04-05
 > Source: https://lendershandbook.ukfinance.org.uk/lenders-handbook/englandandwales/aviva-equity-release-uk-ltd/
 > 108 sections found
 

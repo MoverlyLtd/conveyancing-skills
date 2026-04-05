@@ -1,6 +1,6 @@
 # Precise Mortgages — Part 2 Requirements
 
-> Scraped from UK Finance Lenders' Handbook on 2026-03-29
+> Scraped from UK Finance Lenders' Handbook on 2026-04-05
 > Source: https://lendershandbook.ukfinance.org.uk/lenders-handbook/englandandwales/precise-mortgages-charter-court-financial-services-ltd/
 > 108 sections found
 

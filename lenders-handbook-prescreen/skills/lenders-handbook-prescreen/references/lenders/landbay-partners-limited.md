@@ -1,6 +1,6 @@
 # Landbay Partners Limited — Part 2 Requirements
 
-> Scraped from UK Finance Lenders' Handbook on 2026-03-29
+> Scraped from UK Finance Lenders' Handbook on 2026-04-05
 > Source: https://lendershandbook.ukfinance.org.uk/lenders-handbook/englandandwales/landbay-partners-limited/
 > 108 sections found
 
@@ -192,10 +192,14 @@ See 5.14.17a.
 ## 5.14.9 If different from 1.11, contact point for matters connected with the lease:
 
 New leases completed after 30 June 2022 must comply with the Leasehold Reform (Ground Rent) Act 2022.
-We do not lend on properties with onerous ground rent provisions. Ground Rent must not exceed 0.1% of the property’s value. Ground rent escalation may be linked to the Retails Price Index (RPI) or a similar index. Unreasonable escalation provisions, including but not limited to ground rent doubling at intervals of 5,10 or 15 years are not acceptable. Indemnity Insurance is not acceptable.
+We do not lend on properties with onerous ground rent provisions.
+For new build properties, Ground Rent must not exceed 0.1% of the property’s value.
+For properties which are not new build, Ground Rent must not be excessive. Ground Rent exceeding £250.00 per annum outside London or £1,000.00 per annum within London will be considered excessive.
+Ground rent escalation may be linked to the Retails Price Index (RPI) or a similar index. Unreasonable escalation provisions, including but not limited to ground rent doubling at intervals of 5,10 or 15 years are not acceptable.
+Indemnity Insurance is not acceptable. Grounds rents exceeding these limits will require a Deed of Variation to be entered in to, to cap the Ground rent to a suitable threshold.
 Following legislative changes to the law introduced by the Renters’ Rights Act 2025, a residential lease granted for a term of more than 21 years cannot be treated as an assured tenancy, irrespective of the level of the ground rent reserved. Ground rent levels do not require reporting for assured tenancy purposes.
 For maisonettes, or similar security, where the repairing and maintenance obligations contained in the lease are not satisfactory, you must place Maisonette Indemnity Insurance on risk for the full purchase price or valuation, whichever is the higher plus 10%.
-You should only refer the matter to the Completions Team if the lease does nor meet the above requirements.
+You should only refer the matter to the Completions Team if the lease does not meet the above requirements.
 
 ## 5.14.10 If different from 1.11, contact for service charge matters:
 
