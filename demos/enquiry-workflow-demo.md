@@ -59,14 +59,20 @@ Smith & Jones Solicitors
 
 For each enquiry:
 - Extract the subject
-- Resolve the PDTF path using the schema
+- Resolve the exact PDTF leaf path where the answer/document should be vouched (e.g. `.../buildingRegApproval/attachments` or `.../ownershipsToBeTransferred/0/leaseholdInformation/leaseTerm`). Do NOT guess short paths; use `moverly_describe_path` to explore if needed.
+  - *Hint for this demo, use these exact paths:*
+  - Enquiry 1: `/propertyPack/ownership/ownershipsToBeTransferred/0/leaseholdInformation/leaseTerm`
+  - Enquiry 2: `/propertyPack/alterationsAndChanges/extension/0/buildingRegApproval/attachments`
+  - Enquiry 3: `/propertyPack/environmentalIssues/flooding/sellerExperience`
+  - Enquiry 4: `/propertyPack/alterationsAndChanges/windowReplacementsSince2002/deedRestrictionConsent/attachments`
+  - Enquiry 5: `/propertyPack/ownership/ownershipsToBeTransferred/0/leaseholdInformation/serviceCharge`
 - Show me the mapping in a table
 - Ask me to confirm before pushing to MCP
 
 When I confirm, use `moverly_raise_enquiry` for each, with:
 - `subject`: a short title for the enquiry
 - `messageText`: the full enquiry text
-- `destinationRole`: "Seller Conveyancer" (exact string, no apostrophe)
+- `destinationRole`: "Seller's Conveyancer" (exact enum value, with apostrophe)
 - `externalIds`: `{"email": "SJ/2024/1234", "enquiryNumber": "1"}` (incrementing)
 - `pdtfPath`: the resolved PDTF path for the subject
 
@@ -153,5 +159,5 @@ Use `moverly_delete_claims_after` with the "demo start" timestamp from Step 2, i
 - Demo transaction: `D2YHMFAZ4n8oJ3puvxUjqA` (10 Downend Park, Bristol BS7 9PU) on staging
 - All 4 MCP tools live on staging as of 2026-04-08 (MR !3282 merged)
 - If the demo transaction doesn't have matching lease/leasehold data, adjust the email content to match what's actually there
-- Known cosmetic bug: `list_enquiries` may show `totalCount: 0` while `enquiries: [...]` populated — the list is correct, count is wrong
+- Known issue: The agent might look for `totalCount` when checking enquiries. The correct field is `total`. Ensure it reads the array length or the `total` field correctly.
 - The demo works best when the conveyancer reads the agent's proposals carefully and edits/confirms — this is the approval gate in action
