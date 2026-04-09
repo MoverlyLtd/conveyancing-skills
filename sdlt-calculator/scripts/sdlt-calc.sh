@@ -8,7 +8,7 @@ set -euo pipefail
 # --- Rate loading ---
 # Try live rates first (GitHub raw), fall back to local file
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-RATES_URL="https://raw.githubusercontent.com/MoverlyLtd/conveyancing-toolkit/master/sdlt-calculator/skills/sdlt-calculator/scripts/sdlt-rates.json"
+RATES_URL="https://raw.githubusercontent.com/MoverlyLtd/conveyancing-toolkit/master/sdlt-calculator/scripts/sdlt-rates.json"
 RATES_FILE="$SCRIPT_DIR/sdlt-rates.json"
 RATES_JSON=""
 

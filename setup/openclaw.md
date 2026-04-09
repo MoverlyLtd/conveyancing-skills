@@ -6,11 +6,11 @@ Copy the skills you want into your OpenClaw skills directory:
 
 ```bash
 # Standalone skills (no account needed)
-cp -r skills/sdlt-calculator ~/.openclaw/skills/
+cp -r sdlt-calculator ~/.openclaw/skills/
 
 # Moverly-connected skills (needs PAT)
-cp -r skills/moverly-connect ~/.openclaw/skills/
-cp -r skills/moverly-diligence ~/.openclaw/skills/
+cp -r moverly-connect ~/.openclaw/skills/
+cp -r moverly-diligence ~/.openclaw/skills/
 ```
 
 ## Moverly MCP Connection (optional)

@@ -5,7 +5,7 @@
 Copy skills into your project and they'll be available as context:
 
 ```bash
-cp -r skills/sdlt-calculator ./skills/
+cp -r sdlt-calculator ./skills/
 ```
 
 Claude Code will see the SKILL.md and scripts when working in your project.

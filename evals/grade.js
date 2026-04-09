@@ -35,7 +35,7 @@ const GROUND_TRUTH = {
     if (/second|additional|buy.to.let|btl|investment/i.test(prompt)) flags.push("--additional");
     if (/non.uk|overseas|foreign/i.test(prompt)) flags.push("--non-resident");
     
-    const scriptPath = path.resolve(__dirname, "../sdlt-calculator/skills/sdlt-calculator/scripts/sdlt-calc.sh");
+    const scriptPath = path.resolve(__dirname, "../sdlt-calculator/scripts/sdlt-calc.sh");
     if (!fs.existsSync(scriptPath)) return null;
     
     try {
@@ -57,7 +57,7 @@ const GROUND_TRUTH = {
     const years = yearsMatch[1];
     const price = priceMatch ? priceMatch[1].replace(/,/g, "") : "400000";
     
-    const scriptPath = path.resolve(__dirname, "../lease-impact-advisor/skills/lease-impact-advisor/scripts/lease-calc.sh");
+    const scriptPath = path.resolve(__dirname, "../lease-impact-advisor/scripts/lease-calc.sh");
     if (!fs.existsSync(scriptPath)) return null;
     
     try {

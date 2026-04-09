@@ -112,7 +112,7 @@ def call_model(model_key: str, prompt: str, system: str = "") -> str:
 def load_skill_context(skill_name: str) -> str:
     """Load the SKILL.md content for a given skill."""
     # Search for the skill
-    for skill_dir in SKILLS_ROOT.glob(f"**/skills/{skill_name}/SKILL.md"):
+    for skill_dir in SKILLS_ROOT.glob(f"**/{skill_name}/SKILL.md"):
         content = skill_dir.read_text()
         # Also load references if they exist
         refs_dir = skill_dir.parent / "references"

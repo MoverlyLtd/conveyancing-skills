@@ -118,7 +118,7 @@ We want this to become the industry standard toolkit for AI-assisted conveyancin
 **How to contribute:**
 
 1. Fork this repo
-2. Create your tool in `skills/your-tool-name/SKILL.md`
+2. Create your tool in `your-tool-name/SKILL.md`
 3. Add helper scripts in `scripts/` and reference data in `references/` if needed
 4. Submit a PR
 

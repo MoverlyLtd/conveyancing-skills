@@ -5,7 +5,7 @@ Thank you for helping build better tools for conveyancing. Every contribution ma
 ## The basics
 
 1. **Fork** this repo
-2. **Create** your tool in `skills/your-tool-name/`
+2. **Create** your tool in `your-tool-name/`
 3. **Test** it by using it with an AI agent
 4. **Submit** a pull request
 
@@ -14,7 +14,7 @@ Thank you for helping build better tools for conveyancing. Every contribution ma
 Every tool needs a `SKILL.md` — the instruction file that AI agents read:
 
 ```
-skills/your-tool-name/
+your-tool-name/
 ├── SKILL.md              # Required — the agent reads this
 ├── scripts/              # Optional — helper scripts for deterministic work
 │   └── calculate.sh

@@ -5,7 +5,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 EVALS_FILE="$SCRIPT_DIR/path-resolver-evals.json"
-SKILL_DIR="$SCRIPT_DIR/../pdtf-path-resolver/skills/pdtf-path-resolver"
+SKILL_DIR="$SCRIPT_DIR/../pdtf-path-resolver"
 RESULTS_DIR="$SCRIPT_DIR/path-resolver-results"
 mkdir -p "$RESULTS_DIR"
 
