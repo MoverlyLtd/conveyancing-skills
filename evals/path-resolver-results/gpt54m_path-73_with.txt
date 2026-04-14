@@ -1,1 +1,0 @@
-/propertyPack/fixturesAndFittings/itemsToRemove

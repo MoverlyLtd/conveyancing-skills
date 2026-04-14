@@ -1,5 +1,0 @@
-The relevant PDTF path for items the seller intends to remove that would normally be considered fixtures is:
-
-/propertyPack/fixturesAndFittings/itemsToRemove
-
-This path is used to capture any items that the seller plans to take with them upon moving out, even though those items would typically be considered fixtures that convey with the property.

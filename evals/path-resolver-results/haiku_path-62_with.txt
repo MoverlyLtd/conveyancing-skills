@@ -1,5 +1,0 @@
-The broadband speed and availability information should be recorded at the following path in the PDTF schema:
-
-`/propertyPack/connectivity/broadband`
-
-This path includes fields for recording the broadband provider, download speed, upload speed, and availability status.

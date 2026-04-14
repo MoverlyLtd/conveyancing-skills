@@ -1,5 +1,0 @@
-The correct PDTF path for listed building consent for adding a conservatory is:
-
-/propertyPack/alterationsAndChanges/hasAddedConservatory/listedBuildingConsent/attachments
-
-This is the most specific path that covers a conservatory addition that requires listed building consent.

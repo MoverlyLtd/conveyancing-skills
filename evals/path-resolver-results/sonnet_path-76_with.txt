@@ -1,3 +1,0 @@
-`/propertyPack/parking/controlledParking`
-
-This path handles whether the property is located in a controlled parking zone (CPZ) where parking restrictions, permits, or charges may apply.

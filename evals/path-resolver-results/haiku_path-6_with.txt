@@ -1,5 +1,0 @@
-The Part P certificate for electrical work done since 2005 should go in the following PDTF path:
-
-/propertyPack/electricalWorks/electricalWorkSince2005/suppliedCertificate/attachments
-
-This path is specifically for documents related to electrical work carried out since 2005 and the Part P certificate is the key document that should be uploaded here.

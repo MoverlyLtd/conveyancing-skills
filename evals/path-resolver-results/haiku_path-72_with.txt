@@ -1,5 +1,0 @@
-The Leaseholder Deed of Certificate under the Building Safety Act goes here:
-
-`/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/buildingSafetyAct/deedOfCertificateServed/attachments`
-
-This is a sub-path under the leaseholder information section, specifically for documents related to the Building Safety Act and the Leaseholder Deed of Certificate.

@@ -1,5 +1,0 @@
-The path for shared drainage costs or agreements with a neighbour would be:
-
-/propertyPack/rightsAndInformalArrangements/sharedContributions/drainageCosts
-
-This path covers any informal or formal arrangements related to shared drainage costs or maintenance responsibilities with a neighbour.

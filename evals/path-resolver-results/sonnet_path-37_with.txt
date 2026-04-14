@@ -1,3 +1,0 @@
-`/propertyPack/completionAndMoving/otherPropertyInChain`
-
-This path contains chain position information including whether the seller has an onward purchase, their chain status, and related completion timing details.

@@ -1,5 +1,0 @@
-The title defect indemnity policy should be uploaded to the following PDTF path:
-
-`/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/titleDefectInsurance/attachments`
-
-This is the correct location for any indemnity insurance policies related to title defects or issues.

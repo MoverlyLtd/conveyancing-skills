@@ -1,5 +1,0 @@
-The path for the landlord's consent for alterations to the leasehold flat is:
-
-`/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/alterations/sellerAwareOfAlterations/landlordConsentObtained/attachments`
-
-This is part of the leasehold information section, under the "alterations" sub-path, where the seller confirms they obtained the landlord's consent for any alterations made to the property.

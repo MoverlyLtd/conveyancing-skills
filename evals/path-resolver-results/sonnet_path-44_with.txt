@@ -1,3 +1,0 @@
-`/propertyPack/alterationsAndChanges/planningPermissionBreaches/attachments`
-
-This is where evidence of planning permission breaches should be documented. The path is under the alterations and changes section, specifically for cases where the seller is aware that planning permission should have been obtained but wasn't, or where conditions of planning permission haven't been complied with.

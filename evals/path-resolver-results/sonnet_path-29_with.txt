@@ -1,6 +1,0 @@
-`/propertyPack/rightsAndInformalArrangements/sharedContributions`
-
-This path handles shared costs and contributions with neighbors, including drainage maintenance costs, shared driveway upkeep, and other jointly-maintained services or facilities.
-
-If you have documentation of the drainage sharing arrangement (like a formal agreement or deed), that would go in the `attachments` sub-path:
-`/propertyPack/rightsAndInformalArrangements/sharedContributions/attachments`

@@ -1,5 +1,0 @@
-The correct PDTF path for a boundary dispute with a neighbour is:
-
-`/propertyPack/disputesAndComplaints/hasDisputesAndComplaints`
-
-This path is used to capture any past or potential future disputes related to the property, including boundary disputes with neighbors.

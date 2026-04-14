@@ -1,5 +1,0 @@
-`/propertyPack/otherIssues/crime`
-
-This path handles whether the property has been subject to crime, burglary, or other criminal activity. If there are supporting documents (police reports, incident records, etc.), they would go to:
-
-`/propertyPack/otherIssues/crime/attachments`

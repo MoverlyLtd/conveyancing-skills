@@ -1,5 +1,0 @@
-`/propertyPack/disputesAndComplaints/hasDisputesAndComplaints`
-
-This path is for past and current disputes, including boundary disputes with neighbours. If there are ongoing issues that could lead to future disputes, there's also `/propertyPack/disputesAndComplaints/leadingToDisputesAndComplaints`.
-
-For boundary-related documentation itself (like boundary plans or evidence of boundary differences), you'd use the boundary-specific paths under `/propertyPack/legalBoundaries/`.

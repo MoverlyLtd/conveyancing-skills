@@ -70,23 +70,6 @@ When checking lender-specific requirements, read the relevant file from `referen
 
 The agent loads the reference on demand — keeping context lean.
 
-## Connecting to Moverly MCP
-
-Skills that use Moverly tools should document the MCP calls:
-
-```markdown
-## Get risk flags
-
-Call `moverly_get_insights` with the transaction ID and filter to evidenced flags:
-
-\`\`\`
-Tool: moverly_get_insights
-Args: { "transactionId": "<id>", "evidenceBasis": "data-driven", "minRisk": 4 }
-\`\`\`
-
-Present each flag with its risk score, rationale, and recommended actions.
-```
-
 ## Best practices
 
 - **Description field is everything.** The agent matches your skill based on the description in the YAML frontmatter. Include all trigger phrases.

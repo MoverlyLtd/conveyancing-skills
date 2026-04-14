@@ -1,5 +1,0 @@
-The relevant PDTF path is:
-
-/propertyPack/completionAndMoving/otherPropertyInChain
-
-This path covers information about the property transaction chain, including the buyer's onward purchase.

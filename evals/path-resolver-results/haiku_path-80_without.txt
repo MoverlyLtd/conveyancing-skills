@@ -1,2 +1,0 @@
-/propertyPack/propertyDetails/defects/dampOrDryRot/treatment
-/propertyPack/propertyDetails/defects/dampOrDryRot/report

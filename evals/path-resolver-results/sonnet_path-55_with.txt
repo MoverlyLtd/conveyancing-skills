@@ -1,3 +1,0 @@
-`/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/centralHeatingAndorPlumbing/attachments`
-
-This path covers guarantees and warranties for central heating systems and/or plumbing work. The warranty document would be uploaded to the `attachments` sub-path to provide evidence of the coverage.

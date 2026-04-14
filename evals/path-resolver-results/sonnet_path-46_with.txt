@@ -1,3 +1,0 @@
-`/propertyPack/disputesAndComplaints/leadingToDisputesAndComplaints`
-
-This path captures anything that might lead to future disputes or complaints about the property, as opposed to `/propertyPack/disputesAndComplaints/hasDisputesAndComplaints` which covers existing/past disputes.

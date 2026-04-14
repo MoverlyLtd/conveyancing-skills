@@ -1,5 +1,0 @@
-The PDTF path for a neighbour's planning application that could affect the property is:
-
-/propertyPack/notices/planningApplication/attachments
-
-This is the path where any documents related to a neighbouring planning application that could impact the property should be uploaded.

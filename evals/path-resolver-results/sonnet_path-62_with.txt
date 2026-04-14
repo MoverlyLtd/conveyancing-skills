@@ -1,3 +1,0 @@
-`/propertyPack/connectivity/broadband`
-
-This path covers both broadband availability and speed information for the property.

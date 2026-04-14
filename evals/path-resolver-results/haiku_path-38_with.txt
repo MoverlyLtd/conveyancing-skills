@@ -1,5 +1,0 @@
-The notice of lease extension served on the landlord should be uploaded to the following path:
-
-/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/enfranchisement/sellerServedNoticeOnLandlord/attachments
-
-This is the specific path for the lease extension notice under the leasehold information section of the property pack.

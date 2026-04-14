@@ -1,5 +1,0 @@
-The PDTF path for uploading a knotweed survey is:
-
-/propertyPack/specialistIssues/japaneseKnotweed/knotweedSurveyCarriedOut/attachments
-
-This path is specifically for the knotweed survey document, which should be uploaded here under the "japaneseKnotweed" sub-section of the "specialistIssues" part of the PDTF schema.

@@ -1,5 +1,0 @@
-The PDTF path for chancel repair liability is:
-
-/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/churchChancel
-
-This covers any information related to chancel repair liability for the property.

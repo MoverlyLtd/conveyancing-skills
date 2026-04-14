@@ -1,3 +1,0 @@
-`/propertyPack/energyEfficiency/certificate`
-
-This path contains both the EPC data (rating, expiry date, etc.) and has an `attachments` sub-path for uploading the actual EPC certificate document.

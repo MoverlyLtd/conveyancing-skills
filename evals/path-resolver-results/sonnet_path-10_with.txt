@@ -1,3 +1,0 @@
-`/propertyPack/specialistIssues/japaneseKnotweed/attachments`
-
-This path is for the Japanese knotweed management plan and insurance documentation. There's also a separate path at `/propertyPack/specialistIssues/japaneseKnotweed/knotweedSurveyCarriedOut/attachments` specifically for the knotweed survey report if you have that as well.

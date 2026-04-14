@@ -1,5 +1,0 @@
-`/propertyPack/notices/planningApplication/attachments`
-
-This is for planning applications by others (typically neighbours) that could affect the property. The notice or documentation about the neighbour's planning application would be uploaded to the attachments at this path.
-
-If you need to provide additional context about how the application might affect the property, that would go in the main `/propertyPack/notices/planningApplication` object alongside the attachments.

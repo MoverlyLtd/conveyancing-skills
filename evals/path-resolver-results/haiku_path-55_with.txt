@@ -1,5 +1,0 @@
-The central heating warranty should be uploaded to the following PDTF path:
-
-`/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/centralHeatingAndorPlumbing/attachments`
-
-This path is for any guarantees or warranties related to the property's central heating system and plumbing.

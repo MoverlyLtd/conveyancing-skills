@@ -1,3 +1,0 @@
-`/propertyPack/energyEfficiency/greenDealLoan/hasGreenDealLoan/attachments`
-
-This is the specific attachment path for Green Deal loan documentation under the energy efficiency section of the property pack.

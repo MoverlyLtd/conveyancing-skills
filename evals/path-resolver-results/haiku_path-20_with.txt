@@ -1,5 +1,0 @@
-The solar panel lease agreement should be uploaded to the following PDTF path:
-
-`/propertyPack/electricity/solarPanels/panelProviderLease/attachments`
-
-This path is specifically for documents related to the lease agreement with the solar panel provider.

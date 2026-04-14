@@ -1,5 +1,0 @@
-The PDTF path for the council tax band is:
-
-/propertyPack/councilTax/councilTaxBand
-
-This field contains the council tax band for the property.

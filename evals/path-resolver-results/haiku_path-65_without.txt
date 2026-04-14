@@ -1,1 +1,0 @@
-/propertyPack/financials/mortgageDetails/loanPaymentSummary/isPaymentEnough

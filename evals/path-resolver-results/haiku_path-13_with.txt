@@ -1,5 +1,0 @@
-The subsidence report would go here:
-
-/propertyPack/specialistIssues/subsidenceOrStructuralFault/attachments
-
-This is the most specific path in the PDTF schema for a subsidence report.

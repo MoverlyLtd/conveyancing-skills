@@ -1,5 +1,0 @@
-The correct PDTF path for a heat pump MCS certificate is:
-
-/propertyPack/electricity/heatPump/attachments
-
-This path is for documenting any heat pump system installed at the property, including the MCS (Microgeneration Certification Scheme) certificate that verifies the system meets the required standards.

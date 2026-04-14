@@ -1,5 +1,0 @@
-The building regs approval for a garage conversion should be uploaded to the following path:
-
-`/propertyPack/alterationsAndChanges/garageConversion/buildingRegApproval/attachments`
-
-This is the most specific path for a building regs certificate related to a garage conversion.

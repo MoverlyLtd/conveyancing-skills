@@ -1,3 +1,0 @@
-`/propertyPack/electricity/solarPanels/panelProviderLease/attachments`
-
-This is the specific attachment path for solar panel lease agreements under the electricity section of the property pack.

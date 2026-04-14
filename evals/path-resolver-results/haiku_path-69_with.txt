@@ -1,5 +1,0 @@
-To check if the property is a new build, the relevant PDTF path is:
-
-/propertyPack/buildInformation/isNewBuild
-
-This boolean field indicates whether the property is a new build or not.

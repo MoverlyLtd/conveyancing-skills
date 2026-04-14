@@ -1,6 +1,0 @@
-`/propertyPack/electricalWorks/testedByQualifiedElectrician/attachments`
-
-This is for electrical installation condition reports or other electrical test certificates. The path indicates the property has been tested by a qualified electrician and this is where you'd upload the certificate as evidence.
-
-If it's specifically a Part P certificate for electrical work done since 2005, that would go to:
-`/propertyPack/electricalWorks/electricalWorkSince2005/suppliedCertificate/attachments`

@@ -1,5 +1,0 @@
-`/propertyPack/listingAndConservation/hasTreePreservationOrder`
-
-This is the PDTF path for tree preservation orders. The schema includes sub-paths for whether work has been carried out under the TPO - if there are documents related to TPO work, they would go to:
-
-`/propertyPack/listingAndConservation/hasTreePreservationOrder/workCarriedOut/attachments`

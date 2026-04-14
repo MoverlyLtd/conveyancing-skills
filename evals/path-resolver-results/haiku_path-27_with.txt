@@ -1,5 +1,0 @@
-The rights of light information is located at the following path in the PDTF schema:
-
-`/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/rightsOfLight`
-
-This path covers any rights of light that affect the property. The conveyancer should look for documents or evidence related to rights of light at this location in the schema.

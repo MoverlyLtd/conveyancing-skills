@@ -1,5 +1,0 @@
-To check if there are any dates on which the seller cannot move, look at the path:
-
-/propertyPack/completionAndMoving/moveRestrictionDates
-
-This field will indicate if the seller has any restrictions on their move-out dates.

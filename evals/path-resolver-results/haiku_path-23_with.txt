@@ -1,5 +1,0 @@
-The correct path to upload documents related to consents given under title covenants for alterations is:
-
-/propertyPack/additionalInformation/consents/attachments
-
-This path is designed to capture any consents or approvals that were required under the property's title covenants or restrictions, relating to the various alterations and changes made to the home.

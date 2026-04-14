@@ -1,5 +1,0 @@
-The correct PDTF path for the planning permission for a rear extension is:
-
-`/propertyPack/alterationsAndChanges/extension/planningPermission/attachments`
-
-This path is under the `extension` alteration type, which has a dedicated `planningPermission/attachments` sub-path for uploading the relevant planning permission documents.

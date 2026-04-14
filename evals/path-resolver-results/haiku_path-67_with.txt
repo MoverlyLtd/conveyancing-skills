@@ -1,5 +1,0 @@
-The path to check for excessive noise affecting the property is:
-
-/propertyPack/otherIssues/excessiveNoise/attachments
-
-This path would contain any documents or evidence related to excessive noise issues at the property.

@@ -1,5 +1,0 @@
-The PDTF path for evidence of a tree preservation order is:
-
-/propertyPack/listingAndConservation/hasTreePreservationOrder/workCarriedOut/attachments
-
-This path captures any documentation related to a tree preservation order on the property, including evidence of any work carried out under the TPO.

@@ -1,3 +1,0 @@
-`/propertyPack/alterationsAndChanges/insulation/buildingRegApproval/attachments`
-
-This path is for building regulations certificates specifically related to insulation work done to the property. The insulation alteration type has its own dedicated section under alterations and changes, with separate attachment points for planning permission, building regulations approval, and general documents related to the insulation work.

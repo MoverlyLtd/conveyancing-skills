@@ -1,5 +1,0 @@
-To determine if the property is in a conservation area, check the PDTF path:
-
-/propertyPack/listingAndConservation/isConservationArea/attachments
-
-This path contains evidence that the property is located within a conservation area.

@@ -1,5 +1,0 @@
-The correct PDTF path for a roofing work guarantee is:
-
-/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/roofingWork/attachments
-
-This is the path for any documents related to a guarantee or warranty for roofing work on the property.

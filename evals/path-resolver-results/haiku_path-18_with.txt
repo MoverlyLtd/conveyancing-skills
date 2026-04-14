@@ -1,5 +1,0 @@
-The radon test report should be uploaded to the following path in the PDTF schema:
-
-/propertyPack/environmentalIssues/radon/radonTest/attachments
-
-This path is for documents related to radon testing at the property.

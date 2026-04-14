@@ -1,3 +1,0 @@
-`/propertyPack/heating/heatingSystem/centralHeatingDetails/centralHeatingFuel/gasMeter/attachments`
-
-This path is specifically for gas meter photographs under the heating system details where the central heating fuel type is gas.

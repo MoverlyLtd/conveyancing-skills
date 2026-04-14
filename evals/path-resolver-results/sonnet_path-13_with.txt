@@ -1,3 +1,0 @@
-`/propertyPack/specialistIssues/subsidenceOrStructuralFault/attachments`
-
-This is the specific attachment path for uploading subsidence reports and other structural fault documentation under the specialist issues section of the property pack.

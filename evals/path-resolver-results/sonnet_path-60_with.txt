@@ -1,3 +1,0 @@
-`/propertyPack/waterAndDrainage/drainage/publicSewerWithin100ft`
-
-This path captures whether there is a public sewer within 100 feet of the buildings on the property. This is relevant for properties with private drainage systems (like septic tanks) where connection to mains drainage may be required if a public sewer becomes available within that distance.

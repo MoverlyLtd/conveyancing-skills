@@ -1,9 +1,0 @@
-`/propertyPack/otherIssues/excessiveNoise`
-
-This path handles whether there is excessive noise from roads, railways, aircraft, industry, or other sources that might affect the property. The schema includes:
-
-- `/propertyPack/otherIssues/excessiveNoise/attachments` for uploading noise-related documentation (sound surveys, complaints, correspondence, etc.)
-- Boolean field to indicate if excessive noise affects the property
-- Text field for details about the noise source and impact
-
-This is part of the broader "Other Issues" section that covers environmental and neighborhood factors that could affect the property's desirability or value.

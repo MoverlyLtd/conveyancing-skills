@@ -1,5 +1,0 @@
-The correct PDTF path for unfinished building works is:
-
-/propertyPack/alterationsAndChanges/worksUnfinished/attachments
-
-This path is for evidence related to unfinished building works or alterations at the property.

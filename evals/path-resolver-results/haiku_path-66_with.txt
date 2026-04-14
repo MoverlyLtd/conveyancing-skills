@@ -1,5 +1,0 @@
-The relevant PDTF path for information about crime or burglary affecting the property is:
-
-/propertyPack/otherIssues/crime/attachments
-
-This path is where any evidence or documentation related to crime or burglary at the property would be stored.

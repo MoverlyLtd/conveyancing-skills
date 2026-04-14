@@ -1,5 +1,0 @@
-The path for contaminated land information is:
-
-/propertyPack/environmentalIssues/contaminatedLand
-
-This path contains structured data about any contaminated land issues affecting the property.

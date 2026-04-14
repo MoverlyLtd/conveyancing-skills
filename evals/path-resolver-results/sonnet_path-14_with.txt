@@ -1,3 +1,0 @@
-`/propertyPack/notices/partyWallAct/attachments`
-
-This path is specifically for party wall notices and agreements under the Party Wall Act. The party wall agreement and award documents should be uploaded to the `attachments` property at this location.

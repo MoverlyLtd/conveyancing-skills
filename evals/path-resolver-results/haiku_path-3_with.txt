@@ -1,5 +1,0 @@
-The correct PDTF path for a FENSA certificate for replacement windows is:
-
-`/propertyPack/alterationsAndChanges/windowReplacementsSince2002/buildingRegApproval/attachments`
-
-This path is for the building regulations approval documents related to the window replacements made at the property since 2002.

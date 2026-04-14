@@ -1,5 +1,0 @@
-The boiler installation certificate should be uploaded to the following path:
-
-`/propertyPack/heating/heatingSystem/centralHeatingDetails/boilerInstallationCertificate/attachments`
-
-This path is under the `/propertyPack/heating` section, which covers details about the property's heating system. The `boilerInstallationCertificate` node is specifically for uploading the certificate that documents the proper installation of the boiler.

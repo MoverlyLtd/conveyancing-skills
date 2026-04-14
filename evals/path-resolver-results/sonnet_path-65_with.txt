@@ -1,3 +1,0 @@
-`/propertyPack/completionAndMoving/sufficientToRepayAllMortgages`
-
-This boolean field captures whether the sale proceeds will be sufficient to repay all existing mortgages on the property.

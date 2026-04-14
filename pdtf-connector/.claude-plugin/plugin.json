@@ -1,5 +1,0 @@
-{
-  "name": "pdtf-connector",
-  "description": "Connect to any PDTF-compliant MCP server for property transaction data — claims, provenance, vouch, upload, enquiries, schema, forms",
-  "version": "1.0.0"
-}

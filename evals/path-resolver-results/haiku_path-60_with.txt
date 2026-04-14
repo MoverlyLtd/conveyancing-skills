@@ -1,5 +1,0 @@
-The correct PDTF path for this information is:
-
-/propertyPack/waterAndDrainage/drainage/publicSewerWithin100ft
-
-This path covers whether there is a public sewer within 100 feet of the property.

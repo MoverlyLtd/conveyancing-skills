@@ -1,5 +1,0 @@
-The path for ground stability concerns is:
-
-/propertyPack/environmentalIssues/groundStability/attachments
-
-This is where you would upload any reports or evidence related to ground stability issues affecting the property.

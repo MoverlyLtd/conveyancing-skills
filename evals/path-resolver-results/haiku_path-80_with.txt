@@ -1,5 +1,0 @@
-The PDTF path for damp or dry rot treatment reports is:
-
-/propertyPack/specialistIssues/dryRotEtcTreatment/attachments
-
-This is where you would find any reports or documentation related to damp or dry rot treatment that has been carried out on the property.

@@ -1,5 +1,0 @@
-The path for evidence that the property is a Grade II listed building is:
-
-/propertyPack/listingAndConservation/isListed/attachments
-
-This path would contain documents or other evidence showing the property has a Grade II listing.

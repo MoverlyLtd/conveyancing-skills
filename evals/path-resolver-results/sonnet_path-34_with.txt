@@ -1,9 +1,0 @@
-`/propertyPack/alterationsAndChanges/removalOfChimneyBreast`
-
-This path handles chimney breast removal with sub-paths for:
-- `documents` — general documentation about the removal
-- `planningPermission/attachments` — planning permission documents (if required)
-- `buildingRegApproval/attachments` — building regulations approval/completion certificate
-
-For most chimney breast removals, you'd typically need the building regs completion certificate at:
-`/propertyPack/alterationsAndChanges/removalOfChimneyBreast/buildingRegApproval/attachments`

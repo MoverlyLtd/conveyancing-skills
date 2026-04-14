@@ -1,3 +1,0 @@
-`/propertyPack/alterationsAndChanges/loftConversion/buildingRegApproval/attachments`
-
-This is the specific attachment path for building regulations approval documents related to loft conversions. The PDTF schema has dedicated paths for different types of approvals (planning permission, building regs, listed building consent, etc.) under each alteration type, and you want the most specific path possible for the document type and alteration involved.

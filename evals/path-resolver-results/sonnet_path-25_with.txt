@@ -1,3 +1,0 @@
-`/propertyPack/waterAndDrainage/drainage/mainsFoulDrainage/offMainsDrainageSystem/plantOnOtherLand/attachments`
-
-This path is specifically for drainage location plans when the drainage system/plant is located on other (neighbour's) land.

@@ -1,5 +1,0 @@
-`/propertyPack/additionalInformation/consents/attachments`
-
-This path is specifically for consents given under covenants, deed restrictions, or other title conditions. It's distinct from the alteration-specific consent paths (like `/propertyPack/alterationsAndChanges/{alteration}/deedRestrictionConsent/attachments`) which are for consents related to specific building works.
-
-The `/additionalInformation/consents/attachments` path covers broader covenant consents that may not relate to a specific alteration type in the schema.

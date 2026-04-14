@@ -1,3 +1,0 @@
-`/propertyPack/parking/electricVehicleChargingPoint`
-
-This path handles whether there's an electric vehicle charging point at the property, including details about the type of charging point and any associated costs or arrangements.

@@ -1,3 +1,0 @@
-`/propertyPack/notices/infrastructureProject/attachments`
-
-This is where notices about nearby infrastructure projects (like HS2, wind farms, major road schemes, etc.) should be documented. The path captures both the notice itself and any related documentation about how the project might affect the property.

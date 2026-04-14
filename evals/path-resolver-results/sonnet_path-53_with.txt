@@ -1,3 +1,0 @@
-`/propertyPack/insurance/difficultiesObtainingInsurance`
-
-This path captures whether the seller has experienced difficulties obtaining buildings insurance for the property.

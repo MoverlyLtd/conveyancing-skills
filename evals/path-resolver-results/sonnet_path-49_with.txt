@@ -1,3 +1,0 @@
-`/propertyPack/notices/requiredMaintenance/attachments`
-
-This is for notices from authorities (like councils, building control, etc.) requiring the seller to carry out maintenance or repairs to the property. The attachments sub-path is where you'd upload the actual notice document.

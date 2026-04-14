@@ -1,5 +1,0 @@
-The tenancy agreement for sitting tenants would go under the following PDTF path:
-
-/propertyPack/occupiers/othersAged17OrOver/vacantPossession/attachments
-
-This path is for uploading the tenancy agreement or notice to quit for any other occupiers aged 17 or over who will not be vacating the property.

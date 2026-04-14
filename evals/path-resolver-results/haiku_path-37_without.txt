@@ -1,2 +1,0 @@
-/propertyTransactionData/chain/chainPosition
-/propertyTransactionData/chain/onwardPurchase

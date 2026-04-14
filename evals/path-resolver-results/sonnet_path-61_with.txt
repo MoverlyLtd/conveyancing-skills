@@ -1,6 +1,0 @@
-`/propertyPack/servicesCrossing/pipesWiresCablesDrainsFromProperty`
-
-This path covers services (pipes, wires, cables, drains) that cross **from** neighbouring property **onto** your property - i.e. where your property is burdened by the neighbour's services.
-
-If you need to upload evidence/plans showing the location of these pipes, use:
-`/propertyPack/servicesCrossing/pipesWiresCablesDrainsFromProperty/attachments`

@@ -1,5 +1,0 @@
-The PDTF path for checking if the property is in a controlled parking zone is:
-
-/propertyPack/parking/controlledParking
-
-This field indicates whether the property is located in a controlled parking zone.

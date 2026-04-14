@@ -1,5 +1,0 @@
-To check if there is an EV charging point at the property, look at the following path in the PDTF schema:
-
-/propertyPack/parking/electricVehicleChargingPoint
-
-This path indicates whether the property has an electric vehicle charging point installed.

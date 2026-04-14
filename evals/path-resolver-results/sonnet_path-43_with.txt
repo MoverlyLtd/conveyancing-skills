@@ -1,3 +1,0 @@
-`/propertyPack/alterationsAndChanges/worksUnfinished/attachments`
-
-This path is specifically for documenting unfinished building works at the property. Any evidence or documentation about incomplete works should be uploaded here.

@@ -1,3 +1,0 @@
-`/propertyPack/waterAndDrainage/drainage/mainsFoulDrainage/offMainsDrainageSystem/plantRegistered/attachments`
-
-This is for the discharge permit/consent when a septic tank or other off-mains drainage system is registered with the Environment Agency for discharge purposes.

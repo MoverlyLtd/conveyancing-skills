@@ -1,5 +1,0 @@
-The relevant PDTF path for potential future disputes about the property is:
-
-/propertyPack/disputesAndComplaints/leadingToDisputesAndComplaints
-
-This path captures any issues or situations that could potentially lead to future disputes or complaints related to the property.

@@ -1,8 +1,0 @@
-`/propertyPack/environmentalIssues/groundStability`
-
-This path covers ground stability concerns including subsidence risk, ground movement, unstable land, mining subsidence, and related geological issues that could affect the property's foundation or structural integrity.
-
-If you have a ground stability report or survey, the attachments would go to:
-`/propertyPack/environmentalIssues/groundStability/attachments`
-
-Note: This is different from `/propertyPack/specialistIssues/subsidenceOrStructuralFault` which covers actual subsidence damage that has already occurred, rather than environmental ground stability risks.

@@ -1,5 +1,0 @@
-The correct path for the damp proofing guarantee is:
-
-/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/dampProofingTreatment/attachments
-
-This is the most specific path in the schema for a damp proofing guarantee document.

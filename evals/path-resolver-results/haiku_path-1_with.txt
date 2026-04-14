@@ -1,5 +1,0 @@
-The building regulations completion certificate for a loft conversion should be uploaded to the following path in the PDTF schema:
-
-`/propertyPack/alterationsAndChanges/loftConversion/buildingRegApproval/attachments`
-
-This is the specific path for building regulations documentation related to a loft conversion.

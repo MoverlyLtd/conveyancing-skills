@@ -1,9 +1,0 @@
-To check if a property is in a conservation area, you would look at:
-
-**`/propertyPack/listingAndConservation/isConservationArea`**
-
-This path contains:
-- A boolean field indicating whether the property is in a conservation area
-- An `attachments` sub-path at `/propertyPack/listingAndConservation/isConservationArea/attachments` for uploading conservation area evidence/documentation
-
-If you need to upload conservation area certificates, maps, or other supporting documents, use the attachments path. If you just need to check the yes/no status, query the main `isConservationArea` field.

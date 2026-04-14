@@ -1,5 +1,0 @@
-The correct PDTF path for a Japanese knotweed management plan with insurance is:
-
-`/propertyPack/specialistIssues/japaneseKnotweed/attachments`
-
-This path is for documents related to the presence and management of Japanese knotweed on the property.

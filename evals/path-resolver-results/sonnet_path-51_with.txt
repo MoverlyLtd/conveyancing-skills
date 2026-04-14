@@ -1,7 +1,0 @@
-`/propertyPack/environmentalIssues/coalMining`
-
-This covers coal mining subsidence risk, historical mining activity, and related environmental concerns. If you have specific coal mining reports or documentation, those would go to:
-
-`/propertyPack/environmentalIssues/coalMining/attachments`
-
-The coal mining section sits alongside other environmental risks like flooding, radon, contaminated land, and ground stability within the environmental issues branch of the property pack.

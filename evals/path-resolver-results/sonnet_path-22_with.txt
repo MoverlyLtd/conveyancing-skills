@@ -1,5 +1,0 @@
-`/propertyPack/occupiers/othersAged17OrOver/vacantPossession/attachments`
-
-This is the path for tenancy agreements when there are occupiers aged 17 or over who need to vacate the property. The `vacantPossession` section handles documentation related to existing tenancies, including tenancy agreements and notices to quit.
-
-If the property will NOT have vacant possession (i.e., the tenants are staying), the tenancy agreement would still go to this same path as it documents the existing occupancy arrangement that affects vacant possession.

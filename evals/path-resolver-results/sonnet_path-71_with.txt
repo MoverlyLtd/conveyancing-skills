@@ -1,3 +1,0 @@
-`/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/transferAndRegistration/deedOfCovenantRequired`
-
-This is a boolean field that indicates whether a deed of covenant is required for the leasehold transfer and registration.

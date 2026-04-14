@@ -1,3 +1,0 @@
-`/propertyPack/heating/heatingSystem/centralHeatingDetails/boilerInstallationCertificate/attachments`
-
-This is the specific attachment path for boiler installation certificates within the heating system section of the property pack.

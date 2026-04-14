@@ -1,9 +1,0 @@
-`/propertyPack/servicesCrossing/pipesWiresCablesDrainsToProperty/attachments`
-
-This path is for recording services (pipes, wires, cables, drains) that cross other land to reach the property. If there are formal or informal agreements about these services, you can also use:
-
-`/propertyPack/servicesCrossing/formalOrInformalAgreements/attachments`
-
-The schema distinguishes between:
-- Services **to** the property (crossing neighbour's land to reach you)
-- Services **from** the property (your services crossing neighbour's land)

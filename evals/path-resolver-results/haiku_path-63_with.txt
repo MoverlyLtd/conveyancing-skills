@@ -1,5 +1,0 @@
-To determine if the seller actually lives at the property, you should check the PDTF path:
-
-/propertyPack/occupiers/sellerLivesAtProperty
-
-This field will indicate whether the seller currently resides at the property being sold.

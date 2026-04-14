@@ -1,5 +1,0 @@
-The path for spray foam insulation evidence is:
-
-/propertyPack/typeOfConstruction/sprayFoamInsulation/attachments
-
-This is the correct location to upload any documents or evidence related to spray foam insulation at the property.

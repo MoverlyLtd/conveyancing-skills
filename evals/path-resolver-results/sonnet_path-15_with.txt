@@ -1,3 +1,0 @@
-`/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/alterations/sellerAwareOfAlterations/landlordConsentObtained/attachments`
-
-This is the specific path for landlord consent documents when the seller has made alterations to a leasehold property and obtained the required consent from the landlord.

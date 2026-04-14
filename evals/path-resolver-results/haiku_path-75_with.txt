@@ -1,5 +1,0 @@
-To determine if there are smart home systems at the property, the relevant PDTF path is:
-
-/propertyPack/smartHomeSystems/hasSmartHomeSystems
-
-This field indicates whether the property has any smart home systems installed.

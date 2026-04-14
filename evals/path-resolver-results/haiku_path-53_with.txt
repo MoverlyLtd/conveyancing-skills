@@ -1,5 +1,0 @@
-The relevant PDTF path for this is:
-
-`/propertyPack/insurance/difficultiesObtainingInsurance`
-
-This path captures information about any difficulties the seller has experienced in obtaining buildings insurance for the property.

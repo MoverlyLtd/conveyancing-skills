@@ -1,3 +1,0 @@
-`/propertyPack/buildInformation/isNewBuild`
-
-This boolean field indicates whether the property is a new build. It's part of the build information section that captures key property characteristics.

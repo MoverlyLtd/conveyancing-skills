@@ -1,5 +1,0 @@
-The correct PDTF path to upload a photograph of the gas meter is:
-
-/propertyPack/heating/heatingSystem/centralHeatingDetails/centralHeatingFuel/gasMeter/attachments
-
-This path is under the `/propertyPack/heating` section, which covers details about the property's heating system. The `centralHeatingDetails` node contains information about the central heating fuel source, and the `gasMeter` node is where you would upload a photograph of the gas meter.

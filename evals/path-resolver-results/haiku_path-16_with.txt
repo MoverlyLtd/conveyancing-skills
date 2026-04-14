@@ -1,5 +1,0 @@
-The EWS1 building safety form should be uploaded to the following path in the PDTF schema:
-
-/propertyPack/typeOfConstruction/buildingSafety/attachments
-
-This path is for uploading any documents related to building safety, cladding, and EWS1 forms for the property.

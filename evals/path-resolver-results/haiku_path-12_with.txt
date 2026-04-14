@@ -1,5 +1,0 @@
-The correct PDTF path for the asbestos survey report is:
-
-/propertyPack/specialistIssues/containsAsbestos/attachments
-
-This is the most specific path for an asbestos survey report under the "Specialist Issues" section of the PDTF schema.

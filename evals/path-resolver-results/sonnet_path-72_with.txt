@@ -1,3 +1,0 @@
-`/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/buildingSafetyAct/deedOfCertificateServed/attachments`
-
-This is specifically for the Leaseholder Deed of Certificate served under the Building Safety Act, which applies to leasehold properties. The path is within the leasehold information section of each ownership being transferred.

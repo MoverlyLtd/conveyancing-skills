@@ -1,3 +1,0 @@
-`/propertyPack/alterationsAndChanges/garageConversion/buildingRegApproval/attachments`
-
-This is the specific attachment point for building regulations approval documents related to garage conversions. It sits under the garage conversion alteration type in the alterations and changes section of the property pack.

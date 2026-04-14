@@ -1,5 +1,0 @@
-The discharge consent for a septic tank would go under the following PDTF path:
-
-/propertyPack/waterAndDrainage/drainage/mainsFoulDrainage/offMainsDrainageSystem/plantRegistered/attachments
-
-This path covers off-mains drainage systems, and the `plantRegistered` sub-path is specifically for documentation related to the discharge permit or consent from the Environment Agency.

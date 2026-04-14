@@ -1,3 +1,0 @@
-`/propertyPack/electricity/heatPump/attachments`
-
-This path is specifically for heat pump building regulations approval and MCS (Microgeneration Certification Scheme) certificates. The MCS certificate demonstrates compliance with installation standards for the heat pump system.

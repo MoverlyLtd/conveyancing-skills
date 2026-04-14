@@ -1,3 +1,0 @@
-`/propertyPack/completionAndMoving/moveRestrictionDates`
-
-This path captures any specific dates when the seller cannot complete the move, such as due to personal commitments, work obligations, or other scheduling constraints.

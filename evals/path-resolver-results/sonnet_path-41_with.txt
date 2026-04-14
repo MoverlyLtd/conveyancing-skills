@@ -1,9 +1,0 @@
-`/propertyPack/alterationsAndChanges/changeOfUse/`
-
-This path handles changes of use between different property types (residential, commercial, etc.). 
-
-For documents related to this change of use, you can use these specific attachment paths:
-- `/propertyPack/alterationsAndChanges/changeOfUse/planningPermission/attachments` — planning permission for the change of use
-- `/propertyPack/alterationsAndChanges/changeOfUse/buildingRegApproval/attachments` — building regulations approval
-- `/propertyPack/alterationsAndChanges/changeOfUse/listedBuildingConsent/attachments` — if it's a listed building
-- `/propertyPack/alterationsAndChanges/changeOfUse/deedRestrictionConsent/attachments` — if deed restrictions needed consent

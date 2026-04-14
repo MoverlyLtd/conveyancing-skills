@@ -1,7 +1,0 @@
-The correct PDTF path for recording a public right of way and uploading the route plan is:
-
-`/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/publicRightOfWay/attachments`
-
-This path is part of the "Rights & Access" section of the PDTF schema, which covers various rights and arrangements that affect the property.
-
-The `rightsOrArrangements/publicRightOfWay` node is specifically for recording the existence of a public right of way, and the `attachments` sub-path is where you would upload the route plan document.

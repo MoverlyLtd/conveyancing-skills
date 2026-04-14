@@ -1,5 +1,0 @@
-The EPC (Energy Performance Certificate) certificate should be uploaded to the following PDTF path:
-
-`/propertyPack/energyEfficiency/certificate`
-
-This path contains both the EPC certificate data as well as the ability to attach the EPC document itself.

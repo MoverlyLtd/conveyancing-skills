@@ -1,3 +1,0 @@
-`/propertyPack/electricalWorks/electricalWorkSince2005/suppliedCertificate/attachments`
-
-This path is specifically for Part P certificates for electrical work carried out since 2005. Since your certificate is from 2019, it belongs here.

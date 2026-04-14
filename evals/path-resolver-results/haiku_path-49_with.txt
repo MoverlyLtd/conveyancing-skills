@@ -1,5 +1,0 @@
-The path for a notice requiring maintenance or repairs is:
-
-/propertyPack/notices/requiredMaintenance/attachments
-
-This is where the seller should upload any documentation related to a notice they have received requiring maintenance or repairs to the property.

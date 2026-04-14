@@ -1,6 +1,0 @@
-`/propertyPack/alterationsAndChanges/extension/planningPermission/attachments`
-
-This is the specific attachment path for planning permission documents related to extensions. The path breaks down as:
-- `/propertyPack/alterationsAndChanges/` - base alterations section
-- `extension/` - specific alteration type for extensions
-- `planningPermission/attachments` - planning permission documents attachment point

@@ -1,5 +1,0 @@
-The party wall agreement and award should be uploaded to the following path:
-
-`/propertyPack/notices/partyWallAct/attachments`
-
-This is the correct location in the PDTF schema for documents related to party wall matters.

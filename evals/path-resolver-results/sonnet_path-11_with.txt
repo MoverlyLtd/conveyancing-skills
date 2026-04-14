@@ -1,5 +1,0 @@
-`/propertyPack/specialistIssues/japaneseKnotweed/knotweedSurveyCarriedOut/attachments`
-
-This is specifically for the knotweed survey report. If you also have a management plan or insurance policy for the knotweed, that would go to:
-
-`/propertyPack/specialistIssues/japaneseKnotweed/attachments`

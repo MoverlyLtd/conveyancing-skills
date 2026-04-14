@@ -1,5 +1,0 @@
-The PDTF path for an infrastructure project notice is:
-
-/propertyPack/notices/infrastructureProject/attachments
-
-This is where you would upload any documents related to an infrastructure project, such as a notice about a nearby HS2 or wind farm development.

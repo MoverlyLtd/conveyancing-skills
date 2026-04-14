@@ -1,3 +1,0 @@
-`/propertyPack/waterAndDrainage/water/mainsWater`
-
-This path contains the boolean field for whether the property has mains water supply, plus related sub-fields for stopcock location and water meter details (each with their own `attachments` for photos).

@@ -5,8 +5,7 @@ description: >
   mortgage transactions. Use when asked about lender requirements, whether
   to refer something to the lender, mortgage compliance, certificate of
   title checks, lender reporting obligations, or any "does the lender need
-  to know about X" question. Covers ALL Part 1 sections. Works standalone
-  (manual assessment) or auto-completes with Moverly MCP. Miss nothing.
+  to know about X" question. Covers ALL Part 1 sections. Miss nothing.
 ---
 
 # Lender's Handbook Pre-Screen
@@ -100,23 +99,6 @@ Plus 50+ Tier 2 and Tier 3 lenders in the same directory.
 If the borrower's lender is not listed, fall back to Part 1 general
 requirements and advise the conveyancer to check the UK Finance website
 directly for that lender's Part 2.
-
-## Moverly MCP Integration
-
-When connected to Moverly, most checks auto-populate from transaction data:
-
-| Check Category | MCP Tool | Auto-Check |
-|---------------|----------|------------|
-| Leasehold term (9.1) | `get_insights` → tenure-leasehold | Years remaining vs lender minimum |
-| Planning/building regs (13.6) | `get_insights` → planning-permission, building-regulations | Breach + time-barring |
-| Restrictive covenants (7.3) | `get_insights` → property-rights-restrictions | 20-year waiver assessment |
-| Searches (13.1) | `get_status` → searchesCollector | Ordering and age tracking |
-| Title quality (4.3) | `get_insights` → title-ownership, legal-title-issues | Defect identification |
-| Environmental (18.1) | `get_insights` → environment-location | Flood, contamination, mining |
-| New build (15.1) | `get_insights` → condition-safety-core | Build date, warranty status |
-| Ground rent (9.7) | `get_insights` → tenure-leasehold | Onerous ground rent detection |
-| Insurance (19.1) | `get_insights` → insurance-availability | Insurance adequacy |
-| BSA 2022 (9.14) | `get_insights` → condition-safety-specialist | Relevant building ID |
 
 ## Sources
 

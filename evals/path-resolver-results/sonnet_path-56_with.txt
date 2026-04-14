@@ -1,3 +1,0 @@
-`/propertyPack/listingAndConservation/isListed/attachments`
-
-This path is for uploading evidence of the listed building status. The parent path `/propertyPack/listingAndConservation/isListed` would contain the boolean flag indicating the property is listed, while the `/attachments` sub-path is where you'd upload the listing certificate or other documentation proving the Grade II listing.

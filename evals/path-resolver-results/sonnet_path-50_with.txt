@@ -1,6 +1,0 @@
-`/propertyPack/environmentalIssues/contaminatedLand`
-
-This path covers contaminated land concerns, including whether the property is on potentially contaminated land and any remediation that may have been carried out.
-
-If you have documents related to contaminated land (such as environmental reports, remediation certificates, or contamination assessments), they would go to:
-`/propertyPack/environmentalIssues/contaminatedLand/attachments`

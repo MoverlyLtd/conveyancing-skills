@@ -1,5 +1,0 @@
-The path to check if a deed of covenant is required for a leasehold purchase is:
-
-/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/transferAndRegistration/deedOfCovenantRequired
-
-This field indicates whether a deed of covenant is required as part of the leasehold transfer.

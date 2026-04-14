@@ -1,5 +1,0 @@
-The correct PDTF path to upload the Green Deal disclosure document is:
-
-/propertyPack/energyEfficiency/greenDealLoan/hasGreenDealLoan/attachments
-
-This path is for documents related to the property having a Green Deal loan.

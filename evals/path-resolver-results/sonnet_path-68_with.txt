@@ -1,3 +1,0 @@
-`/propertyPack/otherIssues/failedTransactionsInLast12Months`
-
-This path captures whether any purchase transactions on the property have fallen through in the last 12 months, with an `attachments` sub-path for supporting evidence if needed.

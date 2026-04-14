@@ -1,5 +1,0 @@
-The relevant PDTF path is:
-
-`/propertyPack/completionAndMoving/sufficientToRepayAllMortgages`
-
-This field indicates whether the sale proceeds will be sufficient to clear all outstanding mortgages on the property.

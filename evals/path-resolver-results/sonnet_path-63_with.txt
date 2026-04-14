@@ -1,3 +1,0 @@
-`/propertyPack/occupiers/sellerLivesAtProperty`
-
-This is a boolean field that captures whether the seller currently lives at the property being sold.

@@ -1,3 +1,0 @@
-`/propertyPack/typeOfConstruction/sprayFoamInsulation/attachments`
-
-This is for documents evidencing spray foam insulation at the property - such as surveys, removal certificates, or remedial work documentation. The path sits under "type of construction" rather than "alterations and changes" because spray foam relates to what the property construction includes, not what alterations the seller has made.

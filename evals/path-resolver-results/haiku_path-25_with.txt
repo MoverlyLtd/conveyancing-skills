@@ -1,5 +1,0 @@
-The correct PDTF path for a plan showing the location of a drainage system on the neighbour's land is:
-
-/propertyPack/waterAndDrainage/drainage/mainsFoulDrainage/offMainsDrainageSystem/plantOnOtherLand/attachments
-
-This path is under the `/propertyPack/waterAndDrainage/drainage` section, which covers information about the property's drainage system. The specific sub-path `/mainsFoulDrainage/offMainsDrainageSystem/plantOnOtherLand/attachments` is for documenting a drainage system that is located on the neighbor's land.

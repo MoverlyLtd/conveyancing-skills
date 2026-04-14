@@ -1,3 +1,0 @@
-`/propertyPack/typeOfConstruction/buildingSafety/attachments`
-
-This path is specifically for building safety documentation including EWS1 forms, cladding certificates, and other building safety compliance documents related to the construction type of the property.

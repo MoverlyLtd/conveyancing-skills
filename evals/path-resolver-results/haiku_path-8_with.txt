@@ -1,3 +1,0 @@
-The path for the NHBC warranty is:
-
-/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/newHomeWarranty/attachments

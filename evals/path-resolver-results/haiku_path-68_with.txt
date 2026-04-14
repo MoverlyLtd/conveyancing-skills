@@ -1,5 +1,0 @@
-The path to check for information about failed transactions in the last 12 months is:
-
-/propertyPack/otherIssues/failedTransactionsInLast12Months/attachments
-
-This path contains any evidence or documentation related to previous purchase transactions for the property that have fallen through in the last 12 months.

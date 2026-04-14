@@ -1,3 +1,0 @@
-`/propertyPack/buildInformation/isHMO`
-
-This path contains a boolean field asking whether the property is a House in Multiple Occupation (HMO). This is important for licensing requirements and planning considerations.

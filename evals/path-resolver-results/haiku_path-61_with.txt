@@ -1,5 +1,0 @@
-The correct PDTF path for that is:
-
-`/propertyPack/servicesCrossing/pipesWiresCablesDrainsFromProperty/attachments`
-
-This path is for evidence of services (pipes, wires, cables, drains) that cross from the neighbour's property onto the subject property. You would upload any documents or photos showing this arrangement here.

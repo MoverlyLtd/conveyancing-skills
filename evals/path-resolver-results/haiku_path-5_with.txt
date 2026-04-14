@@ -1,5 +1,0 @@
-The electrical test certificate should be uploaded to the following path in the PDTF schema:
-
-`/propertyPack/electricalWorks/testedByQualifiedElectrician/attachments`
-
-This path is for attaching documentation related to electrical works at the property that have been tested by a qualified electrician.

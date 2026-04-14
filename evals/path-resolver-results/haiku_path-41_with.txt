@@ -1,5 +1,0 @@
-The correct PDTF path for a change of use from commercial to residential is:
-
-/propertyPack/alterationsAndChanges/changeOfUse
-
-This path captures details about a change in the property's use, including any required planning permission, building regulations approval, and deed restriction consents.

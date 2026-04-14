@@ -1,1 +1,0 @@
-My client's transaction is being delayed by the other side not responding to enquiries. What does the protocol say?

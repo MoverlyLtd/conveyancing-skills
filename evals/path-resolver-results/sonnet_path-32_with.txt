@@ -1,3 +1,0 @@
-`/propertyPack/rightsAndInformalArrangements/rightsOrArrangements/churchChancel`
-
-This path handles chancel repair liability, which is a potential obligation for property owners to contribute to the repair of the local parish church chancel. It's categorized under rights and informal arrangements because it represents a potential burden or obligation that runs with the land.

@@ -1,5 +1,0 @@
-The correct PDTF path for a timber treatment guarantee is:
-
-/propertyPack/guaranteesWarrantiesAndIndemnityInsurances/timberRotOrInfestationTreatment/attachments
-
-This is part of the "Guarantees, Warranties & Indemnity" section, which has sub-paths for different types of guarantees. The "timberRotOrInfestationTreatment" path is where a timber treatment guarantee should be provided.

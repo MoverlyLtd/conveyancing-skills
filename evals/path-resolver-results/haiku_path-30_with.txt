@@ -1,5 +1,0 @@
-The correct PDTF path to record that services cross the neighbour's land to reach the property is:
-
-`/propertyPack/servicesCrossing/pipesWiresCablesDrainsToProperty/attachments`
-
-This path is under the "Rights & Access" section of the schema, and allows you to attach evidence that services (such as utilities) cross over the neighbour's land to reach the property.

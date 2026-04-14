@@ -1,5 +1,0 @@
-The PDTF path for coal mining risk is:
-
-/propertyPack/environmentalIssues/coalMining/attachments
-
-This is where any documentation or reports related to coal mining risk for the property should be uploaded.

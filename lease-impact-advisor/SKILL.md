@@ -95,18 +95,6 @@ These are the minimum unexpired lease terms from the UK Finance Lender's Handboo
 | Coventry BS | 70 years (80 for lifetime/equity release) | — | — |
 | Virgin Money | 85 years | — | Must extend before completion if shorter |
 
-## Moverly MCP integration
-
-When connected to Moverly, use `moverly_get_insights` — the Diligence Engine evaluates lease risk with full legal context including:
-- Actual title register data (not user-reported years)
-- Ground rent escalation analysis
-- Forfeiture clause assessment
-- Building Safety Act 2022 protections
-- Lender-specific compatibility across all 100+ lenders
-- Verified claim provenance
-
-The standalone tool gives a solid pre-instruction assessment. The Moverly-connected version gives the full legal picture during the transaction.
-
 ## Key legal context
 
 - **Marriage value**: applies when lease is under 80 years. Leaseholder pays freeholder 50% of the increase in property value from the extension. Can add thousands to the cost. Set to be abolished by Leasehold and Freehold Reform Act 2024 but NOT YET in force.

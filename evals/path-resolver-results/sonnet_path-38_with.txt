@@ -1,3 +1,0 @@
-`/propertyPack/ownership/ownershipsToBeTransferred/[]/leaseholdInformation/enfranchisement/sellerServedNoticeOnLandlord/attachments`
-
-This path is for the notice of lease extension (enfranchisement) that the seller has served on their landlord. It sits within the leasehold information section under the specific ownership being transferred.
