@@ -28,7 +28,7 @@ More skills are coming — search report analysers, protocol compliance checkers
 
 ### ChatGPT
 
-As of April 2026, ChatGPT supports skills natively (currently in beta for Business, Enterprise, Edu, and Teachers plans). If you are on a Plus or Free plan, you can still use skills by simply uploading the files (see "Other AI tools" below) or pasting the contents into a custom GPT.
+As of April 2026, ChatGPT supports skills natively (currently in beta for Business, Enterprise, Edu, and Teachers plans).
 
 1. Go to **Settings** → **Features** and enable **Skills**
 2. In your chat, type `/skill add` and paste the GitHub URL of the skill you want to use (e.g., `https://github.com/MoverlyLtd/conveyancing-toolkit/tree/master/sdlt-calculator`)
