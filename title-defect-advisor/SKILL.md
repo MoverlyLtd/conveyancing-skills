@@ -40,8 +40,14 @@ You MUST process the title register using the following strict step-by-step thin
 1. **Raw Extraction:** List out every entry in the A, B, and C registers verbatim that looks like a potential defect, restriction, or charge.
 2. **Defect Identification:** For each extracted entry, identify its legal classification (e.g. "Form A Restriction", "Estate Rentcharge", "Overage Clause").
 3. **Lender Identification:** Check if the user mentioned a specific mortgage lender in their prompt.
-4. **Tool Invocation (If Lender Known):** If a lender is known AND you found specific defects (like Rentcharges, Flying Freeholds, Restrictions, Missing Rights), you MUST formulate a targeted query to the `read_lender_handbook` tool passing the relevant `topic` (e.g. "rentcharge", "flying freehold") to see what the lender specifically requires.
-5. **Synthesis:** Combine the defect, its general legal implication, and the specific lender's rule (if found) into a final action plan.
+4. **Tool Invocation (MANDATORY if Lender Known):** If a lender is mentioned, you MUST call `read_lender_handbook` for EACH defect type found. Make separate calls with different `topic` values:
+   - Found a rentcharge? → call `read_lender_handbook(lenderName, topic="rent charge")`
+   - Found a flying freehold? → call `read_lender_handbook(lenderName, topic="flying freehold")`
+   - Found a leasehold issue? → call `read_lender_handbook(lenderName, topic="lease")`
+   - Found a ground rent issue? → call `read_lender_handbook(lenderName, topic="ground rent")`
+   Do NOT skip this step. Do NOT guess the lender's policy from memory.
+5. **Quote the tool result:** When stating a lender's position, quote the exact text returned by the tool. Do not paraphrase or embellish.
+6. **Synthesis:** Combine the defect, its general legal implication, and the specific lender's rule (quoted from the tool) into a final action plan.
 </title_analysis>
 
 After completing your `<title_analysis>`, output the final Markdown report to the user.
@@ -58,3 +64,6 @@ Always present your findings in a clear, structured Markdown report (AFTER your 
 **Critical Rules:**
 - DO NOT just transcribe the register. Tell the conveyancer *why* it matters and *what to do next*.
 - Do NOT hallucinate data. Only extract what is visible in the provided document.
+- Do NOT hallucinate lender policies. If the tool says indemnity is not accepted, do NOT suggest indemnity.
+- Do NOT fabricate handbook section numbers. Only cite sections returned by the tool.
+- Always identify the **Class of Title** (Absolute, Good Leasehold, Possessory, Qualified) and flag non-Absolute classes as a distinct risk requiring explanation.
