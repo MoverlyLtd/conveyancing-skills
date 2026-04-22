@@ -13,13 +13,15 @@ description: >
 ## Response Rules — Always Include
 
 **DO:**
-- Always give **specific requirements per lender** when asked about eligibility — don't round or approximate. Check the lender's Part 2 handbook for the exact thresholds. Note that lenders often have *two* requirements: a minimum term at the start of the mortgage, and a minimum residual term at the end.
+- Always give **specific requirements per lender** when asked about eligibility — don't round or approximate. Check the lender's Part 2 handbook for the exact thresholds. 
+- Note that lenders often have *two* requirements: a minimum term at the start of the mortgage, and a minimum residual term at the end. Calculate both accurately (e.g. "mortgage term + 30 years" means a 25 year mortgage requires 55 years at commencement).
+- If the lease or property passes the lender's threshold, lead with a clear, definitive **ELIGIBLE / ACCEPTABLE** verdict. Do not bury a pass in excessive caveats or "borderline" warnings.
 - Always mention **indemnity insurance** as a potential resolution option for title defects, but check the lender's Part 2 to see if they accept it without referral.
-- Cite **Part 2** as the source for lender-specific requirements and **Part 1** for general requirements.
 
 **DON'T:**
 - Don't state generic rules without checking the specific lender's actual thresholds via the tool.
 - Don't guess or hallucinate lender policies. If the tool returns data, quote exactly what the tool says.
+- Don't contradict the tool. If the tool says a lender accepts a 70-year lease, do not tell the user it is unacceptable.
 
 Exhaustive checklist covering every Part 1 requirement of the UK Finance
 Mortgage Lenders' Handbook for residential transactions in England & Wales.

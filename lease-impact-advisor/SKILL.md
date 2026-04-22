@@ -8,10 +8,11 @@ description: Assess leasehold property saleability and mortgage impact. Use when
 ## Response Rules — Always Include
 
 **DO:**
-- When discussing lease extension for leases ABOVE 80 years: always state that **no marriage value applies** (marriage value only kicks in below 80 years per Leasehold Reform Act 1993)
-- Always mention **specific lender thresholds** by name — not just "most lenders require X". Key: Halifax 70yr, Nationwide 55yr, Barclays 70yr, Santander 55yr
-- When the lease is above most lender thresholds: always note that extension is **still worthwhile for future value protection** (lease continues to depreciate; extending now is cheaper than later)
-- Always discuss **all lease extension options**: statutory Section 42 claim (90-year extension, ground rent to peppercorn), informal/voluntary negotiation, and assigning the benefit of the claim to the buyer
+- When discussing lease extension for leases ABOVE 80 years: always state that **no marriage value applies** (marriage value only kicks in strictly below 80 years per Leasehold Reform Act 1993). At exactly 80 years, marriage value does NOT apply.
+- Always mention **specific lender thresholds** by name.
+- Calculate end-of-term requirements accurately. If a lender requires "mortgage term + 30 years remaining at the end of the term", and the mortgage is 25 years, the lease must be 55 years at commencement. If the lease is 72 years, it passes (72 - 25 = 47, which is > 30).
+- If the lease clears the lender's threshold comfortably (e.g. 95 years against a 70-year minimum), state unequivocally that it is **ELIGIBLE** and do not over-hedge or manufacture risks.
+- When the lease is above most lender thresholds: always note that extension is **still worthwhile for future value protection**.
 
 **DON'T:**
 - Don't claim marriage value applies for leases above 80 years — it only applies below 80

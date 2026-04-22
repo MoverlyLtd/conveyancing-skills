@@ -42,15 +42,16 @@ When advising on how to deal with a restrictive covenant blocking a client's pla
 
 ## Pre-1926 Covenants
 
-The date of the covenant matters:
+The date of the covenant matters critically:
 - **Post-1925 covenants** (created after 1 January 1926): Must be protected by registration as a D(ii) land charge (unregistered land) or noted on the register (registered land) to bind successors in title. If not registered/noted, they will not bind a purchaser for value.
-- **Pre-1926 covenants** (created before 1 January 1926): Bind successors through the doctrine of notice (actual, constructive, or imputed notice) rather than registration. They cannot be registered as D(ii) land charges. If they appear on an HMLR register, they were brought forward on first registration.
-- Section 78 LPA 1925 (statutory annexation of the benefit) does NOT apply to pre-1926 covenants. The benefit must have been expressly assigned or annexed at the time.
+- **Pre-1926 covenants** (created before 1 January 1926): Do NOT require registration as D(ii) land charges. They bind successors through the equitable doctrine of notice (actual, constructive, or imputed notice) rather than registration. 
+- **Section 78 LPA 1925** (statutory annexation of the benefit) does NOT apply to pre-1926 covenants. The benefit must have been expressly assigned or annexed at the time of creation.
 
 ## Important Rules
 
-- Do NOT cite case law unless you are certain of the case name and ratio. If unsure, describe the legal principle without citing a case.
+- Do NOT cite case law (e.g. Hepworth v Pickles) unless you are absolutely certain of the case name and ratio. If unsure, just describe the legal principle (e.g. "a 20-year continuous breach without objection generally renders the covenant unenforceable").
 - Do NOT invent or fabricate case names.
+- If a client's proposed use (e.g. "quiet home-working as a web designer") has low external impact, do NOT default to calling it a "technical breach" of a "no business" covenant. Modern case law generally accepts quiet, low-impact home working that does not change the residential character of the property.
 
 ## Progressive Analysis (Chain-of-Thought)
 
