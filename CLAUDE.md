@@ -6,6 +6,14 @@ Notes for Claude Code (and any agent) working in this repo. This is **not** a re
 
 A Claude Code marketplace plugin distributing free UK conveyancing AI skills. Most "code" is markdown (`SKILL.md`), JSON reference data, and small bash scripts. Edits are usually to skill prose, reference data, or install instructions — rarely to executable code. Audience for the user-facing files (README, `docs/`) is **conveyancers, not developers**.
 
+## Why this exists
+
+The bet behind every skill here: general-purpose models keep getting conveyancing details *confidently wrong* — stale SDLT rates, wrong lease thresholds, half-remembered lender rules — and a conveyancer can't tell a right answer from a plausible wrong one. These skills exist to close that gap and make AI **accurate and safe enough to actually rely on** in a regulated transaction. Trust, not raw capability, is the blocker we're attacking.
+
+The proof — and the real product — is the **benchmark scorecard**: every skill is measured baseline (no skill) vs with-skill across many models. A skill earns its place by moving accuracy from unreliable into a trustable range; well-written prose that doesn't move the scorecard isn't done. **The scorecard lives in a separate Moverly repo (the demo/hosting repo), not here** — so when you add or materially change a skill, the eval that proves it works (`benchmarks/cases/<skill>.json`) lives over there. "The scorecard shows the lift" is the definition of done, not "the SKILL.md reads well".
+
+A **second category** of skill is emerging — *guardrail* skills (data-protection, scope, verification) that constrain *how* the model behaves rather than adding topic knowledge. They follow different rules from the advisory/calculator skills below: they run on every turn and are scored on precision/recall, not a single right answer. They're not built yet — the design lives in `SKILLS_ROADMAP.md`.
+
 ## Skill anatomy
 
 Every skill follows the same shape:
