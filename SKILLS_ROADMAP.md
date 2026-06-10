@@ -12,23 +12,16 @@
 
 ## Governance & guardrail skills 🛡️
 
-The skills above add **domain knowledge** — they make the model smarter about a topic. A second category we're now building adds **safety**: guardrail skills that constrain *how* the model behaves on every turn, regardless of topic. An advisory skill is judged on whether it gives the right answer; a guardrail skill is judged on precision/recall — does it catch what it should without crying wolf. This is the "risk-averse AI" layer — the thing that lets a compliance lead say yes to their team using AI at all.
+Most skills here add **domain knowledge**. A second category adds **safety**: guardrail skills that check *how* the model is being used rather than answering a topic. Two are in draft:
 
 | Skill | Type | Notes |
 |-------|------|-------|
-| Data-protection guard | Guardrail | Pre-flight PII / GDPR check that **coaches rather than punishes** when someone is about to paste sensitive client data into a prompt. Make-or-break design constraint: public-register data (owner names on a title, lessees in a lease) must **not** be flagged — only the client's own personal/financial details. Positioned as the "if you do nothing else, install this" skill. In-session coaching works anywhere; any audit-trail / line-manager reporting needs a managed deployment — a skill on its own has no backend. |
-| Safe-AI gate | Guardrail | Two parts. (1) **Scope awareness** — warn when asked something a validated skill covers but that skill isn't loaded ("I answered from memory; don't rely on it — load the skill for an accurate answer"). (2) **Provenance labelling** — tag each output as computed-by-validated-skill / consistent-with-cited-source / model-knowledge-only. A prompt-only skill can nudge and label; it cannot truly enforce "nothing leaves unverified" — hard enforcement needs a host/platform wrapper. |
+| Data-protection guard | Guardrail | Pre-flight PII / GDPR check that coaches (rather than punishes) when sensitive client data is about to be entered. It must *not* flag public-register data — proprietor names, price paid, a registered lease — only the client's own personal or financial details. |
+| Safe-AI gate | Guardrail | Labels each answer by how it was produced — a validated tool, a cited source, or general model knowledge — and warns when a question would be better served by a validated skill. |
 
-Both need a **new benchmark scoring mode**: precision/recall over a labelled set that includes *negatives* (e.g. a title full of owner names that must not trip the PII guard). The current scorecard only scores correctness of an answer, so this is new eval work, not just new skills.
+Guardrails are scored differently from advisory skills: on **precision/recall** over a labelled set that deliberately includes *negatives* (e.g. a title full of owner names that must not trip the guard), not on a single right answer. One honest caveat: a skill only runs when the host invokes it, so reliable always-on enforcement depends on the environment running it — an unenforced guardrail is a helpful coach, not a compliance control.
 
-### Enforcement & delivery
-
-A note on a real limitation. Like any skill, a guardrail loads based on its description, so a host won't necessarily invoke it on every turn. For *advisory* skills that's a quality trade-off; for *guardrail* skills it matters more — a check that only runs sometimes gives a false sense of safety. So a guardrail skill is best understood in two parts:
-
-- **The open skill = the detection logic and the spec** — what "good" looks like, free for anyone to read, run, and improve.
-- **Reliable, always-on enforcement = a property of the runtime**, not the skill. Running the check unconditionally on every input (and keeping any audit record) needs a managed environment — e.g. system-prompt-level provisioning, an MCP gateway, or a case-management integration.
-
-The open toolkit is the right home for the *what*; guaranteeing the *when* is a deployment concern. We're explicit about this so nobody mistakes an unenforced guardrail for a compliance control.
+Contributions and test cases welcome.
 
 ## Planned 🔜
 
