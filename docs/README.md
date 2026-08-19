@@ -5,6 +5,8 @@
 - **[Getting Started](getting-started.md)** — How to install and use skills in ChatGPT, Claude, or Cursor
 - **[Use Cases](use-cases.md)** — Real workflows with example conversations
 - **[FAQ](faq.md)** — Common questions about AI in conveyancing
+- **[Safe AI Environments](safe-ai-environments.md)** — What a skill can and can't enforce, the four-tier enforcement gradient, and where a firm's audit trail actually comes from
+- **[Reference Architecture](reference-architecture.md)** — How to build tier 2: the connector as enforcement point, per-user identity, and an audit trail that writes itself
 - **[Building Custom Skills](building-skills.md)** — How to create your own practice-specific skills
 
 ## Available Skills
